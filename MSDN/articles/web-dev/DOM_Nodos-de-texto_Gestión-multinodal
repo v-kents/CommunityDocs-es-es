@@ -161,7 +161,8 @@ En lo esencial los respectivos listados contienen los siguientes códigos, con s
 </html> 
 ````
 
-![img1] (https://github.com/andygonusa/mystuff/blob/master/jp1.png)
+![img1] (/img/img1.png)
+
 
 **Listado 3**: Obtención de los contenidos de nodos hijos finales.
 ````
@@ -188,6 +189,20 @@ En lo esencial los respectivos listados contienen los siguientes códigos, con s
 </html>
 ````
 
+![img2] (/img/img2.png)
+
+### Recorrer el conjunto de nodos hermanos
+
+En muchas, si no la mayor parte de las ocasiones de programación real, nos interesará, si acaso, conocer los contenidos de nodos hijos de un nodo dado que será pasado sin saber sus datos de antemano –al contrario de lo que era el caso de los ejemplos anteriores, que ya partíamos de la base de que eran tres nodos hijos-.
+Una manera muy eficiente es mediante la propiedad *childNodes*, que hasta el presente habíamos utilizado para conocer el número de nodos hijos nodos hermanos, por tanto y nada más. Pero, su valor mayor es que almacena toda la colección de nodos hijos, comenzado a contar por el *childNodes[0]* que será el primero, hasta el *childNodes[childNodes.length-1]*, que será el último.
+
+En el Listado 4 hemos programado:
+* Un botón de comando que al ser pulsado llamara a la función *hermanos()*.
+* En dicha función se recoge el contenido de la propiedad *childNodes* perteneciente al elemento <div> –único elemento <div>- que hay en el cuerpo del documento y recabamos su longitud de nodos hijos y el contenido de cada uno de ellos, según un bucle que parte de *childNodes[0]*.
+* Se expone el resultado en la consola de textos, mediante *console.log()*.
+* Obsérvese en la figura que sigue el resultado.
+
+
 ````
 **Listado 4**: Obtención recursiva de los nodos hijos –nodos hermanos- de uno dado.
 <!doctype html>
@@ -213,6 +228,7 @@ En lo esencial los respectivos listados contienen los siguientes códigos, con s
 </body>
 </html>
 ````
+![img3] (/img/img3.png)
 
 ###Obtención de los textos sin marcas HTML
 
@@ -261,6 +277,8 @@ En el Listado 5 hemos programado lo que sigue:
 </html>
 ````
 
+![img4] (/img/img4.png)
+
 En el Listado 6 hemos programado lo que sigue:
 
 * Un botón de comando que al ser pulsado llamara a la función *texto()*.
@@ -289,6 +307,8 @@ En el Listado 6 hemos programado lo que sigue:
 </body>
 </html>
 ````
+![img5] (/img/img5.png)
+
 En el Listado 7 hemos programado lo que sigue:
 * Un botón de comando que al ser pulsado llamara a la función *texto()*.
 * En dicha función se recoge el contenido de la propiedad innerHTML perteneciente al cuerpo del documento HTML *body*.
@@ -328,6 +348,8 @@ Propiedad | Descripción
 No se incluyen las etiquetas HTML del nodo base aludido.
 *outerHTML* | Devolverá la cadena formateada de la porción del código del documento HTML hijo.
 Se incluyen las etiquetas HTML del nodo base aludido.
+
+![img6] (/img/img6.png)
 
 En el Listado 7 hemos programado lo que sigue:
 
@@ -386,6 +408,7 @@ En el Listado 7 hemos programado lo que sigue:
 </body>
 </html>
 ````
+![img7] (/img/img7.png)
 
 ###Conclusiones
 
