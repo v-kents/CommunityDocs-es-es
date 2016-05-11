@@ -4,8 +4,22 @@
   "docsets_to_publish": [
     {
       "docset_name": "MSDN_Community",
-      "build_source_folder": "community",
-      "build_output_subfolder": "community",
+      "build_source_folder": "MSDN",
+      "build_output_subfolder": "MSDN",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "op"
+    },
+    {
+      "docset_name": "TN_Community",
+      "build_source_folder": "TechNet",
+      "build_output_subfolder": "TechNet",
       "locale": "en-us",
       "version": 0,
       "open_to_public_contributors": false,
@@ -17,5 +31,7 @@
       "build_entry_point": "op"
     }
   ],
-  "skip_source_output_uploading": false
+  "skip_source_output_uploading": false,
+  "notification_subscribers": [""],
+  "branches_to_filter": ["live"]
 }
