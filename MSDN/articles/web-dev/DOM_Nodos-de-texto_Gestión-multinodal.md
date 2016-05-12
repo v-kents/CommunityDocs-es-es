@@ -242,7 +242,7 @@ Propiedad | Descripción
 
 Las diferencias entre una y otra propiedad se pueden resumir en fundamentalmente:
 
-* *textContent* lee el contenido de todos los elementos, incluyendo los elementos <script> y <style>, innerText no los incluirá.
+* *textContent* lee el contenido de todos los elementos, incluyendo los elementos *script* y *style*, innerText no los incluirá.
 * *innerText* tiene en cuenta los estilos CSS y, por ejemplo, no retornará el texto de elementos ocultos.
 * *textContent* devolverá los textos con el formato original, mientras que innerText los devolverá en una única cadena. (Véanse las figuras adjuntas)
 
