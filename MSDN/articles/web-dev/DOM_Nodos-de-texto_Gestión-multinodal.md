@@ -189,7 +189,7 @@ En lo esencial los respectivos listados contienen los siguientes códigos, con s
 </html>
 ````
 
-![img2] (/img/img2.png)
+![img2] (https://github.com/Microsoft/Community/blob/master/MSDN/articles/web-dev/img/img2.png)
 
 ### Recorrer el conjunto de nodos hermanos
 
