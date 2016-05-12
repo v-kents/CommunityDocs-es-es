@@ -277,7 +277,7 @@ En el Listado 5 hemos programado lo que sigue:
 </html>
 ````
 
-![img4] (https://github.com/Microsoft/Community/blob/master/MSDN/articles/web-dev/img/img4.png)
+![img4] (./img/img4.png)
 
 En el Listado 6 hemos programado lo que sigue:
 
@@ -307,7 +307,8 @@ En el Listado 6 hemos programado lo que sigue:
 </body>
 </html>
 ````
-![img5] (https://github.com/Microsoft/Community/blob/master/MSDN/articles/web-dev/img/img5.png)
+
+![img5] (./img/img5.png)
 
 
 En el Listado 7 hemos programado lo que sigue:
@@ -350,7 +351,7 @@ No se incluyen las etiquetas HTML del nodo base aludido.
 *outerHTML* | Devolverá la cadena formateada de la porción del código del documento HTML hijo.
 Se incluyen las etiquetas HTML del nodo base aludido.
 
-![img6] (https://github.com/Microsoft/Community/blob/master/MSDN/articles/web-dev/img/img6.png)
+![img6] (./img/img6.png)
 
 
 En el Listado 7 hemos programado lo que sigue:
@@ -411,7 +412,7 @@ En el Listado 7 hemos programado lo que sigue:
 </html>
 ````
 
-![img7] (https://github.com/Microsoft/Community/blob/master/MSDN/articles/web-dev/img/img7.png)
+![img6] (./img/img6.png)
 
 ###Conclusiones
 
