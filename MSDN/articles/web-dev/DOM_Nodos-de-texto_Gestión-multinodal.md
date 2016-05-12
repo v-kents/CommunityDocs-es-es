@@ -161,7 +161,7 @@ En lo esencial los respectivos listados contienen los siguientes códigos, con s
 </html> 
 ````
 
-![img1] (/img/img1.png)
+![img1] (/Community/MSDN/articles/web-dev/img/img1.png)
 
 
 **Listado 3**: Obtención de los contenidos de nodos hijos finales.
