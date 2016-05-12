@@ -228,7 +228,7 @@ En el Listado 4 hemos programado:
 </body>
 </html>
 ````
-![img3] (/img/img3.png)
+![img3] (https://github.com/Microsoft/Community/blob/master/MSDN/articles/web-dev/img/img3.png)
 
 ###Obtención de los textos sin marcas HTML
 
@@ -277,7 +277,7 @@ En el Listado 5 hemos programado lo que sigue:
 </html>
 ````
 
-![img4] (/img/img4.png)
+![img4] (https://github.com/Microsoft/Community/blob/master/MSDN/articles/web-dev/img/img4.png)
 
 En el Listado 6 hemos programado lo que sigue:
 
@@ -307,7 +307,8 @@ En el Listado 6 hemos programado lo que sigue:
 </body>
 </html>
 ````
-![img5] (/img/img5.png)
+![img5] (https://github.com/Microsoft/Community/blob/master/MSDN/articles/web-dev/img/img5.png)
+
 
 En el Listado 7 hemos programado lo que sigue:
 * Un botón de comando que al ser pulsado llamara a la función *texto()*.
@@ -349,7 +350,8 @@ No se incluyen las etiquetas HTML del nodo base aludido.
 *outerHTML* | Devolverá la cadena formateada de la porción del código del documento HTML hijo.
 Se incluyen las etiquetas HTML del nodo base aludido.
 
-![img6] (/img/img6.png)
+![img6] (https://github.com/Microsoft/Community/blob/master/MSDN/articles/web-dev/img/img6.png)
+
 
 En el Listado 7 hemos programado lo que sigue:
 
@@ -408,7 +410,8 @@ En el Listado 7 hemos programado lo que sigue:
 </body>
 </html>
 ````
-![img7] (/img/img7.png)
+
+![img7] (https://github.com/Microsoft/Community/blob/master/MSDN/articles/web-dev/img/img7.png)
 
 ###Conclusiones
 
