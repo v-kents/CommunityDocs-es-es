@@ -189,7 +189,7 @@ En lo esencial los respectivos listados contienen los siguientes códigos, con s
 </html>
 ````
 
-![img2] (https://github.com/Microsoft/Community/blob/master/MSDN/articles/web-dev/img/img2.png)
+![img2] (./img/img2.png)
 
 ### Recorrer el conjunto de nodos hermanos
 
@@ -228,7 +228,7 @@ En el Listado 4 hemos programado:
 </body>
 </html>
 ````
-![img3] (https://github.com/Microsoft/Community/blob/master/MSDN/articles/web-dev/img/img3.png)
+![img3] (./img/img3.png)
 
 ###Obtención de los textos sin marcas HTML
 
