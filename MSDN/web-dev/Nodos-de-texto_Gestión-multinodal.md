@@ -1,3 +1,24 @@
+<properties
+	pageTitle="Explorando el DOM: Nodos de texto. Gestión multinodal"
+	description="Labores de tratamiento de contenidos de los nodos de texto, gestión de nodos multinodos"
+	services="web-dev"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="web-dev"
+	ms.workload="identity"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/12/2016"
+	ms.author="andygonusa"/>
+
+
+
+
 #Explorando el DOM: Nodos de texto. Gestión multinodal 
 
 ©Jaime Peña Tresancos, 2015 
