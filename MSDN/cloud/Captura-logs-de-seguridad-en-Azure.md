@@ -17,16 +17,11 @@
 	ms.author="andygonusa"/>
 
 
-
-
 Por [Juan José Diaz Antuña] (https://mvp.microsoft.com/en-us/PublicProfile/5000260?fullName=Juan%20Jose%20Diaz%20Antu%C3%B1a)
 
 [Twitter: @diazantuna] (https://twitter.com/diazantuna) 
-
-Microsoft MVP
-
+**Microsoft MVP**
 Windows Expert-IT Pro
-
 
 
 En este post os explico cómo hacer para habilitar la captura de los diferentes logs del visor de eventos de una máquina virtual en Azure. Pasos a dar:
