@@ -20,7 +20,7 @@
 
 #Windows Modern UI - Acceso al hardware (I) - GPS y Bing Maps SDK
 
-Josue Yeray Julian Ferreiro, *Windows Phone Development MVP*
+Josue Yeray Julian Ferreiro, **Windows Phone Development MVP**
 
 Plain Concepts
 
