@@ -64,8 +64,7 @@ Script
 \$VM2 = Set-AzureVMDiagnosticsExtension -DiagnosticsConfigurationPath \$config_path -Version “1.*” -VM \$VM1 -StorageContext \$storageContext*\ *
 ````
 
-\$VM3 = Update-AzureVM -ServiceName \$service_name -Name \$vm_name -VM \$VM2.VM*\ * |
-------------------------------------------------------------------------------------
+\$VM3 = Update-AzureVM -ServiceName \$service_name -Name \$vm_name -VM \$VM2.VM*\ * 
 
 **Ejecuto el script**
 
