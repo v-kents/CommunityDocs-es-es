@@ -21,9 +21,7 @@ Por [Juan José Diaz Antuña] (https://mvp.microsoft.com/en-us/PublicProfile/500
 
 [Twitter: @diazantuna] (https://twitter.com/diazantuna) 
 
-**Microsoft MVP**
-
-Windows Expert-IT Pro
+**Microsoft MVP**, Windows Expert-IT Pro
 
 
 
