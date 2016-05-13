@@ -37,13 +37,21 @@ En este post os explico cómo hacer para habilitar la captura de los diferentes 
 
 **Importamos el fichero**
 
+![img2] (./img/Captura-logs-de-seguridad-en-Azure/img2.png)
+
 **Preparamos los eventos que queremos capturar con el fichero XML**
 
+![img3] (./img/Captura-logs-de-seguridad-en-Azure/img3.png)
+
 **Descargamos el fichero WAD para validar nuestro XML**
+
+![img4] (./img/Captura-logs-de-seguridad-en-Azure/img4.png)
 
 Si queremos validar nuestro archivo debemos de utilizar Visual Studio, en mi caso no lo he realizado
 
 **Añado la cuenta de Azure**
+
+![img5] (./img/Captura-logs-de-seguridad-en-Azure/img5.png)
 
 **Creo el script**
 Script
@@ -72,5 +80,7 @@ Script
 
 
 **Ejecuto el script**
+
+![img6] (./img/Captura-logs-de-seguridad-en-Azure/img6.png)
 
 Ya está configurada la captura de logs, para verlos utilizo el Azure Storage Explorer.
