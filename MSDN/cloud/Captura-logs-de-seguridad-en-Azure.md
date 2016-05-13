@@ -1,19 +1,19 @@
 <properties
-	pageTitle="Explorando el DOM: Nodos de texto. Gestión multinodal"
-	description="Labores de tratamiento de contenidos de los nodos de texto, gestión de nodos multinodos"
-	services="web-dev"
+	pageTitle="Captura logs de seguridad en Azure"
+	description="Habilitar la captura de logs del visor de eventos de una máquina virtual en Azure"
+	services="cloud"
 	documentationCenter=""
 	authors="andygonusa"
 	manager=""
 	editor="andygonusa"/>
 
 <tags
-	ms.service="web-dev"
+	ms.service="cloud"
 	ms.workload="identity"
 	ms.tgt_pltfrm="na"
 	ms.devlang="na"
 	ms.topic="how-to-article"
-	ms.date="05/12/2016"
+	ms.date="05/13/2016"
 	ms.author="andygonusa"/>
 
 # Captura logs de seguridad en Azure
