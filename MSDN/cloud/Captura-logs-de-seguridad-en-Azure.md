@@ -28,7 +28,10 @@ Por [Juan José Diaz Antuña] (https://mvp.microsoft.com/en-us/PublicProfile/500
 
 En este post os explico cómo hacer para habilitar la captura de los diferentes logs del visor de eventos de una máquina virtual en Azure. Pasos a dar:
 
-*Obtener fichero de publicación de Azure
+**Obtener fichero de publicación de Azure**
+
+![img1] (./img/Captura-logs-de-seguridad-en-Azure/img1.png)
+
 
 **Descargamos el fichero**
 
