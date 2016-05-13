@@ -210,7 +210,7 @@ En lo esencial los respectivos listados contienen los siguientes códigos, con s
 </html>
 ````
 
-![img2] (./img/img2.png)
+![img2] (./img/Nodos-de-texto_Gesti-n-multinodal/img2.png)
 
 ### Recorrer el conjunto de nodos hermanos
 
@@ -249,7 +249,7 @@ En el Listado 4 hemos programado:
 </body>
 </html>
 ````
-![img3] (./img/img3.png)
+![img3] (./img/Nodos-de-texto_Gesti-n-multinodal/img3.png)
 
 ###Obtención de los textos sin marcas HTML
 
@@ -298,7 +298,7 @@ En el Listado 5 hemos programado lo que sigue:
 </html>
 ````
 
-![img4] (./img/img4.png)
+![img4] (./img/Nodos-de-texto_Gesti-n-multinodal/img4.png)
 
 En el Listado 6 hemos programado lo que sigue:
 
@@ -329,7 +329,7 @@ En el Listado 6 hemos programado lo que sigue:
 </html>
 ````
 
-![img5] (./img/img5.png)
+![img5] (./img/Nodos-de-texto_Gesti-n-multinodal/img5.png)
 
 
 En el Listado 7 hemos programado lo que sigue:
@@ -372,7 +372,7 @@ No se incluyen las etiquetas HTML del nodo base aludido.
 *outerHTML* | Devolverá la cadena formateada de la porción del código del documento HTML hijo.
 Se incluyen las etiquetas HTML del nodo base aludido.
 
-![img6] (./img/img6.png)
+![img6] (./img/Nodos-de-texto_Gesti-n-multinodal/img6.png)
 
 
 En el Listado 7 hemos programado lo que sigue:
@@ -433,7 +433,7 @@ En el Listado 7 hemos programado lo que sigue:
 </html>
 ````
 
-![img6] (./img/img6.png)
+![img6] (./img/Nodos-de-texto_Gesti-n-multinodal/img7.png)
 
 ###Conclusiones
 
