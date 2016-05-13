@@ -1,4 +1,27 @@
-Por Juan José Diaz Antuña, @diazantuna 
+<properties
+	pageTitle="Explorando el DOM: Nodos de texto. Gestión multinodal"
+	description="Labores de tratamiento de contenidos de los nodos de texto, gestión de nodos multinodos"
+	services="web-dev"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="web-dev"
+	ms.workload="identity"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/12/2016"
+	ms.author="andygonusa"/>
+
+
+
+
+Por [Juan José Diaz Antuña] (https://mvp.microsoft.com/en-us/PublicProfile/5000260?fullName=Juan%20Jose%20Diaz%20Antu%C3%B1a)
+
+[Twitter: @diazantuna] (https://twitter.com/diazantuna) 
 
 Microsoft MVP
 
