@@ -16,6 +16,7 @@
 	ms.date="05/12/2016"
 	ms.author="andygonusa"/>
 
+# Captura logs de seguridad en Azure
 
 Por [Juan José Diaz Antuña] (https://mvp.microsoft.com/en-us/PublicProfile/5000260?fullName=Juan%20Jose%20Diaz%20Antu%C3%B1a)
 
