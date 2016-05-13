@@ -182,7 +182,7 @@ En lo esencial los respectivos listados contienen los siguientes códigos, con s
 </html> 
 ````
 
-![img1] (./img/img1.png)
+![img1] (./img/Nodos-de-texto_Gesti-n-multinodal/img1.png)
 
 
 **Listado 3**: Obtención de los contenidos de nodos hijos finales.
