@@ -1,4 +1,26 @@
-Josue Yeray Julian Ferreiro, Windows Phone Development MVP
+<properties
+	pageTitle="Windows Modern UI - Acceso al hardware (I) - GPS y Bing Maps SDK"
+	description="Examinar el acceso al hardware en las aplicaciones de Modern UI para Windows 8"
+	services="win-dev"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="win-dev"
+	ms.workload="identity"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/12/2016"
+	ms.author="andygonusa"/>
+
+
+
+#Windows Modern UI - Acceso al hardware (I) - GPS y Bing Maps SDK
+
+Josue Yeray Julian Ferreiro, *Windows Phone Development MVP*
 
 Plain Concepts
 
@@ -14,7 +36,7 @@ necesitamos hacer es declarar en el **appxmanifest** de nuestra
 aplicación, en la pestaña de capacidades, que deseamos hacer uso de la
 localización del usuario:
 
-![](./media/media/image1.png)
+![img1] (./img/Windows-ModernUI_-GPS-y-Bing-Maps/img1.png)
 
 De esta forma tendremos los permisos adecuados para poder acceder a los
 datos de localización del sistema. Tenemos que tener en cuenta que aun
@@ -22,7 +44,7 @@ así, por defecto es el usuario quien tendrá que hacer efectivo este
 permiso activando el acceso a la localización, desde los permisos de la
 aplicación:
 
-![](./media/media/image2.png)
+![img2] (./img/Windows-ModernUI_-GPS-y-Bing-Maps/img2.png)
 
 Una vez que tenemos estas dos cosas claras, usar el GPS en nuestra
 aplicación es increíblemente sencillo. Para los ejemplos necesitaremos
@@ -30,7 +52,7 @@ el SDK de Bing Maps para aplicaciones de Modern UI, podemos instalarlo
 desde el menú **TOOLS &gt; Extensions and Updates**, buscando en la
 sección **Visual Studio Gallery** por Bing Maps:
 
-![](./media/media/image3.png)
+![img3] (./img/Windows-ModernUI_-GPS-y-Bing-Maps/img3.png)
 
 Una vez instalado, simplemente tenemos que ir a nuestra solución y
 añadir una referencia en la pestaña **Windows &gt; Extensions** a **Bing
@@ -43,7 +65,7 @@ manejado y tenemos que compilar para cada arquitectura, en nuestro
 ejemplo lo pondremos en x86 accediendo al menú **BUILD &gt;
 Configuration Manager**:
 
-![](./media/media/image4.png)
+![img4] (./img/Windows-ModernUI_-GPS-y-Bing-Maps/img4.png)
 
 ¿Por qué x86 y no x64? No es un capricho, el diseñador de XAML de Visual
 Studio no muestra la vista previa para las arquitecturas x64 y ARM, por
@@ -90,7 +112,7 @@ nuestra página:
 Y con esto, si ejecutamos tendremos ya nuestro mapa de Bing, aunque con
 un feo mensaje en la pantalla:
 
-![](./media/media/image5.png)
+![img5] (./img/Windows-ModernUI_-GPS-y-Bing-Maps/img5.png)
 
 Esto es porque necesitamos registrarnos y obtener una clase de
 desarrollador en
@@ -98,7 +120,7 @@ desarrollador en
 una vez registrados podremos ir al menú **create or view keys** y añadir
 nuestra aplicación para obtener una clave:
 
-![](./media/media/image6.png)
+![img6] (./img/Windows-ModernUI_-GPS-y-Bing-Maps/img6.png)
 
 Al pinchar en **Submit** nos dará nuestra Key que podremos añadir a la
 propiedad **Credentials** del mapa para que no muestre el mensaje
@@ -223,7 +245,7 @@ de Windows 8 nos da un simulador de GPS, donde podremos introducir
 latitud, longitud, altitud y radio de error y establecer la posición
 como si fuese el GPS Real:
 
-![](./media/media/image7.png)
+![img7] (./img/Windows-ModernUI_-GPS-y-Bing-Maps/img7.png)
 
 Para incluir el marcador de posición que vemos en la imagen (el punto
 azul) necesitamos usar la clase **Pushpin** del namespace **Bing.Maps**,
@@ -290,8 +312,8 @@ como en este caso hacemos con el mapa.
 Si ejecutamos y jugamos con las coordenadas, veremos cómo se va moviendo
 la posición de la vista del mapa y el marcador que hemos incluido.
 
-Conclusión
-----------
+###Conclusión
+
 
 Y esto es todo por hoy, ahora ya sabemos cómo usar el control de Bing
 Maps, añadirle marcadores de posición y como obtener y usar nuestra
