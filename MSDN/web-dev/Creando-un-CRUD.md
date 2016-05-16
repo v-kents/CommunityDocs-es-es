@@ -1,4 +1,4 @@
-properties
+<properties
 	pageTitle="Web API II – Creando un CRUD, trabajando con verbos HTTP"
 	description="Implementar fácilmente un CRUD"
 	services="web-dev"
