@@ -20,8 +20,6 @@ el presente artículo."
 	ms.date="05/12/2016"
 	ms.author="andygonusa"/>
     
-#Windows Intune - Gestión de actualizaciones I
-
 #Windows Intune (Ed. Dic-2012). Gestión de actualizaciones II
 
 ©Jaime Peña Tresancos, 2013
