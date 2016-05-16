@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Web API V – Filtros de acción"
 	description="Ejemplo de Web API"
-	services="windows"
+	services="web-dev"
 	documentationCenter=""
 	authors="andygonusa"
 	manager=""
