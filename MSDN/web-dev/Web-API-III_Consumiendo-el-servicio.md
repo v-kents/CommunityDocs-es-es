@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Web API III – Consumiendo el servicio"
 	description="Ejemplo de Web API"
-	services="windows"
+	services="web-dev"
 	documentationCenter=""
 	authors="andygonusa"
 	manager=""
