@@ -42,11 +42,11 @@ Business y necesitamos parar todos los servicios de Skype for Business
 este comando nos permitirá hacerlo con la máxima garantía que será así.
 
 
-![img1] (./img/10-comandos-PowerShell/image1.png)
+![img1] (./img/10-comandos-PowerShell2/image1.png)
 
 Figura 1
 
-![img1] (./img/10-comandos-PowerShell/image2.png)
+![img1] (./img/10-comandos-PowerShell2/image2.png)
 
 
 Figura 2
@@ -59,12 +59,12 @@ Skype For Business en nuestro servidor luego de detenerlos por algún
 mantenimiento, actualización o migración de usuarios a un nuevo pool o
 servidor.
 
-![img1] (./img/10-comandos-PowerShell/image3.png)
+![img1] (./img/10-comandos-PowerShell2/image3.png)
 
 
 Figura 3
 
-![img1] (./img/10-comandos-PowerShell/image4.png)
+![img1] (./img/10-comandos-PowerShell2/image4.png)
 
 
 Figura 4
@@ -81,14 +81,14 @@ CU se encuentra el servidor.
 
 En este ejemplo esta en: 6.0.93.19.0
 
-![img1] (./img/10-comandos-PowerShell/image5.png)
+![img1] (./img/10-comandos-PowerShell2/image5.png)
 
 
 Figura 5
 
 La versión instalada es el CU de Junio del 2015.
 
-![img1] (./img/10-comandos-PowerShell/image6.png)
+![img1] (./img/10-comandos-PowerShell2/image6.png)
 
 
 Figura 6
@@ -101,12 +101,12 @@ libreta de direcciones desde y hacia la base de datos de los usuarios,
 al ejecutar este comando podemos comprobar luego en el visor de eventos
 de nuestro Front End de Skype4B si fue exitosa.
 
-![img1] (./img/10-comandos-PowerShell/image7.png)
+![img1] (./img/10-comandos-PowerShell2/image7.png)
 
 
 Figura 7
 
-![img1] (./img/10-comandos-PowerShell/image8.png)
+![img1] (./img/10-comandos-PowerShell2/image8.png)
 
 
 Figura 8
@@ -118,7 +118,7 @@ Nota:
 nuestro servidor de Skype For Business, muy útil cuando nos los piden
 para realizar integraciones SIP con otros fabricantes.
 
-![img1] (./img/10-comandos-PowerShell/image9.png)
+![img1] (./img/10-comandos-PowerShell2/image9.png)
 
 
 Figura 9
