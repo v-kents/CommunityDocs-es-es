@@ -1,3 +1,28 @@
+<properties
+	pageTitle="Windows Intune - Gestión de actualizaciones I"
+	description="Veremos uno de los aspectos más importantes de Windows Intune, la
+gestión de las actualizaciones de los equipos. Aprenderemos a mantener
+nuestro equipo al día de manera eficiente, bien con una intervención
+atendida siguiendo las alertas dadas por el propio Windows Intune, bien
+dictando normas de automatización para aquellas actualizaciones que
+queramos sean aplicadas de forma inmediata."
+	services="ems"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="ems"
+	ms.workload="na"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/12/2016"
+	ms.author="andygonusa"/>
+    
+#Windows Intune - Gestión de actualizaciones I
+
 ©Jaime Peña Tresancos, 2013
 
 Profesional independiente en el sector Servicios y tecnología de la
@@ -35,7 +60,7 @@ Configurar actualizaciones de aprobación automática
 
 Cómo llevar a cabo las actualizaciones
 
-1.  
+
 
 Aprobación de nuevas actualizaciones
 ------------------------------------
@@ -49,7 +74,7 @@ actualización** deberá haber una entrada correspondiente a **Nuevas
 actualizaciones para aprobar**. Haga clic sobre el hipervínculo y se le
 mostrarán las actualizaciones pendientes de aprobación.
 
-1.  ![](./media/media/image1.png){width="4.03in" height="2.51in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image1.png)
 
 En la nueva ventana, para aprobar una o varias actualizaciones,
 selecciónese –o selecciónense- en la lista y posteriormente hágase clic
@@ -61,12 +86,12 @@ estuviera pendiente de aprobación.
 Conforme se vayan aprobando, irán desapareciendo de la lista de
 actualizaciones pendientes.
 
-1.  ![](./media/media/image2.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image2.png)
 
 Para la aprobación en bloque, selecciónense todas las actualizaciones y
 posteriormente hágase clic sobre **Aprobar**.
 
-1.  ![](./media/media/image3.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image3.png)
 
 Continúese en el apartado Actualizaciones con instalación pendiente.
 
@@ -82,7 +107,7 @@ correspondiente a **Nuevas actualizaciones que necesitan aprobación**.
 Haga clic sobre el hipervínculo y se le mostrarán las actualizaciones
 pendientes de aprobación.
 
-1.  ![](./media/media/image4.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image4.png)
 
 En la nueva ventana, para aprobar una o varias actualizaciones,
 selecciónese –o selecciónense- en la lista y posteriormente hágase clic
@@ -95,12 +120,12 @@ solamente.
 Conforme se vayan aprobando, irán desapareciendo de la lista de
 actualizaciones pendientes.
 
-1.  ![](./media/media/image5.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image5.png)
 
 Para la aprobación en bloque, selecciónense todas las actualizaciones y
 posteriormente hágase clic sobre **Aprobar**.
 
-1.  ![](./media/media/image6.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image6.png)
 
 Continúese en el apartado Actualizaciones con instalación pendiente.
 
@@ -114,17 +139,17 @@ para ir hasta allí.
 Observe el hipervínculo **Configurar valores de aprobación automática**,
 en la parte de la derecha de la ventana.
 
-1.  ![](./media/media/image7.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image7.png)
 
 Hagamos clic sobre él y se mostrará la ventana de **Configuración del
 servicio de actualizaciones**, que se muestra en la figura.
 
-1.  ![](./media/media/image8.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image8.png)
 
 Nos desplazamos a su parte inferior y hacemos clic sobre el botón
 **Nuevo…**
 
-1.  ![](./media/media/image9.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image9.png)
 
 Se abrirá el asistente **Crear regla de aprobación automática**, que en
 su primera ventana deberemos:
@@ -134,11 +159,11 @@ identificaremos
 
 Una breve descripción de la regla de actualización
 
-1.  
+
 
 Terminado, hacemos clic sobre el botón **Siguiente&gt;**
 
-1.  ![](./media/media/image10.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image10.png)
 
 En la segunda ventana del asistente se nos pide que se Especifique los
 productos afectados por esta regla de aprobación.
@@ -153,7 +178,7 @@ nuestro ejemplo *Ofiice 2010*.
 
 Continuaremos haciendo clic sobre el botón **Siguiente**&gt;
 
-1.  ![](./media/media/image11.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image11.png)
 
 En la tercera ventana del asistente tendremos que escoger que tipo de
 actualizaciones serán las aprobadas automáticamente.
@@ -164,7 +189,7 @@ apreciar en la figura que sigue.
 Realizada nuestra selección de *clasificaciones* continuamos con el
 proceso haciendo clic sobre el botón **Siguiente&gt;**
 
-1.  ![](./media/media/image12.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image12.png)
 
 En la cuarta y última ventana de selección de opciones del asistente se
 nos pide que se **Especifique los grupos que recibirán estas
@@ -180,24 +205,24 @@ botón **Agregar** para incluirlos a la derecha.
 Una vez finalizado, el proceso de definición de criterios ha
 virtualmente ha acabado, hagamos clic sobre el botón **Siguiente&gt;**
 
-1.  ![](./media/media/image13.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image13.png)
 
 Finalmente se nos mostrará el resumen de la regla de actualización
 automática que se creará, si estamos conformes, concluiremos haciendo
 clic sobre el botón **Finalizar**.
 
-1.  Insert Caption
+Insert Caption
 
 <!-- -->
 
-1.  ![](./media/media/image14.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image14.png)
 
 Ya de vuelta en la ventana **Configuración del servicio de
 actualizaciones**, podemos ver en el apartado **Reglas de aprobación
 automática** la nueva regla creada, para concluir todo el proceso,
 hágase clic sobre el botón **Guardar**.
 
-1.  ![](./media/media/image15.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image15.png)
 
 Para aplicar una regla, sea por ejemplo ésta última creada, bastará
 seleccionarla en la lista de **Reglas de aprobación automática** y
@@ -206,13 +231,13 @@ posteriormente hacer clic sobre el botón **Ejecutar seleccionada**.
 De igual manera se puede **Editar** o **Eliminar** una regla de
 aprobación automática.
 
-1.  ![](./media/media/image16.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image16.png)
 
 Si se ha escogido **Ejecutar seleccionada**, comenzará el procesamiento
 de la solicitud de aplicación de la regla de aplicación de
 actualización.
 
-1.  ![](./media/media/image17.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image17.png)
 
 Actualizaciones con instalación pendiente
 -----------------------------------------
@@ -224,13 +249,13 @@ instalación, que deben ser cargadas desde cada dispositivo como
 trataremos en el apartado siguiente –**Llevar a cabo las
 actualizaciones**-.
 
-1.  ![](./media/media/image18.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image18.png)
 
 Al hacer clic sobre **Actualizaciones con instalación pendiente**, se
 nos mostrarán cuales son dichas actualizaciones ya aprobadas y
 pendientes de instalación por parte del usuario final.
 
-1.  ![](./media/media/image19.png){width="4.03in" height="2.52in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image19.png)
 
 Llevar a cabo las actualizaciones
 ---------------------------------
@@ -238,7 +263,7 @@ Llevar a cabo las actualizaciones
 Deberemos acceder a **Windows Intune Center**, en él seleccionaremos
 **Buscar actualizaciones**.
 
-1.  ![](./media/media/image20.png){width="3.64in" height="2.76in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image20.png)
 
 Si hay actualizaciones aprobadas por el *Administrador* de Windows
 Intune, se nos informará de ello, indicándonos cuantas están
@@ -247,7 +272,7 @@ disponibles, como se observa en la figura adjunta.
 Para instalarlas, proseguiremos haciendo clic sobre **Instalar
 actualizaciones**.
 
-1.  ![](./media/media/image21.png){width="3.63in" height="2.76in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image21.png)
 
 Se abrirá una caja de diálogo dándonos la opción de **Instalas ahora
 (recomendado)**, con lo cual se instalarían todas las pendientes, o
@@ -257,19 +282,19 @@ pendientes y seleccionar cual o cuales se instalarían ahora.
 Su pongamos que optamos por lo recomendado, proseguiríamos haciendo clic
 sobre el botón **Instalar**.
 
-1.  ![](./media/media/image22.png){width="2.88in" height="1.48in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image22.png)
 
 Comenzaría el proceso de descarga de las actualizaciones y su posterior
 instalación en el equipo, tal como se muestra en las figuras adjuntas.
 
-1.  ![](./media/media/image23.png){width="3.47in" height="2.58in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image23.png)
 
-    ![](./media/media/image24.png){width="3.47in" height="2.58in"}
+    ![](./img/Windows Intune - Gestión de actualizaciones I/image24.png)
 
 Finalizado el proceso, se nos informará de ello y de si es preciso
 reiniciar el equipo.
 
-1.  ![](./media/media/image25.png){width="2.88in" height="1.49in"}
+![](./img/Windows Intune - Gestión de actualizaciones I/image25.png)
 
 Conclusiones
 ------------
