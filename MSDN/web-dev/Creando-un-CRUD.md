@@ -162,15 +162,15 @@ Ahora volviendo al tema de Web API, es hora de crear el controlador, y
 para ello Web API nos ayuda bastante; damos clic derecho en la carpeta
 Controllers, luego Add -&gt; Scaffold:
 
-![img1] (./img/Creando-un-CRUD/image4.png)
+![img1] (./img/Creando-un-CRUD/image1.png)
 
 Luego seleccionamos **Web API 5 with read/write actions, using Entity
 Framework**, y en la ventana que se abre definimos el nombre del
 contralor, el modelo y el contexto de base de datos:
 
-![img2] (./img/Creando-un-CRUD/image4.png)
+![img2] (./img/Creando-un-CRUD/image2.png)
 
-![img3] (./img/Creando-un-CRUD/image4.png)
+![img3] (./img/Creando-un-CRUD/image3.png)
 
 Una vez finaliza la creación del controlador, el asistente nos ha creado
 el controlador con todas las acciones CRUD:
@@ -350,7 +350,7 @@ Revisando entonces cada una de las acciones, podemos ver que todas las
 operaciones CRUD ya fueron implementadas, y en este caso el nombre de
 cada acción tiene una fuerte relación con el nombre de los verbos Http:
 
-![img4] (./img/Creando-un-CRUD/image4.png)
+![img4] (./img/Creando-un-CRUD/image4.PNG)
 
 Ahora ya tenemos todo listo para comenzar a consumir el servicio, lo
 cual revisaremos en el próximo post.
