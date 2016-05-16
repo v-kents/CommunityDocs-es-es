@@ -153,7 +153,7 @@ C\#
 Los parámetros que podemos utilizar en nuestra URL para realizar las
 consultas son:
 
-![img4] (./img/Introduccion-OData/image4.png)
+![img4] (./img/Introduccion-OData/image4.PNG)
 
 
 
