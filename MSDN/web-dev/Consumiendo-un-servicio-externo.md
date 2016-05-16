@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Web API IV – Implementando Knockoutjs"
 	description="Ejemplo de Web API"
-	services="windows"
+	services="web-dev"
 	documentationCenter=""
 	authors="andygonusa"
 	manager=""
