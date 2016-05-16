@@ -1,5 +1,3 @@
-# 10 comandos PowerShell para usar en Skype4B PARTE I
-
 <properties
 	pageTitle="10 comandos PowerShell para usar en Skype4B PARTE I"
 	description="Comandos de Powershell para Skype For Business"
@@ -17,6 +15,8 @@
 	ms.topic="how-to-article"
 	ms.date="05/16/2016"
 	ms.author="andygonusa"/>
+
+# 10 comandos PowerShell para usar en Skype4B PARTE I
 
 Por Peter Diaz, Microsoft MVP
 
