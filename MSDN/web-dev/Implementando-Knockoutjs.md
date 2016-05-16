@@ -60,8 +60,6 @@ Luego de una pequeña introducción iniciemos (seguimos con el ejemplo del
 post](http://julitogtu.wordpress.com/2013/07/15/asp-net-web-api-web-api-iii-consumiendo-el-servicio/)),
 lo primero es añadir Knockout, para ello vamos a hacer uso de Nuget:
 
-![](./media/media/image1.png)
-
 ![img1] (./img/Implementando-Knockoutjs/image1.png)
 
 
