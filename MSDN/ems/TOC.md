@@ -1,4 +1,4 @@
-#[Windows Intune - Administración de usuarios](Windows Intune - Administración de usuarios.md )
+#[Windows Intune - Administración de usuarios](Windows Intune - Administración de usuarios.md)
 
 #[Windows Intune - Gestión de actualizaciones I](Windows Intune - Gestión de actualizaciones I.md)
 
