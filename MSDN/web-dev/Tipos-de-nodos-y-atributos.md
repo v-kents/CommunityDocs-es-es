@@ -78,19 +78,20 @@ se puede observar en:
 Esos tipos de nodos se identifican mediante constantes, que se recogen
 en la tabla que sigue:
 
-  Constante (Tipo de nodo)          | Significado (hipervínculo al foro W3C)                                                                                  Valor
-  --------------------------------- | ----------------------------------------------------------------------------------------------------------------------- -------
-  *ELEMENT\_NODE*                   | El nodo es del tipo [*Element*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-745549614)                  1
-  *ATTRIBUTE\_NODE*                 | El nodo es del tipo [*Attr*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-637646024)                     2
-  *TEXT\_NODE*                      | El nodo es del tipo [*Text*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-1312295772)                    3
-  *CDATA\_SECTION\_NODE*            | El nodo es del tipo [*CDATASection*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-667469212)             4
-  *ENTITY\_REFERENCE\_NODE*         | El nodo es del tipo [*EntityReference*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-11C98490)           5
-  *ENTITY\_NODE*                    | El nodo es del tipo [*Entity*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-527DCFF2)                    6
-  *PROCESSING\_INSTRUCTION\_NODE*   | El nodo es del tipo [*ProcessingInstruction*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-1004215813)   7
-  *COMMENT\_NODE*                   | El nodo es del tipo [*Comment*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-1728279322)                 8
-  *DOCUMENT\_NODE*                  | El nodo es del tipo [*Document*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#i-Document)                   9
-  *DOCUMENT\_TYPE\_NODE*            | El nodo es del tipo [*DocumentType*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-412266927)             10
-  *DOCUMENT\_FRAGMENT\_NODE*        | El nodo es del tipo [*DocumentFragment*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-B63ED1A3)          11
+
+  Constante (Tipo de nodo)          | Significado (hipervínculo al foro W3C)                                                                                  |Valor
+  --------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |-------
+  *ELEMENT\_NODE*                   | El nodo es del tipo [*Element*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-745549614)                  |1
+  *ATTRIBUTE\_NODE*                 | El nodo es del tipo [*Attr*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-637646024)                     |2
+  *TEXT\_NODE*                      | El nodo es del tipo [*Text*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-1312295772)                    |3
+  *CDATA\_SECTION\_NODE*            | El nodo es del tipo [*CDATASection*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-667469212)             |4
+  *ENTITY\_REFERENCE\_NODE*         | El nodo es del tipo [*EntityReference*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-11C98490)           |5
+  *ENTITY\_NODE*                    | El nodo es del tipo [*Entity*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-527DCFF2)                    |6
+  *PROCESSING\_INSTRUCTION\_NODE*   | El nodo es del tipo [*ProcessingInstruction*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-1004215813)   |7
+  *COMMENT\_NODE*                   | El nodo es del tipo [*Comment*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-1728279322)                 |8
+  *DOCUMENT\_NODE*                  | El nodo es del tipo [*Document*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#i-Document)                   |9
+  *DOCUMENT\_TYPE\_NODE*            | El nodo es del tipo [*DocumentType*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-412266927)             |10
+  *DOCUMENT\_FRAGMENT\_NODE*        | El nodo es del tipo [*DocumentFragment*](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-B63ED1A3)          |11
 
 ***Fuente: W3C***
 
