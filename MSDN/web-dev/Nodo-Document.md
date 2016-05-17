@@ -33,13 +33,13 @@ documento HTML.
 Todo esto será abordado con ejemplos ilustrativos en cada caso, en
 concreto, a modo de resumen, trataremos:
 
-*Propiedades y métodos de _document_
+* Propiedades y métodos de _document_
 
-*Extraer la información general
+* Extraer la información general
 
-*El foco y el elemento activo
+* El foco y el elemento activo
 
-*Nodos hijo de _document_
+* Nodos hijo de _document_
 
 
 
