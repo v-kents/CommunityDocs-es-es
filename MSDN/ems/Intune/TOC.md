@@ -8,5 +8,5 @@
 
 #[Windows Intune - Organización en Grupos](Windows Intune - Organización en Grupos.md)
 
-#[Windows Intune - Portal de empresa de Windows 8.md](Windows Intune - Portal de empresa de Windows 8.md)
+#[Windows Intune - Portal de empresa de Windows](Windows Intune - Portal de empresa de Windows 8.md)
 
