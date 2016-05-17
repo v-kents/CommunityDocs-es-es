@@ -1,6 +1,0 @@
-- name: Artículos Técnicos
-  homepage: index.md
-  items:
-  - name: EMS and Intune
-    href: ems/TOC.yml
-    

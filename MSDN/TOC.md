@@ -1,8 +1,5 @@
 # [Artículos Técnicos](index.md)
-## Cloud
-### [Azure Log Eventos](cloud/Azure Logs Eventos.md)
-## Desarrollo Web
-### [Explorando el DOM: Nodos de texto. Gestión multinodal](web-dev/Nodos-de-texto_Gestión-multinodal.md)
+## [Cloud](cloud/TOC.md)
+## [Desarrollo Web](web-dev/TOC.md)
+## [Desarrollo Windows](win-dev/TOC.md)
 ## [Enterprise Management Suite](ems/TOC.md)
-## Desarrollo Windows
-
