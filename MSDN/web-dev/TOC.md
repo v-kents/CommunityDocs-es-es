@@ -18,3 +18,4 @@
 [Explorando el DOM: Objeto element. Atributos Class e ID](Objeto-element_Atributos-Class-e-ID.md)
 [Explorando el DOM: Nodos de texto. Obtención y manipulación](Nodos-de-texto_Obtencion-y-manipulacion.md)
 [Explorando el DOM: Nodo Document](Nodo-Document.md)
+[Explorando el DOM: Tipos de nodos y sus atributos generales](Tipos-de-nodos-y-atributos.md) 
