@@ -1,3 +1,24 @@
+<properties
+	pageTitle="Azure Web Sites – Debugging"
+	description="Vamos a ver cómo es posible depurar nuestros Web Sites"
+	services="cloud"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="cloud"
+	ms.workload="debugging"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/17/2016"
+	ms.author="andygonusa"/>
+
+
+#Captura logs de seguridad en Azure
+
 Por [Juan José Diaz
 Antuña](http://mvp.microsoft.com/en-us/mvp/Juan%20Jose%20Diaz%20Antu%c3%b1a-5000260),
 @diazantuna 
