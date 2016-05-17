@@ -1,5 +1,4 @@
 ﻿#[Azure Web Sites – Escalamiento](Azure Web Sites – Escalamiento.md)
 #[Azure Web Sites – Debugging](Azure Web Sites – Debugging.md)
 #[Azure Web Sites – Integración con repositorios](Azure-Web-Sites_Integración-con-repositorios.md)
-#[Azure Logs Eventos](Azure Logs Eventos.md)
 #[Captura logs de seguridad en Azure](Captura-logs-de-seguridad-en-Azure.md)
