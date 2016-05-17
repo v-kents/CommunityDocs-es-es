@@ -68,7 +68,7 @@ El lugar de Internet de referencia y descarga del componente
 
 [**https://github.com/medialize/jQuery-contextMenu**](https://github.com/medialize/jQuery-contextMenu)
 
-![] (./img/jQuery-UI-contextMenu_Personalización/image1.png)
+![] (./img/jQuery-UI-contextMenu_Personalizaci-n/image1.png)
 
 Las capacidades que nos proporcionará las iremos desgranando en los
 sucesivos epígrafes y en los anteriores artículos citados, a vuelapluma
@@ -215,7 +215,7 @@ de *display* igual a *none*.
 
 ```
 
-![] (./img/jQuery-UI-contextMenu_Personalización/image2.png)
+![] (./img/jQuery-UI-contextMenu_Personalizaci-n/image2.png)
 
 ###Menú definido al estilo HTML 5 con submenús
 
@@ -326,7 +326,7 @@ salvo *label*.
 
 ```
 
-![] (./img/jQuery-UI-contextMenu_Personalización/image3.png)
+![] (./img/jQuery-UI-contextMenu_Personalizaci-n/image3.png)
 
 ###Menú definido al estilo HTML 5 con título
 
@@ -468,7 +468,7 @@ presente.
     &lt;/html&gt;
 ```
 
-![] (./img/jQuery-UI-contextMenu_Personalización/image4.png)
+![] (./img/jQuery-UI-contextMenu_Personalizaci-n/image4.png)
 
 ###Menú definido al estilo HTML 5 con apertura y cierre automático
 
@@ -653,7 +653,7 @@ Estilo de la fuente (*context-menu-list*)
 
 ```
 
-![] (./img/jQuery-UI-contextMenu_Personalización/image5.png)
+![] (./img/jQuery-UI-contextMenu_Personalizaci-n/image5.png)
 
 ###Conclusiones
 
