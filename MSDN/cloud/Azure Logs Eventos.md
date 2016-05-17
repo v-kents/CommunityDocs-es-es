@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure Web Sites – Debugging"
-	description="Vamos a ver cómo es posible depurar nuestros Web Sites"
+	pageTitle="Captura logs de seguridad en Azure"
+	description="Habilitar la captura de los diferentes logs del visor de eventos"
 	services="cloud"
 	documentationCenter=""
 	authors="andygonusa"
