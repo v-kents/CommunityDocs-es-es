@@ -15,3 +15,6 @@
 #[jQuery UI contextMenu. Manual de uso básico](jQuery-UI-contextMenu-Manual-de-uso-basico.md)
 #[jQuery UI contextMenu. Manual de uso avanzado](jQuery-UI-contextMenu_Manual-de-uso-avanzado.md)
 #[jQuery UI contextMenu. Apéndice HTML 5. Personalización](jQuery-UI-contextMenu_Personalización.md)
+[Explorando el DOM: Objeto element. Atributos Class e ID](Objeto-element_Atributos-Class-e-ID.md)
+[Explorando el DOM: Nodos de texto. Obtención y manipulación](Nodos-de-texto_Obtencion-y-manipulacion.md)
+[Explorando el DOM: Nodo Document](Nodo-Document.md)
