@@ -21,14 +21,11 @@
 
 #Explorando el DOM: Objeto element. Atributos y su gestión
 
-**©Jaime Peña Tresancos, 2014**
+©Jaime Peña Tresancos, 2015 
 
-**Twitter: @jpt219**
+[Twitter: @jpt219] (https://twitter.com/jpt219) 
 
-**LinkedIn:**
-
-<span id="webProfileURL"
-class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
+[LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
 
 En nuestro anterior artículo:
 

@@ -21,11 +21,12 @@
 
 #Explorando el DOM: Objeto element. Objeto y atributo Style (Inline Styles)
 
-**©Jaime Peña Tresancos, 2015**
+©Jaime Peña Tresancos, 2015 
 
-**Twitter: @jpt219**
+[Twitter: @jpt219] (https://twitter.com/jpt219) 
 
-**LinkedIn:** <span id="webProfileURL"
+[LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
+
 class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
 
 Las propiedades de estilos pueden ser fijadas en el atributo *style*,

@@ -21,11 +21,12 @@
 
 #Explorando el DOM: Nodos de texto. Creación, propiedades y métodos
 
-**©Jaime Peña Tresancos, 2015**
+©Jaime Peña Tresancos, 2015 
 
-**Twitter: @jpt219**
+[Twitter: @jpt219] (https://twitter.com/jpt219) 
 
-**LinkedIn:** <span id="webProfileURL"
+[LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
+
 class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
 
 Cada nodo de texto tiene su propia entidad y se trata de un objeto

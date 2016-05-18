@@ -22,12 +22,12 @@ complementos"
 
 #jQuery UI contextMenu. Manual de uso básico
 
-**©Jaime Peña Tresancos, 2015**
+©Jaime Peña Tresancos, 2015 
 
-**Twitter: @jpt219**
+[Twitter: @jpt219] (https://twitter.com/jpt219) 
 
-**LinkedIn:** <span id="webProfileURL"
-class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
+[LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
+
 
 El *jQuery User Interface* contiene una gran cantidad de componentes y
 complementos –*plug-ins*- que nos acercan a la programación de las

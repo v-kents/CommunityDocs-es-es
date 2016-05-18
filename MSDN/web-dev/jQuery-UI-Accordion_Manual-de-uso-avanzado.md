@@ -20,12 +20,12 @@
 
 #jQuery UI Accordion. Manual de uso avanzado
 
-©Jaime Peña Tresancos, 2015
+©Jaime Peña Tresancos, 2015 
 
-Twitter: @jpt219
+[Twitter: @jpt219] (https://twitter.com/jpt219) 
 
-LinkedIn: <span id="webProfileURL"
-class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
+[LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
+
 
 Este artículo está dedicado al componente *Accordion* y agrega
 información a la dada en nuestro anterior trabajo:

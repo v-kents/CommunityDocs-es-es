@@ -20,11 +20,12 @@
 
 #jQuery UI contextMenu. Manual de uso avanzado
 
-©Jaime Peña Tresancos, 2015
+©Jaime Peña Tresancos, 2015 
 
-Twitter: @jpt219
+[Twitter: @jpt219] (https://twitter.com/jpt219) 
 
-LinkedIn: <span id="webProfileURL"
+[LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
+
 class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
 
 Este artículo está dedicado al complemento *contextMenu* y agrega

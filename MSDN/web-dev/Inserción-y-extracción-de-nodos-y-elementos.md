@@ -21,11 +21,12 @@
 
 #Explorando el DOM: Inserción y extracción de nodos y elementos
 
-**©Jaime Peña Tresancos, 2013**
+©Jaime Peña Tresancos, 2015 
 
-**Twitter: @jpt219**
+[Twitter: @jpt219] (https://twitter.com/jpt219) 
 
-**LinkedIn:** <span id="webProfileURL"
+[LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
+
 class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
 
 Sobre un documento HTML abierto, nos puede  insertar elementos

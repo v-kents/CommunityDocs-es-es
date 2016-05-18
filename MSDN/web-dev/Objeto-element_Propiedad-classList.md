@@ -21,13 +21,12 @@
 
 #Explorando el DOM: Objeto element. Propiedad classList
 
-**©Jaime Peña Tresancos, 2014**
+©Jaime Peña Tresancos, 2015 
 
-**Twitter: @jpt219**
+[Twitter: @jpt219] (https://twitter.com/jpt219) 
 
-**Linked**
+[LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
 
-**In:** <span id="webProfileURL"
 class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
 
 En nuestros anteriores artículos:
