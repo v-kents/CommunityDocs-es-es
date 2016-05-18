@@ -27,7 +27,6 @@
 
 [LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
 
-*.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
 
 En nuestro anterior artículo **Explorando el DOM: Objeto *element*.
 Selección de elementos I**:

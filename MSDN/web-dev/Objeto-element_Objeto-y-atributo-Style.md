@@ -27,7 +27,7 @@
 
 [LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
 
-class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
+
 
 Las propiedades de estilos pueden ser fijadas en el atributo *style*,
 dentro de las etiquetas HTML de un elemento dado –los denominados

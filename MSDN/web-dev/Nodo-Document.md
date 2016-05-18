@@ -25,7 +25,6 @@
 
 [LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
 
-class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
 
 En el presente artículo nos ocuparemos de los aspectos generales del
 nodo *document* que abarca tanto la cabecera como el cuerpo del

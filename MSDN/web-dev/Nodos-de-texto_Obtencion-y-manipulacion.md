@@ -25,8 +25,7 @@
 
 [LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
 
-class="anchor"></span>***es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
-**
+
 
 Cómo habíamos abordado en un artículo anterior –véase más adelante- cada
 nodo de texto tiene su propia entidad y se trata de un objeto –*object

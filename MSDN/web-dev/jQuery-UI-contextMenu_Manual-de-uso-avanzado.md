@@ -26,7 +26,7 @@
 
 [LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
 
-class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
+
 
 Este artículo está dedicado al complemento *contextMenu* y agrega
 información a la dada en nuestro anterior trabajo:

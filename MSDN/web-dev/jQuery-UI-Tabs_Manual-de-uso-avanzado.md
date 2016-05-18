@@ -25,7 +25,6 @@
 
 [LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
 
-class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
 
 Este artículo está dedicado al componente *Tabs* y complementa nuestro
 anterior trabajo:

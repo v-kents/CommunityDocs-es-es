@@ -25,7 +25,6 @@
 
 [LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
 
-class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
 
 Un documento HTML no es un objeto estático y puede ser modificado en
 tiempo de ejecución, las técnicas de gestión del DOM son las de más bajo

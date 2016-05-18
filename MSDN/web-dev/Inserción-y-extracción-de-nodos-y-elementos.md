@@ -27,7 +27,7 @@
 
 [LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
 
-class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
+
 
 Sobre un documento HTML abierto, nos puede  insertar elementos
 y nodos de texto en tiempo de ejecución mediante técnicas de gestión del

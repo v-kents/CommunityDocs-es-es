@@ -27,7 +27,6 @@
 
 [LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
 
-class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
 
 Cada nodo de texto tiene su propia entidad y se trata de un objeto
 –*object text*- con sus propiedades y métodos característicos.

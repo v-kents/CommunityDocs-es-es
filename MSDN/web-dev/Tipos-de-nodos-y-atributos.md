@@ -26,7 +26,6 @@
 
 [LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
 
-class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
 
 Un buen conocimiento de la organización de los documentos HTML es una de
 las bases esenciales para la programación activa mediante *JavaScript*.

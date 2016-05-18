@@ -25,7 +25,6 @@
 
 [LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
 
-class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
 
 En el ámbito de la cascada de estilos de un documento HTML, nos
 encontramos con que existe la posibilidad de definirlos en la etiqueta

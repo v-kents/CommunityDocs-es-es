@@ -27,7 +27,7 @@ interfaces de usuario"
 
 [LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
 
-class="anchor"></span>*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*
+
 
 El *jQuery User Interface* contiene una gran cantidad de componentes y
 complementos –plug-ins- que nos acercan a la programación de las
