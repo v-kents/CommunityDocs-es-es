@@ -1,7 +1,7 @@
 
 <properties
-	pageTitle="Qué es Inyección de dependencias"
-	description="Qué es Inyección de dependencias"
+	pageTitle="Parallel Series: Aclarando conceptos base"
+	description="Parallel Series: Aclarando conceptos base"
 	services="net-dev"
 	documentationCenter=""
 	authors="andygonusa"
