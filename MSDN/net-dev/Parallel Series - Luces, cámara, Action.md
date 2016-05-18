@@ -1,7 +1,7 @@
 
 <properties
-	pageTitle="Luces, cámara… Action!"
-	description="Luces, cámara… Action!"
+	pageTitle="Parallel Series - Luces, cámara, Action"
+	description="Parallel Series - Luces, cámara, Action"
 	services="net-dev"
 	documentationCenter=""
 	authors="andygonusa"
@@ -17,7 +17,7 @@
 	ms.date="05/17/2016"
 	ms.author="andygonusa"/>
 
-# Luces, cámara… Action!
+# Parallel Series - Luces, cámara, Action
 
 [Lluís Franco](http://lluisfranco.com/about/), Microsoft MVP
 
