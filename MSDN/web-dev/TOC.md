@@ -21,3 +21,6 @@
 [Explorando el DOM: Tipos de nodos y sus atributos generales](Tipos-de-nodos-y-atributos.md) 
 [Explorando el DOM: Objeto element. Selección de elementos I](Seleccion-de-elementos-I.md)
 [Explorando el DOM: Objeto element. Selección de elementos II](Seleccion-de-elementos-II.md)
+[Explorando el DOM: Objeto element. Propiedad classList](Objeto-element_Propiedad-classList.md)
+[Explorando el DOM: Objeto element. Objeto y atributo Style (Inline Styles)](Objeto-element_Objeto-y-atributo-Style.md)
+[Explorando el DOM: Inserción y extracción de nodos y elementos](Inserción-y-extracción-de-nodos-y-elementos.md)
