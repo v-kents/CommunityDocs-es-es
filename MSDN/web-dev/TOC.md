@@ -24,3 +24,5 @@
 #[Explorando el DOM: Objeto element. Propiedad classList](Objeto-element_Propiedad-classList.md)
 #[Explorando el DOM: Objeto element. Objeto y atributo Style (Inline Styles)](Objeto-element_Objeto-y-atributo-Style.md)
 #[Explorando el DOM: Inserción y extracción de nodos y elementos](Inserción-y-extracción-de-nodos-y-elementos.md)
+#[Explorando el DOM: Nodos de texto. Creación, propiedades y métodos](Creacion-propiedades-y-metodos.md)
+#[Explorando el DOM: Objeto element. Creación, propiedades y métodos](Objeto-element_Creacion-propiedades-y-metodos.md)
