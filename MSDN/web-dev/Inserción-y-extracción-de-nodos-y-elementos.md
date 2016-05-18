@@ -163,17 +163,17 @@ elemento hijo
 
 ```
 
-![] (./img/Inserción-y-extraccion-de-nodos-y-elementos/image1.png)
+![] (./img/Insercion-y-extraccion-de-nodos-y-elementos/image1.png)
 
 Si en el ejemplo, en Internet Explorer, pulsamos F12, acudiremos a las
 *Herramientas de desarrollo* y veremos todo el árbol del DOM, véase la
 figura adjunta.
 
-![] (./img/Inserción-y-extraccion-de-nodos-y-elementos/image2.png)
+![] (./img/Insercion-y-extraccion-de-nodos-y-elementos/image2.png)
 
 Estado inicial del DOM, antes de pulsar el botón de comando
 
-![] (./img/Inserción-y-extraccion-de-nodos-y-elementos/image3.png)
+![] (./img/Insercion-y-extraccion-de-nodos-y-elementos/image3.png)
 
 Si en el ejemplo después de pulsado el botón para ejecutar estas
 acciones, en Internet Explorer, pulsamos F12, acudiremos a las
@@ -181,7 +181,7 @@ acciones, en Internet Explorer, pulsamos F12, acudiremos a las
 nodos hijos creados conforme a lo que diseñamos, véase la figura
 adjunta.
 
-![] (./img/Inserción-y-extraccion-de-nodos-y-elementos/image4.png)
+![] (./img/Insercion-y-extraccion-de-nodos-y-elementos/image4.png)
 
 Estado del DOM después de insertado el elemento y el nodo de texto
 
@@ -259,7 +259,7 @@ acciones, en Internet Explorer, pulsamos F12, acudiremos a las
 nodos hijos creados conforme a lo que diseñamos, véase la figura
 adjunta.
 
-![] (./img/Inserción-y-extraccion-de-nodos-y-elementos/image5.png)
+![] (./img/Insercion-y-extraccion-de-nodos-y-elementos/image5.png)
 
 El DOM después de ejecutadas las acciones
 
@@ -336,11 +336,11 @@ acciones, en Internet Explorer, pulsamos F12, acudiremos a las
 nodos hijos creados conforme a lo que diseñamos, véanse las figuras
 adjuntas.
 
-![] (./img/Inserción-y-extraccion-de-nodos-y-elementos/image6.png)
+![] (./img/Insercion-y-extraccion-de-nodos-y-elementos/image6.png)
 
 El DOM antes de ejecutar las acciones
 
-![] (./img/Inserción-y-extraccion-de-nodos-y-elementos/image7.png)
+![] (./img/Insercion-y-extraccion-de-nodos-y-elementos/image7.png)
 
 El DOM después de ejecutadas las acciones
 
@@ -440,7 +440,7 @@ respectivamente:
 
 ```
 
-![] (./img/Inserción-y-extraccion-de-nodos-y-elementos/image8.png)
+![] (./img/Insercion-y-extraccion-de-nodos-y-elementos/image8.png)
 
 ###Conclusiones
 
