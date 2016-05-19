@@ -17,19 +17,27 @@
 	ms.author="andygonusa"/>
 
 
-# C\# - Forms - El extraño caso de la ventana sin borde que no se deja cambiar de tamaño
+# C# - Forms - El extraño caso de la ventana sin borde que no se deja cambiar de tamaño
+
+![Juan Carlos Ruiz ](http://gravatar.com/avatar/2c36e6ebd9b4d33c3e9a0362607b3e57?s=150)
+<!-- -->
+
+Por Juan Carlos Ruiz Pacheco, **Microsoft Senior Technology Evangelist**
+
+  Network   | Url
+  ----------|----------------------------------------
+  Twitter   | https://twitter.com/JuanKRuiz
+  Facebook  | https://www.facebook.com/JuanKDev
+  LinkdIn   | http://www.linkedin.com/in/juankruiz
+  Blog      | https://juank.io
 
 
-![](./img/CS - Forms - El extraño caso de la ventana sin borde que no se deja cambiar de tamaño/image1.PNG)
-    
 
-Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
+>**Recuerda que** <br/>
+>Puedes ver el artículo original en: 
+> [C# - Forms – El extraño caso de la ventana sin borde que no se deja cambiar de tamaño](https://juank.io/c-forms-ventana-sin-borde-que-no-se-deja-cambiar-tamano/)
 
-  Twitter   | <https://twitter.com/JuanKRuiz>
-  ----------| ----------------------------------------
-  Facebook  | <https://www.facebook.com/JuanKDev>
-  LinkdIn   | <http://www.linkedin.com/in/juankruiz>
-  Blog      | <http://juank.io>
+
 
 Hay dos formas de solucionar este problema, una fácil y una dificil.
 
@@ -47,7 +55,7 @@ Debemos sobrescribir la propiedad **CreateParams**, allí cambiaremos el
 estilo inicial de la forma dejándolo tal como está pero quitándole el
 atributo **WS\_CAPTION**, que básicamente es la barra de título.
 
-
+```csharp
     const int WS_CAPTION = 0xC00000;
     protected override CreateParams
     {
@@ -58,6 +66,7 @@ atributo **WS\_CAPTION**, que básicamente es la barra de título.
             return p;
         }
     }
+```
 
 Eso es todo, el resultado es una ventana a la que se le puede cambiar el
 tamaño, aunque no es del todo una ventana sin bordes, es decir no tiene
@@ -107,9 +116,9 @@ ajustarse a las nuevas dimensiones así que creamos un método capaz de
 establecer el **Rectangle** donde se dibujara el SizeGrip de acuerdo al
 tamaño del Form.
 
-
+```csharp
     Rectangle sizeGripRectangle;
-    const int GRIP\_SIZE = 15;
+    const int GRIP\SIZE = 15;
 
     private void AdaptGripRectangle()
     {
@@ -123,6 +132,7 @@ tamaño del Form.
         sizeGripRectangle.Width = sizeGripRectangle.Height = GRIP_SIZE;
         AdaptGripRectangle();
     }
+```
 
 Como ya tenemos definido del tamaño y la ubicación del SizeGrip
 modificaremos el evento Paint para dibujarlo.
@@ -130,8 +140,7 @@ modificaremos el evento Paint para dibujarlo.
 Utilizaré la notación lambda por que me gusta más, no se confundan, es
 lo mismo que utilizar un delegado o los eventhandler tradicionales.
 
-
-
+```csharp
     public Form1()
     {
         InitializeComponent();
@@ -139,6 +148,7 @@ lo mismo que utilizar un delegado o los eventhandler tradicionales.
         AdaptGripRectangle();
         this.Paint += (o, ea) => { ControlPaint.DrawSizeGrip(ea.Graphics, this.BackColor, sizeGripRectangle); };
     }
+```
 
 La clase **ControlPaint** incorpora varios métodos útiles, uno de ellos
 es precisamente **DrawSizeGrip** que hace el dibujo que necesitamos.
@@ -164,8 +174,7 @@ Antes que nada necesitamos un método que nos diga si un punto dado, por
 ejemplo la ubicación del mouse, esta encima del SizeGrip esto es fácil
 de hacer:
 
-
-
+```csharp
     private bool IsInSizeGrip(Point tmp)
     {
         if (tmp.X &gt;= sizeGripRectangle.X
@@ -177,6 +186,7 @@ de hacer:
         else
             return false;
     }
+```
 
 Una vez hecho esto, hay que detectar cuando el mouse hace clic sobre el
 SizeGrip.
@@ -188,7 +198,7 @@ ponemos la variable en true, y una vez levante el botón del mouse
 ponemos la variable en false.
 
 
-
+```csharp
     //declaramos esta variable en la clase
     bool inSizeDrag = false;
     //...
@@ -202,6 +212,7 @@ ponemos la variable en false.
             if (IsInSizeGrip(ea.Location))
             inSizeDrag = true;
         };
+```
 
 Gracias a esto ya podemos detectar cuando el usuario quiere cambiar el
 el tamaño del Form, así que solo basta con modificar el evento
@@ -212,8 +223,7 @@ coordenadas del mouse.
 A las coordenadas del mouse les he adicionado la mitad del tamaño del
 SizeGrip para producir un efecto más natural.
 
-
-
+```csharp
     //La mitad del tamaño del SizeGrip
     //se declara en la clase
     const int GRIP_SIZE_OVER_TWO = GRIP_SIZE / 2;
@@ -232,6 +242,7 @@ SizeGrip para producir un efecto más natural.
             this.Invalidate();
         }
     };
+```
 
 Eso es todo, pueden ver la aplicación y el ejemplo completo siguiendo
 este link [Ventana Sin Borde pero
@@ -242,9 +253,9 @@ byte!
 Artículos relacionados
 ----------------------
 
-[C\# - Cómo modificar el comportamiento del botón minimizar, maximizar,
+[C# - Cómo modificar el comportamiento del botón minimizar, maximizar,
 etc.](http://juank.io/csharp-c-como-modificar-comportamiento-boton-minimizar-maximizar/)
 
-[C\# - Forms - El extraño caso de la ventana sin borde que no se deja
+[C# - Forms - El extraño caso de la ventana sin borde que no se deja
 maximizar ni
 minimizar](http://juank.io/extrano-caso-ventana-sin-borde-no-deja-maximizar-minimizar/)
