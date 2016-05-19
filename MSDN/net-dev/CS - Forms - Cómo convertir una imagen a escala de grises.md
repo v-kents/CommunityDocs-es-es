@@ -20,15 +20,23 @@
 
 # C\# - Forms - Cómo convertir una imagen a escala de grises
 
-![](./img/CS - Forms - Cómo convertir una imagen a escala de grises/image1.PNG)
+![Juan Carlos Ruiz ](http://gravatar.com/avatar/2c36e6ebd9b4d33c3e9a0362607b3e57?s=150)
+<!-- -->
 
-Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
+Por Juan Carlos Ruiz Pacheco, **Microsoft Senior Technology Evangelist**
 
-  Twitter   | <https://twitter.com/JuanKRuiz>
-  ----------| ----------------------------------------
-  Facebook  | <https://www.facebook.com/JuanKDev>
-  LinkdIn   | <http://www.linkedin.com/in/juankruiz>
-  Blog      | <http://juank.io>
+  Network   | Url
+  ----------|----------------------------------------
+  Twitter   | https://twitter.com/JuanKRuiz
+  Facebook  | https://www.facebook.com/JuanKDev
+  LinkdIn   | http://www.linkedin.com/in/juankruiz
+  Blog      | https://juank.io
+
+
+>**Recuerda que** <br/>
+>Puedes ver el artículo original en: 
+> [C# - Forms - Cómo convertir una imagen a escala de grises](https://juank.io/c-forms-como-convertir-imagen-escala-grises/)
+
 
 ¿CÓMO CONVERTIR UNA IMAGEN A ESCALA DE GRISES?
 ----------------------------------------------
