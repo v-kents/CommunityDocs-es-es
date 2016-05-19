@@ -17,32 +17,37 @@
 	ms.author="andygonusa"/>
 
 
-# C\# - ¿Cómo obtener el SID de un usuario local?
+# C# - ¿Cómo obtener el SID de un usuario local?
+
+![Juan Carlos Ruiz ](http://gravatar.com/avatar/2c36e6ebd9b4d33c3e9a0362607b3e57?s=150)
+<!-- -->
+
+Por Juan Carlos Ruiz Pacheco, **Microsoft Senior Technology Evangelist**
+
+  Network   | Url
+  ----------|----------------------------------------
+  Twitter   | https://twitter.com/JuanKRuiz
+  Facebook  | https://www.facebook.com/JuanKDev
+  LinkdIn   | http://www.linkedin.com/in/juankruiz
+  Blog      | https://juank.io
 
 
-![](./img/CS - Cómo obtener el SID de un usuario local/image1.PNG)
+
+>**Recuerda que** <br/>
+>Puedes ver el artículo original en: 
+> [C# - Cómo obtener el SID de un usuario local?](https://juank.io/c-como-obtener-sid-usuario-local/)
 
 
-Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
-
-  Twitter   | <https://twitter.com/JuanKRuiz>
-  ----------| ----------------------------------------
-  Facebook  | <https://www.facebook.com/JuanKDev>
-  LinkdIn   | <http://www.linkedin.com/in/juankruiz>
-  Blog      | <http://juank.io>
 
 Obtener el SID del usuario que se encuentra ejecutando la aplicación es
 bastante sencillo:
 
 * Adicionar using a System.Security.Principal
-
 * Instanciar un objeto WindowsIdentity
-
 * Construirlo a partir de WindowsIdentity.GetCurret()
-
 * Usar la propiedad Value
 
-
+```csharp
     using System;
     using System.Security.Principal;
 
@@ -50,11 +55,12 @@ bastante sencillo:
     {
         static void Main(string[] args)
         {
-        WindowsIdentity currentUser = WindowsIdentity.GetCurrent();
-        Console.WriteLine(currentUser.User.Value);
-        Console.ReadLine();
+	        WindowsIdentity currentUser = WindowsIdentity.GetCurrent();
+	        Console.WriteLine(currentUser.User.Value);
+	        Console.ReadLine();
         }
     }
+```    
 
 Sin embargo tratar de acceder a la información de los usuarios
 diferentes del logueado actualmente (y sin usar impersonación) puede ser
@@ -62,16 +68,12 @@ un poco más complejo. Una alternativa viable es hacer uso de **WMI**
 (Windows Management instrumentation).
 
 * Adicionar la referencia a System.Management y el respectivo using
-
 * A traves de WMI se debe hacer un query al objeto Win32\_UserAccount
-
-* Especificar el nombre del dominio, si es local es el nombre de la
-máquina el cual se peude obtener a traves de System.Environment
-
+* Especificar el nombre del dominio, si es local es el nombre de la máquina el cual se peude obtener a traves de System.Environment
 * Hacer una búsqueda sobre el query
-
 * Usar el indizador accediento con la cadena “SID”
 
+```csharp
     using System;
     using System.Management;
 
@@ -91,5 +93,6 @@ máquina el cual se peude obtener a traves de System.Environment
         }
 
     }
+```
 
 Happy Learning!
