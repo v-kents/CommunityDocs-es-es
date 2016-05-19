@@ -24,11 +24,13 @@
 
 Por Juan Carlos Ruiz Pacheco, **Microsoft Senior Technology Evangelist**
 
-  Twitter   | <https://twitter.com/JuanKRuiz>
+  Network   | Url
   ----------|----------------------------------------
-  Facebook  | <https://www.facebook.com/JuanKDev>
-  LinkdIn   | <http://www.linkedin.com/in/juankruiz>
-  Blog      | <https://juank.io>
+  Twitter   | https://twitter.com/JuanKRuiz
+  Facebook  | https://www.facebook.com/JuanKDev
+  LinkdIn   | http://www.linkedin.com/in/juankruiz
+  Blog      | https://juank.io
+
 
 
 >**Recuerda que** <br/>
