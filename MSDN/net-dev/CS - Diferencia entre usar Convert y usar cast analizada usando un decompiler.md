@@ -17,17 +17,26 @@
 	ms.author="andygonusa"/>
 
 
-# C\# - Diferencia entre usar Convert y usar cast analizada usando un decompiler
+# C# - Diferencia entre usar Convert y usar cast analizada usando un decompiler
 
-![](./img/CS - Diferencia entre usar Convert y usar cast analizada usando un decompiler/image1.PNG)
+![Juan Carlos Ruiz ](http://gravatar.com/avatar/2c36e6ebd9b4d33c3e9a0362607b3e57?s=150)
+<!-- -->
 
-Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
+Por Juan Carlos Ruiz Pacheco, **Microsoft Senior Technology Evangelist**
 
-  Twitter   | <https://twitter.com/JuanKRuiz>
+  Network   | Url
   ----------|----------------------------------------
-  Facebook  | <https://www.facebook.com/JuanKDev>
-  LinkdIn   | <http://www.linkedin.com/in/juankruiz>
-  Blog      | <http://juank.io>
+  Twitter   | https://twitter.com/JuanKRuiz
+  Facebook  | https://www.facebook.com/JuanKDev
+  LinkdIn   | http://www.linkedin.com/in/juankruiz
+  Blog      | https://juank.io
+
+
+
+>**Recuerda que** <br/>
+>Puedes ver el artículo original en: 
+> [C# - Diferencia entre usar Convert y usar cast analizada usando un decompiler](https://juank.io/c-diferencia-entre-usar-convert-usar-cast-analizada-usando-descompilador/)
+
 
 Esta es una duda frecuente cuando quieres convertir de un tipo numérico
 a otro.
@@ -45,7 +54,7 @@ CONVERTIR DE TIPO DECIMAL A TIPO INT
 
 #### UTILIZANDO CAST
 
-\[ int a = (int)123.33m \]
+`[ int a = (int)123.33m ]`
 
 El runtime lo que hará es simplemente tomar la parte entera del número
 descartando completamente la parte decimal.
@@ -89,7 +98,7 @@ CONVERTIR DE TIPO FLOAT A TIPO INT
 
 #### UTILIZANDO CAST
 
-\[ int a = (int)123.33f \]
+`[ int a = (int)123.33f ]`
 
 El runtime lo que hará es simplemente tomar la parte entera del número
 descartando completamente la parte decimal.
