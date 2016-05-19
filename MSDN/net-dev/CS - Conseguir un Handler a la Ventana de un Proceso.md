@@ -19,17 +19,23 @@
 
 # C\# - Conseguir un Handler a la Ventana de un Proceso
 
+![Juan Carlos Ruiz ](http://gravatar.com/avatar/2c36e6ebd9b4d33c3e9a0362607b3e57?s=150)
+<!-- -->
+
+Por Juan Carlos Ruiz Pacheco, **Microsoft Senior Technology Evangelist**
+
+  Network   | Url
+  ----------|----------------------------------------
+  Twitter   | https://twitter.com/JuanKRuiz
+  Facebook  | https://www.facebook.com/JuanKDev
+  LinkdIn   | http://www.linkedin.com/in/juankruiz
+  Blog      | https://juank.io
 
 
-![](./img/CS - Conseguir un Handler a la Ventana de un Proceso/image1.PNG)
+>**Recuerda que** <br/>
+>Puedes ver el artículo original en: 
+> [C# - Conseguir un Handler a la Ventana de un Proceso](https://juank.io/c-conseguir-handler-ventana-proceso/)
 
-Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
-
-  Twitter   | <https://twitter.com/JuanKRuiz>
-  ----------| ----------------------------------------
-  Facebook  | <https://www.facebook.com/JuanKDev>
-  LinkdIn   | <http://www.linkedin.com/in/juankruiz>
-  Blog      | <http://juank.io>
 
 Cuando se está jugando con la API de Windows, especialmente con el tema
 de las ventanas esta función puede resultar de muchísima utilidad. Sin
@@ -44,14 +50,13 @@ encontremos), así que creare una clase que utilizare como LPARAM a
 algunas funciones de la API, capaz de contener tanto el id del proceso
 como el handler de la ventana.
 
-
-    /// <summary>Almacena el ID de proceso y el handler de una
-    ventana</summary>
-
-    private class AuxInfo
-    {
-        public int processID; public IntPtr handler;
-    }
+```csharp
+/// <summary>Almacena el ID de proceso y el handler de una ventana</summary>
+private class AuxInfo
+{
+   public int processID; public IntPtr handler;
+}
+```
 
 Para lograrlo debemos recurrir a la función *EnumWindows*, la
 utilizaremos para recorrer las ventanas existentes en búsqueda de una
@@ -64,80 +69,75 @@ signature de EnumWindowsProc, declarado en la API de Windows y que acá
 lo declaro como un delegado.
 
 
-
-    /// <summary>
-    /// Delegado para hacer de callback
-    /// </summary>
-    /// <param name="hwnd" />handler de la ventana
-    /// <param name="lParam" />paramétro con la informacion
-    necesaria para el proceso
-    /// <returns>Valor de retorno del proceso</returns>
-    private delegate bool EnumWindowsProc(IntPtr hwnd, AuxInfo lParam);
+```csharp
+/// <summary>
+/// Delegado para hacer de callback
+/// </summary>
+/// <param name="hwnd" />handler de la ventana
+/// <param name="lParam" />paramétro con la informacionnecesaria para el proceso
+/// <returns>Valor de retorno del proceso</returns>
+private delegate bool EnumWindowsProc(IntPtr hwnd, AuxInfo lParam);
+```
 
 Y acá la definición de EnumWindows
 
-
-    /// <summary>
-    /// Recorre las ventanas y ejecuta un proceso para cada una de ellas
-    /// </summary>
-    /// <param name="lpEnumFunc" />Delegado con el proceso a
-    utilizar para cada ventana /// <param name="lParam"
-    />paramétro con la informacion necesaria para el proceso ///
-    <returns>Retorna true si se recorren todas las ventanas, de lo
-    contrario false o segun determine el usuario a través del
-    callback</returns>
-
-    [DllImport("user32.dll")] private static extern bool
-    EnumWindows(EnumWindowsProc lpEnumFunc, AuxInfo lParam);
-
+```csharp
+/// <summary>
+/// Recorre las ventanas y ejecuta un proceso para cada una de ellas
+/// </summary>
+/// <param name="lpEnumFunc" />Delegado con el proceso a utilizar para cada ventana 
+/// <param name="lParam"/>paramétro con la informacion necesaria para el proceso 
+/// <returns>Retorna true si se recorren todas las ventanas, de lo contrario false o segun determine el usuario a través del callback
+</returns>
+[DllImport("user32.dll")] private static extern bool
+EnumWindows(EnumWindowsProc lpEnumFunc, AuxInfo lParam);
+```
 Para poder determinar el id de proceso de cada una de las ventanas
 enumeradas haré uso de **GetWindowThreadProcessId**:
 
 
-
-    /// <summary>
-    /// Devuelve el ID del proceso al que pertenece el hilo de la
-    ventana
-    /// </summary>
-    /// <param name="hwnd" />handler de la ventana
-    /// <param name="lpdwProcessId" />ID del proceso (parámetro
-    de salida)
-    /// <returns>ID del Thread que creó la ventana</returns>
-    [DllImport("user32.dll")] private static extern uint
-    GetWindowThreadProcessId(IntPtr hwnd, out int lpdwProcessId);
+```csharp
+/// <summary>
+/// Devuelve el ID del proceso al que pertenece el hilo de la ventana
+/// </summary>
+/// <param name="hwnd" />handler de la ventana
+/// <param name="lpdwProcessId" />ID del proceso (parámetro de salida)
+/// <returns>ID del Thread que creó la ventana</returns>
+[DllImport("user32.dll")] 
+private static extern uint
+GetWindowThreadProcessId(IntPtr hwnd, out int lpdwProcessId);
+```
 
 Ya con esta información mi función delegada para encontrar el handler de
 ventana (la que se ejecutara por cada ventana hallada por EnumWindows)
 es esta:
 
-
-
-    /// <summary>
-    /// Obtiene el handler de la ventana asociada a un proceso
-    /// Este procedimiento es solo de utilería para usarse con
-    EnumWindows
-    /// y no debería ser invocado directamente
-    /// </summary>
-    /// <param name="hwnd" />handler de la ventana actual
-    /// <param name="info" />informacion auxiliar para el proceso
-    /// <returns>false si encuentra la ventana, true
-    sino</returns>
-    private static bool \_GetProcessWindowHandler(IntPtr hwnd,
-    AuxInfo info) {
-        int processID;
-        GetWindowThreadProcessId(hwnd, out processID);
-        if (processID == info.processID)
-        {
-            info.handler = hwnd;
-            return false;
-        }
-        else
-        {
-            info.handler = IntPtr.Zero;
-            return true;
-        }
-
-    }
+```csharp
+/// <summary>
+/// Obtiene el handler de la ventana asociada a un proceso
+/// Este procedimiento es solo de utilería para usarse con
+EnumWindows
+/// y no debería ser invocado directamente
+/// </summary>
+/// <param name="hwnd" />handler de la ventana actual
+/// <param name="info" />informacion auxiliar para el proceso
+/// <returns>false si encuentra la ventana, true sino</returns>
+private static bool \_GetProcessWindowHandler(IntPtr hwnd, AuxInfo info) 
+{
+	int processID;
+	GetWindowThreadProcessId(hwnd, out processID);
+	if (processID == info.processID)
+	{
+	    info.handler = hwnd;
+	    return false;
+	}
+	else
+	{
+	    info.handler = IntPtr.Zero;
+	    return true;
+	}
+}
+```
 
 Estando ya definida mi función de callback entonces llamaré a
 EnumWindows y crearé con ella una función **GetProcessWindowHandler**,
@@ -163,60 +163,60 @@ de callback (GetProcessWindowHandler), basta con preguntar si el handler
 es válido y para la segunda se debe determinar si la ventana de dicho
 proceso ya ha sido mostrada lo cual lo hacemos con **IsWindowVisible**:
 
-
-    /// <summary>
-    /// Indica si una ventana es o no visible
-    /// </summary>
-    /// <param name="hWnd" />handler de la ventana
-    /// <returns>Indicador de si la ventana es o no
-    visible</returns>
-    [DllImport("user32.dll")] private static extern bool
-    IsWindowVisible(IntPtr hWnd);
+```csharp
+/// <summary>
+/// Indica si una ventana es o no visible
+/// </summary>
+/// <param name="hWnd" />handler de la ventana
+/// <returns>Indicador de si la ventana es o no visible</returns>
+[DllImport("user32.dll")] private static extern bool
+IsWindowVisible(IntPtr hWnd);
+```
 
 Así que la función internamente debe tener un proceso iterativo para
 poder hallar el handler
 
-
-    /// <summary>
-    /// Devuelve el handler de la ventana asociada al proceso
-    /// </summary>
-    /// <param name="pid" />Id del proceso
-    /// <returns>handler de la ventana</returns>
-    public static IntPtr GetProcessWindowHandler(int pid)
-    {
-        //Delegado con el proceso auxiliar de búsqueda
-        EnumWindowsProc getHandlerVentana = new
-        EnumWindowsProc(_GetProcessWindowHandler);
-        //Informacion auxiliar
-        AuxInfo informacion = new AuxInfo();
-        informacion.processID = pid;
-        /*Repetir bucle hasta que esté presente la ventana del proceso
-        *(puede que la enumeración se realice y Windows aún no haya creado
-        *la primera ventana del proceso o bien no la haya hecho visible,
-        *por lo cual se debe repetir el bucle hasta encontrarla)*/
-        do
-        {
-            /*Enumerar las ventanas buscando la que coincida con *el id de
-            proceso contenido en informacion */
-            EnumWindows(getHandlerVentana, informacion);
-        }
-        while (informacion.handler == IntPtr.Zero || !IsWindowVisible
-        (informacion.handler));
-        return informacion.handler;
-    }
+```csharp
+/// <summary>
+/// Devuelve el handler de la ventana asociada al proceso
+/// </summary>
+/// <param name="pid" />Id del proceso
+/// <returns>handler de la ventana</returns>
+public static IntPtr GetProcessWindowHandler(int pid)
+{
+	//Delegado con el proceso auxiliar de búsqueda
+	EnumWindowsProc getHandlerVentana = new
+	EnumWindowsProc(_GetProcessWindowHandler);
+	//Informacion auxiliar
+	AuxInfo informacion = new AuxInfo();
+	informacion.processID = pid;
+	/*Repetir bucle hasta que esté presente la ventana del proceso
+	*(puede que la enumeración se realice y Windows aún no haya creado
+	*la primera ventana del proceso o bien no la haya hecho visible,
+	*por lo cual se debe repetir el bucle hasta encontrarla)*/
+	do
+	{
+	    /*Enumerar las ventanas buscando la que coincida con *el id de
+	    proceso contenido en informacion */
+	    EnumWindows(getHandlerVentana, informacion);
+	}
+	while (informacion.handler == IntPtr.Zero || !IsWindowVisible
+	(informacion.handler));
+	return informacion.handler;
+}
+```
 
 Bien, he encapsulado la funcionalidad en la clase Win32APITools y el
 método GetProcessWindowHandler es el único método expuesto, asi que la
 implementación completa queda así:
 
-
+```csharp
     using System;
     using System.Runtime.InteropServices;
 
     class Win32APITools
     {
-    /// <summary>Almacena el ID de proceso y el handler de una
-    ventana</summary>
+    /// <summary>Almacena el ID de proceso y el handler de una    ventana</summary>
     private class AuxInfo
     {
         public int processID;
@@ -227,56 +227,46 @@ implementación completa queda así:
     /// Delegado para hacer de callback
     /// </summary>
     /// <param name="hwnd" />handler de la ventana
-    /// <param name="lParam" />paramétro con la informacion
-    necesaria para el proceso
+    /// <param name="lParam" />paramétro con la informacion necesaria para el proceso
     /// <returns>Valor de retorno del proceso</returns>
     private delegate bool EnumWindowsProc(IntPtr hwnd, AuxInfo lParam);
 
     /// <summary>
     /// Recorre las ventanas y ejecuta un proceso para cada una de ellas
     /// </summary>
-    /// <param name="lpEnumFunc" />Delegado con el proceso a
-    utilizar para cada ventana
-    /// <param name="lParam" />paramétro con la informacion
-    necesaria para el proceso
-    /// <returns>Retorna true si se recorren todas las ventanas,
-    de lo contrario false o segun determine el usuario a través del
-    callback</returns>
+    /// <param name="lpEnumFunc" />Delegado con el proceso a utilizar para cada ventana
+    /// <param name="lParam" />paramétro con la informacion necesaria para el proceso
+    /// <returns>Retorna true si se recorren todas las ventanas, de lo contrario false o segun determine el usuario a través del callback
+    </returns>
     [DllImport("user32.dll")]
     private static extern bool EnumWindows(EnumWindowsProc lpEnumFunc,
     AuxInfo lParam);
 
     /// <summary>
-    /// Devuelve el ID del proceso al que pertenece el hilo de la
-    ventana
+    /// Devuelve el ID del proceso al que pertenece el hilo de la ventana
     /// </summary>
     /// <param name="hwnd" />handler de la ventana
-    /// <param name="lpdwProcessId" />ID del proceso (parámetro
-    de salida)
+    /// <param name="lpdwProcessId" />ID del proceso (parámetro de salida)
     /// <returns>ID del Thread que creó la ventana</returns>
     [DllImport("user32.dll")]
-    private static extern uint GetWindowThreadProcessId(IntPtr hwnd, out
-    int lpdwProcessId);
+    private static extern uint GetWindowThreadProcessId(IntPtr hwnd, out int lpdwProcessId);
 
     /// <summary>
     /// Indica si una ventana es o no visible
     /// </summary>
     /// <param name="hWnd" />handler de la ventana
-    /// <returns>Indicador de si la ventana es o no
-    visible</returns>
+    /// <returns>Indicador de si la ventana es o no visible</returns>
     [DllImport("user32.dll")]
     private static extern bool IsWindowVisible(IntPtr hWnd);
 
     /// <summary>
     /// Obtiene el handler de la ventana asociada a un proceso
-    /// Este procedimiento es solo de utileria para usarse con
-    EnumWindows
-    /// y no deberia ser invocado directamente
+    /// Este procedimiento es solo de utileria para usarse con EnumWindows
+    /// y no deberia ser invocado directamente 
     /// </summary>
     /// <param name="hwnd" />handler de la ventana actual
     /// <param name="info" />informacion auxiliar para el proceso
-    /// <returns>false si encuentra la ventana, true
-    sino</returns>
+    /// <returns>false si encuentra la ventana, true sino</returns>
     private static bool _GetProcessWindowHandler(IntPtr hwnd,
     AuxInfo info)
     {
@@ -318,16 +308,16 @@ implementación completa queda así:
             *el id de proceso contenido en informacion */
             EnumWindows(getHandlerVentana, informacion);
         } while (informacion.handler == IntPtr.Zero ||
-        !IsWindowVisible(informacion.handler));
+                 !IsWindowVisible(informacion.handler));
 
         return informacion.handler;
         }
-
     }
+```
 
 Y este es un ejemplo de uso:
 
-
+```csharp
     using System;
     using System.Diagnostics;
 
@@ -347,5 +337,6 @@ Y este es un ejemplo de uso:
             }
         }
     }
+```
 
 Hasta Pronto.

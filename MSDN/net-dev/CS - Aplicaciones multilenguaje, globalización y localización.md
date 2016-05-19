@@ -19,22 +19,23 @@
 
 
 # C\# – Aplicaciones multilenguaje, globalización y localización
-
-
-![](./img/CS - Aplicaciones multilenguaje, globalización y localización/image1.PNG)
+![Juan Carlos Ruiz ](http://gravatar.com/avatar/2c36e6ebd9b4d33c3e9a0362607b3e57?s=150)
 <!-- -->
 
+Por Juan Carlos Ruiz Pacheco, **Microsoft Senior Technology Evangelist**
 
-
-Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
-
-  Twitter   | <https://twitter.com/JuanKRuiz>
+  Network   | Url
   ----------|----------------------------------------
-  Facebook  | <https://www.facebook.com/JuanKDev>
-  LinkdIn   | <http://www.linkedin.com/in/juankruiz>
-  Blog      | <http://juank.io>
+  Twitter   | https://twitter.com/JuanKRuiz
+  Facebook  | https://www.facebook.com/JuanKDev
+  LinkdIn   | http://www.linkedin.com/in/juankruiz
+  Blog      | https://juank.io
 
 
+
+>**Recuerda que** <br/>
+>Puedes ver el artículo original en: 
+> [C# – Aplicaciones multilenguaje, globalización y localización](https://juank.io/c-aplicaciones-multilenguaje-globalizacion-localizacion/)
 
 Continuamente en mis conferencias y de paso por los foros a través de
 internet encuentro multitud de dudas e inquietudes al respecto de Cómo
@@ -102,25 +103,18 @@ con el siguiente código:
 
 C\#
 
-<!-- -->
+```csharp
 
     private void AplicarIdioma()
-
     {
-
-    button1.Text = StringResources.ButtonLabel1;
-
-    button2.Text = StringResources.ButtonLabel2;
-
-    button3.Text = StringResources.ButtonLabel3;
-
-    button4.Text = StringResources.ButtonLabel4;
-
-    button5.Text = StringResources.ButtonLabel5;
-
-    this.Text = StringResources.WindowTitle;
-
+	button1.Text = StringResources.ButtonLabel1;
+	button2.Text = StringResources.ButtonLabel2;
+	button3.Text = StringResources.ButtonLabel3;
+	button4.Text = StringResources.ButtonLabel4;
+	button5.Text = StringResources.ButtonLabel5;
+	this.Text = StringResources.WindowTitle;
     }
+```
 
 Y lo llamamos desde el Form\_Load, ejecutamos la aplicación y obtenemos
 esto, es decir los label de los botones ahora son los que establecimos
@@ -156,19 +150,14 @@ la **CurrentUICulture** de la aplicación:
 
 C\#
 
-<!-- -->
-
-    private void listBox1\_SelectedIndexChanged(object sender,
-    EventArgs e)
-
+```csharp
+    private void listBox1\_SelectedIndexChanged(object sender, EventArgs e)
     {
-
-    Thread.CurrentThread.CurrentUICulture = new
-    CultureInfo((string)listBox1.SelectedItem);
-
-    AplicarIdioma();
-
+      Thread.CurrentThread.CurrentUICulture = new
+      CultureInfo((string)listBox1.SelectedItem);
+      AplicarIdioma();
     }
+```
 
 Lo que hemos hecho es que cada vez que se de clic en uno de los miembros
 de la lista se cambie la cultura de la interfaz de usuario del hilo
