@@ -1,4 +1,4 @@
-﻿#[C# - Conseguir un Handler a la Ventana de un Proceso](CS- Conseguir un Handler a la Ventana de un Proceso.md)
+#[C# - Conseguir un Handler a la Ventana de un Proceso](CS - Conseguir un Handler a la Ventana de un Proceso.md)
 #[C# - Cómo encontrar los archivos pst de outlook](CS - Cómo encontrar los archivos pst de outlook.md)
 #[C# - ¿Cómo hackear un MessageBox y personalizar los textos en los botones? - Forms](CS - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms.md)
 #[C# - ¿Cómo obtener el SID de un usuario local\?](CS - Cómo obtener el SID de un usuario local.md)
