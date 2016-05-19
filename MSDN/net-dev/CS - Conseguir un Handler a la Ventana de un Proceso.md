@@ -51,8 +51,7 @@ algunas funciones de la API, capaz de contener tanto el id del proceso
 como el handler de la ventana.
 
 ```csharp
-/// <summary>Almacena el ID de proceso y el handler de una
-ventana</summary>
+/// <summary>Almacena el ID de proceso y el handler de una ventana</summary>
 private class AuxInfo
 {
    public int processID; public IntPtr handler;
@@ -88,8 +87,7 @@ Y acá la definición de EnumWindows
 /// </summary>
 /// <param name="lpEnumFunc" />Delegado con el proceso a utilizar para cada ventana 
 /// <param name="lParam"/>paramétro con la informacion necesaria para el proceso 
-///
-<returns>Retorna true si se recorren todas las ventanas, de lo contrario false o segun determine el usuario a través del callback
+/// <returns>Retorna true si se recorren todas las ventanas, de lo contrario false o segun determine el usuario a través del callback
 </returns>
 [DllImport("user32.dll")] private static extern bool
 EnumWindows(EnumWindowsProc lpEnumFunc, AuxInfo lParam);
