@@ -103,25 +103,18 @@ con el siguiente código:
 
 C\#
 
-<!-- -->
+```csharp
 
     private void AplicarIdioma()
-
     {
-
-    button1.Text = StringResources.ButtonLabel1;
-
-    button2.Text = StringResources.ButtonLabel2;
-
-    button3.Text = StringResources.ButtonLabel3;
-
-    button4.Text = StringResources.ButtonLabel4;
-
-    button5.Text = StringResources.ButtonLabel5;
-
-    this.Text = StringResources.WindowTitle;
-
+	button1.Text = StringResources.ButtonLabel1;
+	button2.Text = StringResources.ButtonLabel2;
+	button3.Text = StringResources.ButtonLabel3;
+	button4.Text = StringResources.ButtonLabel4;
+	button5.Text = StringResources.ButtonLabel5;
+	this.Text = StringResources.WindowTitle;
     }
+```
 
 Y lo llamamos desde el Form\_Load, ejecutamos la aplicación y obtenemos
 esto, es decir los label de los botones ahora son los que establecimos
@@ -157,19 +150,14 @@ la **CurrentUICulture** de la aplicación:
 
 C\#
 
-<!-- -->
-
-    private void listBox1\_SelectedIndexChanged(object sender,
-    EventArgs e)
-
+```csharp
+    private void listBox1\_SelectedIndexChanged(object sender, EventArgs e)
     {
-
-    Thread.CurrentThread.CurrentUICulture = new
-    CultureInfo((string)listBox1.SelectedItem);
-
-    AplicarIdioma();
-
+      Thread.CurrentThread.CurrentUICulture = new
+      CultureInfo((string)listBox1.SelectedItem);
+      AplicarIdioma();
     }
+```
 
 Lo que hemos hecho es que cada vez que se de clic en uno de los miembros
 de la lista se cambie la cultura de la interfaz de usuario del hilo
