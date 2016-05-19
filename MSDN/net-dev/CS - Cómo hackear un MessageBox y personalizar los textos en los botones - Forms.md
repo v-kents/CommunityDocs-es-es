@@ -19,7 +19,7 @@
 
 # C\# - ¿Cómo hackear un MessageBox y personalizar los textos en los botones? - Forms
 
-![](./img/C# - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image1.PNG)
+![](./img/CS - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image1.PNG)
 
 Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
 
@@ -37,7 +37,7 @@ en el lenguaje del Framework instalado.
 Puede que nuestra aplicación este en español pero probablemente nuestros
 MessageBox siempre salgan con los labels de los botones en ingles:
 
-![](./img/C# - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image2.png)
+![](./img/CS - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image2.png)
 
 Además no siempre los labels de los botones tienen textos convenientes
 para nuestras aplicaciones.
@@ -145,7 +145,7 @@ Diseño
 Tenemos una única clase, utilicemos algo sencillo que ilustre el proceso
 de manera general, con esto bastará.
 
-![](./img/C# - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image3.png)
+![](./img/CS - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image3.png)
 
 Iniciaremos el proceso con **EnumThreadWindows** al cual le
 pasaremos un delegado que internamente revisará cada ventana
@@ -340,7 +340,7 @@ Ejemplo de uso
     MessageBoxButtons.AbortRetryIgnore);
 
 
-![](./img/C# - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image4.png)
+![](./img/CS - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image4.png)
 
 Descárgalo
 ----------
@@ -365,13 +365,13 @@ para obtener el **ClassName** de un MessageBox.
 
 *  Ahora en Spy++ presionaremos esta tecla (círculo irregular negro)
 
-![](./img/C# - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image5.png)
+![](./img/CS - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image5.png)
 
 *  Esto hace que se despliegue el siguiente dialogo:
 
 <!-- -->
 
-![](./img/C# - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image6.png)
+![](./img/CS - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image6.png)
 
 
 * Allí damos click sostenido en la figura señalada en rojo y la
@@ -384,6 +384,6 @@ para obtener el **ClassName** de un MessageBox.
 
 <!-- -->
 
-![](./img/C# - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image7.PNG)
+![](./img/CS - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image7.PNG)
 
 ¿Cómo estuvo? ;)

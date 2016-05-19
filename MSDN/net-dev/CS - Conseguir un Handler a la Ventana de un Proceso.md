@@ -21,7 +21,7 @@
 
 
 
-![](./img/C# - Conseguir un Handler a la Ventana de un Proceso/image1.PNG)
+![](./img/CS - Conseguir un Handler a la Ventana de un Proceso/image1.PNG)
 
 Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
 

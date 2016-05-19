@@ -19,7 +19,7 @@
 
 # C\# - Diferencia entre usar Convert y usar cast analizada usando un decompiler
 
-![](./img/C# - Diferencia entre usar Convert y usar cast analizada usando un decompiler/image1.PNG)
+![](./img/CS - Diferencia entre usar Convert y usar cast analizada usando un decompiler/image1.PNG)
 
 Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
 
@@ -37,7 +37,7 @@ de procesamiento, veamos dos ejemplos que he explicado **después de
 analizar los ensamblados del .Net Framework** para revisar su
 funcionamiento interno...
 
-![](./img/C# - Diferencia entre usar Convert y usar cast analizada usando un decompiler/image2.png)
+![](./img/CS - Diferencia entre usar Convert y usar cast analizada usando un decompiler/image2.png)
 
 
 CONVERTIR DE TIPO DECIMAL A TIPO INT

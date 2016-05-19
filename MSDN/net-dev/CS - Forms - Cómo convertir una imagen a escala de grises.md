@@ -20,7 +20,7 @@
 
 # C\# - Forms - Cómo convertir una imagen a escala de grises
 
-![](./img/C# - Forms - Cómo convertir una imagen a escala de grises/image1.PNG)
+![](./img/CS - Forms - Cómo convertir una imagen a escala de grises/image1.PNG)
 
 Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
 
@@ -93,7 +93,7 @@ continuación:
         pictureBox1.Image = imagen;
     }
 
-![](./img/C# - Forms - Cómo convertir una imagen a escala de grises/image2.png)
+![](./img/CS - Forms - Cómo convertir una imagen a escala de grises/image2.png)
     
 
 Ahora lo que haremos es crear una función que reciba como parámetro un
@@ -328,7 +328,7 @@ destino, y desbloquear ambos bitmaps:
         pictureBox2.Image = CreateGrayScaleBitmap(imagen);
     }
 
-![](./img/C# - Forms - Cómo convertir una imagen a escala de grises/image3.png)
+![](./img/CS - Forms - Cómo convertir una imagen a escala de grises/image3.png)
     
 
 !Eso es todo!

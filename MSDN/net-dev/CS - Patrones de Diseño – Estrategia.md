@@ -19,7 +19,7 @@
 
 # C\# - Inyección de Dependencias
 
-![](./img/C# - Patrones de Diseño – Estrategia/image1.PNG)
+![](./img/CS - Patrones de Diseño – Estrategia/image1.PNG)
 
 
 Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
@@ -56,7 +56,7 @@ Disparar
 
 Desde luego hay muchas más pero esas serán suficientes para el ejemplo.
 
-![](./img/C# - Patrones de Diseño – Estrategia/image2.PNG)
+![](./img/CS - Patrones de Diseño – Estrategia/image2.PNG)
     
 
 Iniciemos con el análisis, en primera instancia revisemos la
@@ -78,7 +78,7 @@ Existen inicialmente 3 implementaciones de Robot
 
 Este es nuestro diagrama de clases:
 
-![](./img/C# - Patrones de Diseño – Estrategia/image3.PNG)
+![](./img/CS - Patrones de Diseño – Estrategia/image3.PNG)
     
 
 Y estas su implementación en código:
@@ -180,7 +180,7 @@ Robot.
 Esto nos permitirá tener Robots que Camine, Disparen, que no hagan nada
 o que solo hagan una de las dos cosas.
 
-![](./img/C# - Patrones de Diseño – Estrategia/image4.PNG)
+![](./img/CS - Patrones de Diseño – Estrategia/image4.PNG)
     
 
 Y esta es la implementación...ligeramente más compleja
@@ -306,7 +306,7 @@ es la parte más bella
 Este es el diagrama de clases de nuestros comportamientos, y abajo la
 implementación de los Robots
 
-![](./img/C# - Patrones de Diseño – Estrategia/image5.PNG)
+![](./img/CS - Patrones de Diseño – Estrategia/image5.PNG)
     
 
 Ahora veamos el código para los comportamientos
@@ -507,7 +507,7 @@ Te desafío a igualar esto con herencia ;)
 
 YEEEEEEEEEEEEAHHHHHHHH
 
-![](./img/C# - Patrones de Diseño – Estrategia/image6.png)
+![](./img/CS - Patrones de Diseño – Estrategia/image6.png)
     
 
 En este último ejemplo hemos utilizado la clase

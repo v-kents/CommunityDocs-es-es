@@ -19,7 +19,7 @@
 
 # C\# - Forms - El extraño caso de la ventana sin borde que no se deja maximizar ni minimizar
 
-![](./img/C# - Forms - El extraño caso de la ventana sin borde que no se deja maximizar ni minimizar/image1.PNG)
+![](./img/CS - Forms - El extraño caso de la ventana sin borde que no se deja maximizar ni minimizar/image1.PNG)
 
 Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
 

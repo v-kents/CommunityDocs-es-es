@@ -19,7 +19,7 @@
 
 # C\# - Inyección de Dependencias
 
-![](./img/C# - Inyección de Dependencias/image1.PNG)
+![](./img/CS - Inyección de Dependencias/image1.PNG)
 
 Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
 
@@ -55,7 +55,7 @@ personaje que es un robot, este robot puede realizar acciones de
 diferentes maneras, por lo cual su cabeza puede ser conectada a
 infinidad de cuerpos distintos.
 
-![](./img/C# - Inyección de Dependencias/image2.png)
+![](./img/CS - Inyección de Dependencias/image2.png)
 
 Las soluciones tradicionales desde el punto de vista de POO son
 diversas, ejemplo:

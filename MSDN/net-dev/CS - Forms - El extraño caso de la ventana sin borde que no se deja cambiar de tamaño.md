@@ -17,10 +17,10 @@
 	ms.author="andygonusa"/>
 
 
-# C\# - Forms – El extraño caso de la ventana sin borde que no se deja cambiar de tamaño
+# C\# - Forms - El extraño caso de la ventana sin borde que no se deja cambiar de tamaño
 
 
-![](./img/C# - Forms – El extraño caso de la ventana sin borde que no se deja cambiar de tamaño/image1.PNG)
+![](./img/CS - Forms - El extraño caso de la ventana sin borde que no se deja cambiar de tamaño/image1.PNG)
     
 
 Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
@@ -64,7 +64,7 @@ tamaño, aunque no es del todo una ventana sin bordes, es decir no tiene
 header con barra de titulo ni botones de cerrar, minimizar etc. pero
 borde de que tiene tiene.
 
-![](./img/C# - Forms – El extraño caso de la ventana sin borde que no se deja cambiar de tamaño/image2.png)
+![](./img/CS - Forms - El extraño caso de la ventana sin borde que no se deja cambiar de tamaño/image2.png)
 
 
 La solución más fácil y obvia es "quitemos el borde" esto lo podemos
@@ -148,7 +148,7 @@ SizeGrip.
 
 Ejecutamos nuestra Form y se ve así:
 
-![](./img/C# - Forms – El extraño caso de la ventana sin borde que no se deja cambiar de tamaño/image3.png)
+![](./img/CS - Forms - El extraño caso de la ventana sin borde que no se deja cambiar de tamaño/image3.png)
 
 
 Hacer que el SizeGrip sirva para algo

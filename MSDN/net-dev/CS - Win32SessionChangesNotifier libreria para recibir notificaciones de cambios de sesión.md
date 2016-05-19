@@ -19,7 +19,7 @@
 
 # C\# – Win32SessionChangesNotifier librería para recibir notificaciones de cambios de sesión
 
-![](./img/C# - Win32SessionChangesNotifier libreria para recibir notificaciones de cambios de sesión/image1.PNG)
+![](./img/CS - Win32SessionChangesNotifier libreria para recibir notificaciones de cambios de sesión/image1.PNG)
 
 
 Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**

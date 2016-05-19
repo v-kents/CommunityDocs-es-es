@@ -21,7 +21,7 @@
 
 Por Walter Novoa, **Microsoft Developer Evangelist**
 
-![](./img/C++  Ansi Unicode/image1.PNG)
+![](./img/Cpp  Ansi Unicode/image1.PNG)
 
 Twitter: @warnov
 
@@ -94,7 +94,7 @@ Para el main, este comodín es \_tmain. Ya con esto, no tenemos que estar
 modificando todo nuestro código, sino solamente especificar el tipo de
 encoding en las propiedades del proyecto:
 
-![](./img/C++  Ansi Unicode/image2.png)
+![](./img/Cpp  Ansi Unicode/image2.png)
     
 
 En Not Set, se usará Ansi por defecto.

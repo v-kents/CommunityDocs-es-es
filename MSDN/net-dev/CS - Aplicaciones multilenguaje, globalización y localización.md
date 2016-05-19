@@ -21,7 +21,7 @@
 # C\# – Aplicaciones multilenguaje, globalización y localización
 
 
-![](./img/C# – Aplicaciones multilenguaje, globalización y localización/image1.PNG)
+![](./img/CS - Aplicaciones multilenguaje, globalización y localización/image1.PNG)
 <!-- -->
 
 
@@ -68,7 +68,7 @@ Preparar la aplicacion
 Lo primero que debemos hacer es crear una aplicación de Windows Forms
 con 1 ListBox y 5 Botones como se ven la siguiente imagen.
 
-![](./img/C# – Aplicaciones multilenguaje, globalización y localización/image2.png)
+![](./img/CS - Aplicaciones multilenguaje, globalización y localización/image2.png)
 
 Para fines de este ejemplo con excepción de los textos del listbox
 ninguno de los textos es obligatorio.
@@ -76,7 +76,7 @@ ninguno de los textos es obligatorio.
 Ahora, dentro de la solución, creamos una carpeta la cual llamaremos
 "Recursos Localizables", justo como se ve a continuación.
 
-![](./img/C# – Aplicaciones multilenguaje, globalización y localización/image3.png)
+![](./img/CS - Aplicaciones multilenguaje, globalización y localización/image3.png)
 
 Ahora creamos un nuevo archivo de recursos y lo llamaremos
 **StringResources**, debemos crearlo junto dentro de la carpeta
@@ -89,7 +89,7 @@ Utilizaremos ese archivo de recursos para guardar las cadenas en el
 idioma principal (por defecto) de nuestra aplicación, así que le damos
 doble clic y adicionamos los valores que se ven en la siguiente imagen.
 
-![](./img/C# – Aplicaciones multilenguaje, globalización y localización/image4.png)
+![](./img/CS - Aplicaciones multilenguaje, globalización y localización/image4.png)
 
 Para efectos del ejemplo **es importante hacerlo con los valores que
 ven**.
@@ -126,7 +126,7 @@ Y lo llamamos desde el Form\_Load, ejecutamos la aplicación y obtenemos
 esto, es decir los label de los botones ahora son los que establecimos
 en el archivo de recursos.
 
-![](./img/C# – Aplicaciones multilenguaje, globalización y localización/image5.png)
+![](./img/CS - Aplicaciones multilenguaje, globalización y localización/image5.png)
 
 Soportar múltiples lenguajes con los archivos de recursos
 ---------------------------------------------------------
@@ -138,17 +138,17 @@ En la carpeta **"Recursos Localizables"** creamos 3 copias del archivo
 de recursos original, nos aseguramos de que cada una de ellas quede con
 los siguientes nombres **(IMPORTANTE)**.
 
-![](./img/C# – Aplicaciones multilenguaje, globalización y localización/image6.png)
+![](./img/CS - Aplicaciones multilenguaje, globalización y localización/image6.png)
 
 Ahora editamos cada uno de ellos dejándolos con los textos que se ven a
 continuación (pueden ayudarse de traductores online para obtener los
 caracteres en japonés).
 
-![](./img/C# – Aplicaciones multilenguaje, globalización y localización/image7.png)
+![](./img/CS - Aplicaciones multilenguaje, globalización y localización/image7.png)
 
-![](./img/C# – Aplicaciones multilenguaje, globalización y localización/image8.png)
+![](./img/CS - Aplicaciones multilenguaje, globalización y localización/image8.png)
 
-![](./img/C# – Aplicaciones multilenguaje, globalización y localización/image9.png)
+![](./img/CS - Aplicaciones multilenguaje, globalización y localización/image9.png)
 
 Una vez hecho esto procedemos a modificar el evento
 **SelectedIndexChanged** del ListBox adicionando la lógica para cambiar
@@ -197,11 +197,11 @@ archivo de recursos que no tiene cultura específica.
 Ejecutamos la aplicación, damos clic en cada uno de los ítems del
 listbox y podemos ver esto:
 
-![](./img/C# – Aplicaciones multilenguaje, globalización y localización/image10.PNG)
+![](./img/CS - Aplicaciones multilenguaje, globalización y localización/image10.PNG)
 
 Así se ve en Windows 8
 
-![](./img/C# – Aplicaciones multilenguaje, globalización y localización/image11.png)
+![](./img/CS - Aplicaciones multilenguaje, globalización y localización/image11.png)
 
 Aislar los archivos de recursos para facilitar la actualización
 ---------------------------------------------------------------
@@ -219,7 +219,7 @@ Para que esto funcione, en el proyecto de la librería que utilicen para
 tal fin, recuerden establecer en cada archivo de recursos el modificador
 de acceso en public como lo muestra esta imagen.
 
-![](./img/C# – Aplicaciones multilenguaje, globalización y localización/image12.png)
+![](./img/CS - Aplicaciones multilenguaje, globalización y localización/image12.png)
 
 Lecturas recomendadas
 ---------------------

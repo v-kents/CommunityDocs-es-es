@@ -20,7 +20,7 @@
 
 # C\# - ¿Cómo encontrar los archivos pst de Outlook?
 
-![](/img/C# - Cómo encontrar los archivos pst de outlook/image1.PNG)
+![](/img/CS - Cómo encontrar los archivos pst de outlook/image1.PNG)
 
 Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
 
@@ -42,7 +42,7 @@ para usar con el framework.
 El componente COM a que debemos acceder es (o equivalente de acuerdo a
 la versión de office instalada):
 
-![](/img/C# - Cómo encontrar los archivos pst de outlook/image2.png)
+![](/img/CS - Cómo encontrar los archivos pst de outlook/image2.png)
     
 
 Como buena práctica resulta importante colocarle un alias al namespace,

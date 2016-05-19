@@ -20,7 +20,7 @@
 # C\# - ¿Cómo obtener el SID de un usuario local?
 
 
-![](./img/C# - Cómo obtener el SID de un usuario local/image1.PNG)
+![](./img/CS - Cómo obtener el SID de un usuario local/image1.PNG)
 
 
 Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
