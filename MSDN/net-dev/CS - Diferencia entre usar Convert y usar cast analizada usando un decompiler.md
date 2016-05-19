@@ -54,7 +54,7 @@ CONVERTIR DE TIPO DECIMAL A TIPO INT
 
 #### UTILIZANDO CAST
 
-`[ int a = (int)123.33m ]`
+` int a = (int)123.33m `
 
 El runtime lo que hará es simplemente tomar la parte entera del número
 descartando completamente la parte decimal.
@@ -98,7 +98,7 @@ CONVERTIR DE TIPO FLOAT A TIPO INT
 
 #### UTILIZANDO CAST
 
-`[ int a = (int)123.33f ]`
+` int a = (int)123.33f `
 
 El runtime lo que hará es simplemente tomar la parte entera del número
 descartando completamente la parte decimal.
