@@ -19,15 +19,24 @@
 
 # C\# - ¿Cómo hackear un MessageBox y personalizar los textos en los botones? - Forms
 
-![](./img/CS - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image1.PNG)
+![Juan Carlos Ruiz ](http://gravatar.com/avatar/2c36e6ebd9b4d33c3e9a0362607b3e57?s=150)
+<!-- -->
 
-Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
+Por Juan Carlos Ruiz Pacheco, **Microsoft Senior Technology Evangelist**
 
-  Twitter   | <https://twitter.com/JuanKRuiz>
-  ----------| ----------------------------------------
-  Facebook  | <https://www.facebook.com/JuanKDev>
-  LinkdIn   | <http://www.linkedin.com/in/juankruiz>
-  Blog      | <http://juank.io>
+  Network   | Url
+  ----------|----------------------------------------
+  Twitter   | https://twitter.com/JuanKRuiz
+  Facebook  | https://www.facebook.com/JuanKDev
+  LinkdIn   | http://www.linkedin.com/in/juankruiz
+  Blog      | https://juank.io
+
+
+
+>**Recuerda que** <br/>
+>Puedes ver el artículo original en: 
+> [C# - Cómo hackear un MessageBox y personalizar los textos en los botones? - Forms](https://juank.io/c-como-hackear-messagebox-personalizar-textos-botones-forms/)
+
 
 Por razones que aún no me son del todo claras, el .NET Framework no
 tiene textos localizables para los MessageBox, razón por la cual no
@@ -52,23 +61,18 @@ He creado una utilidad que te ahorrará mucho trabajo y podrás cambiar
 los textos de los botones de manera muy sencilla tal como te lo muestra
 el siguiente ejemplo:
 
-    MsgBoxUtil.HackMessageBox("SI","NO", "CANCELAR");
+```csharp
+MsgBoxUtil.HackMessageBox("SI","NO", "CANCELAR");
+MessageBox.Show("hola", "hola", MessageBoxButtons.YesNoCancel);
 
-    MessageBox.Show("hola", "hola", MessageBoxButtons.YesNoCancel);
-
-    MsgBoxUtil.HackMessageBox("REINTENTAR", "CANCELAR");
-
-    MessageBox.Show("hola2", "hola2", MessageBoxButtons.RetryCancel);
-
-    MsgBoxUtil.HackMessageBox("Descartar", "Reintentar", "Ignorar");
-
-    MessageBox.Show("hola3", "hola3",
-    MessageBoxButtons.AbortRetryIgnore);
-
-    MsgBoxUtil.UnHackMessageBox();
-
-    MessageBox.Show("Normal", "Normal",
-    MessageBoxButtons.AbortRetryIgnore);
+MsgBoxUtil.HackMessageBox("REINTENTAR", "CANCELAR");
+MessageBox.Show("hola2", "hola2", MessageBoxButtons.RetryCancel);
+MsgBoxUtil.HackMessageBox("Descartar", "Reintentar", "Ignorar");
+MessageBox.Show("hola3", "hola3",MessageBoxButtons.AbortRetryIgnore);
+MsgBoxUtil.UnHackMessageBox();
+MessageBox.Show("Normal", "Normal",
+MessageBoxButtons.AbortRetryIgnore);
+```
 
 Descárgalo
 ----------
@@ -167,29 +171,29 @@ Implementación
 Lo primero que debemos hacer es preparar las funciones a las que
 accederemos a través de interoperabilidad:
 
-
-    public class MsgBoxUtil { #region Interoperabilidad private
-    delegate bool EnumWindowDelegate(IntPtr handler, IntPtr
-    longPointer);
-
-    [DllImport("user32.dll")] private static extern bool
-    SetWindowText(IntPtr handler, string texto);
-
-    [DllImport("user32.dll")] private static extern int
-    GetClassName(IntPtr handler, StringBuilder nombre, int
-    tamañoMaximo);
-
-    [DllImport("user32.dll")] private static extern bool
-    EnumChildWindows(IntPtr handler, EnumWindowDelegate callback, IntPtr
-    longPointer);
-
-    [DllImport("user32.dll")] private static extern bool
-    EnumThreadWindows(int threadID, EnumWindowDelegate callback, IntPtr
-    longPointer);
-
-    [DllImport("kernel32.dll")] private static extern int
-    GetCurrentThreadId(); 
-    #endregion Interoperabilidad }
+```chsarp
+    public class MsgBoxUtil 
+    { 
+	    #region Interoperabilidad private
+	    delegate bool EnumWindowDelegate(IntPtr handler, IntPtr longPointer);
+	
+	    [DllImport("user32.dll")] 
+	    private static extern bool SetWindowText(IntPtr handler, string texto);
+	
+	    [DllImport("user32.dll")] 
+	    private static extern int GetClassName(IntPtr handler, StringBuilder nombre, int tamañoMaximo);
+	
+	    [DllImport("user32.dll")] 
+	    private static extern bool EnumChildWindows(IntPtr handler, EnumWindowDelegate callback, IntPtr longPointer);
+	
+	    [DllImport("user32.dll")] 
+	    private static extern bool  EnumThreadWindows(int threadID, EnumWindowDelegate callback, IntPtr longPointer);
+	
+	    [DllImport("kernel32.dll")] 
+	    private static extern int GetCurrentThreadId(); 
+	    #endregion Interoperabilidad 
+    }
+```
 
 No hay nada nuevo en lo que acabamos de ver, son las funciones que hemos
 mencionado desde el comienzo, es de destacar únicamente
@@ -224,23 +228,23 @@ parámetro es una función **ProcesaMessageBoxEnForms** que se ejecutará
 cada por cada ventana que se enumere, el tercer parámetro no lo
 necesitamos así que será Zero.
 
+```chsarp
+private static string[] textoBotones; private delegate void BuscarMsgBoxDelegate();
 
-    private static string[] textoBotones; private delegate void
-    BuscarMsgBoxDelegate();
+public static void HackMessageBox(params string[] textoBotones)
+{
+	MsgBoxUtil.textoBotones = textoBotones;
+	if (Application.OpenForms.Count > 0)
+		Application.OpenForms[0].BeginInvoke(new
+			BuscarMsgBoxDelegate(BuscaMessageBox));
+}
 
-    public static void HackMessageBox(params string[] textoBotones)
-    {
-    MsgBoxUtil.textoBotones = textoBotones;
-    if (Application.OpenForms.Count > 0)
-    Application.OpenForms[0].BeginInvoke(new
-    BuscarMsgBoxDelegate(BuscaMessageBox));
-    }
-
-    private static void BuscaMessageBox()
-    {
-    EnumThreadWindows(GetCurrentThreadId(), ProcesaMessageBoxEnForms,
-    IntPtr.Zero);
-    }
+private static void BuscaMessageBox()
+{
+	EnumThreadWindows(GetCurrentThreadId(), ProcesaMessageBoxEnForms,
+	IntPtr.Zero);
+}
+```
 
 Accediendo la ventana del MessageBox
 ------------------------------------
@@ -268,29 +272,32 @@ Como ya encontró el MessageBox y realizo el proceso de busqueda de los
 botones se retorna false, de tal forma que EnumThreadWindows no siga
 enumerando ventanas.
 
-    private static int indiceTexto; private const string MBOX_CLASSNAME = "#32770";
+```chsarp
+private static int indiceTexto; private const string MBOX_CLASSNAME = "#32770";
 
-    private const int STRING_BUILDER_CAPACITY = 256;
+private const int STRING_BUILDER_CAPACITY = 256;
 
-    private static bool ProcesaMessageBoxEnForms(IntPtr handler,
-    IntPtr longPointer)
+private static bool ProcesaMessageBoxEnForms(IntPtr handler, IntPtr longPointer)
 
-    {
-        StringBuilder nombreClase = new
-        StringBuilder(STRING\_BUILDER\_CAPACITY);
-        GetClassName(handler, nombreClase, nombreClase.Capacity);
-        if (nombreClase.ToString() != MBOX\_CLASSNAME)
-            return true;
-        else
-        {
-            indiceTexto = 0; EnumChildWindows(handler,
-            CambiaTextoBotonMessageBox, IntPtr.Zero);
-            return false;
-        }
-    }
+{
+	StringBuilder nombreClase = new
+	StringBuilder(STRING_BUILDER_CAPACITY);
+	
+	GetClassName(handler, nombreClase, nombreClase.Capacity);
+	
+	if (nombreClase.ToString() != MBOX\_CLASSNAME)
+	    return true;
+	else
+	{
+	    indiceTexto = 0; EnumChildWindows(handler,
+	    CambiaTextoBotonMessageBox, IntPtr.Zero);
+	    return false;
+	}
+}
+```    
 
 **Te estarás preguntando...
-de dónde salió** MBOX\_CLASSNAME = "\#32770";
+de dónde salió** `MBOX\CLASSNAME = "#32770";`
 
 No te preocupes, si eres de los inquietos que lo quieren saber, al final
 de esté artículo verás como se obtiene.
@@ -314,31 +321,31 @@ se hallan enviado en HackMessageBox como parámetro, a cada uno de los
 botones encontrados se le asigna su cadena de texto en el orden
 correspondiente.
 
+```chsarp
+private const string BUTTON_CLASSNAME = "Button";
 
-    private const string BUTTON\_CLASSNAME = "Button";
-
-    private static bool CambiaTextoBotonMessageBox(IntPtr handler,
-    IntPtr longPointer)
-    {
-        StringBuilder nombreClase = new
-        StringBuilder(STRING\_BUILDER\_CAPACITY);
-        GetClassName(handler, nombreClase, nombreClase.Capacity);
-        if (nombreClase.ToString() == BUTTON\_CLASSNAME && indiceTexto
-        < textoBotones.Length)
-        {
-            SetWindowText(handler, textoBotones[indiceTexto]); indiceTexto++;
-        }
-        return true;
-    }
+private static bool CambiaTextoBotonMessageBox(IntPtr handler, IntPtr longPointer)
+{
+	StringBuilder nombreClase = new
+	StringBuilder(STRING_BUILDER_CAPACITY);
+	GetClassName(handler, nombreClase, nombreClase.Capacity);
+	if (nombreClase.ToString() == BUTTON_CLASSNAME && indiceTexto < textoBotones.Length)
+	{
+	    SetWindowText(handler, textoBotones[indiceTexto]); indiceTexto++;
+	}
+	return true;
+}
+```
 
 Ejemplo de uso
 --------------
 
+```csharp
     MsgBoxUtil.HackMessageBox("Acepto", "Lo Pensare", "Olvidalo");
 
     MessageBox.Show("hola3", "hola3",
     MessageBoxButtons.AbortRetryIgnore);
-
+```
 
 ![](./img/CS - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image4.png)
 
@@ -348,7 +355,7 @@ Descárgalo
 Puedes acceder al código completo en mi Github:
 [MsgBoxUtil.cs](https://gist.github.com/JuanKRuiz/8405233)
 
-De dónde sale MBOX\_CLASSNAME = "\#32770"
+De dónde sale `MBOX_CLASSNAME = "\#32770"`
 -----------------------------------------
 
 Algunos, o espero que todos los que no sepan se estarán haciendo esa
@@ -360,13 +367,9 @@ Studio, no haremos un curso completo de Spy++ pero veremos como usarlo
 para obtener el **ClassName** de un MessageBox.
 
 *  Abrir una aplicación .NET Framework y desplegar un MessageBox
-
 *  Abrir Spy++
-
 *  Ahora en Spy++ presionaremos esta tecla (círculo irregular negro)
-
-![](./img/CS - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image5.png)
-
+	![](./img/CS - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image5.png)
 *  Esto hace que se despliegue el siguiente dialogo:
 
 <!-- -->
@@ -378,12 +381,8 @@ para obtener el **ClassName** de un MessageBox.
     arrastramos hasta la ventana del MessageBox ya abierto, teniendo
     cuidado de no seleccionar los botones u otras figuras, solo el
     marco principal. Soltamos el click y damos OK.
-
 * Se abre un cuadro de dialogo, vamos a la pestaña Class y allí
     esta!!! ClassName = \#32770
-
-<!-- -->
-
-![](./img/CS - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image7.PNG)
+	![](./img/CS - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image7.PNG)
 
 ¿Cómo estuvo? ;)
