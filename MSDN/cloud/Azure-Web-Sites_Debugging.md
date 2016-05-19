@@ -22,8 +22,8 @@
 Por [Julio Cesar Avellaneda](http://mvp.microsoft.com/en-us/MVP/Julio%20Cesar%20Avellaneda-4038198)
 
 Microsoft MVP ASP.NET
-MCT | MCSD | MCTS
 
+MCT | MCSD | MCTS
 Core Group BDotNet
 
 [http://julitogtu.com](http://julitogtu.com/)

@@ -19,13 +19,15 @@
 
 #Azure Web Sites – Escalamiento
 
-Por [Julio Cesar
-Avellaneda](http://mvp.microsoft.com/en-us/MVP/Julio%20Cesar%20Avellaneda-4038198)
+Por [Julio Cesar Avellaneda](http://mvp.microsoft.com/en-us/MVP/Julio%20Cesar%20Avellaneda-4038198)
 
-Microsoft MVP ASP.NET\
-MCT | MCSD | MCTS\
-Core Group BDotNet\
-[http://julitogtu.com](http://julitogtu.com/)\
+Microsoft MVP ASP.NET
+
+MCT | MCSD | MCTS
+Core Group BDotNet
+
+[http://julitogtu.com](http://julitogtu.com/)
+
 [@julito](https://twitter.com/julitogtu)
 
 Hola, en el post anterior hablamos de cómo podemos [integrar un Azure
