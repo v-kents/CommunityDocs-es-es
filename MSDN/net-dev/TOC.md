@@ -23,3 +23,4 @@
 #[Sobre Delegados, Action, Func y Lambda](Sobre Delegados, Action, Func y Lambda.md)
 #[Un vistazo a la función de RegSetValueEx de la API de Windows](Un vistazo a la función de RegSetValueEx de la API de Windows.md)
 #[Utilidad de relaciones 1-1 para optimizar descarga de imágenes desde DBs](Utilidad de relaciones.md)
+
