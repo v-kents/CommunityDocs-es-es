@@ -20,15 +20,23 @@
 
 # C\# - Forms - Cómo convertir una imagen a escala de grises
 
-![](./img/CS - Forms - Cómo convertir una imagen a escala de grises/image1.PNG)
+![Juan Carlos Ruiz ](http://gravatar.com/avatar/2c36e6ebd9b4d33c3e9a0362607b3e57?s=150)
+<!-- -->
 
-Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
+Por Juan Carlos Ruiz Pacheco, **Microsoft Senior Technology Evangelist**
 
-  Twitter   | <https://twitter.com/JuanKRuiz>
-  ----------| ----------------------------------------
-  Facebook  | <https://www.facebook.com/JuanKDev>
-  LinkdIn   | <http://www.linkedin.com/in/juankruiz>
-  Blog      | <http://juank.io>
+  Network   | Url
+  ----------|----------------------------------------
+  Twitter   | https://twitter.com/JuanKRuiz
+  Facebook  | https://www.facebook.com/JuanKDev
+  LinkdIn   | http://www.linkedin.com/in/juankruiz
+  Blog      | https://juank.io
+
+
+>**Recuerda que** <br/>
+>Puedes ver el artículo original en: 
+> [C# - Forms - Cómo convertir una imagen a escala de grises](https://juank.io/c-forms-como-convertir-imagen-escala-grises/)
+
 
 ¿CÓMO CONVERTIR UNA IMAGEN A ESCALA DE GRISES?
 ----------------------------------------------
@@ -65,9 +73,7 @@ iluminación se trata nuestro ojo reconoce los patrones de iluminación en
 color en las siguientes proporciones para cada componente:
 
 * Rojo: 30%
-
 * Verde: 59%
-
 * Azul: 11%
 
 Así que lo más adecuado es calcular el valor de cada componente de color
@@ -87,11 +93,13 @@ Para visualizar un objeto Bitmap basta con usar un PictureBox y a este
 se le asigna la imagen en su atributo Image, tal como lo vemos a
 continuación:
 
+```csharp
     private void Form1\_Load(object sender, EventArgs e)
     {
         Bitmap imagen = new Bitmap("conejo.jpg");
         pictureBox1.Image = imagen;
     }
+```
 
 ![](./img/CS - Forms - Cómo convertir una imagen a escala de grises/image2.png)
     
@@ -100,13 +108,14 @@ Ahora lo que haremos es crear una función que reciba como parámetro un
 objeto Bitmap (o imagen) y devuelva un nuevo Bitmap (o imagen)
 convertido a escala de grises:
 
-
+```csharp
     private Bitmap CreateGrayScaleBitmap(Bitmap source)
     {
         Bitmap target = new Bitmap(source.Width, source.Height, source.PixelFormat);
         
         return target;
     }
+```
 
 PADDING Y STRIDE
 ----------------
@@ -128,7 +137,7 @@ Asi que lo siguiente a realizar es obtener la información de la imagen
 lo cual lo hacemos con el método LockBits, el cual retorna un objeto
 **BitmapData**
 
-
+```csharp
     private Bitmap CreateGrayScaleBitmap(Bitmap source)
     {
         Bitmap target = new Bitmap(source.Width, source.Height,
@@ -137,6 +146,7 @@ lo cual lo hacemos con el método LockBits, el cual retorna un objeto
         
         return target;
     }
+```
 
 Sin embargo BitmapData no nos sirve para recorrer byte por byte la
 información de color, por lo que ahora debemos convertir bmpData a un
@@ -161,7 +171,7 @@ Stride el cual es el ancho en bytes de cada línea de pixeles incluyendo
 el padding, así que nuestra formula para hallar el tamaño del array de
 bytes se reduce a: bmpData.Stride \* alto
 
-
+```csharp
     private Bitmap CreateGrayScaleBitmap(Bitmap source)
     {
         Bitmap target = new Bitmap(source.Width, source.Height,
@@ -172,13 +182,14 @@ bytes se reduce a: bmpData.Stride \* alto
 
         return target;
     }
+```
 
 EL ENGORROSO SISTEMA DE ACCESO A LOS PIXELES
 --------------------------------------------
 
 Ahora utilizando Marshal obtenemos el array de bytes:
 
-
+```csharp
     private Bitmap CreateGrayScaleBitmap(Bitmap source)
     {
         Bitmap target = new Bitmap(source.Width, source.Height,
@@ -191,24 +202,27 @@ Ahora utilizando Marshal obtenemos el array de bytes:
 
         return target;
     }
+```
 
 Como también necesitamos acceder a la información en bytes del bmp de
 destino es necesario repetir las mismas tres operaciones pero en
 LockBits ahora colocamos WriteOnly.
 
-
+```csharp
     private Bitmap CreateGrayScaleBitmap(Bitmap source)
     {
         Bitmap target = new Bitmap(source.Width, source.Height,
-        source.PixelFormat);
-        BitmapData bmpData = source.LockBits(new Rectangle(0, 0, source.Width, source.Height), ImageLockMode.ReadOnly, source.PixelFormat);
+        			source.PixelFormat);
+        BitmapData bmpData = source.LockBits(new Rectangle(0, 0, source.Width, source.Height), I
+        			mageLockMode.ReadOnly, source.PixelFormat);
 
         byte[] targetBytes = new byte[bmpData.Stride * source.Height];
 
         Marshal.Copy(bmpData.Scan0, targetBytes, 0, targetBytes.Length);
 
         BitmapData targetData = target.LockBits(new Rectangle(0, 0,
-        target.Width, target.Height), ImageLockMode.WriteOnly, target.PixelFormat);
+        				target.Width, target.Height), 
+        				ImageLockMode.WriteOnly, target.PixelFormat);
 
         byte[] targetBytes = new byte[targetData.Stride *
         targetData.Height];
@@ -217,14 +231,15 @@ LockBits ahora colocamos WriteOnly.
 
         return target;
     }
-
+```
 Es casi el mismo código, por ello podemos optimizarlo y organizarlo un
 poco así:
 
-
+```csharp
     private byte[] GetImageBytes(Bitmap image, ImageLockMode lockMode, out BitmapData bmpData)
     {
-        bmpData = image.LockBits(new Rectangle(0, 0, image.Width, image.Height), lockMode, image.PixelFormat);
+        bmpData = image.LockBits(new Rectangle(0, 0, image.Width, image.Height), 
+        		lockMode, image.PixelFormat);
 
         byte[] imageBytes = new byte[bmpData.Stride * image.Height];
 
@@ -245,6 +260,7 @@ poco así:
 
         return target;
     }
+```
 
 Ahora se debe recorrer el array de bytes para convertirlo a escala de
 grises, para poder hacerlo necesitamos recorrer el arreglo en saltos de
@@ -255,7 +271,7 @@ En un Bitmap el formato de color viene en BGR (Blue Green Red ) teniendo
 en cuenta esto la implementación para convertir los bytes a escala
 grises queda:
 
-
+```csharp
     private Bitmap CreateGrayScaleBitmap(Bitmap source)
     {
         Bitmap target = new Bitmap(source.Width, source.Height,
@@ -282,11 +298,12 @@ grises queda:
 
         return target;
     }
+```
 
 Finalmente hay que copiar el array de bytes modificado al bitmap de
 destino, y desbloquear ambos bitmaps:
 
-
+```csharp
     private Bitmap CreateGrayScaleBitmap(Bitmap source)
     {
         Bitmap target = new Bitmap(source.Width, source.Height,
@@ -317,16 +334,18 @@ destino, y desbloquear ambos bitmaps:
 
         return target;
     }
+```
 
 ¡Wowfff! finalmente asignamos la imagen al PictureBox:
 
-
+```csharp
     private void Form1_Load(object sender, EventArgs e)
     {
         Bitmap imagen = new Bitmap("conejo.jpg");
         pictureBox1.Image = imagen;
         pictureBox2.Image = CreateGrayScaleBitmap(imagen);
     }
+```
 
 ![](./img/CS - Forms - Cómo convertir una imagen a escala de grises/image3.png)
     
