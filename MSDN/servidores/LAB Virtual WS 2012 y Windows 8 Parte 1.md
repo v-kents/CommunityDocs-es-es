@@ -1,6 +1,6 @@
 <properties
-	pageTitle="LAB Virtual WS 2012 y Windows 8 [Parte 2] – Instalación y Configuración en Windows Server 2012 de los roles: Active Directory, DNS, DHCP"
-	description="LAB Virtual WS 2012 y Windows 8 [Parte 2] – Instalación y Configuración en Windows Server 2012 de los roles: Active Directory, DNS, DHCP"
+	pageTitle="LAB Virtual WS 2012 y Windows 8 [Parte 1] – Creación de la Máquina Virtual y Configuración de Hyper-V en Windows Server 2012"
+	description="LAB Virtual WS 2012 y Windows 8 [Parte 1] – Creación de la Máquina Virtual y Configuración de Hyper-V en Windows Server 2012"
 	services="web-dev"
 	documentationCenter=""
 	authors="andygonusa"
@@ -17,7 +17,7 @@
 	ms.author="andygonusa"/>
 
 
-#LAB Virtual WS 2012 y Windows 8 [Parte 2] – Instalación y Configuración en Windows Server 2012 de los roles: Active Directory, DNS, DHCP
+#LAB Virtual WS 2012 y Windows 8 [Parte 1] – Creación de la Máquina Virtual y Configuración de Hyper-V en Windows Server 2012
 
 Por [Jesús Enrique
 Gonzales](http://mvp.microsoft.com/en-us/mvp/Jesus%20Enrique%20Gonzales%20Azcarate-5000714)
