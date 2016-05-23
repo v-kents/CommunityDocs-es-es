@@ -12,7 +12,7 @@
 #[Clonando DCs de Windows Server 2012](Clonando DC.md)
 
 #[Cómo instalar SQL Server 2012 en Windows Server Core](Como instalar SQL Server 2012 en Windows Server Core.md)
-#[Cómo realizar una instalación de SQL Server 2012 en Windows 2012 Core](Como instalar SQL Server 2012 en Windows Server Core.md)
+#[Cómo realizar una instalación de SQL Server 2012 en Windows 2012 Core](instalacion de SQL Server 2012 en Windows 2012 Core.md)
 #[Paso a Paso - Administración de Lync Online con Powershell](Paso a Paso - Administracion de Lync Online con Powershell.md)
 #[Windows Server 2012 Essentials – Crear carpetas compartidas](Crear carpetas compartidas.md)
 #[Paso a Paso - Integrando Microsoft Exchange 2013 y Microsoft Lync 2013](Paso a Paso - Integrando Exchange 2013 y Lync 2013.md)
