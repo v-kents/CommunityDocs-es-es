@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Generando-paginas-de-ayuda-y-documentacion"
-	description="Generando-paginas-de-ayuda-y-documentacion"
+	pageTitle="[ASP.NET Web API] Generando páginas de ayuda y documentación"
+	description="Generando páginas de ayuda y documentación"
 	services="web-dev"
 	documentationCenter=""
 	authors="andygonusa"
@@ -18,7 +18,7 @@
 
 
 
-#Generando-paginas-de-ayuda-y-documentacion
+#[ASP.NET Web API] Generando páginas de ayuda y documentación
 
 
 Por [Julio Cesar
