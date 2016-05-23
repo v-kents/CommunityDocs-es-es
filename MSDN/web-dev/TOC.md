@@ -29,7 +29,7 @@
 #[Explorando el DOM: Clonación, adición y edición de nodos y elementos](Clonacion-adicion-y-edicionde-nodos-y-elementos.md)
 #[Explorando el DOM: Objeto element. Atributos y su gestión](Objeto-element_Atributos-y-su-gestion.md)
 #[[ASP.NET MVC] Implementando Cache con Azure Cache](Implementando-Cache-con-Azure-Cache.md)
-#[ASP.NET MVC] Implementando autenticación con Azure Active Directory](Implementando-autenticación-con-AAD.md)
+#[[ASP.NET MVC] Implementando autenticación con Azure Active Directory](Implementando-autenticación-con-AAD.md)
 #[[ASP.NET Web API] Personalizando la serialización de los objetos en JSON](Serializacion-de-objetos-en-JSON.md)
 #[[ASP.NET MVC] Soporte para enumeraciones en ASP.NET MVC 5.1](Enumeraciones-en-ASP-NET-MVC 5.1.md)
 #[[ASP.NET MVC] Cargando datos con WebAPI y JSRender](Cargando-datos-con-WebAPI-y-JSRender.md)
