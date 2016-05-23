@@ -26,7 +26,6 @@
 
 [LinkedIn] (https://es.linkedin.com/pub/jaime-peña-tresancos/28/677/696)  
 
-class="anchor"></span>es.linkedin.com/pub/jaime-peña-tresancos/28/677/696
 
 El almacenamiento en local proporcionado por HTML 5, denominado *Local
 Storage*, puede también servirnos como modo de guardado para intercambio

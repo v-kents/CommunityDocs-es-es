@@ -34,7 +34,7 @@ Core Group BDotNet
 [@julito](https://twitter.com/julitogtu)
 
 
-[Descarga el
+>[Descarga el
 código](https://github.com/julitogtu/kendoui/tree/helpers/KendoUIChartMvcWrapper)
 
 Hola a todos, hoy quiero mostrarles como es de sencillo crear un chart

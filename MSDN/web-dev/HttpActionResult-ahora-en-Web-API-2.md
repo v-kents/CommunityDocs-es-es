@@ -1,5 +1,5 @@
 <properties
-	pageTitle="[ASP.NET Web API] HttpActionResult, ahora en Web API 2"
+	pageTitle="[ASP.NET Web API] HTTPActionResult, ahora en Web API 2"
 	description="HttpActionResult, ahora en Web API 2"
 	services="web-dev"
 	documentationCenter=""
@@ -17,7 +17,7 @@
 	ms.author="andygonusa"/>
 
 
-#[ASP.NET Web API] HttpActionResult, ahora en Web API 2
+#[ASP.NET Web API] HTTPActionResult, ahora en Web API 2
 
 Por [Julio Cesar
 Avellaneda](http://mvp.microsoft.com/en-us/MVP/Julio%20Cesar%20Avellaneda-4038198)
@@ -33,7 +33,7 @@ Core Group BDotNet
 [@julito](https://twitter.com/julitogtu)
 
 
-[Descarga el código](https://github.com/julitogtu/WebApi/tree/examples)
+>[Descarga el código](https://github.com/julitogtu/WebApi/tree/examples)
 
 Hola a todos, una de las nuevas características que me ha gustado mucho
 de Web API 2 es que ahora podemos definir como respuesta un
