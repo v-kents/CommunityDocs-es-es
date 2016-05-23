@@ -1,3 +1,27 @@
+
+
+<properties
+	pageTitle="Clonando DCs de Windows Server 2012"
+	description="Clonando DCs de Windows Server 2012"
+	services="servers"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="servers"
+	ms.workload="WS2012"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+
+#Clonando DCs de Windows Server 2012
+
+
 Por Juan José Diaz Antuña, @diazantuna 
 
 Microsoft MVP
@@ -42,8 +66,8 @@ del grupo está en castellano os va dar un error, debéis de cambiarlo a
 inglés Clonable Domains Controllers).** Una vez clonado el DC es una
 buena práctica el sacarlo del grupo.
 
-1.  ![](./media/media/image1.png){width="5.905555555555556in"
-    height="2.290277777777778in"}
+![](./img/Clonando DC/image1.png)
+    
 
 El siguiente paso será generar el fichero DCCloneConfig.xml, este
 fichero se puede crear a mano o por PowerShell, pero debe de residir en
@@ -63,8 +87,8 @@ válido, ya que puede tener roles o características instaladas no válidas
 para clonar. Para comprobarlo ejecutamos el comando
 ***Get-ADDCCloningExcludeApplicationList***
 
-1.  ![](./media/media/image2.png){width="5.613881233595801in"
-    height="1.4685662729658793in"}
+![](./img/Clonando DC/image2.png)
+    
 
 Si aparece algún servicio o aplicación no valido o del que se desconoce
 si funcionara en el clon, tenemos dos opciones, una obvia que sería
@@ -77,33 +101,33 @@ Si escoges esta última opción debes de generar el archivo
 ***CloningExcludedApplicationList*** mediante el comando
 ***Get-ADDCCloningExcludeApplicationList –GenerateXML***
 
-1.  ![](./media/media/image3.png){width="5.905555555555556in"
-    height="0.7756944444444445in"}
+![](./img/Clonando DC/image3.png)
+    
 
 A continuación generamos nuestro fichero DCCloneConfig.xml, por ejemplo:
 
 ### New-ADDCCloneConfigFile -CloneComputerName "ClonDC2"-IPv4Address 10.0.100.10 -IPv4DefaultGateway 10.0.100.1 -IPv4SubnetMask 255.255.255.0 -IPv4DNSResolver 10.0.100.10 -Static -SiteName Oviedo
 
-1.  ![](./media/media/image4.png){width="5.905555555555556in"
-    height="4.940972222222222in"}
+![](./img/Clonando DC/image4.png)
+    
 
 Una vez creado nuestro fichero solo debemos de exportar el DC, que como
 sabéis en 2012 R2 podemos hacerlo en caliente aunque es recomendable
 para este caso hacerlo con la maquina apagada.
 
-1.  ![](./media/media/image5.png){width="4.009915791776028in"
-    height="2.99962489063867in"}
+![](./img/Clonando DC/image5.png)
+    
 
 Y por último debemos de importar la nueva máquina en nuestro Hypervisor
 con la opción de generar un nuevo ID para el clon Insert Caption
 
-1.  ![](./media/media/image6.png){width="5.905555555555556in"
-    height="2.0694444444444446in"}
+![](./img/Clonando DC/image6.png)
+    
 
 Una vez importada la iniciamos y ya está.
 
-1.  ![](./media/media/image7.png){width="5.905555555555556in"
-    height="3.7194444444444446in"}
+![](./img/Clonando DC/image7.png)
+    
 
 Si quisiéramos implementar más controladores de dominio a partir del
 clon, solo deberíamos modificar el fichero DCCLoneConfig.xml,
@@ -114,25 +138,25 @@ DCCLoneConfig.xml.
 
 Para modificar el fichero DCCloneConfig.xml para generar múltiples DC:
 
-1.  Creamos el disco virtual clonado exportando e importando la
+1. Creamos el disco virtual clonado exportando e importando la
     máquina virtual.
 
 2.  Montar el nuevo disco virtual, de alguna de estas formas:
 
-Doble clic sobre el disco
+    * Doble clic sobre el disco
 
-Usando Diskpart.exe.
+    * Usando Diskpart.exe.
 
-Usando el cmdle Mount-DiskImage desde Windows PowerShell.
+    * Usando el cmdle Mount-DiskImage desde Windows PowerShell.
 
-1.  Utilizar el comando New-ADDCCloneConfigFile cmdlet.con los
+3. Utilizar el comando New-ADDCCloneConfigFile cmdlet.con los
     parámetros –offline y –path, donde E: debe de ser cambiada por la
     letra de unidad utilizada al montar el disco virtual:
 
-**New-ADDCCloneConfigFile –CloneComputerName LON-DC3 –Offline –Path
+    **New-ADDCCloneConfigFile –CloneComputerName LON-DC3 –Offline –Path
 E:\\Windows\\NTDS**
 
-1.  Desmontar el disco virtual utilizando diskpart o mendiante o el
+4. Desmontar el disco virtual utilizando diskpart o mendiante o el
     cmdlet Dismount-DiskImage
 
 

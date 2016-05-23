@@ -1,4 +1,29 @@
-  Jair Gomez Arias, Ingeniero de infraestructura Microsoft Y Microsoft Community Specialist de la ciudad de Barranquilla Colombia, con conocimiento y experiencia en Administración de Centros de datos en Plataforma Microsoft.   Septiembre 2012
+
+<properties
+	pageTitle="Windows Server 2012 Essentials – Característica de Backup"
+	description="Windows Server 2012 Essentials – Característica de Backup"
+	services="servers"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="servers"
+	ms.workload="WS2012"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+
+#Windows Server 2012 Essentials – Característica de Backup
+
+
+Septiembre 2012
+
+  Jair Gomez Arias, Ingeniero de infraestructura Microsoft Y Microsoft Community Specialist de la ciudad de Barranquilla Colombia, con conocimiento y experiencia en Administración de Centros de datos en Plataforma Microsoft.   
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------
   [Blog](http://blogs.itpro.es/jairgomez/)
 
@@ -29,34 +54,34 @@ a 3 veces mas de espacio en disco al que se va a realizar Backup.
 Para comenzar veremos como podemos lanzar el asistente de creación de
 Backups desde el Dashboard
 
-1.  ![](./media/media/image1.png){width="6.5in" height="3.6625in"}
+![](./img/Caracteristica de Backup/image1.png)
 
 Comienza a configurarse la característica para su primer inicio.
 
-1.  ![](./media/media/image2.png){width="6.5in" height="3.6625in"}
+![](./img/Caracteristica de Backup/image2.png)
 
 Vemos una introducción a las posibilidades de Backup y que usos tiene.
 
-1.  ![](./media/media/image3.png){width="6.5in"
-    height="4.643055555555556in"}
+![](./img/Caracteristica de Backup/image3.png)
+    
 
 A continuación vemos cuantos discos duros o en VHDs tenemos para
 realizar la configuración de Copias de seguridad, como vemos no se
 encuentra el disco C: porque seria estúpido realizar copias del mismo
 disco al mismo disco.
 
-1.  ![](./media/media/image4.png){width="6.5in"
-    height="4.6305555555555555in"}
+![](./img/Caracteristica de Backup/image4.png)
+    
 
 Nos avisa que si estamos de acuerdo a utilizar este disco y que al
 finalizar el asistente formateará esa unidad para completar la copia.
 
-1.  ![](./media/media/image5.png){width="6.5in" height="3.6625in"}
+![](./img/Caracteristica de Backup/image5.png)
 
 Definimos una etiqueta para nuestro volumen.
 
-1.  ![](./media/media/image6.png){width="6.5in"
-    height="5.728472222222222in"}
+![](./img/Caracteristica de Backup/image6.png)
+    
 
 Aquí es donde comenzaremos a personalizar y configurar el Backup que en
 este caso será programado y que se efectuara en una hora indicada todos
@@ -65,36 +90,36 @@ dice que es recomendado, con esto en las dos horas definidas se llevara
 acabo una copia, o que se lleve acabo una sola vez al día en una hora
 también indicada.
 
-1.  ![](./media/media/image7.png){width="6.5in"
-    height="5.728472222222222in"}
+![](./img/Caracteristica de Backup/image7.png)
+    
 
 El siguiente paso es elegir a que vamos a realizar Backup, como
 recomendado nos marca el Estado del Sistema (System State) o Backup del
 sistema, como practica recomendada, se debe realizar el Backup del
 Sistema en un volumen diferente al de los archivos.
 
-1.  ![](./media/media/image8.png){width="6.5in"
-    height="5.741666666666666in"}
+![](./img/Caracteristica de Backup/image8.png)
+    
 
 Por ultimo nos muestra un resumen de la configuración que acabamos de
 hacer y podemos decirle que *Aplique la configuración.*
 
-1.  ![](./media/media/image9.png){width="6.5in"
-    height="5.728472222222222in"}
+![](./img/Caracteristica de Backup/image9.png)
+    
 
-    ![](./media/media/image10.png){width="6.5in"
-    height="5.728472222222222in"}
+![](./img/Caracteristica de Backup/image10.png)
+    
 
 Finaliza el asistente y nos muestra cuando se realiza nuestro próximo o
 primer Backup.
 
-1.  ![](./media/media/image11.png){width="6.5in"
-    height="5.7347222222222225in"}
+![](./img/Caracteristica de Backup/image11.png)>
+    
 
 Y si volvemos al Dashboard vemos que ya tenemos completada la tarea de
 Backup y operando.
 
-1.  ![](./media/media/image12.png){width="6.5in" height="3.6625in"}
+![](./img/Caracteristica de Backup/image12.png)
 
 Como vemos con esta característica que es muy fácil de operar desde el
 Dashboard de **Windows server 2012 Essentials** nos proporciona una

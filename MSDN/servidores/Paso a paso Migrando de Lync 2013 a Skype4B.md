@@ -1,3 +1,27 @@
+
+properties
+	pageTitle="Paso a paso Migrando de Lync 2013 a Skype4B InPlace"
+	description="Paso a paso Migrando de Lync 2013 a Skype4B InPlace"
+	services="servers"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="servers"
+	ms.workload="Lync 2013"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+
+#Paso a paso Migrando de Lync 2013 a Skype4B InPlace
+
+
+
 Por Peter Diaz
 
 Profesional en el área de IT con más de 10 años de experiencia en
@@ -161,19 +185,18 @@ Ruta por defecto:
 
 **E:\\Setup\\amd64**
 
-1.  ![](./media/media/image1.png){width="6.5in"
-    height="4.885416666666667in"}
+![](./img/Paso a paso Migrando de Lync 2013 a Skype4B/image1.png)
 
-    ![](./media/media/image2.png){width="6.5in"
-    height="5.041666666666667in"}
+![](./img/Paso a paso Migrando de Lync 2013 a Skype4B/image2.png)
+
 
 – La instalación de las herramientas administrativas nos permitirá abrir
 el **Skype For Business Topology Builder,** donde procederemos a
 descargar la Topología actual y decir que vamos a realizar un upgrade
 del servidor de **Lync 2013 Standard Edition.**
 
-1.  ![](./media/media/image3.png){width="6.5in"
-    height="4.450694444444444in"}
+![](./img/Paso a paso Migrando de Lync 2013 a Skype4B/image3.png)
+
 
 – Una vez que digamos que vamos a realizar el update es importante parar
 todos los servicios de nuestro servidor de Lync 2013 para ello lo
@@ -190,13 +213,9 @@ servidor de Lync 2013 y solo resta esperar a que todo esté listo.
 
 Este proceso dura aproximadamente entre 25 a 40 minutos.
 
-1.  ![](./media/media/image4.png){width="2.542020997375328in"
-    height="1.3960279965004374in"}
+![](./img/Paso a paso Migrando de Lync 2013 a Skype4B/image4.png)
 
- 
-
-1.  ![](./media/media/image5.png){width="2.4170034995625547in"
-    height="2.542020997375328in"}
+![](./img/Paso a paso Migrando de Lync 2013 a Skype4B/image5.png)
 
 Aunque la misma es desatendida recomiendo que no abandonemos el
 servidor.
