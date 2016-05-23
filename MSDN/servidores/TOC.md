@@ -1,3 +1,5 @@
 ﻿#[LAB Virtual WS 2012 y Windows 8 [Parte 1] – Creación de la Máquina Virtual y Configuración de Hyper-V en Windows Server 2012](LAB Virtual WS 2012 y Windows 8 Parte 1.md)
 #[LAB Virtual WS 2012 y Windows 8 [Parte 2] – Instalación y Configuración en Windows Server 2012 de los roles: Active Directory, DNS, DHCP](LAB Virtual WS 2012 y Windows 8 Parte 2.md)
 #[LAB Virtual WS 2012 y Windows 8 [Parte 3] – Instalación y Configuración en Windows Server 2012 de Windows Deployment Services](LAB Virtual WS 2012 y Windows 8 Parte 3.md)
+
+#[LAB Virtual WS 2012 y Windows 8 [Parte 4] – Agregando las imágenes de Windows 8 a WDS y haciendo el despliegue mediante la red](LAB Virtual WS 2012 y Windows 8 Parte 4.md)
