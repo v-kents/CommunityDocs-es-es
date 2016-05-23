@@ -17,7 +17,7 @@
 	ms.author="andygonusa"/>
 
  
- #Cambios automáticos entre HTTP y HTTPS desde ASP.NET
+#Cambios automáticos entre HTTP y HTTPS desde ASP.NET
  
  Por Jorge Pedraza
  
