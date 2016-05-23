@@ -1,5 +1,5 @@
 
-properties
+<properties
 	pageTitle="Paso a paso Migrando de Lync 2013 a Skype4B InPlace"
 	description="Paso a paso Migrando de Lync 2013 a Skype4B InPlace"
 	services="servers"
