@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Web API II – Creando un CRUD, trabajando con verbos HTTP"
-	description="Implementar fácilmente un CRUD"
+	pageTitle="Generando-paginas-de-ayuda-y-documentacion"
+	description="Generando-paginas-de-ayuda-y-documentacion"
 	services="web-dev"
 	documentationCenter=""
 	authors="andygonusa"
@@ -18,7 +18,8 @@
 
 
 
-#Web API II – Creando un CRUD, trabajando con verbos HTTP
+#Generando-paginas-de-ayuda-y-documentacion
+
 
 Por [Julio Cesar
 Avellaneda](http://mvp.microsoft.com/en-us/MVP/Julio%20Cesar%20Avellaneda-4038198)
