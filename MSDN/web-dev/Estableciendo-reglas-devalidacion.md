@@ -18,7 +18,7 @@
 
   
   
-  #[ASP.NET MVC] Estableciendo reglas de validación
+#[ASP.NET MVC] Estableciendo reglas de validación
   
 
 Por [Julio Cesar

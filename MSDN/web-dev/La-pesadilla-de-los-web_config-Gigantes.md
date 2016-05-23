@@ -1,5 +1,5 @@
 <properties
-	pageTitle="La-pesadilla-de-los-web_config-Gigantes"
+	pageTitle="La pesadilla de los web.config Gigantes"
 	description="La-pesadilla-de-los-web_config-Gigantes"
 	services="web-dev"
 	documentationCenter=""
@@ -19,7 +19,7 @@
 
 
 
-#La-pesadilla-de-los-web_config-Gigantes
+#La pesadilla de los web.config Gigantes
 
 
 ![Juan Carlos Ruiz ](http://gravatar.com/avatar/2c36e6ebd9b4d33c3e9a0362607b3e57?s=150)
