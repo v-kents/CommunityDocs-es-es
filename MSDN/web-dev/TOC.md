@@ -48,7 +48,7 @@
 #[HTML 5 Storage. Comunicación entre ventanas](HTML-5 Storage-Comunicación-entre-ventanas.md)
 #[Servicio WebMail ASP.NET](Servicio-WebMail-ASP-NET.md)
 #[CSS. Menús flotantes](CSS-Menus-flotantes.md)
-#[Trabajando-con-el-storage-de-HTML5–parte-I](Trabajando-con-el-storage-de-HTML5–parte-I.md)
+#[Trabajando con el storage de HTML5 parte I](Trabajando-con-el-storage-de-HTML5–parte-I.md)
 #[Subiendo un archivo a un servidor FTP con un FileUpload](Subiendo-un-archivo-a-un-servidor-FTP.md)
 #[[ASP.NET MVC] Estableciendo reglas de validación](Estableciendo-reglas-devalidacion.md)
 #[La pesadilla de los web.config Gigantes](La-pesadilla-de-los-web_config-Gigantes.md)
