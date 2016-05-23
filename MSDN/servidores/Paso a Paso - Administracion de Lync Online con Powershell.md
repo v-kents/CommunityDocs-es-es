@@ -1,3 +1,28 @@
+
+
+
+<properties
+	pageTitle="Paso a Paso - Administración de Lync Online con Powershell"
+	description="Paso a Paso - Administración de Lync Online con Powershell"
+	services="servers"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="servers"
+	ms.workload="Lync"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+
+#Paso a Paso - Administración de Lync Online con Powershell
+
+
 **Por Peter Diaz**
 
 Profesional en el área de IT con más de 10 años de experiencia en
@@ -25,23 +50,23 @@ La administración remota de Lync Online con Windows PowerShell solo se
 admite en equipos de 64 bits que ejecutan uno de los siguientes sistemas
 operativos:
 
-Windows 7
+- Windows 7
 
-Windows Server 2008 R2
+- Windows Server 2008 R2
 
-Windows Server 2012
+- Windows Server 2012
 
-Windows 8
+- Windows 8
 
 Además del sistema operativo admitido, el equipo también debe ejecutar
 lo siguiente:
 
-Windows PowerShell 3.0
+- Windows PowerShell 3.0
 
-Microsoft Online Services – Ayudante para el inicio de sesión para
+- Microsoft Online Services – Ayudante para el inicio de sesión para
 profesionales de TI RTW
 
-Módulo del conector de Lync Online
+- Módulo del conector de Lync Online
 
 [*http://technet.microsoft.com/es-es/library/dn362839.aspx*](http://technet.microsoft.com/es-es/library/dn362839.aspx)
 
@@ -50,19 +75,17 @@ Módulo del conector de Lync Online
 
 [*http://www.microsoft.com/en-us/download/details.aspx?id=39366*](http://www.microsoft.com/en-us/download/details.aspx?id=39366)
 
-1.  ![](./media/media/image1.png){width="5.146551837270342in"
-    height="3.7296872265966754in"}
+![](./img/Paso a Paso - Administracion de Lync Online con Powershell/image1.png)
 
 2.- Inmediatamente debemos de abrir nuestra consola de Windows Powershell 
 --------------------------------------------------------------------------
 
-1.  ![](./media/media/image2.png){width="3.43798009623797in"
-    height="1.9377701224846895in"}
+![](./img/Paso a Paso - Administracion de Lync Online con Powershell/image2.png)
 
 Import-Module LyncOnlineConnector
 
-1.  ![](./media/media/image3.png){width="6.5in"
-    height="1.179861111111111in"}
+![](./img/Paso a Paso - Administracion de Lync Online con Powershell/image3.png)
+    
 
 3.- Ahora instalaremos el ayudante de administración para Lync Online:
 ----------------------------------------------------------------------
@@ -70,8 +93,7 @@ Import-Module LyncOnlineConnector
 3.1
 [*http://www.microsoft.com/es-es/download/details.aspx?id=28177*](http://www.microsoft.com/es-es/download/details.aspx?id=28177)
 
-1.  ![](./media/media/image4.png){width="6.261290463692038in"
-    height="4.083903105861768in"}
+![](./img/Paso a Paso - Administracion de Lync Online con Powershell/image4.png)
 
 Nota: Debemos antes de abrir la consola de Powershell para la
 administración de Lync Online verificar si tenemos instalado el módulo
@@ -80,8 +102,8 @@ Powershell.
 
 Get-Host | Select-Object Version
 
-1.  ![](./media/media/image5.png){width="6.5in"
-    height="1.3354166666666667in"}
+![](./img/Paso a Paso - Administracion de Lync Online con Powershell/image5.png)
+    
 
 En este caso tenemos la versión 4.0 por tratarse de un sistema operativo
 Windows 8.1
@@ -92,10 +114,10 @@ Windows 8.1
 4.1 Desde la consola Windows Powershell ejecutar los siguientes
 comandos:
 
-**\$credential = Get-Credential**
+**$credential = Get-Credential**
 
-1.  ![](./media/media/image6.png){width="6.5in"
-    height="3.4569444444444444in"}
+![](./img/Paso a Paso - Administracion de Lync Online con Powershell/image6.png)
+    
 
 Nota: Con este comando cargamos en cache nuestra credencial
 administrativa de la cuenta de Lync Online
@@ -103,41 +125,42 @@ administrativa de la cuenta de Lync Online
 4.2 Ejecuta el siguiente comando para verificar que estar cargadas en
 cache nuestras credenciales
 
-\$credential
+$credential
 
-1.  ![](./media/media/image7.png){width="6.5in"
-    height="1.0583333333333333in"}
+![](./img/Paso a Paso - Administracion de Lync Online con Powershell/image7.png)
+    
 
 5.- Iniciar la sesión con nuestro Lync Online (tardara algunos segundos no desesperes)
 --------------------------------------------------------------------------------------
 
-\$session = New-CsOnlineSession -Credential \$credential
+$session = New-CsOnlineSession -Credential $credential
 
-1.  ![](./media/media/image8.png){width="6.5in"
-    height="0.9381944444444444in"}
+![](./img/Paso a Paso - Administracion de Lync Online con Powershell/image8.png)
+    
 
 6. - Importar los módulos Powershell
 ------------------------------------
 
-Import-PSSession \$session
+Import-PSSession $session
 
-1.  ![](./media/media/image9.png){width="6.5in" height="0.9125in"}
+![](./img/Paso a Paso - Administracion de Lync Online con Powershell/image9.png)
+
 
 7.- Chequeamos los módulos descargados
 --------------------------------------
 
 Get-Module
 
-1.  ![](./media/media/image10.png){width="6.5in"
-    height="1.2756944444444445in"}
+![](./img/Paso a Paso - Administracion de Lync Online con Powershell/image10.png)
+    
 
 8.- Listo ya podemos administrar nuestro Lync Online verificando todos los comandos disponibles con el siguiente comando
 ------------------------------------------------------------------------------------------------------------------------
 
 Get-Command
 
-1.  ![](./media/media/image11.png){width="6.5in"
-    height="3.6465277777777776in"}
+![](./img/Paso a Paso - Administracion de Lync Online con Powershell/image11.png)
+    
 
 Si deseas descargar la guía completa de los laboratorios de Lync Online
 ve al siguiente enlace:

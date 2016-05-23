@@ -1,10 +1,34 @@
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Guillermo Delprato, MCT-MCITP-MCTS-MCSE(NT 3.51/4.0/2000/2003)-MCSA                                                                                                                                                                                               Octubre 2012
-                                                                                                                                                                                                                                                                    
+
+
+<properties
+	pageTitle="Full Server, Core Server y Tres Opciones Diferentes Más"
+	description="Full Server, Core Server y Tres Opciones Diferentes Más"
+	services="servers"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="servers"
+	ms.workload="Lync"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+
+#Full Server, Core Server y Tres Opciones Diferentes Más
+
+  Guillermo Delprato, MCT-MCITP-MCTS-MCSE(NT 3.51/4.0/2000/2003)-MCSA   
+  
   Soy uno de los primeros certificados en Argentina en tecnologías Microsoft desde el año 1996, dedicándome principalmente a capacitación, siendo MCT, y actualmente a consultoría sobre sistemas operativos, soluciones de conectividad entre redes y seguridad.   
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------
   [Blog](http://windowserver.wordpress.com/)
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Octubre 2012
 
 Sigo investigando Windows Server 2012 (Release Candidate en este
 momento) y cada vez encuentro nuevas sorpresas, o configuraciones hasta
@@ -56,19 +80,25 @@ fue el uso de “Server as Super Workstation”
 
 Si agregamos el componente “Desktop Experience”
 
-1.  ![](./media/media/image1.png){width="6.5in" height="4.875in"}
+![](./img/Full Server, Core Server y Tres Opciones Diferentes Mas/image1.png)
+
 
 Veremos algunas “sorpresas”
 
-1.  ![](./media/media/image2.png){width="6.5in" height="4.875in"}
+![](./img/Full Server, Core Server y Tres Opciones Diferentes Mas/image2.png)
 
-    ![](./media/media/image3.png){width="6.5in" height="4.875in"}
 
-    ![](./media/media/image4.png){width="6.5in" height="4.875in"}
+    ![](./img/Full Server, Core Server y Tres Opciones Diferentes Mas/image3.png)
+    
 
-    ![](./media/media/image5.png){width="6.5in" height="4.875in"}
+    ![](./img/Full Server, Core Server y Tres Opciones Diferentes Mas/image4.png)
+    
 
-    ![](./media/media/image6.png){width="6.5in" height="4.875in"}
+    ![](./img/Full Server, Core Server y Tres Opciones Diferentes Mas/image5.png)
+    
+
+    ![](./img/Full Server, Core Server y Tres Opciones Diferentes Mas/image6.png)
+    
 
 Ahora vamos a ir cambiando a versiones con “menos”. Lo primero que haré
 es desinstalar “Desktop Experience”, para volver a “Server with GUI”. No
@@ -86,7 +116,8 @@ Para el primero ya veremos un “truco”. Para la segunda, bueno sin
 comentarios si alguno utiliza el servidor para navegar por Internet, no
 voy a hacer comentarios :)
 
-1.  ![](./media/media/image7.png){width="6.5in" height="4.875in"}
+![](./img/Full Server, Core Server y Tres Opciones Diferentes Mas/image7.png)
+
 
 Desinstalemos, reiniciemos y observemos
 
@@ -95,7 +126,8 @@ funciona, y además, probando las “Tools” veo que todas funcionan
 normalmente, salvo “Performance Monitor” que muestra un error de
 incialización de la MMC, pero luego funciona normalmente
 
-1.  ![](./media/media/image8.png){width="6.5in" height="4.875in"}
+![](./img/Full Server, Core Server y Tres Opciones Diferentes Mas/image8.png)
+
 
 Internet Explorer no está más disponible, como así tampoco el “Desktop”
 
@@ -105,7 +137,8 @@ Notepad, y desde el menú Open, mostrando todos los archivos, podremos
 hacer las operaciones básicas, siempre y cuando no se animen con la
 línea de comandos (CMD.EXE) :)
 
-1.  ![](./media/media/image9.png){width="6.5in" height="4.875in"}
+![](./img/Full Server, Core Server y Tres Opciones Diferentes Mas/image9.png)
+
 
 Para deshacer el cambio, como es lógico sólo alcanza con reinstalar
 “Server Graphical Shell”
@@ -122,20 +155,20 @@ que hubiéramos elegido esa versión durante el proceso de instalación~~
 ACTUALIZACION:
 
 Si durante la instalación elegimos la opción “Server Core” (4), en
-realidad estamos instalando “Server Core Reduced” (5)\
+realidad estamos instalando “Server Core Reduced” (5)
+
 Y por lo tanto para agregar cualquier componente debemos poder acceder a
 los archivos de instalación
 
 Para montar la imagen de donde se sacarán los binarios necesarios
 debemos poder acceder al DVD, y ejecutar:
 
-MD C:\\Mount
+    MD C:\\Mount
 
-DISM.EXE /Mount-Image\
-/ImageFile:&lt;DVD&gt;:\\Sources\\Install.wim /Index:4
-/MountDir:c:\\Mount /ReadOnly
+    DISM.EXE /Mount-Image\ /ImageFile:<DVD>:\Sources\Install.wim /Index:4 /MountDir:c:\Mount /ReadOnly
 
-1.  ![](./media/media/image10.png){width="6.5in" height="4.875in"}
+![](./img/Full Server, Core Server y Tres Opciones Diferentes Mas/image10.png)
+
 
 Si luego de esto nos arrepintiéramos y quisieramos volver a la interfaz
 gráfica, es sencillo con PowerShell
@@ -143,17 +176,16 @@ gráfica, es sencillo con PowerShell
 Desde línea de comandos llamamos a PowerShell simplemente escribiendo su
 nombre, y luego ejecutamos
 
-Import-Module ServerManager
+    Import-Module ServerManager
 
-Install-WindowsFeature Server-Gui-Mgmt-Infra, Server-Gui-Shell -Source
-C:\\Mount\\Windows\\Winsxs –Restart
+    Install-WindowsFeature Server-Gui-Mgmt-Infra, Server-Gui-Shell -Source C:\Mount\Windows\Winsxs –Restart
 
 O ejecutar
 
-Install-WindowsFeature -IncludeAllSubFeature User-Interfaces-Infra
--Source C:\\Mount\\Windows\\Winsxs -Restart
+    Install-WindowsFeature -IncludeAllSubFeature User-Interfaces-Infra -Source C:\Mount\Windows\Winsxs -Restart
 
-1.  ![](./media/media/image11.png){width="6.5in" height="4.875in"}
+![](./img/Full Server, Core Server y Tres Opciones Diferentes Mas/image11.png)
+
 
 “Server Core” a “Server Core Reduced” (4. a 5.) y Viceversa
 -----------------------------------------------------------
@@ -174,13 +206,13 @@ el módulo ServerManger, luego debemos averiguar cuál es el nombre del
 
 Así que debemos ejecutar
 
-PowerShell ←Ejecutamos PowerShell
+    PowerShell  ←Ejecutamos PowerShell
 
-Import-Module ServerManager ←Importamos el módulo ServerManager
+    Import-Module ServerManager ←Importamos el módulo ServerManager
 
-Get-WindowsFeature ←Obtenemos el nombre exacto del Feature
+    Get-WindowsFeature  ←Obtenemos el nombre exacto del Feature
 
-Uninstall-WindowsFeature &lt;FeatureName&gt; –Remove ←Eliminamos
+    Uninstall-WindowsFeature <FeatureName> –Remove    ←Eliminamos
 
 Cabe aclarar que el “-Remove” realmente elimina los archivos necesarios
 para la reinstalación, con lo cual podemos achicar el espacio ocupado en
@@ -192,27 +224,25 @@ versión con Gui para recuperar los archivos
 
 El proceso no es complicado
 
-Creamos una carpeta para montar el WIM\
-\
-mkdir C:\\Mount
+Creamos una carpeta para montar el WIM
 
-Determinamos el índice de la versión a montar\
-\
-DISM /get-wiminfo /wimfile:&lt;DVD&gt;:\\Sources\\install.wim
+    mkdir C:\Mount
 
-Montamos la imagen\
-\
-DISM /mount-wim wimfile:&lt;dvd&gt;:\\Sources\\install.wim\
-\
-/index:&lt;\#paso-anterior&gt; /Mountdir:C\\Mount
+Determinamos el índice de la versión a montar
 
-Y finalmente ejecutamos\
-\
-Install-WindowsFeature &lt;FeatureName&gt; -Restart\
-\
--Source:C:\\Mount\\Windows\\Winsxs
+    DISM /get-wiminfo /wimfile:<DVD>:\Sources\install.wim
 
-1.  ![](./media/media/image12.png){width="6.5in" height="4.875in"}
+Montamos la imagen
+
+    DISM /mount-wim wimfile:<dvd>:\Sources\install.wim
+    /index:<#paso-anterior> /Mountdir:C\Mount
+
+Y finalmente ejecutamos
+
+    Install-WindowsFeature <FeatureName> -Restart  -Source:C:\Mount\Windows\Winsxs
+
+![](./img/Full Server, Core Server y Tres Opciones Diferentes Mas/image12.png)
+
 
 Esto es todo por ahora, no son sólo 2 las versiones, sino que en
 realidad son 5 opciones diferentes, desde “casi un desktop” hasta la

@@ -1,3 +1,27 @@
+
+<properties
+	pageTitle="Integrando Lync 2013 y Exchange 2013 para mensajería unificada y Outlook Voice"
+	description="Integrando Lync 2013 y Exchange 2013 para mensajería unificada y Outlook Voice"
+	services="servers"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="servers"
+	ms.workload="Lync"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+
+#Integrando Lync 2013 y Exchange 2013 para mensajería unificada y Outlook Voice
+
+
+
 **Peter Diaz**
 
 Profesional en el área de IT con más de 10 años de experiencia en
@@ -8,6 +32,9 @@ Comunicaciones Unificadas. MVP/MCT/MCITP Lync/MAP 2012/MCC MCP ID:
 **LinkedIn**: <http://www.linkedin.com/pub/peter-diaz/8/61b/a72>
 
 **Microsoft MVP **
+
+
+
 
 Escenario: No hay integración con PBX, el rol de UM y OVA solo podrá ser accedido desde los clientes de Lync y teléfonos internos, sin embargo los comandos aquí reflejados realizándole algunos ajustes son compatibles si queremos realizar integración con una centralita (PBX) 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -34,15 +61,15 @@ Northwindtraders.com’ -PrivateKeyExportable \$true
 (dirección referencial en este caso la URL es donde vosotros han
 instalado el rol de Client Access)
 
-1.  ![](./media/media/image1.png){width="6.5in"
-    height="3.098611111111111in"}
+![](./img/Integrando Lync 2013 y Exchange 2013 para OVA/image1.png)
+    
 
 Desde la consola una vez creado el certificado debemos de asignarlo al
 rol de Unified Messaging, para ello le damos doble clic sobre el
 certificado y lo asignamos a los servicios:
 
-1.  ![](./media/media/image2.png){width="2.542020997375328in"
-    height="2.1148786089238847in"}
+![](./img/Integrando Lync 2013 y Exchange 2013 para OVA/image2.png)
+    
 
 2\. Luego de tener nuestro certificado ya listo debemos de ejecutar desde
 una consola con privilegios administrativos en el Microsoft Exchange
@@ -67,10 +94,10 @@ Restart-service msExchangeUM
 3\. Ejecutamos el script **ExchUtil.ps1** desde una consola Exchange
 Managment Shell (Powershell):
 
-1.  ![](./media/media/image3.png){width="2.542020997375328in"
-    height="1.6460629921259842in"}
-
-    ![](./media/media/image4.png){width="6.5in" height="3.25in"}
+![](./img/Integrando Lync 2013 y Exchange 2013 para OVA/image3.png)
+    
+![](./img/Integrando Lync 2013 y Exchange 2013 para OVA/image4.png)
+    
 
 Una vez ejecutado nos creara la puerta de enlace contra nuestro servidor
 de Microsoft Lync Server 2013.
@@ -86,23 +113,22 @@ marcado con el suscriber (Outlook Voice Access) correspondiente:
 **Ruta: c:\\program files\\commond files\\Microsoft Lync Server
 2013\\support**
 
-1.  ![](./media/media/image5.png){width="3.865122484689414in"
-    height="2.7503838582677167in"}
+![](./img/Integrando Lync 2013 y Exchange 2013 para OVA/image5.png)
+    
 
-    ![](./media/media/image6.png){width="6.5in"
-    height="4.893055555555556in"}
+![](./img/Integrando Lync 2013 y Exchange 2013 para OVA/image6.png)
+    
 
-    ![](./media/media/image7.png){width="4.146411854768154in"
-    height="5.042369860017498in"}
-
+![](./img/Integrando Lync 2013 y Exchange 2013 para OVA/image7.png)
+    
  
 
 5\. Podemos comprobar que ha creado el usuario para OVA hiendo a nuestro
 directorio activo en la OU que hayamos seleccionado para alojar al
 usuario:
 
-1.  ![](./media/media/image8.png){width="6.5in"
-    height="4.178472222222222in"}
+![](./img/Integrando Lync 2013 y Exchange 2013 para OVA/image8.png)
+    
 
 Nota: Importante que para realizar todo este proceso el usuario que
 utilicemos tiene que tener permisos:
@@ -115,16 +141,15 @@ Referencia:
 Algunas imágenes
 ----------------
 
-1.  ![](./media/media/image9.png){width="1.5418821084864391in"
-    height="2.542020997375328in"}
+![](./img/Integrando Lync 2013 y Exchange 2013 para OVA/image9.png)
+    
 
 Accediendo desde el cliente Lync 2013 para Windows Phone para revisar
 los correos electrónicos, calendario y contactos. (Outlook Voice Access)
 
  
 
-1.  ![](./media/media/image10.png){width="2.5211854768153983in"
-    height="2.542020997375328in"}
+![](./img/Integrando Lync 2013 y Exchange 2013 para OVA/image10.png)
 
 Accediendo desde el cliente Lync 2013.
 

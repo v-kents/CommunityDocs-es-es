@@ -1,3 +1,29 @@
+
+
+
+<properties
+	pageTitle="Paso a Paso - Integrando Microsoft Exchange 2013 y Microsoft Lync 2013"
+	description="Paso a Paso - Integrando Microsoft Exchange 2013 y Microsoft Lync 2013"
+	services="servers"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="servers"
+	ms.workload="WS2012"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+
+#Paso a Paso - Integrando Microsoft Exchange 2013 y Microsoft Lync 2013
+
+
+
 **Peter Diaz**
 
 Profesional en el área de IT con más de 10 años de experiencia en
@@ -26,9 +52,7 @@ Microsoft con un límite de prueba de 180 días:
 
 Referencia:[*http://technet.microsoft.com/es-es/evalcenter/hh973395.aspx*](http://technet.microsoft.com/es-es/evalcenter/hh973395.aspx)
 
-1.  ![](./media/media/image1.png){width="3.6255063429571304in"
-    height="4.0005588363954505in"}
-
+![](./img/Paso a Paso - Integrando Exchange 2013 y Lync 2013/image1.png)
  
 
 Nota: El nivel del dominio y del forest del directorio activo debe de
@@ -67,23 +91,19 @@ Una vez preparado el servidor nos pedirá reiniciarlo.
 -*Instalar los filters Pack y el UCMARuntime,* ahora toca instalar los
 siguientes componentes:
 
-1.  ![](./media/media/image2.png){width="2.542020997375328in"
-    height="0.7084317585301837in"}
+![](./img/Paso a Paso - Integrando Exchange 2013 y Lync 2013/image2.png)
 
 Referencia:[*http://www.microsoft.com/es-es/download/details.aspx?id=34992*](http://www.microsoft.com/es-es/download/details.aspx?id=34992)
 
-1.  ![](./media/media/image3.png){width="2.542020997375328in"
-    height="0.8542858705161854in"}
+![](./img/Paso a Paso - Integrando Exchange 2013 y Lync 2013/image3.png)
 
 Referencia:[*http://www.microsoft.com/es-es/download/details.aspx?id=17062*](http://www.microsoft.com/es-es/download/details.aspx?id=17062)
 
-1.  ![](./media/media/image4.png){width="2.542020997375328in"
-    height="0.9167946194225722in"}
+![](./img/Paso a Paso - Integrando Exchange 2013 y Lync 2013/image4.png)
 
 Referencia:[*http://www.microsoft.com/es-es/download/details.aspx?id=26604*](http://www.microsoft.com/es-es/download/details.aspx?id=26604)
 
-1.  ![](./media/media/image5.png){width="2.542020997375328in"
-    height="0.7605227471566054in"}
+![](./img/Paso a Paso - Integrando Exchange 2013 y Lync 2013/image5.png)
 
 Nota: Importante luego de instalar estos componentes instalar todos los
 updates más recientes al servidor antes de instalar el Microsoft
@@ -130,8 +150,7 @@ enlace y seguir las instrucciones indicadas en el documento:
 
 Referencia:[*http://www.microsoft.com/en-us/download/details.aspx?id=39609*](http://www.microsoft.com/en-us/download/details.aspx?id=39609)
 
-1.  ![](./media/media/image6.png){width="2.542020997375328in"
-    height="0.718850612423447in"}
+![](./img/Paso a Paso - Integrando Exchange 2013 y Lync 2013/image6.png)
 
 Paquete de Idiomas para Exchange 2013, debe de ser ejecutado luego de
 instalar el CU2 de Exchange 2013.
@@ -139,7 +158,6 @@ instalar el CU2 de Exchange 2013.
 Referencia:
 [*http://www.microsoft.com/en-pk/download/details.aspx?id=39713*](http://www.microsoft.com/en-pk/download/details.aspx?id=39713)
 
-1.  ![](./media/media/image7.png){width="4.083903105861768in"
-    height="3.2921259842519683in"}
+![](./img/Paso a Paso - Integrando Exchange 2013 y Lync 2013/image7.png)
 
 Nombre: UMLanguagePack.es-ES.exe 150.4 MB

@@ -1,10 +1,36 @@
-Por **FREDDY LEANDRO ANGARITA C.\
-SqlServer MVP** \
-[Perfil
-MVP](https://mvp.support.microsoft.com/es-es/mvp/Freddy%20Leandro%20Angarita%20Castellanos-4028407)\
-\
-<freddy_angarita@hotmail.com>\
+
+
+<properties
+	pageTitle="Cómo realizar una instalación de SQL Server 2012 en Windows 2012 Core"
+	description="Cómo realizar una instalación de SQL Server 2012 en Windows 2012 Core"
+	services="servers"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="servers"
+	ms.workload="SQL2012"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+
+#Cómo realizar una instalación de SQL Server 2012 en Windows 2012 Core
+
+Por **FREDDY LEANDRO ANGARITA C.**
+
+**SqlServer MVP**
+
+[Perfil MVP](https://mvp.support.microsoft.com/es-es/mvp/Freddy%20Leandro%20Angarita%20Castellanos-4028407)
+
+<freddy_angarita@hotmail.com>
+
 <http://geeks.ms/blogs/fangarita/default.aspx>
+
 
 Para realizar la prueba se requiere una máquina (física o virtual) para
 realizar la prueba, si no se cuenta con una licencia se puede descargar
@@ -31,8 +57,8 @@ Una vez instalada o conectada la máquina virtual Windows Server 2012
 Code Edition presenta una consola como la que se presenta en la
 siguiente imagen:
 
-1.  ![](./media/media/image1.png){width="6.5in"
-    height="5.613888888888889in"}
+![](./img/instalacion de SQL Server 2012 en Windows 2012 Core/image1.png)
+    
 
 En el Menú de Hyper-V, Seleccionar Media =&gt; DVD Drive =&gt; Insert
 Disk... y seleccionar el Archivo .ISO del instalador de SQL Server, para
@@ -40,13 +66,13 @@ este ejemplo usaré Developer Edition, pero para un servidor se debe usar
 Standard o Enterprise dependiendo del esquema de licenciamiento con el
 que se cuente
 
-1.  ![](./media/media/image2.png){width="6.5in" height="4.0625in"}
+![](./img/instalacion de SQL Server 2012 en Windows 2012 Core/image2.png)
+
 
 Una vez se conecte el Disco, el mismo aparecerá como un DVD en la
 máquina virtual
 
-1.  ![](./media/media/image3.png){width="5.642155511811024in"
-    height="2.858581583552056in"}
+![](./img/instalacion de SQL Server 2012 en Windows 2012 Core/image3.png)
 
 Una vez preparado el archivo de configuración, se procede a la ejecución
 de la instrucción que inicia la instalación usando el archivo de
@@ -57,14 +83,12 @@ Core](http://geeks.ms/blogs/fangarita/archive/2013/04/04/code-archivo-de-configu
 el cual contiene comentarios que explican las diferentes configuraciones
 realizadas en el archivo
 
-1.  ![](./media/media/image4.png){width="5.642155511811024in"
-    height="2.858581583552056in"}
+![](./img/instalacion de SQL Server 2012 en Windows 2012 Core/image4.png)
 
  Una vez se inicia la instalación correctamente se visualiza en pantalla
 el diálogo presentado en la siguiente gráfica:
 
-1.  ![](./media/media/image5.png){width="5.925513998250219in"
-    height="3.0335958005249344in"}
+![](./img/instalacion de SQL Server 2012 en Windows 2012 Core/image5.png)
 
 Dado que las opciones de configuración ya fueron dadas en el archivo de
 [configuración el
@@ -75,18 +99,16 @@ completa se recomienda revisar todas las [opciones de
 instalación](http://msdn.microsoft.com/es-co/library/hh231669.aspx); en
 la siguiente gráfica se observa el avance de la instalación:
 
-1.  ![](./media/media/image6.png){width="6.5in"
-    height="4.855555555555555in"}
+![](./img/instalacion de SQL Server 2012 en Windows 2012 Core/image6.png)
 
 Una vez Finalizada la instalación:
 
-1.  ![](./media/media/image7.png){width="5.642155511811024in"
-    height="2.858581583552056in"}
-
+![](./img/instalacion de SQL Server 2012 en Windows 2012 Core/image7.png)
  
 
 Para habilitar las conexiones remotas se debe ejecutar
 
+```SQL
 EXEC sys.sp\_configure N'remote access', N'1'
 
 GO
@@ -94,10 +116,11 @@ GO
 RECONFIGURE WITH OVERRIDE
 
 GO
-
+```
  
 
 Los comentarios son bienvenidos, espero sea de ayuda,
 
-**FREDY LEANDRO ANGARITA CASTELLANOS\
-SQL Server MVP**
+**FREDY LEANDRO ANGARITA CASTELLANOS**
+
+**SQL Server MVP**
