@@ -1,6 +1,6 @@
   <properties
-	pageTitle="Trabajando-con-el-storage-de-HTML5–parte-I"
-	description="Trabajando-con-el-storage-de-HTML5–parte-I"
+	pageTitle="Trabajando con el storage de HTML5 parte I"
+	description="Trabajando con el storage de HTML5 parte I"
 	services="web-dev"
 	documentationCenter=""
 	authors="andygonusa"
@@ -19,7 +19,7 @@
   
   
   
-#Trabajando-con-el-storage-de-HTML5–parte-I
+#Trabajando con el storage de HTML5 parte I
 
 Por [Julio Cesar
 Avellaneda](http://mvp.microsoft.com/en-us/MVP/Julio%20Cesar%20Avellaneda-4038198)
