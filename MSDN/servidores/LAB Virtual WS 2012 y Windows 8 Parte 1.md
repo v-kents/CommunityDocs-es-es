@@ -9,7 +9,7 @@
 
 <tags
 	ms.service="servers"
-	ms.workload="identity"
+	ms.workload="WS2012"
 	ms.tgt_pltfrm="na"
 	ms.devlang="na"
 	ms.topic="how-to-article"
