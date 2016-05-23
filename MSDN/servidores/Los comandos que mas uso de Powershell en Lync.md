@@ -60,7 +60,7 @@ topología publicada más recientemente.
   |*Report*            |               Opcional    |  System.String       |                           Le permite especificar una ruta de acceso para el archivo de registro creado cuando se ejecuta el cmdlet. Por ejemplo: -Report "C:\\Logs\\Enable\_Topology.html"|
   |*SkipPrepareCheck*   |              Opcional  |    System.Boolean           |                      Si se establece en True (\$True), el cmdlet Enable-CsTopology omite la comprobación de preparación inicial.|
   |*WhatIf*    |                      Opcional  |    System.Management.Automation.SwitchParameter   |Describe qué sucedería si se ejecutara el comando sin ejecutarlo realmente.|
-  |------------|------------|------------|------------|
+  
 
 Referencia: <http://technet.microsoft.com/es-es/library/gg398398.aspx>
 
