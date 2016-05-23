@@ -180,7 +180,7 @@ Studio 2010:
 
 
 
-![] (./img/Cambios-automáticos-entre-HTTP-y-HTTPS/image4.png)
+![] (./img/Cambios-automáticos-entre-HTTP-y-HTTPS/image3.png)
 
 ###Recomendación en IIS con SecuritySwitch:
 
@@ -189,6 +189,6 @@ Cuando implemente una solución ASP.NET con SecuritySwitch, ***No
 marque*** la casilla de verificación requiera SSL (Require SSL) en IIS.
 
 
-![] (./img/Cambios-automáticos-entre-HTTP-y-HTTPS/image5.png)
+![] (./img/Cambios-automáticos-entre-HTTP-y-HTTPS/image4.png)
 
 
