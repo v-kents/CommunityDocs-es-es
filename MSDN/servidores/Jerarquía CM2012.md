@@ -1,15 +1,46 @@
-**[Marcela
-Berri](https://plus.google.com/102022832380927697290/posts/p/pub)\
-**Instructor / Consultor Senior IT\
+
+
+
+<properties
+pageTitle="Jerarquía Configuration Manager 2012"
+description="Jerarquía Configuration Manager 2012"
+services="servers"
+documentationCenter=""
+authors="andygonusa"
+manager=""
+editor="andygonusa"/>
+
+<tags
+ms.service="servers"
+ms.workload="CM"
+ms.tgt_pltfrm="na"
+ms.devlang="na"
+ms.topic="how-to-article"
+ms.date="05/12/2016"
+ms.author="andygonusa"/>
+
+
+#Jerarquía Configuration Manager 2012
+
+[Marcela Berri](https://plus.google.com/102022832380927697290/posts/p/pub)
+
+Instructor / Consultor Senior IT
+
 MCT – MVP Configuration Manager
 
-MCTS Server Administrator - MCTS AD 2008 - MCTS Network Inf\
-MCTS - Server Virtualization\
-MCTS W7 & Off2010 - MCTS SCCM 2012/2007 - MCTS SCOM 2007\
+MCTS Server Administrator - MCTS AD 2008 - MCTS Network Inf
+
+MCTS - Server Virtualization
+
+MCTS W7 & Off2010 - MCTS SCCM 2012/2007 - MCTS SCOM 2007
+
 MCITP Exchange 2010/2007 - MCTS Exch 2010/2007 - MCTS Lync 2010
+
 
 Blog **[IT Technology Site](http://ittechnologysite.blogspot.com.ar/):
 *About me***
+
+
 
 Cómo es la jerarquía de Site en Configuration Manager 2012? 
 
@@ -19,11 +50,10 @@ estándares y mantiene protegidos a los clientes. Además provee monitoreo
 y reportes centralizados de sus clientes.
 
 En Configuration Manager 2012, existe un pequeño cambio en la jerarquía
-que suma un nuevo componente y regula la administración completa:\
-\
+que suma un nuevo componente y regula la administración completa:
 <span id="more" class="anchor"></span>
 
-\
+
 a)  “Central Administration Site”
 ---------------------------------
 
@@ -33,29 +63,29 @@ Administration Site” y cambia su rol administrativo.
 El Site de Adm. Central, es como la “cabeza” de la jerarquía y se
 encarga de cuatro tareas:
 
-Proveer el manejo centralizado de la jerarquía.
+- Proveer el manejo centralizado de la jerarquía.
 
-Generar reportes con datos de toda la jerarquía.
+- Generar reportes con datos de toda la jerarquía.
 
-Dar soporte a determinados roles.
+- Dar soporte a determinados roles.
 
-Participa de la replicación de la Base de Datos.
+- Participa de la replicación de la Base de Datos.
 
-1.  
+
 
 Algo importante: NO procesa datos de los clientes y de hecho no tiene
 asignados clientes directamente, como así también, no soporta clientes
 roaming.
 
 Los únicos datos de cliente que procesa son los de Heartbeat Discovery
-(DDR)\
+(DDR)
 Bajo su jerarquía quedan como siempre el Site Primario y Site
-Secundario.\
-\
+Secundario.
+
 Soporta hasta 25 Primary Sites hijos y 400.000 clientes si se instala
 sobre un SQL Enterprise Edition.  Si es SQL Standard soporta 50.000
-clientes.\
-\
+clientes.
+
 Si se instaló con un SQL Standard y se actualiza la edición a
 Enterprise, la jerarquía sigue manteniendo el límite de 50.0000 clientes
 ya que la base no se reparticiona.
@@ -64,7 +94,7 @@ Es el primer Site que se instala si se planifica una estructura con
 varios Sites en conjunto, ya que vincular un Site Primario como “hijo”
 se realiza como parte de la instalación del mismo.
 
-\
+
 b)  “Primary Site”
 ------------------
 
@@ -77,21 +107,21 @@ dentro de la estructura: “administrar a sus clientes”.
 
 El Site Primario se encarga de:
 
-Brindar escalabilidad, para soportar mayor cantidad de clientes.
+- Brindar escalabilidad, para soportar mayor cantidad de clientes.
 
-Maneja los clientes que tiene asignados y procesa sus datos.
+- Maneja los clientes que tiene asignados y procesa sus datos.
 
-1.  
+
 
 No puede asociarte a otro site primario en una relación padre-hijo, como
-antes.\
-\
+antes.
+
 Solo puede contener Sites Secundarios dentro de su jerarquía.  Soporta
-hasta 250 sites Secundarios.\
-\
-Si se usa un SQL instalado local, soporta hasta 50.000 clientes.\
-Si se usa un SQL Remoto, soporta hasta 100.000 clientes.\
-\
+hasta 250 sites Secundarios.
+
+Si se usa un SQL instalado local, soporta hasta 50.000 clientes.
+Si se usa un SQL Remoto, soporta hasta 100.000 clientes.
+
 Se puede instalar como un Site Stand-Alone o como parte de una jerarquía
 central. La decisión es parte de la instalación y un cambio de
 jerarquía, implica reinstalar.
@@ -106,18 +136,18 @@ El site Secundario se utiliza básicamente para controlar el flujo de
 datos de los clientes hacia arriba en la jerarquía.
 
 Con menos de 500 clientes, se debería considerar un Distribution Point
-en vez de un Site Secundario.\
+en vez de un Site Secundario.
 Soporta hasta 5.000 clientes.
 
 El Site Secundario se encarga de:
 ---------------------------------
 
-Utiliza SQL Express instalado localmente en el site server.
+- Utiliza SQL Express instalado localmente en el site server.
 
-Participa de la replicación de Base de Datos con su Site Primario.
+- Participa de la replicación de Base de Datos con su Site Primario.
 
-Debe ser hijo de un Site Primario
+- Debe ser hijo de un Site Primario
 
-Soporta el ruteo de contenido (File transfer) a otros Sites Secundarios.
+- Soporta el ruteo de contenido (File transfer) a otros Sites Secundarios.
 
-1.  
+

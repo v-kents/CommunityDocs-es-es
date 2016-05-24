@@ -1,11 +1,36 @@
-**[Marcela
-Berri](https://plus.google.com/102022832380927697290/posts/p/pub)\
-**Instructor / Consultor Senior IT\
+
+
+
+<properties
+pageTitle="Lo nuevo en System Center 2012 R2 Configuration Manager"
+description="Lo nuevo en System Center 2012 R2 Configuration Manager"
+services="servers"
+documentationCenter=""
+authors="andygonusa"
+manager=""
+editor="andygonusa"/>
+
+<tags
+ms.service="servers"
+ms.workload="Dynamics"
+ms.tgt_pltfrm="na"
+ms.devlang="na"
+ms.topic="how-to-article"
+ms.date="05/12/2016"
+ms.author="andygonusa"/>
+
+
+#Lo nuevo en System Center 2012 R2 Configuration Manager
+
+
+[Marcela Berri](https://plus.google.com/102022832380927697290/posts/p/pub)
+
+Instructor / Consultor Senior IT
 MCT – MVP Configuration Manager
 
-MCTS Server Administrator - MCTS AD 2008 - MCTS Network Inf\
-MCTS - Server Virtualization\
-MCTS W7 & Off2010 - MCTS SCCM 2012/2007 - MCTS SCOM 2007\
+MCTS Server Administrator - MCTS AD 2008 - MCTS Network Inf
+MCTS - Server Virtualization
+MCTS W7 & Off2010 - MCTS SCCM 2012/2007 - MCTS SCOM 2007
 MCITP Exchange 2010/2007 - MCTS Exch 2010/2007 - MCTS Lync 2010
 
 **[IT Technology Site](http://ittechnologysite.blogspot.com.ar/): *About
@@ -35,7 +60,6 @@ Path de Upgrade: Solo es posible desde ConfigMgr SP1 con el pack de
 Windows ADK 8.1 instalado. Es importante destacar que el esquema no
 sufrió modificaciones.
 
-1.  
 
 Infraestructura:
 ----------------
@@ -44,29 +68,21 @@ Soporte para Windows 8.1 y Windows Server 2012 R2.
 
 Módulo Power Shell de 64-bit nativo.
 
-Certificate Registration Point:
+###Certificate Registration Point:
 
-1.  
 
-Es un Nuevo Site System Role para proveer el soporte de enrollment por
-Certificados de los dispositivos que ConfigMgr maneja.\
+Es un Nuevo Site System Role para proveer el soporte de enrollment por Certificados de los dispositivos que ConfigMgr maneja.
 Requiere IIS y trabaja en conjunto con el rol de AD Network Device
 Enrollment Service.
 
-Mejoras en la distribución de contenido:
+###Mejoras en la distribución de contenido:
 
-1.  
-
-Hay resúmenes mejorados y más claros en la consola de monitoreo acerca
-de la distribución de paquetes, así como nuevos reportes con datos de
-uso de los distribution Points:
+Hay resúmenes mejorados y más claros en la consola de monitoreo acerca de la distribución de paquetes, así como nuevos reportes con datos de uso de los distribution Points:
 
 Distribution Point usage: Clientes que acceden, procesamiento, bytes
 enviados
 
-Replication Traffic: Tráfico en MBs enviados entre Sites.
-
-1.  
+###Replication Traffic: Tráfico en MBs enviados entre Sites.
 
 Se agregaron acciones de “Cancel” y “Redistribute” sobre aquellas
 distribuciones en curso o fallidas de los distribution Points. Estas
@@ -80,9 +96,7 @@ Se optimizó la validación de contenido del Distribution Point. Antes,
 validaba un archivo por cada llamada de WMI, a partir de R2, valida
 hasta 50 archivos por cada llamada de WMI.
 
-Pull Distribution Points:
-
-1.  
+###Pull Distribution Points:
 
 Es posible mejorar ahora el uso de ancho de banda durante la
 sincronización con los Distribution Points de origen ya que permite
@@ -92,16 +106,13 @@ busca contenido.
 Cada Pull DP entrega status al site server. Esto reduce el procesamiento
 del distribution manager (distmgr).
 
-Network Access Accounts:
+###Network Access Accounts:
 
-1.  
 
 Soporte de múltiples cuentas de acceso por Site para dominios/forrest no
 confiados.
 
 Unified Device Management (UDM) - Intune:
-
-1.  
 
 Si bien, desde el SP1 es soportado los servicios de Cloud con el
 conector para la subscripción de Intune, ahora está más ordenado y tiene
@@ -109,30 +120,27 @@ un ítem aparte bajo el nodo de Administración, llamado “Cloud Services”.
 
 Además es posible personalizar el conector con las opciones de nuestra
 marca: nombre de la compañía, URL, logo, información de contacto,
-color.\
+color.
 El conector soporta las siguientes plataformas móviles: Android, iOS,
 Windows RT, Windows Phone 8.
 
-SQL Setup:
+###SQL Setup:
 
-1.  
 
 Ahora es más flexible al momento de instalación del producto, pudiendo
-especificar la ubicación de las bases y log de transacciones.\
+especificar la ubicación de las bases y log de transacciones.
 Soporta también el restore en una instancia distinta de SQL; siempre y
 cuando los SQLs sean de la misma versión.
 
-Integración MDT:
+###Integración MDT:
 
-1.  
 
 En esta versión vienen varias acciones de MDT por default sin la
 necesidad de integrarse con MDT: MDT gather, MDT validate, Set
 PowerShell execution policy.
 
-Seguridad:
+###Seguridad:
 
-1.  
 
 Ahora los reportes se basan en RBAC (Role-based administration control)
 que permite controlar el acceso específico a los mismos.
@@ -150,14 +158,12 @@ Cuando se reasignan Distribution Points compartidos (Reassign Shared
 Distribution Point wizard), es posible ahora elegir las mismas opciones
 que cuando se crea uno nuevo: pull distribution, boundary groups, etc.
 
-1.  
 
 Funciones de Cliente:
 ---------------------
 
-Resultant Client Settings (RSOP):
+###Resultant Client Settings (RSOP):
 
-1.  
 
 Permite accede a un cuadro con los “settings efectivos” de las múltiples
 configuraciones que puedan haber recibido los clientes por estar
@@ -172,9 +178,8 @@ clientes cuando se usa Wake-up Proxy.
 Compliance para Mobile: Existe un nuevo ítem para evaluar la
 configuración de dispositivos móviles: “Mobile Device Settings”.
 
-Workplace join
+###Workplace join
 
-1.  
 
 Soporte para “Work folders”: Con Windows 8.1 y Windows Server 2012 R2,
 existe un nuevo concepto para que los usuarios accedan, almacenen y
@@ -183,9 +188,8 @@ sus dispositivos personales asegurando el acceso con configuraciones de
 encriptación. ConfigMgr 2012 R2 soporta configurar las opciones de
 sincronización y el acceso desde Windows 8.1 Self Service Portal.
 
-Software Updates:
+###Software Updates:
 
-1.  
 
 Ahora existen ventanas de mantenimiento específicas para updates. Si un
 cliente tiene ambas ventanas de mantenimiento comunes y las de update,
@@ -205,26 +209,23 @@ updates antes de crear el deployment.
 Mejoras en la distribución de contenido del cliente: Se optimizó la
 bajada de contenido para aplicaciones supercedidas.
 
-Manejo de Aplicaciones Web:
+###Manejo de Aplicaciones Web:
 
 Existe un nuevo tipo de Deployment type para Aplicaciones Web que
 permite implementar un shortcut para la aplicación web que se use en el
 dispositivo del usuario.
 
-Cliente para MAC:
+###Cliente para MAC:
 
 Soporte para OS X Mountain Lion (versión 10.8) y User enrollment por
 interface gráfica en vez de utilizar CMEnroll command line.
 
-1.  
 
 Dispositivos móviles:
 ---------------------
 
-Manejo de dispositivos BYOD (Bring-your-Own-Device)"traer tu propio
-dispositivo":
+###Manejo de dispositivos BYOD (Bring-your-Own-Device)"traer tu propio dispositivo":
 
-1.  
 
 Permite configurar los dispositivos e identificarlos como: “Personal
 owned” o “Company-owned” con la acción: “Change ownwership”.
@@ -241,9 +242,8 @@ la compañía cuando es “Company-owned”.
 Windows Mobile 6 reportarán inventario completo cuando es
 “Company-owned”.
 
-Self Service Portal
+###Self Service Portal
 
-1.  
 
 Ahora existe un nuevo portal de autoservicio para manejar las
 aplicaciones desde las plataformas de Windows x86, iOS, Android.
@@ -260,9 +260,8 @@ La posibilidad de instalar las aplicaciones directamente al dispositivo.
 Las acciones que requieran notificaciones al usuario, usarán “Android
 notification”
 
-1.  
 
-El portal estará disponible en App store para iOS 6+ y tiene las
+###El portal estará disponible en App store para iOS 6+ y tiene las
 siguientes capacidades:
 
 Cambiar o resetear passwords.
@@ -271,9 +270,8 @@ Baja e instalar aplicaciones de la compañía.
 
 Enroll, unenroll o wipe de contenido de los dispositivos.
 
-Wipe de dispositivos móviles:
+###Wipe de dispositivos móviles:
 
-1.  
 
 Básicamente ahora se soporta el poder remover el contenido de la
 compañía: email, perfiles de VPN-WiFi y Certificados, Aplicaciones
@@ -284,18 +282,16 @@ Las plataformas soportadas son: Android, iOS, Windows RT 8.1, Windows
 Windows 8.1 Preview puede ser manejado a través de Intune, si no está
 agregado a dominio o no tiene el cliente de ConfigMgr instalado.
 
-Remote Connection Profiles:
+###Remote Connection Profiles:
 
-1.  
 
 Permite hacer deploy en los clientes de perfiles con opciones de “Remote
 Desktop Connection” para que el cliente se pueda conectar rápidamente al
 portal de la compañía y acceder a su computadora primaria de trabajo
 bajo Remote Desktop.
 
-Certificate Profiles:
+###Certificate Profiles:
 
-1.  
 
 Se puede realizar deploy de certificados de usuarios y/o dispositivos
 utilizando  Simple Certificate Enrollment Protocol (SCEP), para soporte
@@ -310,17 +306,15 @@ implementación, es necesario contar además con el nuevo rol de
 
 Se soportan dispositivos con Windows 8.1 / RT 8.1, Android e iOS.
 
-WiFi profiles:
+###WiFi profiles:
 
-1.  
 
 Es posible configurar e implementar perfiles para manejar las
 configuraciones de conexión WiFi para Windows 8 / RT, Windows 8.1/RT 8.1
 e iOS.
 
-Manejo de VPN:
+###Manejo de VPN:
 
-1.  
 
 Soporta poder configurar perfiles de acceso de remoto para Microsoft
 (SSL, IKEv2, PPTP, L2TP), Cisco, F5, Juniper, Dell SonicWall y Check
@@ -337,17 +331,15 @@ Soporta imágenes de booteo hechas en Windows Automated Installation Kit
 (Windows AIK) for Windows 7 SP1 and based on Windows PE 3.1. Windows ADK
 8.1 no soporta mas Windows XP.
 
-Manejo de VHDs:
+###Manejo de VHDs:
 
-1.  
 
 Permite el manejo de discos virtuales desde la consola para la creación,
 modificación y offline servicing para luego subirlos a System Center
 2012 R2 Virtual Machine Manager.
 
-Nuevos pasos para task sequences:
+###Nuevos pasos para task sequences:
 
-1.  
 
 Se incorporaron nuevos Steps disponibles para la secuencia de tareas.
 
@@ -362,7 +354,6 @@ de una task sequence y la llena dicha información. Luego evalúa las
 reglas definidas y setea la variable basada en las variables y valores
 configurados por las reglas que evalúa en True.
 
-1.  
 
 Se incorporaron nuevas Variables built-in para la secuencia de tareas:
 
@@ -383,8 +374,7 @@ o False. False es el default.
 \_TSAppInstallStatus con el status de instalación para la aplicación
 durante el paso “Install Application”. La secuencia de tareas setea la
 variable con uno de los siguientes valores:
-
-1.  2.  **Undefined**: Se establece cuando el paso “Install Application”
+2.  **Undefined**: Se establece cuando el paso “Install Application”
     no ha corrido aún.
 
 3.  **Error**: Se establece cuando por lo menos una aplicación falló a
@@ -398,7 +388,6 @@ variable con uno de los siguientes valores:
 5.  **Success**: Se establece cunado no hay errores o warning detectados
     durante el paso de “Install Application”.
 
-6.  
 
 En resumen, System Center 2012 R2 Configuration Manager cada vez se
 integra más a la familia de productos Microsoft y extiende sus

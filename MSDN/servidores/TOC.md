@@ -41,3 +41,9 @@
 #[Qué hay de nuevo en CM 2012 SP1](Que hay de nuevo en CM 2012 SP1.md)
 #[Microsoft Dynamics NAV en el Cloud](Microsoft Dynamics NAV en el Cloud.md)
 
+#[Lo nuevo en System Center 2012 R2 Configuration Manager](Lo nuevo en System Center 2012 R2 Configuration Manager.md)
+
+#[Jerarquía Configuration Manager 2012](Jerarquía Configuration Manager 2012.md)
+#[Hyper-V: Implementación Rápida de Máquinas Virtuales](Implementación Rápida de Máquinas Virtuales.md)
+
+
