@@ -20,3 +20,24 @@
 #[Full Server, Core Server y Tres Opciones Diferentes Más](Full Server, Core Server y Tres Opciones Diferentes Mas.md)
 #[Instalando Forefront Security for Office Communications Server](Instalando Forefront Security.md)
 #[Integrando Lync 2013 y Exchange 2013 para mensajería unificada y Outlook Voice](Integrando Lync 2013 y Exchange 2013 para OVA.md)
+
+
+#[Aplicaciones de servicio en SharePoint 2013: Introducción y funcionalidad](Aplicaciones de servicio en SharePoint 2013)
+
+#[Aplicaciones de servicio en SharePoint 2013 (I): Introducción y funcionalidad](Aplicaciones de servicio en SharePoint 2013 (I).md)
+
+#[Cómo crear una tabla que presente repeticiones de rangos de números](Cómo crear una tabla que presente repeticiones de rangos de números.md)
+
+#[SharePoint 2010 y Open XML SDK. Creación de informes personalizados](SharePoint_OpenXML.md)
+
+#[Servicios InterGranjas para Gobiernos Corporativos y Administrativos con SharePoint 2010](Servicios InterGranjas.md)
+
+#[Servicios de SharePoint 2013 - III: Programando un Servicio propio](Servicios de SharePoint 2013.md)
+
+#[Script para permitir a las bibliotecas abrir los archivos PDFS en SharePoint 2010](Script per PDFs en Sharepoint.md)
+
+#[Roles de Site System en CM 2012](Roles de Site System en CM 2012.md)
+#[Paso a Paso -  Reporting Services en Azure](Reporting Services en Azure.md)
+#[Qué hay de nuevo en CM 2012 SP1](Que hay de nuevo en CM 2012 SP1.md)
+#[Microsoft Dynamics NAV en el Cloud](Microsoft Dynamics NAV en el Cloud.md)
+

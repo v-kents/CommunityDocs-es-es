@@ -1,7 +1,30 @@
+
+
+<properties
+pageTitle="Microsoft Dynamics NAV en el Cloud"
+description="Microsoft Dynamics NAV en el Cloud"
+services="servers"
+documentationCenter=""
+authors="andygonusa"
+manager=""
+editor="andygonusa"/>
+
+<tags
+ms.service="servers"
+ms.workload="Dynamics"
+ms.tgt_pltfrm="na"
+ms.devlang="na"
+ms.topic="how-to-article"
+ms.date="05/12/2016"
+ms.author="andygonusa"/>
+
+
+#Microsoft Dynamics NAV en el Cloud
+
+
 Josep Pages
 
-[Microsoft
-MVP](http://mvp.microsoft.com/en-US/findanmvp/Pages/profile.aspx?MVPID=54ae069a-ac77-4e6c-8fad-0c525bfe9cbb)
+[MicrosoftMVP](http://mvp.microsoft.com/en-US/findanmvp/Pages/profile.aspx?MVPID=54ae069a-ac77-4e6c-8fad-0c525bfe9cbb)
 
 <http://geeks.ms/blogs/jpages/>
 
@@ -22,7 +45,7 @@ de la organización.
 Para empezar, veamos los 5 beneficios más destacables de la utilización
 o consumo de software en la nube:
 
-1.  Se eliminan los costes iniciales de creación de la
+1. Se eliminan los costes iniciales de creación de la
     infraestructura propia.
 
 2.  Acceso triple A: Anywhere, Anytime, Anydevice.
@@ -48,15 +71,15 @@ También es útil para identificar qué componentes son los que intervienen
 en una infraestructura TI, aunque podría haber más, como servicios de
 colas o de autentificación, entre otros.
 
-1.  ![](./media/media/image1.png){width="5.905555555555556in"
-    height="3.277083333333333in"}
+![](./img/Microsoft Dynamics NAV en el Cloud/image1.png)
+    
 
-  Ejemplos de modelos tecnológicos en la nube:
-  ---------------------------------------------- --------------------------------------------
-  On Premises
-  IaaS
-  PaaS
-  SaaS
+ | Ejemplos de modelos tecnológicos en la nube:||
+ | --------------------------|-------------------- --------|
+|On Premises| Servidor (hardware) propio|
+|  IaaS|Servidor (software) virtual|
+ | PaaS|Role (servicio)|
+ | SaaS|Microsoft CRM on line, próxima version de Dynamics NAV (Navision)|
 
 Multi-tenant
 ------------
@@ -86,9 +109,9 @@ competitiva.”
 La descripción anterior es suficientemente esclarecedora, pero las dos
 últimas frases son determinantes:
 
-Concepto esencial del cloud computing.
+- Concepto esencial del cloud computing.
 
-Puede ser una ventaja competitiva.
+- Puede ser una ventaja competitiva.
 
 Se puede deducir entonces que Microsoft Dynamics NAV (Navision)
 incorporará este concepto. No sólo eso, sino que puede llegar a ser un
@@ -126,8 +149,8 @@ que vaya destinado.
 Una hipotética infraestructura de Dynamics NAV (Navision) en modo
 multi-tenant podría ser como en la siguiente ilustración:
 
-1.  ![](./media/media/image2.PNG){width="4.938188976377953in"
-    height="3.7505238407699037in"}
+![](./img/Microsoft Dynamics NAV en el Cloud/image2.PNG)
+    
 
 Donde cada tenant será un Application NAV Server con un único código
 fuente y podrá servir distintas bases de datos de datos, valga la
@@ -155,10 +178,10 @@ adaptaciones y es preferible disponer de un abanico de soluciones donde
 el cliente final pueda escoger y renunciar a ciertas personalizaciones a
 cambio de un menor coste.
 
-  Cambio en la consultoría de software:
-  --------------------------------------- -----------------------------------
-  La consultoría ahora
-  La consultoría en el futuro
+  |Cambio en la consultoría de software:||
+  |------------|--------------------|
+  |La consultoría ahora|Adaptar Dynamics NAV a la empresa|
+  |La consultoría en el futuro|Adaptar la empresa a Dynamics NAV|
 
 Según el libro Repeatability: Build Enduring Businesses for a World of
 Constant Change de Chris Zook and James Allen (Harvard Business Review
@@ -185,8 +208,8 @@ Costes
 Los factores que hacen que el modelo se acerque más al lado aislado y
 caro (en rojo) y se aleje del lado repetible y barato (azul) son:
 
-1.  ![](./media/media/image3.PNG){width="5.459095581802274in"
-    height="2.0315332458442694in"}
+![](./img/Microsoft Dynamics NAV en el Cloud/image3.PNG)
+    
 
 Lo que indica que el modelo repetible es más económico cuantos más
 clientes lo utilicen y cuantas menos personalizaciones existan.
@@ -196,28 +219,32 @@ en cuanto se incorpora el segundo cliente y van decreciendo de forma
 significativa hasta encontrar un umbral a partir del cual ya no permite
 la incorporación de más clientes.
 
-1.  ![](./media/media/image4.PNG){width="5.905555555555556in"
-    height="3.027083333333333in"}
+![](./img/Microsoft Dynamics NAV en el Cloud/image4.PNG)
+    
 
 Finalmente en el siguiente cuadro se comparan los principales criterios
 a tener en cuenta a la hora de afrontar una inversión a tenor de las
 alternativas más comunes:
 
-  -------------------------------------- ---------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------
-  CRITERIO                               RENTING / ALQUILER                                                     LEASING                                                                                                                                            COMPRA FINANCIADA
-  ECONÓMICO                              Utiliza bien sin desembolso                                            Utiliza bien sin desembolso                                                                                                                        Propiedad del bien financiada
-  FISCAL                                 Gasto totalmente deducible                                             No todo el gasto es deducible, sólo una parte                                                                                                      Deducibles hasta una cuota
-  FINANCIERO                             Mayor liquidez, es gasto                                               Menor liquidez, aparece en pasivo                                                                                                                  Menor liquidez, aparece en pasivo
-  TÉCNICO                                Permite cambios continuos de equipo                                    Permite cambios continuos de equipo                                                                                                                Inversión CAPEX
-  CONTABLE                               OPEX. No figura en el inmovilizado ni pierde vida útil. Es un gasto.   Figura en balance como activo y por la parte de la deuda como pasivo. La amortización es acelerada y da lugar a diferencias temporales en el IS.   Figura en balance como activo y por la parte de la deuda como pasivo.
-  OPCION DE COMPRA                       No en principio                                                        Por valor residual desde el inicio                                                                                                                 Implícita
-  MANTENIMIENTO                          Incluido en cuota                                                      No                                                                                                                                                 No
-  DURACION                               Corto plazo                                                            Medio/largo plazo                                                                                                                                  Medio/largo plazo
-  PRORROGA                               Si                                                                     Si                                                                                                                                                 No
-  COMPUTA EN CIRBE                       No                                                                     Si                                                                                                                                                 Si
-  DISMINUYE CAPACIDAD DE ENDEUDAMIENTO   No                                                                     Si                                                                                                                                                 Si
-  PROPIEDAD DEL BIEN                     Proveedor                                                              Proveedor                                                                                                                                          Empresa
-  -------------------------------------- ---------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------
+|||||
+|------|-----|------|------|
+| CRITERIO | RENTING / ALQUILER |    LEASING    |  COMPRA FINANCIADA|
+|  ECONÓMICO       |                       Utiliza bien sin desembolso  |                                          Utiliza bien sin desembolso |                                                                                                                       Propiedad del bien financiada|
+ | FISCAL       |                          Gasto totalmente deducible         |                                    No todo el gasto es deducible, sólo una parte        |                                                                                              Deducibles hasta una cuota|
+ | FINANCIERO       |                      Mayor liquidez, es gasto    |                                           Menor liquidez, aparece en pasivo               |                                                                                                   Menor liquidez, aparece en pasivo|
+ | TÉCNICO      |                          Permite cambios continuos de equipo      |                              Permite cambios continuos de equipo                |                                                                                                Inversión CAPEX|
+ | CONTABLE     |                          OPEX. No figura en el inmovilizado ni pierde vida útil. Es un gasto.  | Figura en balance como activo y por la parte de la deuda como pasivo. La amortización es acelerada y da lugar a diferencias temporales en el IS. |  Figura en balance como activo y por la parte de la deuda como pasivo.|
+ | OPCION DE COMPRA     |                  No en principio       |                                                 Por valor residual desde el inicio              |                                                                                                   Implícita|
+ | MANTENIMIENTO   |                       Incluido en cuota    |                                                  No      |                                                                                                                                           No|
+ | DURACION                  |             Corto plazo     |                                                       Medio/largo plazo  |                                                                                                                                Medio/largo plazo|
+ | PRORROGA      |                         Si                                                                |     Si   |                                                                                                                                              No|
+ | COMPUTA EN CIRBE     |                  No                                                               |      Si   |                                                                                                                                              Si|
+ | DISMINUYE CAPACIDAD DE ENDEUDAMIENTO |  No                                                              |       Si         |                                                                                                                                        Si|
+ | PROPIEDAD DEL BIEN   |                  Proveedor        |                                                      Proveedor |                                                                                                                                         Empresa|
+ 
+  
+  
+  
 
 Conclusiones
 ------------

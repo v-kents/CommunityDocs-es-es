@@ -1,7 +1,28 @@
-1.  ![](./media/media/image1.png){width="1.78125in"
-    height="0.6354166666666666in"}
+<properties
+pageTitle="SharePoint 2010 y Open XML SDK. Creación de informes personalizados"
+description="SharePoint 2010 y Open XML SDK. Creación de informes personalizados"
+services="servers"
+documentationCenter=""
+authors="andygonusa"
+manager=""
+editor="andygonusa"/>
 
-    <http://www.dnmplus.net>
+<tags
+ms.service="servers"
+ms.workload="Sharepoint"
+ms.tgt_pltfrm="na"
+ms.devlang="na"
+ms.topic="how-to-article"
+ms.date="05/12/2016"
+ms.author="andygonusa"/>
+
+
+
+#SharePoint 2010 y Open XML SDK. Creación de informes personalizados
+
+
+![](./img/SharePoint_OpenXML/image1.png) 
+<http://www.dnmplus.net>
 
 Karel Trueba, Lester Sánchez, Miguel Katrib
 
@@ -10,6 +31,7 @@ desarrolladores del grupo WEBOO de la Universidad de la Habana. Miguel
 es Dr. y profesor de Programación y director del grupo WEBOO.
 
 Entradilla
+----------
 
 Para sacar provecho del volumen creciente de información y del
 conocimiento subyacente, las empresas e instituciones suelen recurrir a
@@ -35,21 +57,21 @@ de SharePoint a partir de la cual se desea generar un informe. El
 informe generado exportando los datos a Excel usando la funcionalidad
 predeterminada de SharePoint se muestra en la figura 2.
 
-1.  Figura 1. Lista de SharePoint
+Figura 1. Lista de SharePoint
 
 <!-- -->
 
-1.  ![](./media/media/image2.png){width="5.915927384076991in"
-    height="3.9682534995625547in"}
+![](./img/SharePoint_OpenXML/image2.png)
+    
 
 <!-- -->
 
-1.  Figura 2. Informe generado por defecto
+Figura 2. Informe generado por defecto
 
 <!-- -->
 
-1.  ![](./media/media/image3.png){width="6.768055555555556in"
-    height="2.0597222222222222in"}
+![](./img/SharePoint_OpenXML/image3.png)
+    
 
 Como se muestra en la figura 2, el informe tiene un diseño
 preestablecido, el cual no se puede modificar antes de la creación del
@@ -81,47 +103,33 @@ Finalmente, guardamos el informe generado en la biblioteca de documentos
 compartidos del sitio, y con ello ya tenemos nuestro informe
 personalizado.
 
-1.  Listado 1. Obtención de los datos de una lista de SharePoint
+Listado 1. Obtención de los datos de una lista de SharePoint
 
 <!-- -->
 
-1.  SPWeb currentWeb = SPContext.Current.Web;
-
-    SPList currentList = (SPList)currentWeb.Lists\["Películas"\];
-
+    SPWeb currentWeb = SPContext.Current.Web;
+    SPList currentList = (SPList)currentWeb.Lists["Películas"];
     DataTable data = currentList.Items.GetDataTable();
-
     foreach (DataColumn item in data.Columns)
-
-    item.ColumnName =
-    currentList.Fields.GetFieldByInternalName(item.ColumnName).Title;
-
+        item.ColumnName = currentList.Fields.GetFieldByInternalName(item.ColumnName).Title;
     int index = 0;
-
-    DataColumn column = data.Columns\["Género"\];
-
-    SPField field = currentList.Fields\["Género"\];
-
+    DataColumn column = data.Columns["Género"];
+    SPField field = currentList.Fields["Género"];
+    
     foreach (SPListItem item in currentList.Items)
-
-    data.Rows\[index++\]\[column\] =
-    field.GetFieldValueAsText(item\["Género"\]);
+    data.Rows[index++][column] =
+    field.GetFieldValueAsText(item["Género"]);
 
     ExcelReport excelReport = new DNMDemo.ExcelReport();
-
     Stream report = excelReport.GenerateReport(data);
 
     SPFolder libraryFolder = currentWeb.GetFolder("Documentos
     compartidos");
-
     SPFileCollection collFiles = libraryFolder.Files;
 
     string documentUrl = libraryFolder.Url + "/ExcelReport.xlsx";
-
     SPFile fileNew = collFiles.Add(documentUrl, report, true);
-
     SPListItem listItem = fileNew.Item;
-
     listItem.Update();
 
 Creación del documento-informe
@@ -150,13 +158,13 @@ archivos ZIP), es un archivo ZIP de una carpeta de documentos compuesta
 de varios archivos XML (figura 3); éstos últimos, por tanto, pueden ser
 accedidos de manera directa e independiente.
 
-1.  Figura 3. Estructura del paquete compactado de un documento Excel
+Figura 3. Estructura del paquete compactado de un documento Excel
     2013
 
 <!-- -->
 
-1.  ![](./media/media/image4.PNG){width="5.709130577427821in"
-    height="3.656760717410324in"}
+![](./img/SharePoint_OpenXML/image4.PNG)
+    
 
 En el SDK de Open XML, la clase **SpreadsheetDocument** representa un
 paquete de documentos de Excel. Para crear un documento de Excel
@@ -184,46 +192,25 @@ de tipo **SharedStringTablePart**. A continuación, se crea un objeto
 (**Sheet**) y se realiza la llamada al método **GenerateWorksheetPart**,
 encargado de generar la hoja con la información del informe.
 
-1.  Listado 2. Código para creación de un informe
+Listado 2. Código para creación de un informe
 
-<!-- -->
 
-1.  public Stream GenerateReport(DataTable data)
-
+    public Stream GenerateReport(DataTable data)
     {
-
     var docStream = new MemoryStream();
+    using (SpreadsheetDocument spreadsheetDocument = SpreadsheetDocument.Create(docStream, SpreadsheetDocumentType.Workbook))
+        {
+        WorkbookPart workbookpart = spreadsheetDocument.AddWorkbookPart();
+        workbookpart.Workbook = new Workbook();
+        
+        SharedStringTablePart shareStringPart = workbookpart.AddNewPart<SharedStringTablePart>();
+        shareStringPart.SharedStringTable = new SharedStringTable {Count = new UInt32Value(0U)};
 
-    using (SpreadsheetDocument spreadsheetDocument =
-
-    SpreadsheetDocument.Create(docStream,
-
-    SpreadsheetDocumentType.Workbook))
-
-    {
-
-    WorkbookPart workbookpart = spreadsheetDocument.AddWorkbookPart();
-
-    workbookpart.Workbook = new Workbook();
-
-    SharedStringTablePart shareStringPart =
-
-    workbookpart.AddNewPart&lt;SharedStringTablePart&gt;();
-
-    shareStringPart.SharedStringTable =
-
-    new SharedStringTable {Count = new UInt32Value(0U)};
-
-    workbookPart.Workbook.AppendChild(new Sheets());
-
-    GenerateWorksheetPart(workbookpart, data , "Sheet1", 1);
-
-    workbookpart.Workbook.Save();
-
-    return docStream;
-
-    }
-
+        workbookPart.Workbook.AppendChild(new Sheets());
+        GenerateWorksheetPart(workbookpart, data , "Sheet1", 1);
+        workbookpart.Workbook.Save();
+        return docStream;
+        }
     }
 
 El método **GenerateWorksheetPart** que se muestra en el listado 3 es el
@@ -249,40 +236,27 @@ propia estructura del documento, en la que se tiene un paquete con un
 conjunto de partes vinculadas entre ellas a través del uso de relaciones
 entre las mismas.
 
-1.  Listado 3. Generación de un WorksheetPart
+Listado 3. Generación de un WorksheetPart
 
 <!-- -->
 
-1.  private void GenerateWorksheetPart(WorkbookPart workbookpart,
-    DataTable data,
-
-    string sheetName, uint sheetId)
-
+    private void GenerateWorksheetPart(WorkbookPart workbookpart, DataTable data, string sheetName, uint sheetId)
     {
-
     WorksheetPart worksheetPart =
-    workbookpart.AddNewPart&lt;WorksheetPart&gt;();
-
+    workbookpart.AddNewPart<WorksheetPart>();
     SheetData sheetData = new SheetData();
-
     worksheetPart.Worksheet = new Worksheet(sheetData);
 
-    Sheets sheets = workbookpart.Workbook.GetFirstChild&lt;Sheets&gt;();
+    Sheets sheets = workbookpart.Workbook.GetFirstChild<Sheets>();
 
     sheets.AppendChild(new Sheet
-
     {
-
-    Id = workbookPart.GetIdOfPart(worksheetPart),
-
-    SheetId = sheetId,
-
-    Name = sheetName
-
+        Id = workbookPart.GetIdOfPart(worksheetPart),
+        SheetId = sheetId,
+        Name = sheetName
     });
 
-    InsertSheetData(sheetData, data,
-    workbookpart.SharedStringTablePart.SharedStringTable);
+    InsertSheetData(sheetData, data, workbookpart.SharedStringTablePart.SharedStringTable);
 
     }
 
@@ -295,51 +269,30 @@ del paquete, como se mostró en el listado 3. Dentro de este elemento
 el tipo **Row**), que se crean en el método **AddSheetRow** que se
 muestra en el listado 4.
 
-1.  Listado 4. Código para crear e insertar filas
+Listado 4. Código para crear e insertar filas
 
 <!-- -->
 
-1.  private void InsertSheetData(SheetData sheetData, DataTable data,
-
-    SharedStringTable sharedStringTable)
-
+    private void InsertSheetData(SheetData sheetData, DataTable data, SharedStringTable sharedStringTable)
     {
-
     uint rowIndex = 2;
-
     AddSheetRow(sheetData, sharedStringTable, rowIndex++, data.Columns);
-
     foreach (DataRow row in data.Rows)
-
-    AddSheetRow(sheetData, sharedStringTable, rowIndex++,
-    row.ItemArray);
-
+        AddSheetRow(sheetData, sharedStringTable, rowIndex++, row.ItemArray);
     }
 
-    private void AddSheetRow(SheetData sheetData, SharedStringTable
-    sharedStringTable,
-
-    uint rowIndex, IEnumerable cellValues)
-
+    private void AddSheetRow(SheetData sheetData, SharedStringTable sharedStringTable, uint rowIndex, IEnumerable cellValues)
     {
+        Row excelRow = new Row{RowIndex = rowIndex};
+        int columnIndex = 1;
 
-    Row excelRow = new Row{RowIndex = rowIndex};
+        foreach (var cellValue in cellValues)
+        {
+            Cell cell = GenerateCell(sharedStringTable, columnIndex++, rowIndex, cellValue);
+            excelRow.AppendChild(cell);
+        }
 
-    int columnIndex = 1;
-
-    foreach (var cellValue in cellValues)
-
-    {
-
-    Cell cell = GenerateCell(sharedStringTable, columnIndex++, rowIndex,
-    cellValue);
-
-    excelRow.AppendChild(cell);
-
-    }
-
-    sheetData.AppendChild(excelRow);
-
+        sheetData.AppendChild(excelRow);
     }
 
 El tipo **Row** (filas en una hoja de Excel) contiene un conjunto de
@@ -365,61 +318,34 @@ el tipo del valor de la celda se mostrará el valor almacenado en la
 misma, en este caso, el índice en la tabla **SharedStringTable**, y
 Excel lo manejará como un número.
 
-1.  Listado 5. Generación de un tipo Cell
+Listado 5. Generación de un tipo Cell
 
 <!-- -->
 
-1.  private Cell GenerateCell(SharedStringTable sharedStringTable, int
-    columnIndex,
+    private Cell GenerateCell(SharedStringTable sharedStringTable, int columnIndex, uint rowIndex, object cellValue)
+        {
+        Cell cell = new Cell {CellReference = string.Concat(GetColumnLetter(columnIndex), rowIndex),
+        CellValue = new CellValue() };
 
-    uint rowIndex, object cellValue)
+        if (cellValue is int || cellValue is double)
+            cell.CellValue.Text = cellValue.ToString();
+        else
+        {
+            cell.DataType = new
+            EnumValue<CellValues>(CellValues.SharedString);
+            int index = -1;
 
-    {
+            SharedStringItem item = sharedStringTable.Elements<SharedStringItem>().FirstOrDefault(x => { index++; return x.Text.InnerText.Equals(cellValue);});
 
-    Cell cell = new Cell {
-
-    CellReference = string.Concat(GetColumnLetter(columnIndex),
-    rowIndex),
-
-    CellValue = new CellValue() };
-
-    if (cellValue is int || cellValue is double)
-
-    cell.CellValue.Text = cellValue.ToString();
-
-    else
-
-    {
-
-    cell.DataType = new
-    EnumValue&lt;CellValues&gt;(CellValues.SharedString);
-
-    int index = -1;
-
-    SharedStringItem item
-    = sharedStringTable.Elements&lt;SharedStringItem&gt;().
-
-    FirstOrDefault(x =&gt;{ index++; return
-    x.Text.InnerText.Equals(cellValue);});
-
-    if (item == null)
-
-    {
-
-    index = (int)sharedStringTable.Count.Value++;
-
-    sharedStringTable.AppendChild(
-
-    new SharedStringItem(new Text(cellValue.ToString())));
-
-    }
-
-    cell.CellValue.Text = index.ToString();
-
-    }
-
-    return cell;
-
+            if (item == null)
+            {
+                index = (int)sharedStringTable.Count.Value++;
+                sharedStringTable.AppendChild(
+                new SharedStringItem(new Text(cellValue.ToString())));
+            }
+            cell.CellValue.Text = index.ToString();
+        }
+        return cell;
     }
 
 Hasta el momento, con el código visto se puede generar un libro de Excel
@@ -430,12 +356,12 @@ columna representa una propiedad distinta de la misma. La figura 4
 muestra el documento creado a partir de los datos de la lista en la
 figura 1, sin agregar estilos y formatos a los datos.
 
-1.  Figura 4. Informe generado, sin estilos
+Figura 4. Informe generado, sin estilos
 
 <!-- -->
 
-1.  ![](./media/media/image5.png){width="5.802892607174103in"
-    height="2.958746719160105in"}
+![](./img/SharePoint_OpenXML/image5.png)
+    
 
 Adición de estilos al libro
 ---------------------------
@@ -459,57 +385,36 @@ con lo que tendremos una definición de tabla que abarca el rango de
 celdas, en este caso con la información de las películas, un encabezado
 definido y un estilo dado.
 
-1.  Listado 6. Código para crear e insertar un formato de tabla
+Listado 6. Código para crear e insertar un formato de tabla
 
 <!-- -->
 
-1.  private void CreateTableFormat(WorksheetPart worksheetPart,
-    DataTable data, uint sheetId)
-
+    private void CreateTableFormat(WorksheetPart worksheetPart, DataTable data, uint sheetId)
     {
+    var tableDefPart = worksheetPart.AddNewPart<TableDefinitionPart>();
 
-    var tableDefPart =
-    worksheetPart.AddNewPart&lt;TableDefinitionPart&gt;();
-
-    worksheetPart.Worksheet.AppendChild(new TableParts(
-
-    new TablePart { Id = worksheetPart.GetIdOfPart(tableDefPart) }));
+    worksheetPart.Worksheet.AppendChild(new TableParts(new TablePart { Id = worksheetPart.GetIdOfPart(tableDefPart) }));
 
     string name = string.Format("Table{0}", sheetId);
+    tableDefPart.Table = new Table { Id = sheetId, Name = name, DisplayName = name };
 
-    tableDefPart.Table = new Table { Id = sheetId, Name = name,
-    DisplayName = name };
-
-    string reference = string.Format("B2:{0}{1}",
-
-    GetColumnName(data.Columns.Count), data.Rows.Count + 2);
-
+    string reference = string.Format("B2:{0}{1}", GetColumnName(data.Columns.Count), data.Rows.Count + 2);
     tableDefPart.Table.Reference = reference;
 
     AutoFilter autoFilter = new AutoFilter {Reference = reference};
 
-    TableColumns tableColumns = new TableColumns { Count =
-    (uint)data.Columns.Count };
-
+    TableColumns tableColumns = new TableColumns { Count = (uint)data.Columns.Count };
     int id = 1;
 
     foreach (DataColumn column in data.Columns)
-
     {
-
-    var tableColumn = new TableColumn { Id = (uint)id++, Name =
-    column.ColumnName };
-
-    tableColumns.AppendChild(tableColumn);
-
+        var tableColumn = new TableColumn { Id = (uint)id++, Name = column.ColumnName };
+        tableColumns.AppendChild(tableColumn);
     }
 
-    var tableStyleInfo = new TableStyleInfo{ Name = "TableStyleMedium2",
-
-    ShowRowStripes = true };
+    var tableStyleInfo = new TableStyleInfo{ Name = "TableStyleMedium2", ShowRowStripes = true };
 
     tableDefPart.Table.Append(autoFilter, tableColumns, tableStyleInfo);
-
     tableDefPart.Table.Save();
 
     }
@@ -518,8 +423,7 @@ El método **CreateConditionalFormatting** del listado 7 define un
 formato condicional para la columna **Calificación** dependiendo del
 valor de la celda. El formato condicional que se aplicará será de tipo
 **Barra de datos**, y los valores, como se puede apreciar en los tipos
-**ConditionalFormatValueObject**, varían entre los valores numéricos 0 y
-10. Este ejemplo muestra el alcance que tiene el SDK, al brindar la
+**ConditionalFormatValueObject**, varían entre los valores numéricos 0 y 10. Este ejemplo muestra el alcance que tiene el SDK, al brindar la
 posibilidad de construir un documento con cualquiera de las
 funcionalidades que ofrece la suite de Office; pero también muestra lo
 complicado que puede llegar a ser este proceso, dada la necesidad de
@@ -546,49 +450,30 @@ cualquier otro lugar que no sea justo después del elemento
 **SheetData**, el documento creado quedaría corrupto y se perdería la
 información.
 
-1.  Listado 7. Código para crear e insertar un formato condicional
+Listado 7. Código para crear e insertar un formato condicional
 
 <!-- -->
 
-1.  private void CreateConditionalFormatting(WorksheetPart
-    worksheetPart,
-
-    int rowCount, string columnLetter)
-
+    private void CreateConditionalFormatting(WorksheetPart worksheetPart, int rowCount, string columnLetter)
     {
+        var reference = string.Format("{0}3:{0}{1}", columnLetter, rowCount + 2);
+        var conditionalFormatting = new ConditionalFormatting { SequenceOfReferences = new ListValue<StringValue> { InnerText = reference }};
 
-    var reference = string.Format("{0}3:{0}{1}", columnLetter,
-    rowCount + 2);
+        var conditionalFormattingRule = new ConditionalFormattingRule {
 
-    var conditionalFormatting = new ConditionalFormatting {
+            Type = ConditionalFormatValues.DataBar, Priority = 1 };
 
-    SequenceOfReferences = new ListValue&lt;StringValue&gt; { InnerText
-    = reference }};
+        var dataBar = new DataBar(
+            new ConditionalFormatValueObject {
+                Type = ConditionalFormatValueObjectValues.Number, Val = "0" },
+            new ConditionalFormatValueObject {
+                Type = ConditionalFormatValueObjectValues.Number, Val = "10" },
+            new Color { Rgb = "FF63C384" });
 
-    var conditionalFormattingRule = new ConditionalFormattingRule {
+        conditionalFormattingRule.AppendChild(dataBar);
 
-    Type = ConditionalFormatValues.DataBar, Priority = 1 };
-
-    var dataBar = new DataBar(
-
-    new ConditionalFormatValueObject {
-
-    Type = ConditionalFormatValueObjectValues.Number, Val = "0" },
-
-    new ConditionalFormatValueObject {
-
-    Type = ConditionalFormatValueObjectValues.Number, Val = "10" },
-
-    new Color { Rgb = "FF63C384" });
-
-    conditionalFormattingRule.AppendChild(dataBar);
-
-    conditionalFormatting.AppendChild(conditionalFormattingRule);
-
-    worksheetPart.Worksheet.InsertAfter(conditionalFormatting,
-
-    worksheetPart.Worksheet.GetFirstChild&lt;SheetData&gt;());
-
+        conditionalFormatting.AppendChild(conditionalFormattingRule);
+        worksheetPart.Worksheet.InsertAfter(conditionalFormatting, worksheetPart.Worksheet.GetFirstChild<SheetData>());
     }
 
 Para hacer uso de estos métodos, y así obtener un informe con un formato
@@ -617,38 +502,29 @@ columna **E** muestra un formato condicional para los valores de
 **Calificación** de la película, y además éstas se encuentran agrupadas
 por hoja según su género.
 
-1.  Listado 8. Código para hacer agrupamiento por hojas en el informe
+Listado 8. Código para hacer agrupamiento por hojas en el informe
 
 <!-- -->
 
-1.  var groups = data.AsEnumerable().GroupBy(x =&gt;
-    x.Field&lt;string&gt;("Género"));
-
-    uint sheetId = 1;
-
-    foreach (var item in groups)
-
-    {
-
-    var table = item.CopyToDataTable();
-
-    string sheetName =
-    (table.Rows\[0\]\[table.Columns\["Género"\]\]).ToString();
-
-    table.Columns.Remove("Género");
-
-    GenerateWorksheetPart(workbookpart, table, sheetName, sheetId++);
-
-    }
+    var groups = data.AsEnumerable().GroupBy(x => x.Field<string>("Género"));
+        uint sheetId = 1;
+        foreach (var item in groups)
+        {
+            var table = item.CopyToDataTable();
+            string sheetName =
+            (table.Rows[0][table.Columns["Género"]]).ToString();
+            table.Columns.Remove("Género");
+            GenerateWorksheetPart(workbookpart, table, sheetName, sheetId++);
+        }
 
 <!-- -->
 
-1.  Figura 5. Informe generado con estilos
+Figura 5. Informe generado con estilos
 
 <!-- -->
 
-1.  ![](./media/media/image6.png){width="5.240314960629921in"
-    height="2.3128226159230096in"}
+![](./img/SharePoint_OpenXML/image6.png)
+    
 
 Si se compara el resultado que se muestra en la figura 5 con el informe
 inicial (figura 2) generado con la herramienta de SharePoint por
@@ -704,7 +580,9 @@ Referencias
   \[1\]   **Microsoft**. Open XML SDK 2.5 for Microsoft Office. Disponible en: **http://www.microsoft.com/en-us/download/details.aspx?id=30425**.
   ------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   \[2\]   **Microsoft**. “Acerca del SDK de Open XML para Microsoft Office”. Disponible en: **http://msdn.microsoft.com/es-es/library/bb456487.aspx**.
+  
   \[3\]   **ECMA International**. Standard ECMA-376. Disponible en: **http://www.ecma-international.org/publications/standards/Ecma-376.htm**.
+  
   \[4\]   **Microsoft**. “How to: Create a spreadsheet document by providing a file name (Open XML SDK)”. Disponible en: **http://msdn.microsoft.com/en-us/library/office/ff478153.aspx**.
 
 [^1]: Como se anuncia la sección de Actualidad de este mismo ejemplar,

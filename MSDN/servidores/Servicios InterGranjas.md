@@ -1,6 +1,31 @@
-  Juan Andrés Valenzuela , MCTS SharePoint Server 2007                                                                                                                                                                                                                                                                                                                                                                                                                          Julio 2012
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------
-  MVP y Director de MOSSCA.org (Grupo latinoamericano de Usuarios de SharePoint). Periodista y Consultor de Soluciones Colaborativas y ha desarrollado diversos proyectos SharePoint desde su versión en Team Services. Especialista en Usabilidad, y Experiencia del Usuario, es diplomado en Multimedia e Internet aplicado a la Educación, Comunicación y Negocios. Actualmente es Consultor Senior IW y además es Microsoft Certified Technology Specialist de MOSS 2007.
+
+<properties
+pageTitle="Servicios InterGranjas para Gobiernos Corporativos y Administrativos con SharePoint 2010"
+description="Servicios InterGranjas para Gobiernos Corporativos y Administrativos con SharePoint 2010"
+services="servers"
+documentationCenter=""
+authors="andygonusa"
+manager=""
+editor="andygonusa"/>
+
+<tags
+ms.service="servers"
+ms.workload="Sharepoint"
+ms.tgt_pltfrm="na"
+ms.devlang="na"
+ms.topic="how-to-article"
+ms.date="05/12/2016"
+ms.author="andygonusa"/>
+
+
+
+#Servicios InterGranjas para Gobiernos Corporativos y Administrativos con SharePoint 2010
+
+Julio 2012
+
+
+Juan Andrés Valenzuela , MCTS SharePoint Server 2007                                       
+MVP y Director de MOSSCA.org (Grupo latinoamericano de Usuarios de SharePoint). Periodista y Consultor de Soluciones Colaborativas y ha desarrollado diversos proyectos SharePoint desde su versión en Team Services. Especialista en Usabilidad, y Experiencia del Usuario, es diplomado en Multimedia e Internet aplicado a la Educación, Comunicación y Negocios. Actualmente es Consultor Senior IW y además es Microsoft Certified Technology Specialist de MOSS 2007.
 
 #### Las aplicaciones de servicios intergranjas, nos entregan la gran potencialidad de poder optar por una implementación de Granja de Servicios, que esté disponible para proveer las funcionalidades de muchas granjas de contenidos necesarias en un gran Holding Empresarial o un Gobierno Administrativo Nacional. La eficiencia de la administración de los recursos tecnológicos como humanos; como también la eliminación de la “redundancia funcional” son claves para optar a este tipo de arquitectura, que también apoyan la Gestión del Conocimiento de las Organizaciones.
 
@@ -19,8 +44,8 @@ estas aplicaciones de Servicio son verdaderos “Engranajes” de esta
 interacción, integración, entre otros tantos verbos, para las soluciones
 de contenido.
 
-1.  ![](./media/media/image1.png){width="4.783183508311461in"
-    height="3.6368864829396323in"}
+![](./img/Servicios InterGranjas/image1.png)
+    
 
 Ilustración 1
 
@@ -54,8 +79,8 @@ para cumplir con sus necesidades de Negocio individual. Esta misma
 nomenclatura se debe repartir también para las diferentes aplicaciones
 de Servicio que existen en cada una de estas granjas.
 
-1.  ![](./media/media/image2.png){width="4.616449037620297in"
-    height="2.480169510061242in"}
+![](./img/Servicios InterGranjas/image2.png)
+    
 
 Ilustración 2
 
@@ -71,8 +96,8 @@ se puede dividir en Regiones, Estados, Provincias, Comunas, Condados,
 etc. Pero que finalmente es una disposición de términos jerarquizados,
 que siempre tendrá “una sola versión oficial”. (Ver ilustración 3)
 
-1.  ![](./media/media/image3.png){width="2.5211854768153983in"
-    height="4.208920603674541in"}
+![](./img/Servicios InterGranjas/image3.png)
+    
 
 2\. Diferentes Servicios de Búsqueda en las diferentes reparticiones, que
 finalmente tienen Orígenes de Contenido en Común.
@@ -115,8 +140,8 @@ soluciones de contenidos poseen diferentes servicios, que entre ellos no
 se redundan, y por lo contrario comparten los servicios no disponibles
 en la “granja vecina”.
 
-1.  ![](./media/media/image4.png){width="4.781918197725284in"
-    height="2.7503838582677167in"}
+![](./img/Servicios InterGranjas/image4.png)
+    
 
 ***Escenario B***: Este segundo escenario permite centralizar los
 servicios que son transversales a la organización desde una sola Granja
@@ -125,8 +150,8 @@ llama *Granja de Publicación*. Mientras tanto, aquellas granjas de
 contenido, donde se encuentran las soluciones de negocio son llamadas
 *Granjas de Consumo*.
 
-1.  ![](./media/media/image5.png){width="4.844426946631671in"
-    height="3.9172134733158357in"}
+![](./img/Servicios InterGranjas/image5.png)
+    
 
 Consideraciones de las Granjas de Publicación de Servicios
 ----------------------------------------------------------
