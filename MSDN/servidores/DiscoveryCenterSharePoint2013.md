@@ -437,9 +437,9 @@ static void ExportarDiscovery()
     oneCase => oneCase.Exports.Where(oneExport => oneExport.Name == "[NombreExportacion]"));
     myContext.ExecuteQuery();
     Console.WriteLine("EstimatedItems - " +
-    myCase.Exports\[0\].EstimatedItems.ToString());
+    myCase.Exports[0].EstimatedItems.ToString());
     Console.WriteLine("EstimatedSize - " +
-    myCase.Exports\[0\].EstimatedSize.ToString());
+    myCase.Exports[0].EstimatedSize.ToString());
 }
 ```
 La estructura del código siga las líneas tradicionales para el Modelo de
