@@ -10,3 +10,7 @@
 
 #[Windows Intune - Portal de empresa de Windows](Windows Intune - Portal de empresa de Windows 8.md)
 
+
+#[Windows Intune (Ed. Dic-2012). Agregar software](Windows Intune.md)
+
+#[Windows Intune (Ed. Dic-2012). Administrar implementación con Instalación requerida](Windows Intune 2.md)

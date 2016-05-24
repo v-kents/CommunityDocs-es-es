@@ -1,5 +1,30 @@
-©Jaime Peña Tresancos, 2013
 
+
+
+<properties
+pageTitle="Windows Intune (Ed. Dic-2012). Agregar software"
+description="Windows Intune (Ed. Dic-2012). Agregar software"
+services="ems"
+documentationCenter=""
+authors="andygonusa"
+manager=""
+editor="andygonusa"/>
+
+<tags
+ms.service="ems"
+ms.workload="intune"
+ms.tgt_pltfrm="na"
+ms.devlang="na"
+ms.topic="how-to-article"
+ms.date="05/12/2016"
+ms.author="andygonusa"/>
+
+
+
+#Windows Intune (Ed. Dic-2012). Agregar software
+
+
+©Jaime Peña Tresancos, 2013
 Profesional independiente en el sector Servicios y tecnología de la
 información
 
@@ -26,19 +51,19 @@ su instalación automática en grupos de usuarios y/o equipos.
 
 En el presente artículo veremos:
 
-La instalación del Editor de software de Windows Intune
+- La instalación del Editor de software de Windows Intune
 
-La utilización del Editor de software de Windows Intune
+- La utilización del Editor de software de Windows Intune
 
-La selección del tipo de paquete de instalación
+- La selección del tipo de paquete de instalación
 
-Las etapas de descripción y definición de requisitos del software a
+- Las etapas de descripción y definición de requisitos del software a
 instalar
 
-Las reglas de detección del software y las posibles opciones de línea de
+- Las reglas de detección del software y las posibles opciones de línea de
 comandos –argumentos- durante la instalación
 
-Cómo podremos personalizar los valores devueltos por el programa de
+- Cómo podremos personalizar los valores devueltos por el programa de
 instalación
 
  
@@ -53,8 +78,7 @@ administrado**, veremos la lista de programas que ya han sido cargados
 **Agregar software**, en la barra de herramientas inmediatamente encima
 del área de la lista de programas cargados.
 
-1.  ![](./media/media/image1.png){width="5.905511811023622in"
-    height="3.6870395888014in"}
+![](./img/Windows Intune/image1.png)
 
 La primera vez que lo hagamos desde un determinado terminal, antes de
 nada se instalará el **Editor de software de Windows Intune**,
@@ -62,11 +86,9 @@ mostrándose un asistente tal que lo que se ve en la figura adjunta.
 
 Para proceder a la instalación hágase clic en **Ejecutar**.
 
-1.  ![](./media/media/image2.png){width="5.908845144356955in"
-    height="3.6586504811898513in"}
+![](./img/Windows Intune/image2.png)
 
-    ![](./media/media/image3.png){width="5.905511811023622in"
-    height="3.655792869641295in"}
+![](./img/Windows Intune/image3.png)
 
 Todo el procedimiento es automático. Luego siguen las etapas habituales
 de carga de software.
@@ -79,8 +101,7 @@ GB-.
 Hay que entrar con las mismas credenciales que para acceder al portal de
 Intune.
 
-1.  ![](./media/media/image4.png){width="5.908845144356955in"
-    height="4.042016622922135in"}
+![](./img/Windows Intune/image4.png)
 
 Dará comienzo el asistente denominado Agregar software – Editor de
 software de Windows Intune.
@@ -91,8 +112,7 @@ casilla de verificación etiquetada No volver a mostrar esta página.
 
 Prosigamos haciendo clic sobre el botón Siguiente&gt;
 
-1.  ![](./media/media/image5.png){width="5.908845144356955in"
-    height="4.1170231846019245in"}
+![](./img/Windows Intune/image5.png)
 
 Las primeras opciones de **Instalación de software** en sí nos pedirán
 los siguientes datos:
@@ -112,25 +132,23 @@ Especificar el archivo de instalación a cargar en éstos últimos casos
 Si se deben incluir archivos y subcarpetas adicionales durante la carga
 para el caso de archivos EXE y paquetes de instalación MSI
 
-1.  ![](./media/media/image6.png){width="5.908845144356955in"
-    height="4.1170231846019245in"}
+![](./img/Windows Intune/image6.png)
 
 Una vez completada la información, hágase clic en el botón
 **Siguiente&gt;**
 
-1.  ![](./media/media/image7.png){width="5.908845144356955in"
-    height="4.1170231846019245in"}
+![](./img/Windows Intune/image7.png)
 
 EL segundo paso de la configuración es la **Descripción del software**.
 
 Deberemos al menos informar de:
 
-Quién es el publicador que ha subido el software
+- Quién es el publicador que ha subido el software
 
-El nombre del software, normalmente le daremos alguno suficientemente
+- El nombre del software, normalmente le daremos alguno suficientemente
 descriptivo
 
-Una breve descripción de sus características
+- Una breve descripción de sus características
 
 Opcionalmente también podremos incluir una dirección URL en dónde
 obtener información acerca del programa y una **Categoría** en la que
@@ -141,8 +159,7 @@ Si lo deseamos, también podremos incluir una imagen a modo de icono
 representativo del programa y finalmente seguiríamos haciendo clic sobre
 el botón **Siguiente&gt;**
 
-1.  ![](./media/media/image8.png){width="5.908845144356955in"
-    height="4.1170231846019245in"}
+![](./img/Windows Intune/image8.png)
 
 En el tercer paso fijaremos los **Requisitos** necesarios para la
 instalación del software:
@@ -151,26 +168,24 @@ La arquitectura:
 
 Cualquiera: Válido para 32 y 64 bits
 
-32 bits exclusivamente
+- 32 bits exclusivamente
 
-64 bits exclusivamente
+- 64 bits exclusivamente
 
 El sistema operativo, ahí seleccionaremos el sistema operativo base
 *mínimo* que debe tener instalado el ordenador –desde Windows XP hasta
 Windows 8-
 
-1.  ![](./media/media/image9.png){width="5.908845144356955in"
-    height="4.1170231846019245in"}
+![](./img/Windows Intune/image9.png)
 
 Fijados los **Requisitos**, proseguiremos haciendo clic en el botón
 **Siguiente&gt;**
 
-1.  Insert Caption
+Insert Caption
 
 <!-- -->
 
-1.  ![](./media/media/image10.png){width="5.908845144356955in"
-    height="4.1170231846019245in"}
+![](./img/Windows Intune/image10.png)
 
 En el cuarto paso nos detendremos en las **Reglas de detección**.
 
@@ -190,8 +205,7 @@ Existe un código de producto MSI
 
 Existe una determinada clave en el registro, que proporcionaríamos
 
-1.  ![](./media/media/image11.png){width="5.908845144356955in"
-    height="4.1170231846019245in"}
+![](./img/Windows Intune/image11.png)
 
 Concluidas nuestras reglas, continuaremos haciendo clic sobre el botón
 **Siguiente&gt;** y pasamos al quinto paso, que trata de los posibles
@@ -208,28 +222,26 @@ programa en el cliente, cuando aquel lo ejecutase.
 Sea como fuere, seguiríamos haciendo clic sobre el botón
 **Siguiente&gt;**
 
-1.  ![](./media/media/image12.png){width="5.908845144356955in"
-    height="4.1170231846019245in"}
+![](./img/Windows Intune/image12.png)
 
 Ya en el sexto y último paso de la configuración, definiremos como se
 interpretarán los **Códigos de retorno**, aquellos códigos que devolverá
 el programa una vez ejecutado.
 
-No: Debería ser la opción escogida si desconocemos cómo hacerlo o si el
+- No: Debería ser la opción escogida si desconocemos cómo hacerlo o si el
 propio programa ya hace explícito lo acontecido al final
 
-Sí: Nos permite fijar los valores de cuando todo ha ido correcto,
+- Sí: Nos permite fijar los valores de cuando todo ha ido correcto,
 incorrecto o si precisa reiniciarse el equipo. Por defecto, Windows
 Intune proporciona dos valores estándar para correcto y correcto con
 reinicio, para otros valores precisaríamos de la documentación precisa
 de cada programa.
 
-1.  Insert Caption
+Insert Caption
 
 <!-- -->
 
-1.  ![](./media/media/image13.png){width="5.908845144356955in"
-    height="4.1170231846019245in"}
+![](./img/Windows Intune/image13.png)
 
 Al hacer clic en **Siguiente&gt;** ya habremos finalizado la
 configuración.
@@ -243,14 +255,12 @@ fallo.
 
 Una vez dad nuestra conformidad, hagamos clic sobre el botón **Cargar**.
 
-1.  ![](./media/media/image14.png){width="5.908845144356955in"
-    height="4.1170231846019245in"}
+![](./img/Windows Intune/image14.png)
 
 Primeramente el asistente realizará una serie de acciones de compresión
 y preparación.
 
-1.  ![](./media/media/image15.png){width="5.908845144356955in"
-    height="4.1170231846019245in"}
+![](./img/Windows Intune/image15.png)
 
 Para posteriormente subir –cargar- el software en Windows Intune.
 
@@ -258,22 +268,19 @@ El proceso le llevara desde algunos momentos hasta el nivel de horas, si
 se trata de software de grandes dimensiones y una velocidad de subida
 baja, sea paciente.
 
-1.  ![](./media/media/image16.png){width="5.908845144356955in"
-    height="4.1170231846019245in"}
+![](./img/Windows Intune/image16.png)
 
 Una vez finalizada la carga, seremos convenientemente informados y
 bastará hacer clic sobre el botón **Cerrar**, con lo que se cerrará el
 asistente y la sesión.
 
-1.  ![](./media/media/image17.png){width="5.908845144356955in"
-    height="4.1170231846019245in"}
+![](./img/Windows Intune/image17.png)
 
 Si ahora acudimos al portal de administración de Windows Intune y vamos
 a **Software administrado**, observaremos que aparece el recientemente
 cargado, como cabria esperar.
 
-1.  ![](./media/media/image18.png){width="5.908845144356955in"
-    height="3.69198709536308in"}
+![](./img/Windows Intune/image18.png)
 
  
 

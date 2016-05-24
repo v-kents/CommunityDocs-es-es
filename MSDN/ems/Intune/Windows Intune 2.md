@@ -1,3 +1,29 @@
+
+
+
+<properties
+pageTitle="Windows Intune (Ed. Dic-2012). Administrar implementación con Instalación requerida"
+description="Windows Intune (Ed. Dic-2012). Administrar implementación con Instalación requerida"
+services="ems"
+documentationCenter=""
+authors="andygonusa"
+manager=""
+editor="andygonusa"/>
+
+<tags
+ms.service="ems"
+ms.workload="intune"
+ms.tgt_pltfrm="na"
+ms.devlang="na"
+ms.topic="how-to-article"
+ms.date="05/12/2016"
+ms.author="andygonusa"/>
+
+
+
+#Windows Intune (Ed. Dic-2012). Administrar implementación con Instalación requerida
+
+
 ©Jaime Peña Tresancos, 2013
 
 Profesional independiente en el sector Servicios y tecnología de la
@@ -22,18 +48,18 @@ seleccionando las condiciones en que dicha operación se llevará a cabo.
 
 En el presente artículo veremos:
 
-Qué es exactamente la **Implementación de software** de Windows Intune
+- Qué es exactamente la **Implementación de software** de Windows Intune
 
-Cómo se realiza, paso a paso, la **Implementación** en diferentes
+- Cómo se realiza, paso a paso, la **Implementación** en diferentes
 *grupos*
 
-Qué características son implementables
+- Qué características son implementables
 
-Cómo eliminar una **Implementación**
+- Cómo eliminar una **Implementación**
 
-Cómo modificar las opciones de una **Implementación**
+- Cómo modificar las opciones de una **Implementación**
 
-Interpretar los posibles estados de alerta de una **Implementación**
+- Interpretar los posibles estados de alerta de una **Implementación**
 
  
 
@@ -47,7 +73,7 @@ Software simplemente almacenado
 
 Es el software que simplemente ha sido cargado, véase el artículo:
 
-Windows Intune (Ed. Dic-2012). Agregar software
+Windows Intune (Ed. Dic-2012). Administrar implementación con Instalación requerida
 
 Software disponible en el **Portal de empresa**
 
@@ -74,8 +100,8 @@ Hacemos clic sobre el software a implementar y posteriormente sobre el
 botón **Administrar implementación**, en la barra de herramientas
 inmediatamente encima del área de la lista de programas cargados.
 
-1.  ![](./media/media/image1.png){width="5.908845144356955in"
-    height="3.69198709536308in"}
+![](./img/Windows Intune 2/image1.png)
+    
 
 Se desplegará el asistente de implementación del software que estaba
 seleccionado anteriormente.
@@ -89,26 +115,26 @@ Posteriormente hacemos clic en el botón **Agregar**.
 Repetimos la operación sobre todos los grupos de dispositivos que
 deseemos.
 
-1.  ![](./media/media/image2.png){width="5.908845144356955in"
-    height="3.3252876202974626in"}
+![](./img/Windows Intune 2/image2.png)
+    
 
 Una vez tengamos todos los deseados en el panel de la derecha, hacemos
 clci en el botón **Siguiente&gt;**
 
-1.  ![](./media/media/image3.png){width="5.908845144356955in"
-    height="3.3252876202974626in"}
+![](./img/Windows Intune 2/image3.png)
+    
 
 En la segunda ventana del asistente desplegamos la lista que se
 encuentra inmediatamente debajo de la etiqueta **Implementación** y
 escogeremos el tipo de implementación que deseemos, por ejemplo
 **Instalación requerida**.
 
-1.  Insert Caption
+Insert Caption
 
 <!-- -->
 
-1.  ![](./media/media/image4.png){width="5.908845144356955in"
-    height="3.3252876202974626in"}
+![](./img/Windows Intune 2/image4.png)
+    
 
 También podremos fijar una **Fecha límite** para llevar a cabo la
 implementación, por ejemplo **Ninguno**, **Lo antes posible**, **Una
@@ -117,8 +143,8 @@ semana**, …
 Concluiremos la definición de la **Implementación** haciendo clic en el
 botón **Finalizar**.
 
-1.  ![](./media/media/image5.png){width="5.908845144356955in"
-    height="3.3252876202974626in"}
+![](./img/Windows Intune 2/image5.png)
+    
 
 Finalmente, nos encontraremos nuevamente en el panel de **Software
 administrado**.
@@ -132,17 +158,17 @@ Si deseamos modificar el estatus de la **Implementación** o, simplemente
 eliminarla, hágase clic sobre **Administrar la implementación** y
 volveremos al asistente y allí cabe hacer las modificaciones oportunas:
 
-Para eliminar la **Implementación** selecciónese en el panel derecho del
+- Para eliminar la **Implementación** selecciónese en el panel derecho del
 asistente y luego hágase clic sobre el botón **Quitar**. Luego hágase
 clic sobre **Siguiente&gt;**.
 
-Para cambiar la opción del tipo de **Implementación**, en la última de
+- Para cambiar la opción del tipo de **Implementación**, en la última de
 las ventanas del asistente, antes de pulsar el botón **Finalizar**,
 despliéguese la lista que se encuentra inmediatamente debajo de la
 etiqueta **Implementación**.
 
-1.  ![](./media/media/image6.png){width="5.908845144356955in"
-    height="3.3252876202974626in"}
+![](./img/Windows Intune 2/image6.png)
+    
 
 Si observamos con detalle la imagen anterior, en la parte inferior
 izquierda se nos mostrarán los posibles estados de error o alertas de la
@@ -150,8 +176,8 @@ izquierda se nos mostrarán los posibles estados de error o alertas de la
 
 ### 1 Equipos que no cumplen los requisitos
 
-1.  ![](./media/media/image7.png){width="5.908845144356955in"
-    height="3.3252876202974626in"}
+![](./img/Windows Intune 2/image7.png)
+    
 
 Se trata de un hiperenlace que al hacer clic sobre él nos lleva a un
 panel de información de dicho(s) equipo(s).
@@ -162,9 +188,8 @@ causas. Normalmente se trata de incompatibilidades conocidas entre el
 software y el sistema operativo. Deberemos recabar información al
 respecto del fabricante y de las bases de conocimiento de Microsoft.
 
-1.  ![](./media/media/image8.png){width="5.908845144356955in"
-    height="3.3252876202974626in"}
-
+![](./img/Windows Intune 2/image8.png)
+    
  
 
 Conclusiones
