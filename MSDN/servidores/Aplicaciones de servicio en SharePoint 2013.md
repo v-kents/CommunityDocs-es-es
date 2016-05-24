@@ -195,7 +195,7 @@ serie de servicios tal y como se muestra en la Tabla 1.
 
   
 |Servicios en SharePoint Foundation 2013|Servicios en SharePoint Sever 2013|
-|-----------|-----------------------|
+|-----------|------------|
 |Administración central.|Access Services.|
 |Administración de Microsoft SharePoint Foundation.| Administración central.|
 |Administración de solicitudes. |Administración de Microsoft SharePoint Foundation.|
@@ -212,7 +212,7 @@ serie de servicios tal y como se muestra en la Tabla 1.
 |Servicio de conectividad a datos empresariales.|Servicio de administración de aplicaciones.|
 |Servicio de configuración de suscripción de Microsoft SharePoint Foundation. |  Servicio de administración del trabajo.|
 |Servicio de controlador de host de búsquedas. | Servicio de almacenamiento seguro.|
-|Servicio de equilibrio de carga y detección de aplicaciones.  | Servicio de base de datos de Access 2010.|
+|Servicio de equilibrio de carga y detección de aplicaciones.| Servicio de base de datos de Access 2010.|
 |Servicio de temporizador de flujo de trabajo de Microsoft SharePoint Foundation.   |Servicio de código de espacio aislado de Microsoft SharePoint Foundation.|
 |Servicio web de administración de búsqueda.|Servicio de conectividad a datos empresariales.|
 |Servicios configuración del sitio y consulta de búsqueda. | Servicio de configuración de suscripción de Microsoft SharePoint Foundation.|
@@ -329,7 +329,7 @@ Administración Central de SharePoint 2013.
  | Metadatos administrados                                                        |      SharePoint Server 2013.      |                                Proporciona acceso a jerarquías de taxonomía administradas, palabras clave y a la infraestructura de etiquetado social, así como a publicaciones de Tipos de Contenido en Colecciones de Sitios.|
  | Traducción automática                                                  |              SharePoint Server 2013         |                              Proporciona traducción automática de sitios y archivos.|
  | Servicio web de administración de búsqueda para Aplicación de servicio de búsqueda  | SharePoint Foundation 2013 y SharePoint Server 2013          ||
-  |Servicio de Access 2010   |                                                |           SharePoint Server 2013     |                                  Habilita la publicación y visualización de aplicaciones Access 2010 en el Explorador Web.|
+  |Servicio de Access 2010   |        SharePoint Server 2013     |                                  Habilita la publicación y visualización de aplicaciones Access 2010 en el Explorador Web.|
  | Servicio de Access     |                                                              SharePoint Server 2013           |                            Habilita la publicación y visualización de aplicaciones Access en el Explorador Web.|
   |Word Automation    |                                                                  SharePoint Server 2013       |                                Proporciona un marco para realizar conversiones automáticas de documentos.|
 
