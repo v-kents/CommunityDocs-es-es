@@ -194,7 +194,7 @@ SharePoint Foundation 2013 y SharePoint Server 2014 disponen de una
 serie de servicios tal y como se muestra en la Tabla 1.
 
   
-|Servicios en SharePoint Foundation 2013|Servicios en SharePoint Sever 2013||
+|Servicios en SharePoint Foundation 2013|Servicios en SharePoint Sever 2013|
 |-----------|-----------------------|
 |Administración central.|Access Services.|
 |Administración de Microsoft SharePoint Foundation.| Administración central.|
