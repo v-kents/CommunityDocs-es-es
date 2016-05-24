@@ -32,3 +32,18 @@
 #[Servicios de SharePoint 2013 - III: Programando un Servicio propio](Servicios de SharePoint 2013.md)
 
 #[Script para permitir a las bibliotecas abrir los archivos PDFS en SharePoint 2010](Script per PDFs en Sharepoint.md)
+
+#[Roles de Site System en CM 2012](Roles de Site System en CM 2012.md)
+#[Paso a Paso -  Reporting Services en Azure](Reporting Services en Azure.md)
+#[Qué hay de nuevo en CM 2012 SP1](Que hay de nuevo en CM 2012 SP1.md)
+#[Microsoft Dynamics NAV en el Cloud](Microsoft Dynamics NAV en el Cloud.md)
+#[Lo nuevo en System Center 2012 R2 Configuration Manager](Lo nuevo en System Center 2012 R2 Configuration Manager.md)
+#[Jerarquía Configuration Manager 2012](Jerarquia Configuration Manager 2012.md)
+#[Hyper-V: Implementación Rápida de Máquinas Virtuales](Implementacion Rapida de Maquinas Virtuales.md)
+#[Guía Migración de Objetos (Conexión) desde Configuration Manager 2007 a CM 2012](Guia Migracion de Objetos.md)
+#[Guía de Migración de Objetos -Job- paso a paso](Guia de Migracion de Objetos Job.md)
+#[Funcionalidades de CM 2012](Funcionalidades de CM 2012.md)
+#[Edge Server en Lync 2013 “No Replica” Troubleshooting](Edge Server en Lync 2013 No Replica Troubleshooting.md)
+#[El Centro de Exhibición de Documentos Electrónicos de SharePoint Server 2013](DiscoveryCenterSharePoint2013.md)
+#[Cómo hacer un backup en Azure desde SSMS 2014](Backup en Windows Azure desde SSMS 2014.md)
+#[Cómo hacer Backup y Restaurar un Modelo MDS (Deploy)](Backup y Restaurar un Modelo MDS.md)
