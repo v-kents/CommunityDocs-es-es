@@ -194,45 +194,45 @@ SharePoint Foundation 2013 y SharePoint Server 2014 disponen de una
 serie de servicios tal y como se muestra en la Tabla 1.
 
   
-  |Servicios en SharePoint Foundation 2013|Servicios en SharePoint Sever 2013|
-  |---------------------------------------------------------------------------------- |---------------------------------------------------------------------------------|
-  |Administración central.|Access Services.|
-  |Administración de Microsoft SharePoint Foundation.| Administración central.|
-  |Administración de solicitudes. |Administración de Microsoft SharePoint Foundation.|
-  |Aplicación web de Microsoft SharePoint Foundation.| Administración de solicitudes.|
-  |Base de datos de Microsoft SharePoint Foundation. | Aplicación web de Microsoft SharePoint Foundation.|
-  |Búsqueda de SharePoint Server. |Base de datos de Microsoft SharePoint Foundation.|
-  |Caché distribuida.| Búsqueda de SharePoint Server.|
-  |Conector de Lotus Notes. |  Caché distribuida.|
- |Correo electrónico entrante de Microsoft SharePoint Foundation.|Conector de Lotus Notes.|
- |Notificaciones del servicio de token de Windows. | Correo electrónico entrante de Microsoft SharePoint Foundation.|
-  |Servicio de administración de aplicaciones.|Excel Calculation Services.|
-  |Servicio de almacenamiento seguro. |Notificaciones del servicio de token de Windows.|
-  |Servicio de código de espacio aislado de Microsoft SharePoint Foundation. | PerformancePoint Service.|
-  |Servicio de conectividad a datos empresariales.|Servicio de administración de aplicaciones.|
-  |Servicio de configuración de suscripción de Microsoft SharePoint Foundation. |  Servicio de administración del trabajo.|
-  |Servicio de controlador de host de búsquedas. | Servicio de almacenamiento seguro.|
-  |Servicio de equilibrio de carga y detección de aplicaciones.  | Servicio de base de datos de Access 2010.|
-  |Servicio de temporizador de flujo de trabajo de Microsoft SharePoint Foundation.   |Servicio de código de espacio aislado de Microsoft SharePoint Foundation.|
-  |Servicio web de administración de búsqueda.|Servicio de conectividad a datos empresariales.|
- |Servicios configuración del sitio y consulta de búsqueda. | Servicio de configuración de suscripción de Microsoft SharePoint Foundation.|
- |Temporizador de Microsoft SharePoint Foundation. |  Servicio de controlador de host de búsquedas|
- ||Servicio de conversión de PowerPoint|
- ||Servicio de equilibrio de carga y detección de aplicaciones|
- ||Servicio de gráficos de Visio|
- ||Servicio de perfiles de usuario|
- ||Servicio de sincronización de perfiles de usuario|
+|Servicios en SharePoint Foundation 2013|Servicios en SharePoint Sever 2013||
+|-----------|-----------------------|
+|Administración central.|Access Services.|
+|Administración de Microsoft SharePoint Foundation.| Administración central.|
+|Administración de solicitudes. |Administración de Microsoft SharePoint Foundation.|
+|Aplicación web de Microsoft SharePoint Foundation.| Administración de solicitudes.|
+|Base de datos de Microsoft SharePoint Foundation. | Aplicación web de Microsoft SharePoint Foundation.|
+|Búsqueda de SharePoint Server. |Base de datos de Microsoft SharePoint Foundation.|
+|Caché distribuida.| Búsqueda de SharePoint Server.|
+|Conector de Lotus Notes. |  Caché distribuida.|
+|Correo electrónico entrante de Microsoft SharePoint Foundation.|Conector de Lotus Notes.|
+|Notificaciones del servicio de token de Windows. | Correo electrónico entrante de Microsoft SharePoint Foundation.|
+|Servicio de administración de aplicaciones.|Excel Calculation Services.|
+|Servicio de almacenamiento seguro. |Notificaciones del servicio de token de Windows.|
+|Servicio de código de espacio aislado de Microsoft SharePoint Foundation. | PerformancePoint Service.|
+|Servicio de conectividad a datos empresariales.|Servicio de administración de aplicaciones.|
+|Servicio de configuración de suscripción de Microsoft SharePoint Foundation. |  Servicio de administración del trabajo.|
+|Servicio de controlador de host de búsquedas. | Servicio de almacenamiento seguro.|
+|Servicio de equilibrio de carga y detección de aplicaciones.  | Servicio de base de datos de Access 2010.|
+|Servicio de temporizador de flujo de trabajo de Microsoft SharePoint Foundation.   |Servicio de código de espacio aislado de Microsoft SharePoint Foundation.|
+|Servicio web de administración de búsqueda.|Servicio de conectividad a datos empresariales.|
+|Servicios configuración del sitio y consulta de búsqueda. | Servicio de configuración de suscripción de Microsoft SharePoint Foundation.|
+|Temporizador de Microsoft SharePoint Foundation. |  Servicio de controlador de host de búsquedas|
+||Servicio de conversión de PowerPoint|
+||Servicio de equilibrio de carga y detección de aplicaciones|
+||Servicio de gráficos de Visio|
+||Servicio de perfiles de usuario|
+||Servicio de sincronización de perfiles de usuario|
 ||Servicio de temporizador de flujo de trabajo de Microsoft SharePoint Foundation|
- ||Servicio de traducción automática|
+||Servicio de traducción automática|
 ||Servicio del equilibrador de carga de conversiones de documentos|
- || Servicio del iniciador de conversiones de documentos|
- ||Servicio SQL Server Reporting Services|
- ||Servicio web de administración de búsqueda|
- || Servicio web de metadatos administrado|
- ||Servicios configuración del sitio y consulta de búsqueda|
+|| Servicio del iniciador de conversiones de documentos|
+||Servicio SQL Server Reporting Services|
+||Servicio web de administración de búsqueda|
+|| Servicio web de metadatos administrado|
+||Servicios configuración del sitio y consulta de búsqueda|
 || Temporizador de Microsoft SharePoint Foundation|
 || Word Automation Services|
-|-----|-----|
+
 
 Tabla 1.- Servicios disponibles en SharePoint Foundation 2013 vs
 SharePoint Server 2013.
