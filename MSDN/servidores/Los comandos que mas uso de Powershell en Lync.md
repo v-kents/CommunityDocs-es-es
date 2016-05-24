@@ -51,15 +51,15 @@ topología publicada más recientemente.
 
 *Enable-CsTopology*
 
-  |Parámetro  |                        Obligatorio   |Tipo |                                          Descripción|
-  |----------------------------------------------- ---------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  |*Confirm*               |           Opcional      |System.Management.Automation.SwitchParameter  | Se le pedirá confirmación antes de ejecutar el comando.|
-  |*Force*     |                       Opcional  |    System.Management.Automation.SwitchParameter   |Suprime la visualización de los mensajes de error que no sean graves y que puedan producirse al ejecutar el comando.|
-  |*GlobalCatalog*        |            Opcional    |  Microsoft.Rtc.Management.Deploy.Fqdn  |         Nombre de dominio completo (FQDN) de un servidor de catálogo global del dominio. Este parámetro no es obligatorio si ejecuta el cmdlet Enable-CsTopology en un equipo con una cuenta del dominio específico.|
-  |*GlobalSettingsDomainController*  | Opcional  |    Microsoft.Rtc.Management.Deploy.Fqdn     |      Nombre de dominio completo de un controlador de dominio donde se almacenan las configuraciones globales. Si la configuración global se almacena en el contenedor del sistema de Servicios de dominio de Active Directory, este parámetro debe hacer referencia al controlador de dominio raíz. Si la configuración global está almacenada en el contenedor de configuración, se puede usar cualquier controlador de dominio y omitir este parámetro.|
-  |*Report*            |               Opcional    |  System.String       |                           Le permite especificar una ruta de acceso para el archivo de registro creado cuando se ejecuta el cmdlet. Por ejemplo: -Report "C:\\Logs\\Enable\_Topology.html"|
-  |*SkipPrepareCheck*   |              Opcional  |    System.Boolean           |                      Si se establece en True (\$True), el cmdlet Enable-CsTopology omite la comprobación de preparación inicial.|
-  |*WhatIf*    |                      Opcional  |    System.Management.Automation.SwitchParameter   |Describe qué sucedería si se ejecutara el comando sin ejecutarlo realmente.|
+|Parámetro  |Obligatorio   |Tipo |Descripción|
+|-----------|--------------|-----|-----------|
+|*Confirm*               |           Opcional      |System.Management.Automation.SwitchParameter  | Se le pedirá confirmación antes de ejecutar el comando.|
+|*Force*     |                       Opcional  |    System.Management.Automation.SwitchParameter   |Suprime la visualización de los mensajes de error que no sean graves y que puedan producirse al ejecutar el comando.|
+|*GlobalCatalog*        |            Opcional    |  Microsoft.Rtc.Management.Deploy.Fqdn  |         Nombre de dominio completo (FQDN) de un servidor de catálogo global del dominio. Este parámetro no es obligatorio si ejecuta el cmdlet Enable-CsTopology en un equipo con una cuenta del dominio específico.|
+|*GlobalSettingsDomainController*  | Opcional  |    Microsoft.Rtc.Management.Deploy.Fqdn     |      Nombre de dominio completo de un controlador de dominio donde se almacenan las configuraciones globales. Si la configuración global se almacena en el contenedor del sistema de Servicios de dominio de Active Directory, este parámetro debe hacer referencia al controlador de dominio raíz. Si la configuración global está almacenada en el contenedor de configuración, se puede usar cualquier controlador de dominio y omitir este parámetro.|
+|*Report*            |               Opcional    |  System.String       |                           Le permite especificar una ruta de acceso para el archivo de registro creado cuando se ejecuta el cmdlet. Por ejemplo: -Report "C:\\Logs\\Enable\_Topology.html"|
+|*SkipPrepareCheck*   |              Opcional  |    System.Boolean           |                      Si se establece en True (\$True), el cmdlet Enable-CsTopology omite la comprobación de preparación inicial.|
+|*WhatIf*    |                      Opcional  |    System.Management.Automation.SwitchParameter   |Describe qué sucedería si se ejecutara el comando sin ejecutarlo realmente.|
   
 
 Referencia: <http://technet.microsoft.com/es-es/library/gg398398.aspx>
