@@ -193,7 +193,7 @@ el primer componente o bloque de la misma es el servicio. Por defecto,
 SharePoint Foundation 2013 y SharePoint Server 2014 disponen de una
 serie de servicios tal y como se muestra en la Tabla 1.
 
-  
+
 |Servicios en SharePoint Foundation 2013|Servicios en SharePoint Sever 2013|
 |-----------|------------|
 |Administración central.|Access Services.|
@@ -309,7 +309,7 @@ está disponible en el núcleo de la plataforma o no. Para cada aplicación
 se recoge la descripción de funcionalidad tal y como aparece en la
 Administración Central de SharePoint 2013.
 
-| Aplicación de Servicio | Plataforma  | Descripción
+| Aplicación de Servicio | Plataforma  | Descripción|
 |----------|-----------|------------|
 |  Administración del trabajo   |                                                        SharePoint Server 2013           |                            Proporciona agregación de tareas a través de sistemas de administración del trabajo que prioriza las peticiones recibidas.|
   |Equilibrio de carga y detección de aplicaciones |                                     SharePoint Foundation 2013 y SharePoint Server 2013 |         Permite administrar aplicaciones de servicios, descubrir nuevas instancias de servicio e implementar balanceo de carga para peticiones entre múltiples instancias de servicio.|
