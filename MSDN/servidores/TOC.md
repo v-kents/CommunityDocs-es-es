@@ -21,4 +21,4 @@
 #[Instalando Forefront Security for Office Communications Server](Instalando Forefront Security.md)
 #[Integrando Lync 2013 y Exchange 2013 para mensajería unificada y Outlook Voice](Integrando Lync 2013 y Exchange 2013 para OVA.md)
 
-#[Aplicaciones de servicio en SharePoint 2013: Introducción y funcionalidad](Aplicaciones de servicio en SharePoint 2013)
+#[Aplicaciones de servicio en SharePoint 2013: Introducción y funcionalidad](Aplicaciones de servicio en SharePoint 2013.md)
