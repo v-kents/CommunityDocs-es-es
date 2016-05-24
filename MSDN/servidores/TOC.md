@@ -45,5 +45,13 @@
 
 #[Jerarquía Configuration Manager 2012](Jerarquía Configuration Manager 2012.md)
 #[Hyper-V: Implementación Rápida de Máquinas Virtuales](Implementación Rápida de Máquinas Virtuales.md)
+#[Guía Migración de Objetos (Conexión) desde Configuration Manager 2007 a CM 2012](Guía Migración de Objetos.md)
+#[Guía de Migración de Objetos -Job- paso a paso](Guia de Migracion de Objetos Job.md)
+#[Funcionalidades de CM 2012](Funcionalidades de CM 2012.md)
+#[Edge Server en Lync 2013 “No Replica” Troubleshooting](Edge Server en Lync 2013 No Replica Troubleshooting.md)
+#[El Centro de Exhibición de Documentos Electrónicos de SharePoint Server 2013](DiscoveryCenterSharePoint2013.md)
 
+#[Cómo hacer un backup en Azure desde SSMS 2014](Backup en Windows Azure desde SSMS 2014.md)
+
+#[Cómo hacer Backup y Restaurar un Modelo MDS (Deploy)](Backup y Restaurar un Modelo MDS.md)
 

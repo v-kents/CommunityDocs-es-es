@@ -1,3 +1,27 @@
+
+
+
+<properties
+pageTitle="El Centro de Exhibición de Documentos Electrónicos de SharePoint Server 2013"
+description="El Centro de Exhibición de Documentos Electrónicos de SharePoint Server 2013"
+services="servers"
+documentationCenter=""
+authors="andygonusa"
+manager=""
+editor="andygonusa"/>
+
+<tags
+ms.service="servers"
+ms.workload="CM"
+ms.tgt_pltfrm="na"
+ms.devlang="na"
+ms.topic="how-to-article"
+ms.date="05/12/2016"
+ms.author="andygonusa"/>
+
+
+#El Centro de Exhibición de Documentos Electrónicos de SharePoint Server 2013
+
 Sobre el autor
 --------------
 
@@ -46,20 +70,20 @@ se introdujo un nuevo concepto: el "Centro de Exhibición de Documentos
 Electrónicos". Cada uno de estos componentes tiene su propia región de
 aplicación:
 
-El Centro de Registros es un deposito centralizado a donde se puede
+- El Centro de Registros es un deposito centralizado a donde se puede
 enviar información (documentos) desde su sitio de trabajo y mantenerlos
 aislados, seguros y con reducidas posibilidades de acceso. Los datos no
 pueden ser tocados por usuarios "normales", convirtiéndose de hecho en
 evidencia que puede ser aceptada en procesos legales
 
-Los Registros Locales permiten también bloquear información, pero en
+- Los Registros Locales permiten también bloquear información, pero en
 lugar de mover los documentos físicamente desde su sitio de trabajo
 (Bibliotecas de SharePoint) a otro sitio aislado (el Centro de
 Registros), los bloquea en su domicilio operacional, manteniéndolos
 visibles y accesibles a los usuarios, aunque bloqueándolos de tal forma
 que su contenido e historia no se puede modificar ni eliminar
 
-El Discovery Center permite encontrar información relativa a un tema
+- El Discovery Center permite encontrar información relativa a un tema
 específico a lo largo y ancho de la granja de SharePoint, y promoverla
 toda a Registro Local en una sola operación
 
@@ -100,7 +124,7 @@ consecuente desde el principio.
 
 Para crear un Discovery Center:
 
-1.  Desde la Administración Central de SharePoint, seleccione una
+1. Desde la Administración Central de SharePoint, seleccione una
     Aplicación Web o cree una nueva si es necesario
 
 2.  En la Aplicación Web cree una Colección de Sitios utilizando la
@@ -110,16 +134,15 @@ Para crear un Discovery Center:
 3.  Después de su creación, vaya a la página principal de la nueva
     Colección de Sitios
 
-4.  
 
 <!-- -->
 
-1.  Figura 1. Página principal del Centro de Exhibición de Documentos
+Figura 1. Página principal del Centro de Exhibición de Documentos
     Electrónicos
 
 <!-- -->
 
-1.  ![](./media/media/image1.png){width="4.5in" height="2.69in"}
+![](./img/DiscoveryCenterSharePoint2013/image1.png){
 
 El centro se puede crear también utilizando PowerShell o
 programáticamente (el identificador de la plantilla es "EDISC\#0").
@@ -164,11 +187,11 @@ de documentos electrónicos, Consultas, Documentos, Exportaciones y
 Origines, cada uno de ellas para conservar las configuraciones
 realizadas con el asistente mostrado en la página principal del Caso.
 
-1.  Figura 2. Página principal de un Caso
+Figura 2. Página principal de un Caso
 
 <!-- -->
 
-1.  ![](./media/media/image2.png){width="4.5in" height="2.16in"}
+![](./img/DiscoveryCenterSharePoint2013/image2.png)
 
 Un Caso tiene dos partes principales: una para conservar ("congelar" la
 información, mostrado en la sección de "Identificar y conservar") y otra
@@ -185,11 +208,11 @@ información que debe ser encontrada, un filtro para seleccionar la
 información requerida de las fuentes y la posibilidad de indicar si se
 debe usar el Registro Local de SharePoint.
 
-1.  Figura 3. Página de configuración para crear un nuevo Conjunto
+Figura 3. Página de configuración para crear un nuevo Conjunto
 
 <!-- -->
 
-1.  ![](./media/media/image3.png){width="4.59in" height="3.24in"}
+![](./img/DiscoveryCenterSharePoint2013/image3.png)
 
 La sección de "Origines" define los sitios en donde el Caso puede
 encontrar la información. Hay dos sitios principales como depósitos de
@@ -205,13 +228,13 @@ funciona en base al Motor de Búsqueda de SharePoint, por lo que este
 tiene que estar activado y configurado de forma apropiada, y que la
 información tiene que estar indexada para poder establecer los origines.
 
-1.  Figura 4. Configuración de los origines de la información para un
+Figura 4. Configuración de los origines de la información para un
     Conjunto
 
 <!-- -->
 
-1.  ![](./media/media/image4.png){width="4.458719378827647in"
-    height="3.925340113735783in"}
+![](./img/DiscoveryCenterSharePoint2013/image4.png)
+    
 
 El "Filtro" refina la información en los origines usando una combinación
 de Palabras Clave, fechas de inicio/finalización, autor y dominio (para
@@ -255,12 +278,12 @@ Buscar y Exportar Casos
 La segunda sección de un Caso permite encontrar toda la información
 relativa a un tema y copiarla a un sitio físico local.
 
-1.  Figura 5. Página de configuración para crear una nueva consulta de
+Figura 5. Página de configuración para crear una nueva consulta de
     exportación
 
 <!-- -->
 
-1.  ![](./media/media/image5.png){width="4.36in" height="3.24in"}
+![](./img/DiscoveryCenterSharePoint2013/image5.png)
 
 La configuración de una consulta se inicia asignándole un nombre y
 definiendo la consulta a utilizar. En una forma similar a como se
@@ -308,91 +331,52 @@ a los ensamblados Microsoft.SharePoint y Microsoft.Office.Policy y
 directivas a "using Microsoft.SharePoint" y "using
 Microsoft.Office.Server.Discovery".
 
-1.  C\#
-
-<!-- -->
-
-1.  static void CrearConjuntoDiscovery ()
-
-    {
-
-    string OriginSite = "http(s)://\[servidor\]";
-
+```C#
+static void CrearConjuntoDiscovery ()
+{
+    string OriginSite = "http(s)://[servidor]";
     Guid OriginSiteGuid = Guid.Empty;
-
     Guid OriginWebGuid = Guid.Empty;
-
     string OriginWebTitle = string.Empty;
 
     using (SPSite myOriginSite = new SPSite(OriginSite))
+    {
+        OriginSiteGuid = myOriginSite.ID;
+        using (SPWeb myOriginWeb = myOriginSite.OpenWeb())
+        {
+            OriginWebTitle = myOriginWeb.Title;
+            OriginWebGuid = myOriginWeb.ID;
+        }
+    }
 
+    using (SPSite mySite = new SPSite(OriginSite + "/sites/[ColeccionDeSitiosDiscovery]/"))
     {
 
-    OriginSiteGuid = myOriginSite.ID;
-
-    using (SPWeb myOriginWeb = myOriginSite.OpenWeb())
-
-    {
-
-    OriginWebTitle = myOriginWeb.Title;
-
-    OriginWebGuid = myOriginWeb.ID;
-
+        using (SPWeb myWeb = mySite.OpenWeb("[SitioCaso]"))
+        {
+            Case myCase = new Case(myWeb);
+            Source mySource = myCase.CreateLocation();
+            mySource.FederationId = new
+            Guid("8413CD39-2156-4E00-B54D-11EFD9ABDB89");
+            mySource.Name = OriginWebTitle;
+            mySource.SiteId = OriginSiteGuid;
+            mySource.WebId = OriginWebGuid;
+            mySource.DisplayId = OriginSite;
+            mySource.ContainerId = OriginSite;
+            mySource.Update();
+            SourceGroup mySourceGroup = myCase.CreateSourceGroup();
+            mySourceGroup.Name = "Discovery Set ServerObjectModel";
+            mySourceGroup.Preserve = true;
+            mySourceGroup.Query = "[Discovery Query]";
+            mySourceGroup.Update();
+            SourceGroupCollection mySourceGroups = myCase.SourceGroups;
+            mySourceGroup = mySourceGroups[0];
+            mySourceGroup.AddSource(mySource);
+            mySourceGroup.Update();
+        }
     }
-
-    }
-
-    using (SPSite mySite = new SPSite(OriginSite +
-    "/sites/\[ColeccionDeSitiosDiscovery\]/"))
-
-    {
-
-    using (SPWeb myWeb = mySite.OpenWeb("\[SitioCaso\]"))
-
-    {
-
-    Case myCase = new Case(myWeb);
-
-    Source mySource = myCase.CreateLocation();
-
-    mySource.FederationId = new
-    Guid("8413CD39-2156-4E00-B54D-11EFD9ABDB89");
-
-    mySource.Name = OriginWebTitle;
-
-    mySource.SiteId = OriginSiteGuid;
-
-    mySource.WebId = OriginWebGuid;
-
-    mySource.DisplayId = OriginSite;
-
-    mySource.ContainerId = OriginSite;
-
-    mySource.Update();
-
-    SourceGroup mySourceGroup = myCase.CreateSourceGroup();
-
-    mySourceGroup.Name = "Discovery Set ServerObjectModel";
-
-    mySourceGroup.Preserve = true;
-
-    mySourceGroup.Query = "\[Discovery Query\]";
-
-    mySourceGroup.Update();
-
-    SourceGroupCollection mySourceGroups = myCase.SourceGroups;
-
-    mySourceGroup = mySourceGroups\[0\];
-
-    mySourceGroup.AddSource(mySource);
-
-    mySourceGroup.Update();
-
-    }
-
-    }
-
-    }
+}
+```
 
 Reemplace las cadenas "\[Servidor\]", "\[ColeccionDeSitiosDiscovery\]" y
 "\[SitioCaso\]" con los valores apropiados del URL del servidor, el
@@ -438,42 +422,26 @@ Microsoft.SharePoint.Client.Runtime y Microsoft.Office.Policy.Client y
 directivas a "using Microsoft.SharePoint.Client" y "using
 Microsoft.SharePoint.Client.Discovery".
 
-1.  C\#
+```C#
 
-<!-- -->
-
-1.  static void ExportarDiscovery()
-
-    {
-
+static void ExportarDiscovery()
+{
     ClientContext myContext = new
-    ClientContext("http://\[servidor\]/sites/\[DiscoveryCenter\]");
-
+    ClientContext("http://[servidor]/sites/[DiscoveryCenter]");
     Site mySite = myContext.Site;
-
     Web myWeb = mySite.OpenWeb("testcase01");
-
     Case myCase = new Case(myContext, myWeb);
-
     myContext.Load(mySite);
-
     myContext.Load(myWeb);
-
     myContext.Load(myCase,
-
-    oneCase =&gt; oneCase.Exports.Where(oneExport =&gt; oneExport.Name
-    == "\[NombreExportacion\]"));
-
+    oneCase => oneCase.Exports.Where(oneExport => oneExport.Name == "[NombreExportacion]"));
     myContext.ExecuteQuery();
-
     Console.WriteLine("EstimatedItems - " +
     myCase.Exports\[0\].EstimatedItems.ToString());
-
     Console.WriteLine("EstimatedSize - " +
     myCase.Exports\[0\].EstimatedSize.ToString());
-
-    }
-
+}
+```
 La estructura del código siga las líneas tradicionales para el Modelo de
 Objetos de Cliente de SharePoint. Inicialmente se crea el contexto a ser
 utilizado, en este caso por medio del URL de la Colección de Sitios en
