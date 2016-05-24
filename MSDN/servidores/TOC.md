@@ -22,3 +22,5 @@
 #[Integrando Lync 2013 y Exchange 2013 para mensajería unificada y Outlook Voice](Integrando Lync 2013 y Exchange 2013 para OVA.md)
 
 #[Aplicaciones de servicio en SharePoint 2013: Introducción y funcionalidad](Aplicaciones de servicio en SharePoint 2013.md)
+
+#[Cómo crear una tabla que presente repeticiones de rangos de números](Como crear una tabla que presente repeticiones de rangos de numeros.md)
