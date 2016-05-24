@@ -64,7 +64,7 @@ la Botonera: “Specify Source Hierarchy” (Figura 1)
 En ella debemos colocar el nombre o FQDN del Site server Top de la
 jerarquía.
 
-![](./img/Guía Migración de Objetos/image1.png)
+![](./img/Guia Migracion de Objetos/image1.png)
 
 
 El proceso necesita colectar información de la estructura CM 2007 y para
@@ -76,7 +76,7 @@ alguna cuenta de AD con los privilegios necesarios. En el botón de
 “Set…”, donde se coloca la cuenta, se puede realizar un TEST de conexión
 tanto a la base como al WMI de la estructura 2007. (figura 2)
 
-![](./img/Guía Migración de Objetos/image2.png)
+![](./img/Guia Migracion de Objetos/image2.png)
 
 
 Una vez establecida las cuentas, el proceso de conexión hacia los datos
@@ -85,7 +85,7 @@ por defecto. El proceso inicial debe traer la información de todos los
 objetos de la base de Configuration Manager 2007 y la lista de
 Distribution Points.
 
-![](./img/Guía Migración de Objetos/image3.png)
+![](./img/Guia Migracion de Objetos/image3.png)
 
 
 Como resultado, en la consola de “Migration” se puede ver el número de
@@ -99,14 +99,14 @@ cuenta que estas nuevas conexiones se deben hacer después de completar
 los Jobs activos, ya que ConfMgr cancelará los Jobs activos para darle
 prioridad al nuevo configurado.
 
-![](./img/Guía Migración de Objetos/image4.png)
+![](./img/Guia Migracion de Objetos/image4.png)
 
 
 Dentro de la consola, en el ítem de “Active Source Hierrchy”, vemos un
 resumen de la o las conexiones realizadas, su estatus y el resumen de
 los objetos encontrados.
 
-![](./img/Guía Migración de Objetos/image5.png)
+![](./img/Guia Migracion de Objetos/image5.png)
 
 
 Durante lo que dure el proceso de migración, es posible que se necesite
@@ -121,15 +121,15 @@ Al ser esta característica opcional, si observamos la consola (figura
 botonera, se encuentra “Share Distribution Point”, la opción que permite
 habilitar dicha característica.
 
-![](./img/Guía Migración de Objetos/image6.png)
+![](./img/Guia Migracion de Objetos/image6.png)
 
 
-![](./img/Guía Migración de Objetos/image7.png)
+![](./img/Guia Migracion de Objetos/image7.png)
 
 
 Aquí se verán aquellos DP de la estructura 2007 que serán compartidos.
 
-![](./img/Guía Migración de Objetos/image8.png)
+![](./img/Guia Migracion de Objetos/image8.png)
 
 
  

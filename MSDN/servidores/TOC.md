@@ -26,7 +26,7 @@
 
 #[Aplicaciones de servicio en SharePoint 2013 (I): Introducción y funcionalidad](Aplicaciones de servicio en SharePoint 2013 (I).md)
 
-#[Cómo crear una tabla que presente repeticiones de rangos de números](Cómo crear una tabla que presente repeticiones de rangos de números.md)
+#[Cómo crear una tabla que presente repeticiones de rangos de números](Como crear una tabla que presente repeticiones de rangos de numeros.md)
 
 #[SharePoint 2010 y Open XML SDK. Creación de informes personalizados](SharePoint_OpenXML.md)
 
@@ -45,7 +45,7 @@
 
 #[Jerarquía Configuration Manager 2012](Jerarquia Configuration Manager 2012.md)
 #[Hyper-V: Implementación Rápida de Máquinas Virtuales](Implementacion Rapida de Maquinas Virtuales.md)
-#[Guía Migración de Objetos (Conexión) desde Configuration Manager 2007 a CM 2012](Guía Migración de Objetos.md)
+#[Guía Migración de Objetos (Conexión) desde Configuration Manager 2007 a CM 2012](Guia Migracion de Objetos.md)
 #[Guía de Migración de Objetos -Job- paso a paso](Guia de Migracion de Objetos Job.md)
 #[Funcionalidades de CM 2012](Funcionalidades de CM 2012.md)
 #[Edge Server en Lync 2013 “No Replica” Troubleshooting](Edge Server en Lync 2013 No Replica Troubleshooting.md)
