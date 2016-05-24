@@ -38,7 +38,7 @@
 #[Qué hay de nuevo en CM 2012 SP1](Que hay de nuevo en CM 2012 SP1.md)
 #[Microsoft Dynamics NAV en el Cloud](Microsoft Dynamics NAV en el Cloud.md)
 #[Lo nuevo en System Center 2012 R2 Configuration Manager](Lo nuevo en System Center 2012 R2 Configuration Manager.md)
-#[Jerarquía Configuration Manager 2012](Jerarquia Configuration Manager 2012.md)
+#[Jerarquía Configuration Manager 2012](Jerarquia CM2012.md)
 #[Hyper-V: Implementación Rápida de Máquinas Virtuales](Implementacion Rapida de Maquinas Virtuales.md)
 #[Guía Migración de Objetos (Conexión) desde Configuration Manager 2007 a CM 2012](Guia Migracion de Objetos.md)
 #[Guía de Migración de Objetos -Job- paso a paso](Guia de Migracion de Objetos Job.md)
