@@ -22,6 +22,9 @@
 
 #Modern IE un conjunto de herramientas para hardcore web developers
 
+![Juan Carlos Ruiz ](http://gravatar.com/avatar/2c36e6ebd9b4d33c3e9a0362607b3e57?s=150)
+<!-- -->
+
 Por Juan Carlos Ruiz Pacheco, **Microsoft Senior Technology Evangelist**
 
   Network   | Url
