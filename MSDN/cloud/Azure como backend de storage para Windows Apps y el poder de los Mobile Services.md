@@ -1,7 +1,27 @@
+
+<properties
+	pageTitle="Azure como backend de storage para Windows Apps y el poder de los Mobile Services"
+	description="Azure como backend de storage para Windows Apps y el poder de los Mobile Services"
+	services="cloud"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="cloud"
+	ms.workload="EMS"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/13/2016"
+	ms.author="andygonusa"/>
+
+# Azure como backend de storage para Windows Apps y el poder de los Mobile Services
+
 Por Walter Novoa, **Microsoft Developer Evangelist**
 
-1.  ![](./media/media/image1.png){width="1.3231014873140858in"
-    height="1.8335892388451445in"}
+![](./img/Azure como backend de storage para Windows Apps y el poder de los Mobile Services/image1.png)
 
 Twitter: @warnov
 
@@ -20,8 +40,7 @@ Si queremos ofrecer almacenamiento en nuestra app a través de una cuenta
 de Azure, lo primero que se nos vendría a la mente es: fácil, uso el API
 de Storage y la accedo desde mi app. Pero esto tiene dos implicaciones:
 
-1.  ![](./media/media/image2.png){width="5.89821741032371in"
-    height="3.803620953630796in"}
+![](./img/Azure como backend de storage para Windows Apps y el poder de los Mobile Services/image2.png)
 
 El soporte que se le da a la API desde las plataformas de desarrollo de
 WP y de WinRT: En este caso, lamento informar que el
@@ -41,8 +60,7 @@ Desafortunadamente hoy no tenemos una equivalencia para WinRT. Tal vez
 mediante agunos hacks, uno pudiera usar esta de phone con Windows 8.
 Pero entonces viene el 2do. Punto a tener en cuenta:
 
-1.  ![](./media/media/image3.png){width="6.5in"
-    height="7.1194444444444445in"}
+![](./img/Azure como backend de storage para Windows Apps y el poder de los Mobile Services/image3.png)
 
 Independientemente de que hagamos los llamados a través de REST puro o
 usando una librería como la citada en phone, siempre debemos incluir la
@@ -115,8 +133,7 @@ No sería mejor entonces tener un servicio pre-construido en la nube que
 ya nos proveyera la capacidad de emitir las SAS a las apps? ¿Qué nos
 quitara la necesidad de crear todo un web server para este fin?
 
-1.  ![](./media/media/image4.png){width="5.313241469816273in"
-    height="4.313101487314086in"}
+![](./img/Azure como backend de storage para Windows Apps y el poder de los Mobile Services/image4.png)
 
 Sí, ¡existe! Son los Windows Azure Mobile Services. Sevidores
 configurados para que clientes con una clave definida puedan entrar a

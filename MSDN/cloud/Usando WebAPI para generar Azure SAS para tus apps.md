@@ -1,7 +1,29 @@
+
+
+<properties
+	pageTitle="Usando WebAPI para generar Azure SAS para tus apps"
+	description="Usando WebAPI para generar Azure SAS para tus apps"
+	services="cloud"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="cloud"
+	ms.workload="WebAPI"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/13/2016"
+	ms.author="andygonusa"/>
+
+# Usando WebAPI para generar Azure SAS para tus apps
+
+
 Por Walter Novoa, **Microsoft Developer Evangelist**
 
-1.  ![](./media/media/image1.png){width="1.3231014873140858in"
-    height="1.8335892388451445in"}
+![](./img/Usando WebAPI para generar Azure SAS para tus apps/image1.png)
 
 Twitter: @warnov
 
@@ -32,8 +54,7 @@ tener un servicio web que reciba las fotografías y las envíe al storage
 de Windows Azure, ya que toda la responsabilidad de ese servicio recae
 sobre nosotros.
 
-1.  ![](./media/media/image2.png){width="2.8858191163604547in"
-    height="3.448397856517935in"}
+![](./img/Usando WebAPI para generar Azure SAS para tus apps/image2.png)
 
 \*Azure + Web + Apps
 
@@ -82,113 +103,57 @@ nuestro controlador:
 
 SERVER:
 
-1.  C\#
+```C#
 
-<!-- -->
-
-1.  public class SASController : ApiController
-
-    {
-
+public class SASController : ApiController
+{
     //Esto es solo un ejemplo y pongo aquí directamente
-
     //los datos de la cuenta de acceso.
-
     //Estos deberían estar en el config encriptados.
-
-    static CloudStorageAccount \_account;
-
-    static bool \_accountSet=false;
-
+    static CloudStorageAccount _account;
+    static bool _accountSet=false;
     //En bien se construye la clase, se trata de ajustar
-
     //la cuenta de almacenamiento de Azure
-
     static SASController()
-
     {
-
-    string accountName = "tunombredecuenta";
-
-    string pak = "fP4fXF9Vg...";
-
-    \_accountSet = CloudStorageAccount.TryParse(
-
-    String.Format("DefaultEndpointsProtocol=https;"+
-
-    "AccountName={0};AccountKey={1}",
-
-    accountName,
-
-    pak), out \_account);
-
+        string accountName = "tunombredecuenta";
+        string pak = "fP4fXF9Vg...";
+        _accountSet = CloudStorageAccount.TryParse(
+        String.Format("DefaultEndpointsProtocol=https;"+"AccountName={0};AccountKey={1}",accountName, pak), out _account);
     }
 
     // GET api/sas/nombredeblob
-
     public string GetSAS(string id)
-
     {
+        //Si la cuenta ha sido ajustada correctamente
+        if (_accountSet)
+        {
+            //Creamos un container por defecto.
+            //Se puede trabajar tambien como parámetro
+            var container = _account.CreateCloudBlobClient().GetContainerReference("testcontainer");
+            container.CreateIfNotExist();
 
-    //Si la cuenta ha sido ajustada correctamente
+            //Obtenemos una referencia al blob que se subirá
+            var blob = container.GetBlobReference(id);
 
-    if (\_accountSet)
+            //Creamos la sas que da permiso únicamente
+            //para ese blob, y solo por dos minutos
+            //qué seguro no?
+            var sas = blob.GetSharedAccessSignature(new SharedAccessPolicy()
+            {
 
-    {
+                Permissions = SharedAccessPermissions.Read | SharedAccessPermissions.Write, SharedAccessExpiryTime = DateTime.UtcNow + TimeSpan.FromMinutes(2)
+            });
 
-    //Creamos un container por defecto.
-
-    //Se puede trabajar tambien como parámetro
-
-    var container = \_account
-
-    .CreateCloudBlobClient()
-
-    .GetContainerReference("testcontainer");
-
-    container.CreateIfNotExist();
-
-    //Obtenemos una referencia al blob que se subirá
-
-    var blob = container.GetBlobReference(id);
-
-    //Creamos la sas que da permiso únicamente
-
-    //para ese blob, y solo por dos minutos
-
-    //qué seguro no?
-
-    var sas = blob.GetSharedAccessSignature
-
-    (new SharedAccessPolicy()
-
-    {
-
-    Permissions = SharedAccessPermissions.Read
-
-    | SharedAccessPermissions.Write,
-
-    SharedAccessExpiryTime = DateTime.UtcNow +
-
-    TimeSpan.FromMinutes(2)
-
-    });
-
-    //Armamos la url en la cual podremos
-
-    //poner el blob desde el cliente
-
-    return blob.Uri.AbsoluteUri + sas;
-
+            //Armamos la url en la cual podremos
+            //poner el blob desde el cliente
+            return blob.Uri.AbsoluteUri + sas;
+        }
+        else return "The API has not been configurated yet, "+"pray to the heavens for them to configure it";
     }
 
-    else return "The API has not been configurated yet, "+
-
-    "pray to the heavens for them to configure it";
-
-    }
-
-    }
+}
+```
 
 Vemos como solo bastó importar la librería del API de Storage,
 inicializar la cuenta de almacenamiento a través de un constructor
@@ -210,75 +175,42 @@ para este fin:
 
 CLIENT
 
-1.  C\#
+``` C#
+//Escogemos el archivo
+var filePicker = new FileOpenPicker();
+filePicker.FileTypeFilter.Add(".jpg");
+var file = await filePicker.PickSingleFileAsync();
 
-<!-- -->
-
-1.  //Escogemos el archivo
-
-    var filePicker = new FileOpenPicker();
-
-    filePicker.FileTypeFilter.Add(".jpg");
-
-    var file = await filePicker.PickSingleFileAsync();
-
-    if(file!=null)
-
-    {
-
+if(file!=null)
+{
     //Con un cliente http nos comunicamos
-
     //al web api para bajar la SAS
-
     //luego con ese mismo cliente subimos el archivo
-
     using (var client = new HttpClient())
-
     {
+        //Bajando la SAS
+        var sas = await client.GetStringAsync("http://localhost:47805/api/sas/" + file.Name);
+        sas = sas.Substring(1, sas.Length - 2);
+        
+        //Cargamos la imagen con el HttpClient al blob
+        //service usando la SAS obtenida desde WebAPI
+        //Obtenemos el stream de un storage file definido anteriormente
+        using (var fileStream = await file.OpenStreamForReadAsync())
+        {
+            var content = new StreamContent(fileStream);
+            content.Headers.Add("Content-Type", file.ContentType);
+            content.Headers.Add("x-ms-blob-type", "BlockBlob");
 
-    //Bajando la SAS
-
-    var sas = await client.GetStringAsync
-
-    ("http://localhost:47805/api/sas/" + file.Name);
-
-    sas = sas.Substring(1, sas.Length - 2);
-
-    //Cargamos la imagen con el HttpClient al blob
-
-    //service usando la SAS obtenida desde WebAPI
-
-    //Obtenemos el stream de un storage file definido anteriormente
-
-    using (var fileStream = await file.OpenStreamForReadAsync())
-
-    {
-
-    var content = new StreamContent(fileStream);
-
-    content.Headers.Add("Content-Type", file.ContentType);
-
-    content.Headers.Add("x-ms-blob-type", "BlockBlob");
-
-    //Con el PutAsync, enviamos el archivo a Azure
-
-    //a través de la URL autorizadora que está en SAS
-
-    using (var uploadResponse =
-
-    await client.PutAsync(new Uri(sas), content))
-
-    {
-
-    //Agregar cualquier post proceso adicional
-
+            //Con el PutAsync, enviamos el archivo a Azure
+            //a través de la URL autorizadora que está en SAS
+            using (var uploadResponse = await client.PutAsync(new Uri(sas), content))
+            {
+                //Agregar cualquier post proceso adicional
+            }
+        }
     }
-
-    }
-
-    }
-
-    }
+}
+```
 
 Con el HTTPClient hemos descargado la SAS luego de tener el archivo
 escogido con su nombre identificado y luego aprovechamos ese mismo

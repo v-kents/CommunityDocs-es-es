@@ -1,9 +1,33 @@
-1.  ![](./media/media/image1.png){width="1.78125in"
-    height="0.6354166666666666in"}
 
-    <http://www.dnmplus.net>
 
-    Quique Martínez (Pasiona)
+
+<properties
+	pageTitle="Introducción a Azure Service Bus"
+	description="Introducción a Azure Service Bus"
+	services="cloud"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="cloud"
+	ms.workload="ServiceBus"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/13/2016"
+	ms.author="andygonusa"/>
+
+# Introducción a Azure Service Bus
+
+
+![](./img/IntroAzureBus/image1.png)
+    
+
+<http://www.dnmplus.net>
+
+Quique Martínez (Pasiona)
 
 En este artículo presentamos Azure Service Bus, otro de los servicios
 que nos proporciona la plataforma de *Cloud Computing* de Microsoft.
@@ -37,21 +61,19 @@ Una vez tenemos configurado nuestro SB, en el portal sólo nos queda una
 cosa que hacer: guardar las dos claves secretas que nos permitirán
 utilizar el servicio desde nuestras *apps*.
 
-1.  Figura 1
+Figura 1
 
 <!-- -->
 
-1.  ![](./media/media/image2.png){width="6.250872703412074in"
-    height="2.1982239720034995in"}
+![](./img/IntroAzureBus/image2.png)
+
+
+Figura 2
 
 <!-- -->
 
-1.  Figura 2
-
-<!-- -->
-
-1.  ![](./media/media/image3.png){width="6.250872703412074in"
-    height="3.656760717410324in"}
+![](./img/IntroAzureBus/image3.png)
+    
 
 Programando un ejemplo
 ----------------------
@@ -84,29 +106,23 @@ el sitio web de **dNM**). Como podéis ver, ya tenemos nuestro servicio
 WCF desarrollado para Azure, y ahora solo tenemos que mejorar su
 “arquitectura”.
 
-1.  Figura 3
+Figura 3
 
 <!-- -->
 
-1.  ![](./media/media/image4.png){width="4.188083989501313in"
-    height="4.646481846019247in"}
+![](./img/IntroAzureBus/image4.png)
+    
 
-<!-- -->
+Listado 1
+``` C# 
+public string
+ContabilizarNominas(IEnumerable<Nomina> nominaList)
+{
+// Lógica...
 
-1.  C\# Listado 1
-
-<!-- -->
-
-1.  public string
-    ContabilizarNominas(IEnumerable&lt;Nomina&gt; nominaList)
-
-    {
-
-    // Lógica...
-
-    return "Se ha procesado todo!";
-
-    }
+return "Se ha procesado todo!";
+}
+```
 
 Lo primero que vamos a hacer es instalar el paquete de SB desde NuGet
 (figura 4). Una vez hecho esto, podremos ver que se nos ha agregado una
@@ -114,24 +130,17 @@ nueva opción de configuración a los ficheros de configuración del
 servicio de Azure (listado 2). Aquí es donde deberemos poner en uso las
 dos claves secretas que hemos comentado al principio.
 
-1.  Listado 2
+Listado 2
 
-<!-- -->
+    <Setting name="Microsoft.ServiceBus.ConnectionString"
+    value="Endpoint=sb://[your namespace].servicebus.windows.net;
+    SharedSecretIssuer=owner;SharedSecretValue=[your secret]" />
 
-1.  &lt;Setting name="Microsoft.ServiceBus.ConnectionString"
 
-    value="Endpoint=sb://\[your namespace\].servicebus.windows.net;
+Figura 4
 
-    SharedSecretIssuer=owner;SharedSecretValue=\[your secret\]" /&gt;
-
-<!-- -->
-
-1.  Figura 4
-
-<!-- -->
-
-1.  ![](./media/media/image5.png){width="6.5in"
-    height="4.352777777777778in"}
+![](./img/IntroAzureBus/image5.png)
+    
 
 Añadiendo los datos al Service Bus
 ----------------------------------
@@ -144,68 +153,45 @@ Además, hemos ido trazando por donde pasamos para poder tener un poco
 más de información en caso de error (este código se puede optimizar, se
 ha dejado así para el ejemplo).
 
-1.  C\# Listado 3
-
-<!-- -->
-
-1.  public class IntegrationService : IServiceIntegration
-
+Listado 3
+``` C# 
+public class IntegrationService : IServiceIntegration
     {
+        const string NominaQueueName = "NominasQueueName";
 
-    const string NominaQueueName = "NominasQueueName";
+        public string
+        ContabilizarNominas(IEnumerable<Nomina> nominaList)
+        {
+            // Trazamos que vamos a guardar en cola las nóminas
+            System.Diagnostics.Trace.TraceInformation("Added nominaList to IntegrationService");
 
-    public string
-    ContabilizarNominas(IEnumerable&lt;Nomina&gt; nominaList)
+            // Creamos la conexión en base los datos de configuración
 
-    {
+            var connectionString = CloudConfigurationManager.GetSetting("Microsoft.ServiceBus.ConnectionString");
 
-    // Trazamos que vamos a guardar en cola las nóminas
+            var namespaceManager = NamespaceManager.CreateFromConnectionString(connectionString);
 
-    System.Diagnostics.Trace.TraceInformation("Added nominaList to
-    IntegrationService");
+            // Comprobamos si existe la cola y si no, la creamos
+            if (!namespaceManager.QueueExists(NominaQueueName))
+            {
+                namespaceManager.CreateQueue(NominaQueueName);
+            }
 
-    // Creamos la conexión en base los datos de configuración
+            var client = QueueClient.CreateFromConnectionString(connectionString, NominaQueueName);
 
-    var connectionString =
+            // Creamos un BrokeredMessage por cada elemento
+            foreach (var nomina in nominaList)
+            {
+                client.Send(new BrokeredMessage(nomina));
+            System.Diagnostics.Trace.TraceInformation(string.Format("{0}{1}",
 
-    CloudConfigurationManager.GetSetting("Microsoft.ServiceBus.ConnectionString");
+                "Queued message to process ", Nomina.NIF));
+            }
 
-    var namespaceManager =
-    NamespaceManager.CreateFromConnectionString(connectionString);
-
-    // Comprobamos si existe la cola y si no, la creamos
-
-    if (!namespaceManager.QueueExists(NominaQueueName))
-
-    {
-
-    namespaceManager.CreateQueue(NominaQueueName);
-
+            return "Las nóminas se han añadido a la cola...";
+        }
     }
-
-    var client =
-    QueueClient.CreateFromConnectionString(connectionString,
-    NominaQueueName);
-
-    // Creamos un BrokeredMessage por cada elemento
-
-    foreach (var nomina in nominaList)
-
-    {
-
-    client.Send(new BrokeredMessage(nomina));
-
-    System.Diagnostics.Trace.TraceInformation(string.Format("{0}{1}",
-
-    "Queued message to process ", Nomina.NIF));
-
-    }
-
-    return "Las nóminas se han añadido a la cola...";
-
-    }
-
-    }
+```
 
 Procesando los datos del Service Bus
 ------------------------------------
@@ -225,7 +211,7 @@ dado en nuestro servicio WCF, los cambios se concentran en el método
 **Run**, y tienen lugar una vez recibimos el mensaje, donde lo recogemos
 y lo procesamos con la lógica que ya teníamos programada anteriormente:
 
-1.  Recogemos el mensaje:
+1. Recogemos el mensaje:
 
     BrokeredMessage receivedMessage = Client.Receive();
 
@@ -240,261 +226,147 @@ y lo procesamos con la lógica que ya teníamos programada anteriormente:
 4.  También deberemos añadir el código de gestión de errores que
     estimemos necesario.
 
-5.  
+Figura 5
 
-<!-- -->
+![](./img/IntroAzureBus/image6.png)
 
-1.  Figura 5
 
-<!-- -->
-
-1.  ![](./media/media/image6.png){width="6.5in" height="4.18125in"}
-
-<!-- -->
-
-1.  C\# Listado 4
-
-<!-- -->
-
-1.  public class WorkerRole : RoleEntryPoint
-
-    {
-
+Listado 4
+```C# 
+public class WorkerRole : RoleEntryPoint
+{
     // The name of your queue
-
     const string QueueName = "ProcessingQueue";
 
     // QueueClient is thread-safe. Recommended that you cache
-
     // rather than recreating it on every request
-
     QueueClient Client;
-
     bool IsStopped;
 
     public override void Run()
-
     {
+        while (!IsStopped)
+        {
+            try
+            {
 
-    while (!IsStopped)
+                // Receive the message
+                BrokeredMessage receivedMessage = null;
+                receivedMessage = Client.Receive();
 
-    {
-
-    try
-
-    {
-
-    // Receive the message
-
-    BrokeredMessage receivedMessage = null;
-
-    receivedMessage = Client.Receive();
-
-    if (receivedMessage != null)
-
-    {
-
-    // Process the message
-
-    Trace.WriteLine("Processing",
-    receivedMessage.SequenceNumber.ToString());
-
-    receivedMessage.Complete();
-
-    }
-
-    }
-
-    catch (MessagingException e)
-
-    {
-
-    if (!e.IsTransient)
-
-    {
-
-    Trace.WriteLine(e.Message);
-
-    throw;
-
-    }
-
-    Thread.Sleep(10000);
-
-    }
-
-    catch (OperationCanceledException e)
-
-    {
-
-    if (!IsStopped)
-
-    {
-
-    Trace.WriteLine(e.Message);
-
-    throw;
-
-    }
-
-    }
-
-    }
-
+                if (receivedMessage != null)
+                {
+                // Process the message
+                Trace.WriteLine("Processing",
+                receivedMessage.SequenceNumber.ToString());
+                receivedMessage.Complete();
+                }
+            }
+            catch (MessagingException e)
+            {
+                if (!e.IsTransient)
+                {
+                    Trace.WriteLine(e.Message);
+                    throw;
+                }
+                Thread.Sleep(10000);
+            }
+            catch (OperationCanceledException e)
+            {
+                if (!IsStopped)
+                {
+                    Trace.WriteLine(e.Message);
+                    throw;
+                }
+            }
+        }
     }
 
     public override bool OnStart()
-
     {
+        // Set the maximum number of concurrent connections
+        ServicePointManager.DefaultConnectionLimit = 12;
 
-    // Set the maximum number of concurrent connections
+        // Create the queue if it does not exist already
+        string connectionString = CloudConfigurationManager.GetSetting("Microsoft.ServiceBus.ConnectionString");
 
-    ServicePointManager.DefaultConnectionLimit = 12;
+        var namespaceManager = NamespaceManager.CreateFromConnectionString(connectionString);
 
-    // Create the queue if it does not exist already
+        if (!namespaceManager.QueueExists(QueueName))
+        {
+            namespaceManager.CreateQueue(QueueName);
+        }
 
-    string connectionString =
-
-    CloudConfigurationManager.GetSetting("Microsoft.ServiceBus.ConnectionString");
-
-    var namespaceManager =
-    NamespaceManager.CreateFromConnectionString(connectionString);
-
-    if (!namespaceManager.QueueExists(QueueName))
-
-    {
-
-    namespaceManager.CreateQueue(QueueName);
-
-    }
-
-    // Initialize the connection to Service Bus Queue
-
-    Client = QueueClient.CreateFromConnectionString(connectionString,
-    QueueName);
-
-    IsStopped = false;
-
-    return base.OnStart();
-
+        // Initialize the connection to Service Bus Queue
+        Client = QueueClient.CreateFromConnectionString(connectionString, QueueName);
+        IsStopped = false;
+        return base.OnStart();
     }
 
     public override void OnStop()
-
     {
-
-    // Close the connection to Service Bus Queue
-
-    IsStopped = true;
-
-    Client.Close();
-
-    base.OnStop();
-
+        // Close the connection to Service Bus Queue
+        IsStopped = true;
+        Client.Close();
+        base.OnStop();
     }
 
-    }
-
+}
+```
 <!-- -->
-
-1.  C\# Listado 5
-
-<!-- -->
-
-1.  public class WorkerRole : RoleEntryPoint
-
-    {
-
+Listado 5
+```C# 
+public class WorkerRole : RoleEntryPoint
+{
     // The name of your queue
-
     const string QueueName = "ProcessingQueue";
-
     // ...
-
     public override void Run()
-
     {
+        while (!IsStopped)
+        {
+            try
+            {
+                // Receive the message
+                BrokeredMessage receivedMessage = Client.Receive();
+                if (receivedMessage != null)
+                {
+                    // Process the message 
+                    Trace.WriteLine("Processing", receivedMessage.SequenceNumber.ToString());
 
-    while (!IsStopped)
+                    var message = receivedMessage.GetBody&lt;Nomina&gt;();
+                    var result = ContabilizarNomina(message);
 
-    {
+                    if (result) 
+                        receivedMessage.Complete();
+                    else
+                    {
+                        // Gestión de errores
+                    }
+                }
 
-    try
-
-    {
-
-    // Receive the message
-
-    BrokeredMessage receivedMessage = Client.Receive();
-
-    if (receivedMessage != null)
-
-    {
-
-    // Process the message
-
-    Trace.WriteLine("Processing",
-    receivedMessage.SequenceNumber.ToString());
-
-    var message = receivedMessage.GetBody&lt;Nomina&gt;();
-
-    var result = ContabilizarNomina(message);
-
-    if (result)
-
-    receivedMessage.Complete();
-
-    else
-
-    {
-
-    // Gestión de errores
-
+            }
+            catch (MessagingException e)
+            {
+                if (!e.IsTransient)
+                {
+                    Trace.WriteLine(e.Message);
+                    throw;
+                }
+                Thread.Sleep(10000);
+            }
+            catch (OperationCanceledException e)
+            {
+                if (!IsStopped)
+                {
+                    Trace.WriteLine(e.Message);
+                    throw;
+                }
+            }
+        }
     }
-
-    }
-
-    }
-
-    catch (MessagingException e)
-
-    {
-
-    if (!e.IsTransient)
-
-    {
-
-    Trace.WriteLine(e.Message);
-
-    throw;
-
-    }
-
-    Thread.Sleep(10000);
-
-    }
-
-    catch (OperationCanceledException e)
-
-    {
-
-    if (!IsStopped)
-
-    {
-
-    Trace.WriteLine(e.Message);
-
-    throw;
-
-    }
-
-    }
-
-    }
-
-    }
-
-    }
+}
+```
 
 Conclusiones
 ------------
