@@ -1,10 +1,37 @@
-Por FREDDY LEANDRO ANGARITA C.\
-SqlServer MVP \
-[Perfil
-MVP](https://mvp.support.microsoft.com/es-es/mvp/Freddy%20Leandro%20Angarita%20Castellanos-4028407)\
-\
-<freddy_angarita@hotmail.com>\
+
+
+<properties
+pageTitle="Cómo hacer Backup y Restaurar un Modelo MDS (Deploy)"
+description="Cómo hacer Backup y Restaurar un Modelo MDS (Deploy)"
+services="servers"
+documentationCenter=""
+authors="andygonusa"
+manager=""
+editor="andygonusa"/>
+
+<tags
+ms.service="servers"
+ms.workload="MDS"
+ms.tgt_pltfrm="na"
+ms.devlang="na"
+ms.topic="how-to-article"
+ms.date="05/12/2016"
+ms.author="andygonusa"/>
+
+
+#Cómo hacer Backup y Restaurar un Modelo MDS (Deploy)
+
+
+Por FREDDY LEANDRO ANGARITA C.
+
+SqlServer MVP - [Perfil
+MVP](https://mvp.support.microsoft.com/es-es/mvp/Freddy%20Leandro%20Angarita%20Castellanos-4028407)
+
+<freddy_angarita@hotmail.com>
+
 <http://geeks.ms/blogs/fangarita/default.aspx>
+
+
 
 Para exportar la información del modelo podemos usar el siguiente
 comando:
@@ -24,13 +51,13 @@ Services\\Configuration&gt;MDSModelDeploy.exe createpackage **
 
 Parámetros usados:
 
-  Parámetro       Descripción
-  --------------- ----------------------------------------------------------------------------------------------------------------------------------------------
-  createpackage   Indica que se desea generar un paquete para deployment
-  -model          Nombre del modelo a publicar (sensible a la mayúscula)
-  -package        Nombre del archivo a crear
-  -version        Nombre de la versión que se desea publicar (sensible a la mayúscula)
-  -includedata    Al agregarlo indica que los datos contenidos se adjunten al archivo a crear (considerar su uso en escenarios con grandes volúmenes de datos)
+ | Parámetro    |   Descripción|
+ | ---------------|------------------|
+ | createpackage  | Indica que se desea generar un paquete para deployment|
+ | -model     |     Nombre del modelo a publicar (sensible a la mayúscula)|
+ | -package     |   Nombre del archivo a crear|
+  |-version    |    Nombre de la versión que se desea publicar (sensible a la mayúscula)|
+ | -includedata  |  Al agregarlo indica que los datos contenidos se adjunten al archivo a crear (considerar su uso en escenarios con grandes volúmenes de datos)|
 
 Para Restaurar un Modelo MDS en otra instancia podemos seguir los
 siguientes pasos:

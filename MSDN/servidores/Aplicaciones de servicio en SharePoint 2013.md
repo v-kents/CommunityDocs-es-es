@@ -193,46 +193,46 @@ el primer componente o bloque de la misma es el servicio. Por defecto,
 SharePoint Foundation 2013 y SharePoint Server 2014 disponen de una
 serie de servicios tal y como se muestra en la Tabla 1.
 
-  
-  |Servicios en SharePoint Foundation 2013|Servicios en SharePoint Sever 2013|
-  |---------------------------------------------------------------------------------- |---------------------------------------------------------------------------------|
-  |Administración central.|Access Services.|
-  |Administración de Microsoft SharePoint Foundation.| Administración central.|
-  |Administración de solicitudes. |Administración de Microsoft SharePoint Foundation.|
-  |Aplicación web de Microsoft SharePoint Foundation.| Administración de solicitudes.|
-  |Base de datos de Microsoft SharePoint Foundation. | Aplicación web de Microsoft SharePoint Foundation.|
-  |Búsqueda de SharePoint Server. |Base de datos de Microsoft SharePoint Foundation.|
-  |Caché distribuida.| Búsqueda de SharePoint Server.|
-  |Conector de Lotus Notes. |  Caché distribuida.|
- |Correo electrónico entrante de Microsoft SharePoint Foundation.|Conector de Lotus Notes.|
- |Notificaciones del servicio de token de Windows. | Correo electrónico entrante de Microsoft SharePoint Foundation.|
-  |Servicio de administración de aplicaciones.|Excel Calculation Services.|
-  |Servicio de almacenamiento seguro. |Notificaciones del servicio de token de Windows.|
-  |Servicio de código de espacio aislado de Microsoft SharePoint Foundation. | PerformancePoint Service.|
-  |Servicio de conectividad a datos empresariales.|Servicio de administración de aplicaciones.|
-  |Servicio de configuración de suscripción de Microsoft SharePoint Foundation. |  Servicio de administración del trabajo.|
-  |Servicio de controlador de host de búsquedas. | Servicio de almacenamiento seguro.|
-  |Servicio de equilibrio de carga y detección de aplicaciones.  | Servicio de base de datos de Access 2010.|
-  |Servicio de temporizador de flujo de trabajo de Microsoft SharePoint Foundation.   |Servicio de código de espacio aislado de Microsoft SharePoint Foundation.|
-  |Servicio web de administración de búsqueda.|Servicio de conectividad a datos empresariales.|
- |Servicios configuración del sitio y consulta de búsqueda. | Servicio de configuración de suscripción de Microsoft SharePoint Foundation.|
- |Temporizador de Microsoft SharePoint Foundation. |  Servicio de controlador de host de búsquedas|
- ||Servicio de conversión de PowerPoint|
- ||Servicio de equilibrio de carga y detección de aplicaciones|
- ||Servicio de gráficos de Visio|
- ||Servicio de perfiles de usuario|
- ||Servicio de sincronización de perfiles de usuario|
+
+|Servicios en SharePoint Foundation 2013|Servicios en SharePoint Sever 2013|
+|-----------|------------|
+|Administración central.|Access Services.|
+|Administración de Microsoft SharePoint Foundation.| Administración central.|
+|Administración de solicitudes. |Administración de Microsoft SharePoint Foundation.|
+|Aplicación web de Microsoft SharePoint Foundation.| Administración de solicitudes.|
+|Base de datos de Microsoft SharePoint Foundation. | Aplicación web de Microsoft SharePoint Foundation.|
+|Búsqueda de SharePoint Server. |Base de datos de Microsoft SharePoint Foundation.|
+|Caché distribuida.| Búsqueda de SharePoint Server.|
+|Conector de Lotus Notes. |  Caché distribuida.|
+|Correo electrónico entrante de Microsoft SharePoint Foundation.|Conector de Lotus Notes.|
+|Notificaciones del servicio de token de Windows. | Correo electrónico entrante de Microsoft SharePoint Foundation.|
+|Servicio de administración de aplicaciones.|Excel Calculation Services.|
+|Servicio de almacenamiento seguro. |Notificaciones del servicio de token de Windows.|
+|Servicio de código de espacio aislado de Microsoft SharePoint Foundation. | PerformancePoint Service.|
+|Servicio de conectividad a datos empresariales.|Servicio de administración de aplicaciones.|
+|Servicio de configuración de suscripción de Microsoft SharePoint Foundation. |  Servicio de administración del trabajo.|
+|Servicio de controlador de host de búsquedas. | Servicio de almacenamiento seguro.|
+|Servicio de equilibrio de carga y detección de aplicaciones.| Servicio de base de datos de Access 2010.|
+|Servicio de temporizador de flujo de trabajo de Microsoft SharePoint Foundation.   |Servicio de código de espacio aislado de Microsoft SharePoint Foundation.|
+|Servicio web de administración de búsqueda.|Servicio de conectividad a datos empresariales.|
+|Servicios configuración del sitio y consulta de búsqueda. | Servicio de configuración de suscripción de Microsoft SharePoint Foundation.|
+|Temporizador de Microsoft SharePoint Foundation. |  Servicio de controlador de host de búsquedas|
+||Servicio de conversión de PowerPoint|
+||Servicio de equilibrio de carga y detección de aplicaciones|
+||Servicio de gráficos de Visio|
+||Servicio de perfiles de usuario|
+||Servicio de sincronización de perfiles de usuario|
 ||Servicio de temporizador de flujo de trabajo de Microsoft SharePoint Foundation|
- ||Servicio de traducción automática|
+||Servicio de traducción automática|
 ||Servicio del equilibrador de carga de conversiones de documentos|
- || Servicio del iniciador de conversiones de documentos|
- ||Servicio SQL Server Reporting Services|
- ||Servicio web de administración de búsqueda|
- || Servicio web de metadatos administrado|
- ||Servicios configuración del sitio y consulta de búsqueda|
+|| Servicio del iniciador de conversiones de documentos|
+||Servicio SQL Server Reporting Services|
+||Servicio web de administración de búsqueda|
+|| Servicio web de metadatos administrado|
+||Servicios configuración del sitio y consulta de búsqueda|
 || Temporizador de Microsoft SharePoint Foundation|
 || Word Automation Services|
-|-----|-----|
+
 
 Tabla 1.- Servicios disponibles en SharePoint Foundation 2013 vs
 SharePoint Server 2013.
@@ -309,7 +309,7 @@ está disponible en el núcleo de la plataforma o no. Para cada aplicación
 se recoge la descripción de funcionalidad tal y como aparece en la
 Administración Central de SharePoint 2013.
 
-| Aplicación de Servicio | Plataforma  | Descripción
+| Aplicación de Servicio | Plataforma  | Descripción|
 |----------|-----------|------------|
 |  Administración del trabajo   |                                                        SharePoint Server 2013           |                            Proporciona agregación de tareas a través de sistemas de administración del trabajo que prioriza las peticiones recibidas.|
   |Equilibrio de carga y detección de aplicaciones |                                     SharePoint Foundation 2013 y SharePoint Server 2013 |         Permite administrar aplicaciones de servicios, descubrir nuevas instancias de servicio e implementar balanceo de carga para peticiones entre múltiples instancias de servicio.|
@@ -329,7 +329,7 @@ Administración Central de SharePoint 2013.
  | Metadatos administrados                                                        |      SharePoint Server 2013.      |                                Proporciona acceso a jerarquías de taxonomía administradas, palabras clave y a la infraestructura de etiquetado social, así como a publicaciones de Tipos de Contenido en Colecciones de Sitios.|
  | Traducción automática                                                  |              SharePoint Server 2013         |                              Proporciona traducción automática de sitios y archivos.|
  | Servicio web de administración de búsqueda para Aplicación de servicio de búsqueda  | SharePoint Foundation 2013 y SharePoint Server 2013          ||
-  |Servicio de Access 2010   |                                                |           SharePoint Server 2013     |                                  Habilita la publicación y visualización de aplicaciones Access 2010 en el Explorador Web.|
+  |Servicio de Access 2010   |        SharePoint Server 2013     |                                  Habilita la publicación y visualización de aplicaciones Access 2010 en el Explorador Web.|
  | Servicio de Access     |                                                              SharePoint Server 2013           |                            Habilita la publicación y visualización de aplicaciones Access en el Explorador Web.|
   |Word Automation    |                                                                  SharePoint Server 2013       |                                Proporciona un marco para realizar conversiones automáticas de documentos.|
 

@@ -1,15 +1,46 @@
-[Marcela Berri*\
-*](https://plus.google.com/102022832380927697290/posts/p/pub)Instructor
-/ Consultor Senior IT\
+
+
+
+<properties
+pageTitle="Guía Migración de Objetos (Conexión) desde Configuration Manager 2007 a CM 2012"
+description="Guía Migración de Objetos (Conexión) desde Configuration Manager 2007 a CM 2012"
+services="servers"
+documentationCenter=""
+authors="andygonusa"
+manager=""
+editor="andygonusa"/>
+
+<tags
+ms.service="servers"
+ms.workload="Hyper-V"
+ms.tgt_pltfrm="na"
+ms.devlang="na"
+ms.topic="how-to-article"
+ms.date="05/12/2016"
+ms.author="andygonusa"/>
+
+
+#Guía Migración de Objetos (Conexión) desde Configuration Manager 2007 a CM 2012
+
+
+
+[Marcela Berri](https://plus.google.com/102022832380927697290/posts/p/pub)
+
+Instructor / Consultor Senior IT
+
 MCT – MVP Configuration Manager
 
-MCTS Server Administrator - MCTS AD 2008 - MCTS Network Inf\
-MCTS - Server Virtualization\
-MCTS W7 & Off2010 - MCTS SCCM 2012/2007 - MCTS SCOM 2007\
+MCTS Server Administrator - MCTS AD 2008 - MCTS Network Inf
+
+MCTS - Server Virtualization
+
+MCTS W7 & Off2010 - MCTS SCCM 2012/2007 - MCTS SCOM 2007
+
 MCITP Exchange 2010/2007 - MCTS Exch 2010/2007 - MCTS Lync 2010
 
-Blog [IT Technology Site: *About
-me*](http://ittechnologysite.blogspot.com.ar/)
+
+Blog [IT Technology Site: *About me*](http://ittechnologysite.blogspot.com.ar/)
+
 
 Para migrar objetos desde Configuration Manager 2007 al nuevo Site en
 2012, existe un asistente built-in dentro de la consola que permite
@@ -20,9 +51,8 @@ objetos origen fueron cambiados a lo largo de la transición.
 Esta guía brinda los pasos necesarios para una migración completa de
 objetos.
 
-**\
-\
-Conexión:**\
+Conexión:
+---------
 Para poder comenzar a conectar las 2 estructuras, es necesario ejecutar
 un asistente que nos pedirá toda la información necesaria para una
 migración exitosa.
@@ -34,8 +64,8 @@ la Botonera: “Specify Source Hierarchy” (Figura 1)
 En ella debemos colocar el nombre o FQDN del Site server Top de la
 jerarquía.
 
-1.  ![](./media/media/image1.png){width="4.1672484689413825in"
-    height="3.333798118985127in"} 
+![](./img/Guia Migracion de Objetos/image1.png)
+
 
 El proceso necesita colectar información de la estructura CM 2007 y para
 ello nos pide las cuentas con los privilegios necesarios que establecen
@@ -46,8 +76,8 @@ alguna cuenta de AD con los privilegios necesarios. En el botón de
 “Set…”, donde se coloca la cuenta, se puede realizar un TEST de conexión
 tanto a la base como al WMI de la estructura 2007. (figura 2)
 
-1.  ![](./media/media/image2.png){width="4.1672484689413825in"
-    height="2.917073490813648in"} 
+![](./img/Guia Migracion de Objetos/image2.png)
+
 
 Una vez establecida las cuentas, el proceso de conexión hacia los datos
 comienza (figura 3). Este proceso se repite por Schedule cada 4 horas
@@ -55,8 +85,8 @@ por defecto. El proceso inicial debe traer la información de todos los
 objetos de la base de Configuration Manager 2007 y la lista de
 Distribution Points.
 
-1.  ![](./media/media/image3.png){width="4.1672484689413825in"
-    height="2.917073490813648in"}
+![](./img/Guia Migracion de Objetos/image3.png)
+
 
 Como resultado, en la consola de “Migration” se puede ver el número de
 objetos que se encontraron listos para migrar. Como la conexión es
@@ -69,15 +99,15 @@ cuenta que estas nuevas conexiones se deben hacer después de completar
 los Jobs activos, ya que ConfMgr cancelará los Jobs activos para darle
 prioridad al nuevo configurado.
 
-1.  ![](./media/media/image4.png){width="4.1672484689413825in"
-    height="3.27128937007874in"}
+![](./img/Guia Migracion de Objetos/image4.png)
+
 
 Dentro de la consola, en el ítem de “Active Source Hierrchy”, vemos un
 resumen de la o las conexiones realizadas, su estatus y el resumen de
 los objetos encontrados.
 
-1.  ![](./media/media/image5.png){width="4.1672484689413825in"
-    height="2.604529746281715in"}
+![](./img/Guia Migracion de Objetos/image5.png)
+
 
 Durante lo que dure el proceso de migración, es posible que se necesite
 que el contenido de paquetes que está en los Distribution Points de 2007
@@ -91,16 +121,16 @@ Al ser esta característica opcional, si observamos la consola (figura
 botonera, se encuentra “Share Distribution Point”, la opción que permite
 habilitar dicha característica.
 
-1.  ![](./media/media/image6.png){width="4.1672484689413825in"
-    height="2.9379101049868765in"}
+![](./img/Guia Migracion de Objetos/image6.png)
 
-    ![](./media/media/image7.png){width="4.1672484689413825in"
-    height="2.6462029746281717in"}
+
+![](./img/Guia Migracion de Objetos/image7.png)
+
 
 Aquí se verán aquellos DP de la estructura 2007 que serán compartidos.
 
-1.  ![](./media/media/image8.png){width="4.1672484689413825in"
-    height="2.1148786089238847in"}
+![](./img/Guia Migracion de Objetos/image8.png)
+
 
  
 
