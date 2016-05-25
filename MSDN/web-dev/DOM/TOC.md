@@ -12,3 +12,5 @@
 #[Explorando el DOM: Clonación, adición y edición de nodos y elementos](Clonacion-adicion-y-edicionde-nodos-y-elementos.md)
 #[Explorando el DOM: Objeto element. Atributos y su gestión](Objeto-element_Atributos-y-su-gestion.md)
 #[Explorando el DOM: Nodos de texto. Gestión multinodal ](Nodos-de-texto_Gestión-multinodal.md)
+#[Explorando el DOM: Nodo document. Nodos hijo](Nodo document-Nodos hijo.md)
+#[Explorando el DOM: Nodos de texto. Gestión multinodal](Nodos-de-texto-Gestion-multinodal.md)
