@@ -1,10 +1,31 @@
-Por **FREDDY LEANDRO ANGARITA C.\
-SqlServer MVP** \
-[Perfil
-MVP](https://mvp.support.microsoft.com/es-es/mvp/Freddy%20Leandro%20Angarita%20Castellanos-4028407)\
-\
-<freddy_angarita@hotmail.com>\
-<http://geeks.ms/blogs/fangarita/default.aspx>
+
+
+<properties
+	pageTitle="Cómo crear un reporte flexible usando Jerarquías (Recursivo)"
+	description="Cómo crear un reporte flexible usando Jerarquías (Recursivo)"
+	services="servers"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="servers"
+	ms.workload="SQL"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+
+#Cómo crear un reporte flexible usando Jerarquías (Recursivo)
+
+
+
+Por **FREDDY LEANDRO ANGARITA C.**
+**SqlServer MVP** 
+[Perfil MVP](https://mvp.support.microsoft.com/es-es/mvp/Freddy%20Leandro%20Angarita%20Castellanos-4028407) / <freddy_angarita@hotmail.com> / <http://geeks.ms/blogs/fangarita/default.aspx>
 
 Saludos
 
@@ -16,9 +37,7 @@ Reporting Services
 
 Consideremos primero la siguiente Jerarquía:
 
-1.  ![](./media/media/image1.png){width="5.729966097987751in"
-    height="3.43798009623797in"}
-
+![](./img/Como crear un reporte flexible usando Jerarquias/image1.png)
  
 
 Basado en el esquema anterior generemos una tabla de ejemplo
@@ -48,19 +67,16 @@ Creando el Reporte
 
 1\) Se agrega un DataSet con los datos de ejemplo
 
-1.  ![](./media/media/image2.png){width="5.729966097987751in"
-    height="3.7505238407699037in"}
+![](./img/Como crear un reporte flexible usando Jerarquias/image2.png)
 
 2\) En la parte de presentación, para el presente ejemplo, se
 selecciona siguiente
 
-1.  ![](./media/media/image3.png){width="5.729966097987751in"
-    height="4.198502843394576in"}
+![](./img/Como crear un reporte flexible usando Jerarquias/image3.png)
 
 3\) Para el presente ejemplo seleccionamos el estilo por defecto 
 
-1.  ![](./media/media/image4.png){width="5.729966097987751in"
-    height="4.198502843394576in"}
+![](./img/Como crear un reporte flexible usando Jerarquias/image4.png)
 
 4\) Una vez finalizado el asistente para la creación de una tabla,
 editamos el grupo del reporte (recordemos que tenemos un solo grupo para
@@ -68,22 +84,19 @@ el reporte que se está creando), Se debe agrupar por la columna Id dado
 que esta presenta un valor único y es parte de la llave para poder
 lograr recursividad en el reporte
 
-1.  ![](./media/media/image5.png){width="5.729966097987751in"
-    height="4.729827209098863in"}
+![](./img/Como crear un reporte flexible usando Jerarquias/image5.png)
 
  5) En la misma ventana, se selecciona Avanzado (Advanced) y se estable
 como Padre Recursivo (Recursive Parent) al campo *Padre* el cual
 contiene la información sobre cuál de los nodos es el padre en la
 Jerarquía
 
-1.  ![](./media/media/image6.png){width="5.729966097987751in"
-    height="4.729827209098863in"}
+![](./img/Como crear un reporte flexible usando Jerarquias/image6.png)
 
 6\) Si se ejecuta el reporte no se obtiene un resultado muy interesante
 hasta el momento
 
-1.  ![](./media/media/image7.png){width="4.563136482939632in"
-    height="3.5213243657042868in"}
+![](./img/Como crear un reporte flexible usando Jerarquias/image7.png)
 
 7\) Pero si se usa la función Level() se podrá detectar el nivel de la
 jerarquía de la fila actual lo que es útil para generar una indentación
@@ -92,33 +105,27 @@ que ayude a la comprensión de los datos
 En la propiedad Padding=&gt;Left del campo Nombre se agrega el siguiente
 código
 
-=CStr(2 + (Level()\*20)) + "pt"
+    =CStr(2 + (Level()\*20)) + "pt"
 
 Lo que crea una indentación como la presentada en la imagen
 
-1.  ![](./media/media/image8.png){width="5.323659230096238in"
-    height="2.8545647419072617in"}
+![](./img/Como crear un reporte flexible usando Jerarquias/image8.png)
 
 8\) Si se desea agregar un esquema de colores al reporte para seguir
 algún tipo de convención se puede usar una paleta de colores, como la
 del siguiente ejemplo
 
-1.  ![](./media/media/image9.PNG){width="5.261150481189851in"
-    height="1.6877351268591425in"}
+![](./img/Como crear un reporte flexible usando Jerarquias/image9.PNG)
 
 Para lograr aplicar la paleta seleccionada se agrega código al reporte:
 
-1.  ![](./media/media/image10.png){width="5.729966097987751in"
-    height="4.438118985126859in"} 
+![](./img/Como crear un reporte flexible usando Jerarquias/image10.png)
 
- 
 
 El resultado Final:
 
-1.  ![](./media/media/image11.png){width="5.261150481189851in"
-    height="2.9274923447069114in"}
+![](./img/Como crear un reporte flexible usando Jerarquias/image11.png)
 
- 
 
 Claro, un diseñador gráfico logrará un mejor resultado con la paleta de
 colores pero para este caso es netamente ilustrativo

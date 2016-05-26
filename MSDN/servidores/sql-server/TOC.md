@@ -8,3 +8,4 @@
 
 #[Pivot dinámico con SQL Server](Pivot dinamico con SQL Server.md)
 
+#[Cómo crear un reporte flexible usando Jerarquías (Recursivo)](Como crear un reporte flexible usando Jerarquias.md)
