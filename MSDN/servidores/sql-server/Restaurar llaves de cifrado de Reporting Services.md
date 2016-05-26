@@ -1,10 +1,34 @@
-Por **FREDDY LEANDRO ANGARITA C.\
-SqlServer MVP** \
-[Perfil
-MVP](https://mvp.support.microsoft.com/es-es/mvp/Freddy%20Leandro%20Angarita%20Castellanos-4028407)\
-\
-<freddy_angarita@hotmail.com>\
+
+<properties
+	pageTitle="Restaurar (Restore) llaves de cifrado de Reporting Services"
+	description="Restaurar (Restore) llaves de cifrado de Reporting Services"
+	services="servers"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="servers"
+	ms.workload="RS"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+
+#Restaurar (Restore) llaves de cifrado de Reporting Services
+
+
+Por **FREDDY LEANDRO ANGARITA C.
+SqlServer MVP** - [Perfil MVP](https://mvp.support.microsoft.com/es-es/mvp/Freddy%20Leandro%20Angarita%20Castellanos-4028407)
+
+<freddy_angarita@hotmail.com>
+
 <http://geeks.ms/blogs/fangarita/default.aspx>
+
+
 
 Cualquiera que haya intentado hacer un respaldo y luego restaurar una
 base de datos de Reporting Services (sin hacer respaldo de las llaves de
@@ -27,35 +51,30 @@ se deben seguir lo siguientes pasos:
 1\. Seleccionar la base de datos ReportServer, hacer clic derecho sobre
 la misma y seleccionar Back up…
 
-1.  ![](./media/media/image1.png){width="4.417049431321085in"
-    height="3.566976159230096in"}
+![](./img/Restaurar llaves de cifrado de Reporting Services/image1.png)
 
 2\. Posteriormente seleccionar la ubicación del backup (para este ejemplo
 se selección c:\\Bak, pero se recomienda que se ubique en una carpeta o
 unidad especializada para el backup)
 
-1.  ![](./media/media/image2.png){width="3.69198709536308in"
-    height="2.441877734033246in"}
+![](./img/Restaurar llaves de cifrado de Reporting Services/image2.png)
 
 3\. Una vez seleccionado el destino del BackUp el diálogo debe aparecer
 similar a:
 
-1.  ![](./media/media/image3.png){width="3.775326990376203in"
-    height="2.2085247156605425in"}
+![](./img/Restaurar llaves de cifrado de Reporting Services/image3.png)
 
 4\. La pantalla para finalizar la configuración el backup de ReportServer
 debe observarse de la manera que se presenta a continuación (la ruta
 c:\\bak\\ReportServer.bak puede ser cambiada para ubicar el backup en
 una zona de conveniencia para el usuario)
 
-1.  ![](./media/media/image4.png){width="5.729966097987751in"
-    height="4.948606736657918in"}
+![](./img/Restaurar llaves de cifrado de Reporting Services/image4.png)
 
 5\. Una vez finalizado el backup exitosamente se debe observar el
 siguiente diálogo
 
-1.  ![](./media/media/image5.png){width="5.729966097987751in"
-    height="1.2189206036745406in"}
+![](./img/Restaurar llaves de cifrado de Reporting Services/image5.png)
 
  
 
@@ -65,20 +84,17 @@ Backup de las llaves de cifrado
 1\. Se debe abrir el programa Reporting Services Configuration Manager
 ubicado como se observa en la siguiente imagen
 
-1.  ![](./media/media/image6.png){width="2.875249343832021in"
-    height="3.641982720909886in"}
+![](./img/Restaurar llaves de cifrado de Reporting Services/image6.png)
 
 2\. Se realiza la conexión al servidor al que se desea realizar el backup
 de las llaves de cifrado, una vez seleccionado se hace clic en Connect
 
-1.  ![](./media/media/image7.png){width="5.729966097987751in"
-    height="4.323520341207349in"}
+![](./img/Restaurar llaves de cifrado de Reporting Services/image7.png)
 
 3\. Se selecciona la zona Encryption Keys y se hace clic en el Botón
 Backup
 
-1.  ![](./media/media/image8.png){width="5.729966097987751in"
-    height="4.323520341207349in"}
+![](./img/Restaurar llaves de cifrado de Reporting Services/image8.png)
 
 4\. El Backup de las llaves de cifrado se compone de un archivo con la
 extensión SNK y una clave que se usa para cifrar dicho archivo (esta
@@ -94,32 +110,25 @@ Suscripciones, Orígenes de Datos, etc.)\
 Al hacer clic en las elipsis (…) se presenta un diálogo para seleccionar
 la ubicación del archivo SNK
 
-1.  ![](./media/media/image9.png){width="3.0002602799650044in"
-    height="1.8501607611548556in"}
+![](./img/Restaurar llaves de cifrado de Reporting Services/image9.png)
 
- 5. Para este ejemplo se ubica el archivo en el escritorio, este archivo
+5\. Para este ejemplo se ubica el archivo en el escritorio, este archivo
 debe ubicarse en una zona segura
 
-1.  ![](./media/media/image10.png){width="5.729966097987751in"
-    height="3.2191994750656168in"}
+![](./img/Restaurar llaves de cifrado de Reporting Services/image10.png)
 
- 
 
 6\. Una vez seleccionada la ubicación del archivo se procede a introducir
 la clave generada para este Backup en los campos Password y Confirm
 Password (las textos en los dos campos deben ser idénticos)
 
-1.  ![](./media/media/image11.png){width="5.729966097987751in"
-    height="4.188083989501313in"}
+![](./img/Restaurar llaves de cifrado de Reporting Services/image11.png)
 
- 
 
 7\. Una vez generado el archivo se verá la notificación en la parte
 inferior en la zona Results, como aparece en la siguiente imagen:
 
-1.  ![](./media/media/image12.png){width="5.729966097987751in"
-    height="4.188083989501313in"}
-
+![](./img/Restaurar llaves de cifrado de Reporting Services/image12.png)
  
 
 Las instrucciones para restaurar las llaves se pueden encontrar
@@ -128,5 +137,6 @@ Services](http://geeks.ms/blogs/fangarita/archive/2013/07/01/how-to-restaurar-re
 
 Los comentarios son bienvenidos, espero sea de ayuda,
 
-**FREDY LEANDRO ANGARITA CASTELLANOS\
-SQL Server MVP**
+**FREDY LEANDRO ANGARITA CASTELLANOS**
+
+**SQL Server MVP**
