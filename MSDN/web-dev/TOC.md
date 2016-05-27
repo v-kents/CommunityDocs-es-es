@@ -2,6 +2,6 @@
 #[Document Object Model](DOM/TOC.md)
 #[HTML5](HTML5/TOC.md)
 #[Internet Explorer](IE11/TOC.md)
-#[jQuery](jQuery]/TOC.md)
+#[jQuery](jQuery/TOC.md)
 #[MVC](MVC/TOC.md)
 #[WebAPI](WebAPI/TOC.md)
