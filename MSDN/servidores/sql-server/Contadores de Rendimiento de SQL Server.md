@@ -58,7 +58,7 @@ Procesador
 Disco
 -----
 
-| Physical Disk |   |                                Esperado|
+| Physical Disk |   | Esperado|
 |--------------|--------|----------|
 |Current Queue Length |  Un tamaño sostenido de una cola de disco presenta un posible problema con el subsistema de I/O.      |       0|
 | Average Queue Length  | Si el promedio de longitud de la cola es mayor que 2 indica que existe un problema potencial con el subsistea de IO, esto también puede deberse a un indicador disk sec/read y disk sec/write alto.    |                     &lt;=2|
@@ -76,35 +76,36 @@ Disco
 SQL Server
 ----------
 
-  
 | Access Methods  |       |  
-|--------|---------------|
+|-----------|---------------|
 |Forwarded Records/Sec  | Número de registros traídos usando punteros de registros, es decir, cuando los registros tienen espacios vacíos entre ellos o cuando el tamaño del registro no queda ajustado al tamaño de una página, esta situación puede presentarse cuando se inicia con un registro corto y se actualiza el dato quedando parte de éste en otra página lo que requiere la generación de un puntero para saber en qué lugar está la otra parte del registro.<br/>        Esto se puede evitar siguiendo los siguientes pasos:<br/> Ser cuidadoso al determinar cuáles de las columnas permiten o no nulos<br/>Usar valores por defecto (para evitar el uso de nulos)<br/>Usar char en lugar de Varchar cuando sea posible<br/> Manejar un esquema de normalización en donde el número de campos sea menos (Soluciones OLTP)|
 |  Full Scans/Sec    |      Se realiza una lectura completa de una Tabla o de un índice. Esto puede ser causado por el uso indebido de índices.|
 | Page Splits/Sec   |      Fraccionamiento sobre las páginas de los índices. Este indicador está asociado a las páginas hoja del Árbol de índices que no se almacenan continuamente lo que lleva a su fraccionamiento en disco. Esto se puede evitar configurando apropiadamente [Fill Factor](http://geeks.ms/controlpanel/blogs/posteditor.aspx?SelectedNavItem=NewPost#Fill_Factor)|
   
   
-|Memory Manager         |  |
+|Memory Manager |      |
 |-------------------|--------------------|
 |Memory Grants Pending  | Memoria que se necesita para procesar cada una de las peticiones de los usuarios. Si no se dispone de memoria suficiente entonces el proceso debe esperar a que se le sea asignada para su ejecución, lo que por supuesto impacta el desempeño de la consulta o procedimiento en ejecución<br/>Para evitarlo se pueden seguir los siguientes pasos:<br/>Agregar mas memoria al servidor<br/>Asignando más memoria a SQL Server<br/>Creando Indices apropiados|
 
- 
+
+
+
 | Buffer Manager  |   | Esperado|
 |-------------------|--|--------|
-|Buffer Cache Hit Ratio |  Porcentaje del tiempo en que las páginas solicitadas están ya en memoria. Idealmente debe mantenerse sobre 99%, si es menor que 95% indica que SQL Server no tiene suficiente memoria y que agregar más memoria al servidor, asignada a SQL Server, sería muy beficioso |   &gt;99%|
-| Checkpoints/Sec  |        Páginas escritas a disco durante el proceso de [CheckPoint](http://geeks.ms/controlpanel/blogs/posteditor.aspx?SelectedNavItem=NewPost#CheckPoints). Se identifica presión sobre la memoria si el contador tiene un valor superior a 300 Segundos   |                                             &lt;300s|
-| Lazy Writes/Sec  |        Páginas escritas a disco durante el proceso [LazyWriter](http://geeks.ms/controlpanel/blogs/posteditor.aspx?SelectedNavItem=NewPost#Lazy_Writer) (Escribe las páginas en segundo plano al disco). Se identifica presión sobre la memoria si el contador tiene un valor superior a 300 Segundos |  &lt;300s|
-|  Page Life Expectancy  |   Este es uno de los principales contadores para identificar presión sobre la memoria. Determina el tiempo en segundos en el que la página reside en el Caché de SQL Server. Si el valor es bajo indica los siguientes problemas:<br/> El Caché es Frio (Revisar información sobre Fallos de Página Page Faults) <br/>   Problemas de Memoria  <br/> Falta de creación de índices  <br/>  Si Checkpoints/Sec, Lazy Writes/Sec y Page life expectancy juntos es menor a 300 Segundos entonces indica que la causa es la falta de memoria y que se debe agregar más memoria al servidor   |   
+|Buffer Cache Hit Ratio |  Porcentaje del tiempo en que las páginas solicitadas están ya en memoria. Idealmente debe mantenerse sobre 99%, si es menor que 95% indica que SQL Server no tiene suficiente memoria y que agregar más memoria al servidor, asignada a SQL Server, sería muy beficioso |  &gt;99% |
+| Checkpoints/Sec  |        Páginas escritas a disco durante el proceso de [CheckPoint](http://geeks.ms/controlpanel/blogs/posteditor.aspx?SelectedNavItem=NewPost#CheckPoints). Se identifica presión sobre la memoria si el contador tiene un valor superior a 300 Segundos   |    &lt;300s |
+| Lazy Writes/Sec  |        Páginas escritas a disco durante el proceso [LazyWriter](http://geeks.ms/controlpanel/blogs/posteditor.aspx?SelectedNavItem=NewPost#Lazy_Writer) (Escribe las páginas en segundo plano al disco). Se identifica presión sobre la memoria si el contador tiene un valor superior a 300 Segundos |  &lt;300s |
+| Page Life Expectancy  |   Este es uno de los principales contadores para identificar presión sobre la memoria. Determina el tiempo en segundos en el que la página reside en el Caché de SQL Server. Si el valor es bajo indica los siguientes problemas:<br/> El Caché es Frio (Revisar información sobre Fallos de Página Page Faults) <br/>   Problemas de Memoria  <br/> Falta de creación de índices  <br/>  Si Checkpoints/Sec, Lazy Writes/Sec y Page life expectancy juntos es menor a 300 Segundos entonces indica que la causa es la falta de memoria y que se debe agregar más memoria al servidor   |   
 
 
-| Databases  ||         
-|---------|--|
+| Databases  |    |         
+|---------|--------|
 | Transactions/Sec |  Indica el número de transacciones que ocurren por segundo en el servidor|
 
  
 
-| General StatisticsCounters  ||  
-| -----------------------|----- |
+| General StatisticsCounters  |        |  
+| -----------------------|---------- |
 | User Connections|             Número de conexiones hechas a SQL Server|
 
 
@@ -114,7 +115,7 @@ SQL Server
   
 | Locks        |           |  
 | ------------|------------ |
-| Average Wait Time(ms)<br/>Lock waits/Sec <br/>Lock Wait time(ms) |   Los contadores relacionados a los bloqueos que mantiene SQL Server en un momento determinado de las transacciones. Las transacciones deben ser tan cortas como sea posible y por lo tanto debería mantener bloqueos la menor cantidad de tiempo posible para evitar para bloqueos a otros usuarios o procesos. Un Valor alto para cualquiera de estos contadores indica:<br/>  Presión sobre la memoria<br/> Problemas con el Disco<br/>Índices inadecuados<br/> Diseño inadecuado de tablas u objetos de SQL Server<br/> Inadecuada ubicación de los archivos de base de datos<br/>Uso indebido de los niveles de aislamiento de SQL Server|
+| Average Wait Time(ms)<br/>Lock waits/Sec <br/>Lock Wait time(ms) |   Los contadores relacionados a los bloqueos que mantiene SQL Server en un momento determinado de las transacciones. Las transacciones deben ser tan cortas como sea posible y por lo tanto debería mantener bloqueos la menor cantidad de tiempo posible para evitar para bloqueos a otros usuarios o procesos. Un Valor alto para cualquiera de estos contadores indica:<br/>  Presión sobre la memoria<br/> Problemas con el Disco<br/>Índices inadecuados<br/> Diseño inadecuado de tablas u objetos de SQL Server<br/> Inadecuada ubicación de los archivos de base de datos<br/>Uso indebido de los niveles de aislamiento de SQL Server |
   
 Los mencionados, son algunos de los contadores preferidos, aparte de
 esos pueden revisarse estos contadores:
