@@ -1,14 +1,34 @@
-Por **FREDDY LEANDRO ANGARITA C.\
-SqlServer MVP** \
-[Perfil
-MVP](https://mvp.support.microsoft.com/es-es/mvp/Freddy%20Leandro%20Angarita%20Castellanos-4028407)\
-\
-<freddy_angarita@hotmail.com>\
-<http://geeks.ms/blogs/fangarita/default.aspx>
+
+
+
+<properties
+	pageTitle="Crear tabla a partir de un texto separado por comas (CSV)"
+	description="Crear tabla a partir de un texto separado por comas (CSV)"
+	services="servers"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="servers"
+	ms.workload="SQL"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+
+#Crear tabla a partir de un texto separado por comas (CSV)
+
+
+Por **FREDDY LEANDRO ANGARITA C.**<br/>
+**SqlServer MVP** <br/>
+[Perfil MVP](https://mvp.support.microsoft.com/es-es/mvp/Freddy%20Leandro%20Angarita%20Castellanos-4028407) / <freddy_angarita@hotmail.com> / <http://geeks.ms/blogs/fangarita/default.aspx>
 
 En un artículo anterior, [\[Code\] Crear una tabla a partir de un texto
-separado por comas
-(CSV)](http://geeks.ms/blogs/fangarita/archive/2011/01/03/code-crear-una-tabla-a-apartir-de-un-texto-se.aspx),
+separado por comas (CSV)](http://geeks.ms/blogs/fangarita/archive/2011/01/03/code-crear-una-tabla-a-apartir-de-un-texto-se.aspx),
 se presentó cómo realizar ésta tarea de la manera más simple, ahora, se
 complementará ésta solución presentando una alternativa que usa CTEs
 para realizar el trabajo recursivo de analizar las palabras en la
@@ -20,77 +40,48 @@ primera parte, se pone la semilla y en la segunda parte (luego de union
 all) se implementa la iteración, la cual devuelve las posiciones inicial
 y final del texto al que se le va a aplicar substring:
 
-1.  
-
-<!-- -->
-
-1.  CREATE FUNCTION dbo.Split (@sep char(1), @s varchar(512))
-
-    RETURNS table
-
-    AS
-
-    RETURN (
-
+``` SQL
+CREATE FUNCTION dbo.Split (@sep char(1), @s varchar(512))
+RETURNS table
+AS
+RETURN (
     WITH Pieces(pn, start, stop) AS (
-
     SELECT 1, 1, CHARINDEX(@sep, @s)
-
     UNION ALL
-
     SELECT pn + 1, stop + 1, CHARINDEX(@sep, @s, stop + 1)
-
     FROM Pieces
-
-    WHERE stop &gt; 0
-
+    WHERE stop > 0
     )
 
-    SELECT pn,
-
-    SUBSTRING(@s, start, CASE WHEN stop &gt; 0 THEN stop-start ELSE
-    512 END) AS s
-
+    SELECT pn, SUBSTRING(@s, start, CASE WHEN stop >0 THEN stop-start ELSE 512 END) AS s
     FROM Pieces
-
-    )
+)
+```
 
 La solución anterior presenta una forma interesante de aproximarse al
 problema pero aún usa recursión, esto se puede eliminar usando XML como
 base de análisis
 
-1.  
 
-<!-- -->
-
-1.  CREATE FUNCTION \[dbo\].\[Split\] (@sep VARCHAR(32),
+``` SQL
+CREATE FUNCTION \[dbo\].\[Split\] (@sep VARCHAR(32),
     @s VARCHAR(MAX))
-
-    RETURNS @t TABLE
-
+RETURNS @t TABLE
     (
-
-    val VARCHAR(MAX)
-
+        val VARCHAR(MAX)
     )
-
-    AS
-
+AS
     BEGIN
-
-    DECLARE @xml XML
-
+        DECLARE @xml XML
     SET @XML = N'' + REPLACE(@s, @sep, '') + ''
 
     INSERT INTO @t(val)
-
     SELECT r.value('.','VARCHAR(255)') as Item
-
     FROM @xml.nodes('//root/r') AS RECORDS(r)
 
     RETURN
-
-    END
+END
+```
 
 El truco consiste en convertir el texto, en un XML y luego usando el
 tipo de datos especial (y sus funciones) leemos la información como una
@@ -111,12 +102,10 @@ Poder usar una lista de palabras a ignorar
 
 Más funcionalidades
 
-1.  
 
-<!-- -->
-
-1.  Select display\_term from sys.dm\_fts\_parser('"' + 'Mi texto
-    separado por espacios' + '"', 1033, 0,0)
+``` SQL
+Select display_term from sys.dm_fts_parser('"' + 'Mi texto separado por espacios' + '"', 1033, 0,0)
+```
 
 Es ejemplo está para idioma inglés con el código 1033, para un listado
 completo se puede consultar el listado
@@ -124,5 +113,5 @@ completo se puede consultar el listado
 
 Espero sea de ayuda,
 
-**FREDY LEANDRO ANGARITA CASTELLANOS\
-SQL Server MVP**
+**FREDY LEANDRO ANGARITA CASTELLANOS**
+**SQL Server MVP**

@@ -9,3 +9,12 @@
 #[Pivot dinámico con SQL Server](Pivot dinamico con SQL Server.md)
 
 #[Cómo crear un reporte flexible usando Jerarquías (Recursivo)](Como crear un reporte flexible usando Jerarquias.md)
+
+#[Contadores de Rendimiento para diagnóstico y afinación de SQL Server](Contadores de Rendimiento de SQL Server.md)
+
+#[Crear tabla a partir de un texto separado por comas (CSV)](Crear tabla a partir de un texto separado por comas.md)
+
+#[Detectar cambios en una base de datos ](Detectar cambios en una base de datos.md)
+
+#[Generación de Datos Acumulados por Grupos](Generacion de Datos Acumulados por Grupos.md)
+
