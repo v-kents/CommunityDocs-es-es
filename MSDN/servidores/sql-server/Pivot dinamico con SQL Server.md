@@ -41,8 +41,6 @@ documentación
 
 Si tenemos una consulta:
 
-
-
 ``` SQL
 USE AdventureWorks2008R2 ;
 GO
@@ -53,18 +51,19 @@ GROUP BY DaysToManufacture;
 
 La cual arroja los siguientes resultados
 
-  |DaysToManufacture  | AverageCost|
-  |------------------- |-------------|
-  |0                  | 5.0885|
-  |1             |      223.88|
-  |2            |       359.1082|
-  |4             |      949.4105|
+|DaysToManufacture  | AverageCost|
+|------------------- |-------------|
+|0                  | 5.0885|
+|1             |      223.88|
+|2            |       359.1082|
+|4             |      949.4105|
 
 Y queremos verla en columnas
 
-  |Cost\_Sorted\_By\_Production\_Days |  0   |     1   |     2     |     3    |  4|
-  ------------------------------------| -------- |-------- |---------- |------ |----------|
-  |AverageCost                 |         5.0885   |223.88  | 359.1082 |  NULL |  949.4105|
+|Cost\_Sorted\_By\_Production\_Days |  0   |     1   |     2     |     3    |  4|
+|------------------------------------| -------- |-------- |---------- |------ |----------|
+|AverageCost                 |         5.0885   |223.88  | 359.1082 |  NULL |  949.4105|
+
 
 Debemos usar PIVOT
 
@@ -160,16 +159,15 @@ set @columnas = left(@columnas,LEN(@columnas)-1)
 DECLARE @SQLString nvarchar(500);
 
 set @SQLString = N'
-
-SELECT *
-FROM 
-(SELECT DaysToManufacture, StandardCost
-    FROM Production.Product) AS SourceTable
-PIVOT
-(
-AVG(StandardCost)
-FOR DaysToManufacture IN (' + @columnas + ')
-) AS PivotTable;'
+    SELECT *
+    FROM 
+    (SELECT DaysToManufacture, StandardCost
+        FROM Production.Product) AS SourceTable
+    PIVOT
+    (
+    AVG(StandardCost)
+    FOR DaysToManufacture IN (' + @columnas + ')
+    ) AS PivotTable;'
 
 EXECUTE sp_executesql @SQLString
 ```
