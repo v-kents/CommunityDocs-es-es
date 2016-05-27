@@ -45,15 +45,15 @@ Procesador
 |Processor      |          |   Esperado|
 |------------------|-----------------|-----------|
 |  %User Time     |    SQL Server se ejecuta en modo de Usuario. El modo privilegiado es usado por el Sistema operativo para acceder a los componentes de hardware. Este componente debería presentar un valor mayor de 70%, si el valor es menor que esto se deben revisar los indicadores %privileged time y %processor time para verificar si existe algún tipo de problema con el procesador  | &gt;70%|
- | %Privileged Time  | El sistema operativo mueve los hilos al modo de acceso privilegiado para acceder servicios de Hardware. Este contador debe tener un valor menor a 20%.  |  &lt;20%|
-  |%Processor Time  |  Presenta el porcentaje de tiempo usado por la CPU en un periodo de tiempo. Idealmente debe ser menor que 70%.  |  &lt;70%|
-  |Interrupts/Sec   |  Es el promedio de incidentes por segundo, al cual el procesador recibió y procesó interrupciones de Hardware   |      |
+| %Privileged Time  | El sistema operativo mueve los hilos al modo de acceso privilegiado para acceder servicios de Hardware. Este contador debe tener un valor menor a 20%.  |  &lt;20%|
+|%Processor Time  |  Presenta el porcentaje de tiempo usado por la CPU en un periodo de tiempo. Idealmente debe ser menor que 70%.  |  &lt;70%|
+|Interrupts/Sec   |  Es el promedio de incidentes por segundo, al cual el procesador recibió y procesó interrupciones de Hardware   |      |
 
 
 
 |  System      |        |      Esperado|
 |--------------|----------|--------|
- | Processor Queue Length  | Es el número de hilos que esperaran a ser procesados. Este contador por valor general divido por el número de núcleos disponibles. Debería ser menor que 2 |  &lt;2|
+| Processor Queue Length  | Es el número de hilos que esperaran a ser procesados. Este contador por valor general divido por el número de núcleos disponibles. Debería ser menor que 2 |  &lt;2|
 
 Disco
 -----
@@ -61,32 +61,32 @@ Disco
 | Physical Disk |   |                                Esperado|
 |--------------|--------|----------|
 |Current Queue Length |  Un tamaño sostenido de una cola de disco presenta un posible problema con el subsistema de I/O.      |       0|
- | Average Queue Length  | Si el promedio de longitud de la cola es mayor que 2 indica que existe un problema potencial con el subsistea de IO, esto también puede deberse a un indicador disk sec/read y disk sec/write alto.    |                     &lt;=2|
-  |Disk Sec/Read <br/>Disk Sec/Writes |      Ninguno de estos contadores debería tener un valor superior a 15ms en condiciones normales. Valores continuos sobre 20ms puede indicar un problema en el disco o sobrecarga del sistema o alto fraccionamiento del disco.  <br/>Bajo estas condiciones se pueden considerar las siguientes alternativas: <br/>Mover los archivos de base de datos a discos adicionales. <br/>Crear grupos de archivos en diferentes discos y pasar algunas tablas a cada uno de esos discos  (pueden tener diferente RAID) lo cual puede influir notablemente en el desempeño.  <br/> Revisar los índices de las tablas <br/>Revisar los contadores de CPU y memoria con el fin de identificar otros cuellos de Botella| &lt;=15|       
+| Average Queue Length  | Si el promedio de longitud de la cola es mayor que 2 indica que existe un problema potencial con el subsistea de IO, esto también puede deberse a un indicador disk sec/read y disk sec/write alto.    |                     &lt;=2|
+|Disk Sec/Read <br/>Disk Sec/Writes |      Ninguno de estos contadores debería tener un valor superior a 15ms en condiciones normales. Valores continuos sobre 20ms puede indicar un problema en el disco o sobrecarga del sistema o alto fraccionamiento del disco.  <br/>Bajo estas condiciones se pueden considerar las siguientes alternativas: <br/>Mover los archivos de base de datos a discos adicionales. <br/>Crear grupos de archivos en diferentes discos y pasar algunas tablas a cada uno de esos discos  (pueden tener diferente RAID) lo cual puede influir notablemente en el desempeño.  <br/> Revisar los índices de las tablas <br/>Revisar los contadores de CPU y memoria con el fin de identificar otros cuellos de Botella| &lt;=15|       
   
 
  Memory/Cache
 -------------
 
- | Memory        |      |
- | ------------|------| 
- |Page Faults/Sec:  | Los fallos de página ocurren cuando se busca una página en memoria y no se encuentra. Existen 2 tipos de fallos de página: <span id="Fuertes_(Hard)_" class="anchor"></span>Fuertes (Hard) : Requiere acceso a disco</br>Suaves (Soft).  La página buscada está en alguna otra parte de la memoria <br/>Un alto número de fallos de página por segundo indica que existe un problema con la memoria usada por SQL Server. Usando este contador junto con SqlServer:MemoryManager se puede determinar si existe algún tipo de presión sobre la memoria</br>Bajo estas condiciones puede considerarse:<br/>Revisar los procedimientos y las prácticas usadas para el desarrollo de los mismos<br/> Aumentar la memoria del servidor<br/> Revisar el espacio en disco disponible en donde se ubiquen los temporales del sistema operativo|
- |Pages/Sec   |       Este contador es valor real de fallos [Fuertes de páginas](http://geeks.ms/controlpanel/blogs/posteditor.aspx?SelectedNavItem=NewPost#Fuertes_(Hard)_) y debe ser usado en correlación con Page Faults/Sec y SQL Server memory Manager para revisar la presión sobre la memoria|
+| Memory        |      |
+| ------------|------| 
+|Page Faults/Sec:  | Los fallos de página ocurren cuando se busca una página en memoria y no se encuentra. Existen 2 tipos de fallos de página: <span id="Fuertes_(Hard)_" class="anchor"></span>Fuertes (Hard) : Requiere acceso a disco</br>Suaves (Soft).  La página buscada está en alguna otra parte de la memoria <br/>Un alto número de fallos de página por segundo indica que existe un problema con la memoria usada por SQL Server. Usando este contador junto con SqlServer:MemoryManager se puede determinar si existe algún tipo de presión sobre la memoria</br>Bajo estas condiciones puede considerarse:<br/>Revisar los procedimientos y las prácticas usadas para el desarrollo de los mismos<br/> Aumentar la memoria del servidor<br/> Revisar el espacio en disco disponible en donde se ubiquen los temporales del sistema operativo|
+|Pages/Sec   |       Este contador es valor real de fallos [Fuertes de páginas](http://geeks.ms/controlpanel/blogs/posteditor.aspx?SelectedNavItem=NewPost#Fuertes_(Hard)_) y debe ser usado en correlación con Page Faults/Sec y SQL Server memory Manager para revisar la presión sobre la memoria|
 
 SQL Server
 ----------
 
   
- | Access Methods  |       |  
-  |--------|---------------|
-  |Forwarded Records/Sec  | Número de registros traídos usando punteros de registros, es decir, cuando los registros tienen espacios vacíos entre ellos o cuando el tamaño del registro no queda ajustado al tamaño de una página, esta situación puede presentarse cuando se inicia con un registro corto y se actualiza el dato quedando parte de éste en otra página lo que requiere la generación de un puntero para saber en qué lugar está la otra parte del registro.<br/>        Esto se puede evitar siguiendo los siguientes pasos:<br/> Ser cuidadoso al determinar cuáles de las columnas permiten o no nulos<br/>Usar valores por defecto (para evitar el uso de nulos)<br/>Usar char en lugar de Varchar cuando sea posible<br/> Manejar un esquema de normalización en donde el número de campos sea menos (Soluciones OLTP)|
+| Access Methods  |       |  
+|--------|---------------|
+|Forwarded Records/Sec  | Número de registros traídos usando punteros de registros, es decir, cuando los registros tienen espacios vacíos entre ellos o cuando el tamaño del registro no queda ajustado al tamaño de una página, esta situación puede presentarse cuando se inicia con un registro corto y se actualiza el dato quedando parte de éste en otra página lo que requiere la generación de un puntero para saber en qué lugar está la otra parte del registro.<br/>        Esto se puede evitar siguiendo los siguientes pasos:<br/> Ser cuidadoso al determinar cuáles de las columnas permiten o no nulos<br/>Usar valores por defecto (para evitar el uso de nulos)<br/>Usar char en lugar de Varchar cuando sea posible<br/> Manejar un esquema de normalización en donde el número de campos sea menos (Soluciones OLTP)|
 |  Full Scans/Sec    |      Se realiza una lectura completa de una Tabla o de un índice. Esto puede ser causado por el uso indebido de índices.|
- | Page Splits/Sec   |      Fraccionamiento sobre las páginas de los índices. Este indicador está asociado a las páginas hoja del Árbol de índices que no se almacenan continuamente lo que lleva a su fraccionamiento en disco. Esto se puede evitar configurando apropiadamente [Fill Factor](http://geeks.ms/controlpanel/blogs/posteditor.aspx?SelectedNavItem=NewPost#Fill_Factor)|
+| Page Splits/Sec   |      Fraccionamiento sobre las páginas de los índices. Este indicador está asociado a las páginas hoja del Árbol de índices que no se almacenan continuamente lo que lleva a su fraccionamiento en disco. Esto se puede evitar configurando apropiadamente [Fill Factor](http://geeks.ms/controlpanel/blogs/posteditor.aspx?SelectedNavItem=NewPost#Fill_Factor)|
   
   
-  |Memory Manager         |  |
-  |-------------------|--------------------|
-  |Memory Grants Pending  | Memoria que se necesita para procesar cada una de las peticiones de los usuarios. Si no se dispone de memoria suficiente entonces el proceso debe esperar a que se le sea asignada para su ejecución, lo que por supuesto impacta el desempeño de la consulta o procedimiento en ejecución<br/>Para evitarlo se pueden seguir los siguientes pasos:<br/>Agregar mas memoria al servidor<br/>Asignando más memoria a SQL Server<br/>Creando Indices apropiados|
+|Memory Manager         |  |
+|-------------------|--------------------|
+|Memory Grants Pending  | Memoria que se necesita para procesar cada una de las peticiones de los usuarios. Si no se dispone de memoria suficiente entonces el proceso debe esperar a que se le sea asignada para su ejecución, lo que por supuesto impacta el desempeño de la consulta o procedimiento en ejecución<br/>Para evitarlo se pueden seguir los siguientes pasos:<br/>Agregar mas memoria al servidor<br/>Asignando más memoria a SQL Server<br/>Creando Indices apropiados|
 
  
 | Buffer Manager  |   | Esperado|
@@ -97,24 +97,24 @@ SQL Server
 |  Page Life Expectancy  |   Este es uno de los principales contadores para identificar presión sobre la memoria. Determina el tiempo en segundos en el que la página reside en el Caché de SQL Server. Si el valor es bajo indica los siguientes problemas:<br/> El Caché es Frio (Revisar información sobre Fallos de Página Page Faults) <br/>   Problemas de Memoria  <br/> Falta de creación de índices  <br/>  Si Checkpoints/Sec, Lazy Writes/Sec y Page life expectancy juntos es menor a 300 Segundos entonces indica que la causa es la falta de memoria y que se debe agregar más memoria al servidor   |   
 
 
- | Databases  ||         
-  |---------|--|
- | Transactions/Sec |  Indica el número de transacciones que ocurren por segundo en el servidor|
+| Databases  ||         
+|---------|--|
+| Transactions/Sec |  Indica el número de transacciones que ocurren por segundo en el servidor|
 
  
 
- | General StatisticsCounters  ||  
- | -----------------------|----- |
- | User Connections|             Número de conexiones hechas a SQL Server|
+| General StatisticsCounters  ||  
+| -----------------------|----- |
+| User Connections|             Número de conexiones hechas a SQL Server|
 
 
 |  Latches           |       |  
- | -----------|-------------|
- | Average Latch wait Time  | Son objetos livianos de sincronización. No se mantienen durante la duración de la transacción. Típicamente se usan cuando se transfieren filas a memoria, mientras se controlan modificaciones a las filas, etc.<br/>Un valor alto puede indicar algún problema con el subsistema de Memoria|
+| -----------|-------------|
+| Average Latch wait Time  | Son objetos livianos de sincronización. No se mantienen durante la duración de la transacción. Típicamente se usan cuando se transfieren filas a memoria, mientras se controlan modificaciones a las filas, etc.<br/>Un valor alto puede indicar algún problema con el subsistema de Memoria|
   
- | Locks        |           |  
- | ------------|------------ |
- | Average Wait Time(ms)<br/>Lock waits/Sec <br/>Lock Wait time(ms) |   Los contadores relacionados a los bloqueos que mantiene SQL Server en un momento determinado de las transacciones. Las transacciones deben ser tan cortas como sea posible y por lo tanto debería mantener bloqueos la menor cantidad de tiempo posible para evitar para bloqueos a otros usuarios o procesos. Un Valor alto para cualquiera de estos contadores indica:<br/>  Presión sobre la memoria<br/> Problemas con el Disco<br/>Índices inadecuados<br/> Diseño inadecuado de tablas u objetos de SQL Server<br/> Inadecuada ubicación de los archivos de base de datos<br/>Uso indebido de los niveles de aislamiento de SQL Server|
+| Locks        |           |  
+| ------------|------------ |
+| Average Wait Time(ms)<br/>Lock waits/Sec <br/>Lock Wait time(ms) |   Los contadores relacionados a los bloqueos que mantiene SQL Server en un momento determinado de las transacciones. Las transacciones deben ser tan cortas como sea posible y por lo tanto debería mantener bloqueos la menor cantidad de tiempo posible para evitar para bloqueos a otros usuarios o procesos. Un Valor alto para cualquiera de estos contadores indica:<br/>  Presión sobre la memoria<br/> Problemas con el Disco<br/>Índices inadecuados<br/> Diseño inadecuado de tablas u objetos de SQL Server<br/> Inadecuada ubicación de los archivos de base de datos<br/>Uso indebido de los niveles de aislamiento de SQL Server|
   
 Los mencionados, son algunos de los contadores preferidos, aparte de
 esos pueden revisarse estos contadores:
