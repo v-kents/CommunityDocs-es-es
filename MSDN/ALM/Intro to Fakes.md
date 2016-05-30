@@ -1,12 +1,36 @@
+
+
+<properties
+	pageTitle="Testing Unitario con Microsoft Fakes"
+	description="Testing Unitario con Microsoft Fakes"
+	services="ALM"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="ALM"
+	ms.workload="MS-Fakes"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+
+#Testing Unitario con Microsoft Fakes
+
+
+
 Traducción por Juan María Laó Ramos
 
-1.  ![](./media/media/image1.png){width="0.8020833333333334in"
-    height="0.71875in"}
+![](./img/Intro to Fakes/image1.png)
+    
 
 Twitter: @juanlao
 
-Linkedin: <span id="webProfileURL"
-class="anchor"></span>es.linkedin.com/in/juanlao/
+Linkedin: <http://es.linkedin.com/in/juanlao/>
 
 Blog: <http://speakingin.net/>
 
@@ -68,8 +92,8 @@ ALM Rangers, os acompañaremos en un viaje fascinante para descubrir una
 nueva, excitante y poderosa característica introducida en Visual Studio
 2012.
 
-1.  ![](./media/media/image3.PNG){width="4.563136482939632in"
-    height="0.625087489063867in"}
+![](./img/Intro to Fakes/image3.PNG)
+    
 
 Audiencia 
 ----------
@@ -92,9 +116,9 @@ herramientas.
 Las siguientes ediciones de Visual Studio soportan Microsoft Fakes y son
 las que se han usado en esta guía:
 
-Visual Studio Ultimate 2012
+- Visual Studio Ultimate 2012
 
-Visual Studio Premium 2012 (Es necesario Visual Studio 2012 Update 2)
+- Visual Studio Premium 2012 (Es necesario Visual Studio 2012 Update 2)
 
 Para escribir test unitarios con Microsoft Fakes necesitarás una edición
 soportada de Visual Studio. La ejecución de estos test en un servidor de
@@ -137,8 +161,8 @@ Los Hands-on Labs usan la propiedad Nuget Package Restore [^4]. Tendréis
 que habilitarlo en las opciones de Visual Studio si aún no lo habéis
 hecho:
 
-1.  ![](./media/media/image4.png){width="4.9375in"
-    height="1.5789982502187228in"}
+![](./img/Intro to Fakes/image4.png)
+    
 
 Expresiones Lambda 
 -------------------
@@ -152,6 +176,7 @@ ejemplo. Si eres nuevo en el tema de las expresiones lambda, te
 recomendamos que leas la sección de MSDN dedicada a ello *Lambda
 Expresions (C\# Programming Guide)* [^5]
 
+-------------------------------
 La información contenida en este documento representa la visión
 Microsoft Corporation sobre los asuntos analizados a la fecha de
 publicación. Dado que Microsoft debe responder a las condiciones
@@ -197,6 +222,7 @@ Visual Studio, and Windows are trademarks of the Microsoft group of
 companies.
 
 All other trademarks are property of their respective owners.
+
 
 [^1]: http://msdn.microsoft.com/en-us/library/hh549175.aspx
 
