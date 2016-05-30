@@ -1,10 +1,32 @@
-Por **FREDDY LEANDRO ANGARITA C.\
-SqlServer MVP** \
-[Perfil
-MVP](https://mvp.support.microsoft.com/es-es/mvp/Freddy%20Leandro%20Angarita%20Castellanos-4028407)\
-\
-<freddy_angarita@hotmail.com>\
-<http://geeks.ms/blogs/fangarita/default.aspx>
+
+
+<properties
+	pageTitle="Optimización de Consultas Parte 2 - Anti Semi Joins"
+	description="Optimización de Consultas Parte 2 - Anti Semi Joins"
+	services="servers"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="servers"
+	ms.workload="SQL"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+
+#Optimización de Consultas Parte 2 - Anti Semi Joins
+
+
+Por **FREDDY LEANDRO ANGARITA C.**
+
+**SqlServer MVP**
+
+[Perfil MVP](https://mvp.support.microsoft.com/es-es/mvp/Freddy%20Leandro%20Angarita%20Castellanos-4028407) / <freddy_angarita@hotmail.com> / <http://geeks.ms/blogs/fangarita/default.aspx>
 
 Como todos los temas de optimización las soluciones presentadas en éste
 artículo deben probarse, intentar varias alternativas y luego decidir
@@ -19,55 +41,31 @@ acorde a las necesidades y cambios del negocio
 
 Primero, qué es un **SEMI JOIN**
 
-1.  ![](./media/media/image1.png){width="5.543907480314961in"
-    height="4.543502843394576in"}
+![](./img/Optimizacion n. 2 - Anti Semi Joins/image1.png)
 
-<!-- -->
-
-1.  
-
-<!-- -->
-
-1.  SELECT HumanResources.Employee.BusinessEntityID,
-    MyEmployees.EmployeeID
-
-    FROM HumanResources.Employee LEFT OUTER JOIN
-
-    MyEmployees ON HumanResources.Employee.BusinessEntityID =
-    MyEmployees.EmployeeID
-
+``` SQL
+SELECT HumanResources.Employee.BusinessEntityID, MyEmployees.EmployeeID
+FROM HumanResources.Employee LEFT OUTER JOIN
+    MyEmployees ON HumanResources.Employee.BusinessEntityID = MyEmployees.EmployeeID
+```
 Es cuando queremos hacer un left (o Right join) con otra(s) tabla(s) y
 queremos ver qué registros figuran en la primera tabla
 (HumanResources.Employee) y cuales en la segunda (MyEmployees)
 
- 
 
 Si en la segunda tabla no existe dicho registro se presentará NULL como
 se ve en la gráfica
 
- 
-
 Ahora, Definamos un **ANTI SEMI JOIN**
 
-1.  ![](./media/media/image2.png){width="5.729966097987751in"
-    height="3.958885608048994in"}
+![](./img/Optimizacion n. 2 - Anti Semi Joins/image2.png)
 
-<!-- -->
-
-1.  
-
-<!-- -->
-
-1.  SELECT HumanResources.Employee.BusinessEntityID,
-    MyEmployees.EmployeeID
-
-    FROM HumanResources.Employee LEFT OUTER JOIN
-
-    MyEmployees ON HumanResources.Employee.BusinessEntityID =
-    MyEmployees.EmployeeID
-
-    WHERE (MyEmployees.EmployeeID IS NULL)
-
+``` SQL
+SELECT HumanResources.Employee.BusinessEntityID, MyEmployees.EmployeeID
+FROM HumanResources.Employee LEFT OUTER JOIN
+    MyEmployees ON HumanResources.Employee.BusinessEntityID = MyEmployees.EmployeeID
+WHERE (MyEmployees.EmployeeID IS NULL)
+```
 Queremos encontrar los registros que estén en la primera tabla
 (HumanResources.Employee) que NO  estén en la segunda tabla (MyEmployee)
 
@@ -75,28 +73,23 @@ Queremos encontrar los registros que estén en la primera tabla
 funcionamiento, realiza el Left Join que más pesado que realizar un
 inner join normal y filtra los resultados para la columna null
 
- 
+
 
 Ahora, qué **ALTERNATIVA** tenemos para éste caso:
 
 Usaremos la función
 [Exists](http://technet.microsoft.com/es-es/library/ms188336.aspx)
 
-1.  
-
-<!-- -->
-
-1.  SELECT a.BusinessEntityID
-
-    FROM HumanResources.Employee a
-
-    where not exists(select EmployeeID from MyEmployees b where
-    a.BusinessEntityID = b.EmployeeID)
+``` SQL
+SELECT a.BusinessEntityID
+FROM HumanResources.Employee a
+where not exists(select EmployeeID from MyEmployees b where a.BusinessEntityID = b.EmployeeID)
+```
 
 Observemos la comparación entre el primer método y la alternativa:
 
-1.  ![](./media/media/image3.png){width="5.719548337707787in"
-    height="3.8234503499562553in"}
+![](./img/Optimizacion n. 2 - Anti Semi Joins/image3.png)
+    
 
 El costo relativo para el batch es el mismo, y aparentemente tienen  el
 mismo costo, pero observemos 2 cosas interesantes sobre éste plan de
@@ -117,5 +110,6 @@ sobre la consulta a realizar
 
  
 
-**FREDDY LEANDRO ANGARITA CASTELLANOS**\
-SQL Server MVP
+**FREDDY LEANDRO ANGARITA CASTELLANOS**
+
+**SQL Server MVP**

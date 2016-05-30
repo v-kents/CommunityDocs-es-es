@@ -18,3 +18,8 @@
 
 #[Generación de Datos Acumulados por Grupos](Generacion de Datos Acumulados por Grupos.md)
 
+#[Generando imágenes (códigos de Barras) en Reporting Services](Generando imagenes.md)
+
+#[Optimización de Consultas Parte 1 - Generalidades](Optimizacion n. 1 - Generalidades.md)
+#[Optimización de Consultas Parte 2 - Anti Semi Joins](Optimizacion n. 2 - Anti Semi Joins.md)
+#[Optimización de Consultas Parte 3 - Recopilación de procedimientos Almacenados](Optimizacion n.3 - Recopilacion de procedimientos Almacenados.md)
