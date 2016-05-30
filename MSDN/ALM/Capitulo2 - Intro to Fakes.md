@@ -1,12 +1,36 @@
+
+
+
+<properties
+	pageTitle="Capítulo 2: Introducción a Microsoft Fakes"
+	description="Capítulo 2: Introducción a Microsoft Fakes"
+	services="ALM"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="ALM"
+	ms.workload="MS-Fakes"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+
+#Capítulo 2: Introducción a Microsoft Fakes
+
+
 Traducción por Juan María Laó Ramos
 
-1.  ![](./media/media/image1.png){width="0.8020833333333334in"
-    height="0.71875in"}
+![](./img/Capitulo2 - Intro to Fakes/image1.png)
+    
 
 Twitter: @juanlao
 
-Linkedin: <span id="webProfileURL"
-class="anchor"></span>es.linkedin.com/in/juanlao/
+Linkedin: <http://es.linkedin.com/in/juanlao/>
 
 Blog: <http://speakingin.net/>
 
@@ -18,21 +42,21 @@ o aún no funcionan.
 
 Microsoft Fakes viene con dos sabores:
 
-**Stubs…** reemplaza una clase con un sustituto (“stub”) que implementa
+- **Stubs…** reemplaza una clase con un sustituto (“stub”) que implementa
 la misma interfaz.
 
-**Shims…** modifica el código compilado en tiempo de ejecución, para
+- **Shims…** modifica el código compilado en tiempo de ejecución, para
 inyectar y ejecutar un sustituto (“shim”).
 
-1.  
+
 
 Como vemos en la figura, los **stubs** son usados normalmente para
 llamadas en nuestro sistema que podemos desacoplar usando interfaces;
 los **shims** se usan para llamadas a assemblies que no están bajo
 nuestro control:
 
-1.  ![](./media/media/image2.png){width="3.6145833333333335in"
-    height="1.9455413385826772in"}
+![](./img/Capitulo2 - Intro to Fakes/image2.png)
+    
 
 Stubs 
 ------
@@ -49,8 +73,8 @@ características que dicha solución ofrece, y para nuestro ejemplo, lo
 vamos a simplificar. Vamos a centrarnos en el aislamiento – dentro de lo
 razonable – de los componentes que forman la base de nuestro sistema:
 
-1.  ![](./media/media/image3.png){width="3.59375in"
-    height="2.0464402887139106in"}
+![](./img/Capitulo2 - Intro to Fakes/image3.png)
+    
 
 Para el aislamiento, vamos a los componentes individuales que se
 ejecutan en la capa de lógica de negocio (puede que tu terminología
@@ -172,12 +196,12 @@ componentes reales (código de producción), sino que será el Stub. De
 esta manera, los valores y objetos de test se les pueden pasar al código
 que se está probando:
 
-1.  Insert Caption
+Insert Caption
 
 <!-- -->
 
-1.  ![](./media/media/image4.png){width="3.5416666666666665in"
-    height="3.1909055118110237in"}
+![](./img/Capitulo2 - Intro to Fakes/image4.png)
+    
 
 Pero hay ocasiones en las que el código que se quiere probar no está
 diseñado de manera que permita cambiar sus dependencias, por ejemplo,
@@ -189,15 +213,11 @@ deseados para el test.
 
 NOTA
 
-  La técnica de Inyección de Dependencias (DI) se usa en la programación orientada a objetos para desacoplar clases de sus dependencias o al menos de la implementación concreta a través de interfaces. Esta técnica se puede usar para inyectar stubs para motivos de testing. Esta inyección se puede realizar a través de frameworks (como Spring.NET o Unity) o manualmente inyectando implementaciones concretas con clases. Por ejemplo, creando una instancia de la clase dependiente y pasarla como parámetro en el constructor de la clase que queremos testar (Inyección por Constructor). Para que la inyección por constructor funcione, el componente dependiente debe tener un constructor apropiado. Para una clase que oculte completamente sus dependencias, DI no funcionará y no se podrán inyectar stubs tampoco
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>La técnica de Inyección de Dependencias (DI) se usa en la programación orientada a objetos para desacoplar clases de sus dependencias o al menos de la implementación concreta a través de interfaces. Esta técnica se puede usar para inyectar stubs para motivos de testing. Esta inyección se puede realizar a través de frameworks (como Spring.NET o Unity) o manualmente inyectando implementaciones concretas con clases. Por ejemplo, creando una instancia de la clase dependiente y pasarla como parámetro en el constructor de la clase que queremos testar (Inyección por Constructor). Para que la inyección por constructor funcione, el componente dependiente debe tener un constructor apropiado. Para una clase que oculte completamente sus dependencias, DI no funcionará y no se podrán inyectar stubs tampoco
+  
 
-1.  Insert Caption
-
-<!-- -->
-
-1.  ![](./media/media/image5.gif){width="3.3854166666666665in"
-    height="3.2643121172353458in"}
+![](./img/Capitulo2 - Intro to Fakes/image5.gif)
+    
 
 Elegir entre un stub o un shim 
 -------------------------------
@@ -212,22 +232,25 @@ que queramos.
 
 NOTA
 
-  Cuando sea posible, usad **Stubs**. Vuestros tests se ejecutarán más rápido.
-  ------------------------------------------------------------------------------
+>Cuando sea posible, usad **Stubs**. Vuestros tests se ejecutarán más rápido.
+  
 
-  Objetivo | Consideración Stub Shim
-  ------------------------------------ --- --------------
-  ¿Buscas el mejor rendimiento?
-  Métodos abstractos y virtuales
-  Interfaces
-  Tipos internos
-  Métodos estáticos
-  Tipos sellados
-  Métodos privados
+|  Objetivo / Consideración |Stub |Shim|
+|  ------------------------------------ |--- |--------------|
+|  ¿Buscas el mejor rendimiento?| X |X(mas lento)|
+| Métodos abstractos y virtuales|X| |
+|  Interfaces| X | |
+|  Tipos internos | X | X |
+|  Métodos estáticos|  | X |
+|  Tipos sellados |  |X |
+|  Métodos privados|  | X |
 
 Leed Isolating Code under Test with Microsoft
 Fakes([*http://msdn.microsoft.com/en-us/library/hh549175.aspx*)](http://msdn.microsoft.com/en-us/library/hh549175.aspx)
 en MSDN para más información.
+
+
+-------------------------------
 
 La información contenida en este documento representa la visión
 Microsoft Corporation sobre los asuntos analizados a la fecha de
@@ -251,6 +274,8 @@ Visual Studio, and Windows son marcas comerciales del grupo de compañías
 de Microsoft.
 
 Todas las demás marcas son propiedad de sus respectivos dueños
+
+--------------------------
 
 The information contained in this document represents the current view
 of Microsoft Corporation on the issues discussed as of the date of
