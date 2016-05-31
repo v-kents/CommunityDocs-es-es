@@ -41,7 +41,7 @@ Dicho esto, empecemos con el primer participante, SQLite
 
 **SQLite**
 
-![] (./img/Windows-Modern-UI-BD/image1.png)
+![] (./img/Windows-Modern-UI-BD/image1.gif)
 
 Con la versión 3.7.13 [*SQLite*](http://www.sqlite.org) añadió soporte
 oficialmente para WinRT y las aplicaciones Modern UI, el objetivo de
