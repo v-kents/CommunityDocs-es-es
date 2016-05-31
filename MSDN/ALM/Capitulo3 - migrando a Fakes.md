@@ -1,4 +1,22 @@
 
+<properties
+	pageTitle="Capítulo 3: Migrando a Microsoft Fakes"
+	description="Capítulo 3: Migrando a Microsoft Fakes"
+	services="ALM"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="ALM"
+	ms.workload="MS-Fakes"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
 #Capítulo 3: Migrando a Microsoft Fakes
 
 

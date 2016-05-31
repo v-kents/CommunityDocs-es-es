@@ -1,12 +1,31 @@
+<properties
+	pageTitle="Capítulo 5: Técnicas avanzadas"
+	description="Capítulo 5: Técnicas avanzadas"
+	services="ALM"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="ALM"
+	ms.workload="MS-Fakes"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+#Capítulo 5: Técnicas avanzadas
+
+
 Traducción por Juan María Laó Ramos
 
-1.  ![](./media/media/image1.png){width="0.8020833333333334in"
-    height="0.71875in"}
+![](./img/Capitulo5/image1.png)
 
 Twitter: @juanlao
 
-Linkedin: <span id="webProfileURL"
-class="anchor"></span>es.linkedin.com/in/juanlao/
+Linkedin: <http://es.linkedin.com/in/juanlao/>
 
 Blog: <http://speakingin.net/>
 
@@ -52,18 +71,15 @@ el hacer que la factoría devuelva un objeto que queramos. Sin embargo,
 si el cliente WCF se instancia internamente, no hay forma de reemplazar
 las llamadas:
 
-1.  private void UpdateRoadwork()
+``` C#
+private void UpdateRoadwork()
 
-    { var client = new RoadworkServiceReference.RoadworkServiceClient();
-
-    var locations = new List&lt;RoadworkServiceReference.Block&gt;();
-
+{   var client = new RoadworkServiceReference.RoadworkServiceClient();
+    var locations = new List<RoadworkServiceReference.Block>();
     // Initialization of locations removed for clarity…
-
     var impediments = client.RetrieveCurrent(locations.ToArray());
-
-    }
-
+}
+```
 Si queremos testear este código, o cualquier otro código que llame al
 método *UpdateRoadword()*, tendremos que tratar con esta situación. La
 mejor opción sería refactorizar para tratarlo bien, pero hay ocasiones
@@ -76,35 +92,19 @@ La solución más simple es hacer un Shim del cliente WCF y ofrecer
 nuestra propia implementación. Esto no requiere ejecutar una instancia
 del servicio:
 
-1.  
-
-<!-- -->
-
-1.  using (ShimsContext.Create())
-
-    {
-
-    RoadworkServiceReference.Fakes.ShimRoadworkServiceClient.Constructor
-    = (real) =&gt; { };
+``` C#
+using (ShimsContext.Create())
+{   
+    RoadworkServiceReference.Fakes.ShimRoadworkServiceClient.Constructor = (real) => { };
 
     var intercept = new
-
-    FakesDelegates.Func&lt;RoadworkServiceReference.RoadworkServiceClient,
-
-    RoadworkServiceReference.Block\[\],
-    RoadworkServiceReference.Impediment\[\]&gt;((instance, blocks) =&gt;
-
-    {
-
-    // Body of Shim removed for brevity…
-
-    });
-
-    RoadworkServiceReference.Fakes.ShimRoadworkServiceClient.AllInstances.RetrieveCurrentBlockAr
-    ray = intercept;
-
-    }
-
+    FakesDelegates.Func<RoadworkServiceReference.RoadworkServiceClient,RoadworkServiceReference.Block[], RoadworkServiceReference.Impediment[]<((instance, blocks) =>
+        {
+            // Body of Shim removed for brevity…
+        });
+        RoadworkServiceReference.Fakes.ShimRoadworkServiceClient.AllInstances.RetrieveCurrentBlockArray = intercept;
+}
+```
 Es importante ver que además de crear un shim en la operación
 especificada, también se ha creado uno para el constructor. Esto es
 debido a que un constructor real de WCF lanzará una excepción debido a
@@ -129,97 +129,43 @@ tipos, tendremos que transformar los parámetros y la salida. Usando un
 *DataContractSerializer*, también veremos cualquier problema de
 serialización:
 
-1.  
-
-<!-- -->
-
-1.  var services = new
-    Dictionary&lt;RoadworkServiceReference.RoadworkServiceClient,
-
-    RoadworkService.RoadworkService&gt;();
-
-    using (ShimsContext.Create())
-
+``` C#
+var services = new Dictionary<RoadworkServiceReference.RoadworkServiceClient, RoadworkService.RoadworkService>();
+using (ShimsContext.Create())
+{
+    RoadworkServiceReference.Fakes.ShimRoadworkServiceClient.Constructor = real =>
     {
-
-    RoadworkServiceReference.Fakes.ShimRoadworkServiceClient.Constructor
-    = real =&gt;
-
-    {
-
-    services.Add(real, new RoadworkService.RoadworkService());
-
+        services.Add(real, new RoadworkService.RoadworkService());
     };
-
-    var intercept = new
-    FakesDelegates.Func&lt;RoadworkServiceReference.RoadworkServiceClient,
-    RoadworkServiceReference.Block\[\],
-    RoadworkServiceReference.Impediment\[\]&gt;(
-
-    (instance, blocks) =&gt;
-
+    var intercept = new FakesDelegates.Func<RoadworkServiceReference.RoadworkServiceClient, RoadworkServiceReference.Block[], RoadworkServiceReference.Impediment[]>((instance, blocks) =>
     {
-
-    //
-    =============================================================================
-
-    // The following (commented out) code uses explicit transforms, see
-    docs for
-
-    // reasons this may rapidly become difficult, and other
-    potential issues..
-
-    //
-    =============================================================================
-
-    // var realBlocks = new List&lt;Models.Block&gt;();
-
+    //=========================
+    // The following (commented out) code uses explicit transforms, see docs for
+    // reasons this may rapidly become difficult, and other potential issues..
+    //=========================
+    // var realBlocks = new List<Models.Block>();
     // foreach (RoadworkServiceReference.Block item in blocks)
-
     // {
-
     // var realBlock = Transform(item);
-
     // realBlocks.Add(realBlock);
-
     // }
 
-    Models.Block\[\] dataContractTransform =
-
-    DataContractTransform&lt;RoadworkServiceReference.Block\[\],
-
-    Models.Block\[\]&gt;(blocks);
-
-    var realBlocks = new
-    List&lt;Models.Block&gt;(dataContractTransform);
-
-    var service = services\[instance\];
-
-    var results = service.RetrieveCurrent(realBlocks);
-
-    var impediments = new
-    List&lt;RoadworkServiceReference.Impediment&gt;();
-
-    foreach (var result in results)
-
-    {
-
-    var clientImpediment = new RoadworkServiceReference.Impediment();
-
-    clientImpediment.location = Transform(result.Location);
-
-    impediments.Add(clientImpediment);
-
-    }
-
-    return impediments.ToArray();
-
+        Models.Block[] dataContractTransform = DataContractTransform<RoadworkServiceReference.Block[], Models.Block[]>(blocks);
+        var realBlocks = new List<Models.Block>(dataContractTransform);
+        var service = services[instance];
+        var results = service.RetrieveCurrent(realBlocks);
+        var impediments = new List<RoadworkServiceReference.Impediment>();
+        foreach (var result in results)
+        {
+            var clientImpediment = new RoadworkServiceReference.Impediment();
+            clientImpediment.location = Transform(result.Location);
+            impediments.Add(clientImpediment);
+        }
+        return impediments.ToArray();
     });
-
-    RoadworkServiceReference.Fakes.ShimRoadworkServiceClient.AllInstances.RetrieveCurrentBlockAr
-    ray = intercept;
-
-    }
+    RoadworkServiceReference.Fakes.ShimRoadworkServiceClient.AllInstances.RetrieveCurrentBlockArray = intercept;
+}
+```
 
 La implementación completa está disponible en el código del Hands-on Lab
 en:
@@ -227,7 +173,6 @@ en:
 Exercise
 4\\Traffic.AdvancedTechniques\\Examples\\BreakingServiceBoudnaryTechniques.cs
 
-1.  
 
 Tratando con cálculos no deterministas 
 ---------------------------------------
@@ -244,44 +189,29 @@ Operaciones basadas en Timer
 Tratar con elementos de código que se invocan dependiendo del tiempo
 suele presentar algunos retos:
 
-Si el tiempo es muy rápido, puede que sea imposible saber exactamente
+- Si el tiempo es muy rápido, puede que sea imposible saber exactamente
 cuántas llamadas se hacen.
 
-Si el tiempo es muy lento, el tiempo de test necesario para invocar las
+- Si el tiempo es muy lento, el tiempo de test necesario para invocar las
 llamadas puede ser excesivo.
-
-1.  
 
 Para afrontar ambos escenarios, podemos generar un shim sobre el timer y
 permitir la invocación manual del código:
 
-1.  
-
-<!-- -->
-
-1.  TimerCallback applicationCallback = null; object state = null;
-
-    TimeSpan interval = TimeSpan.Zero;
-
-    System.Threading.Fakes.ShimTimer.ConstructorTimerCallbackObjectTimeSpanTimeSpan
-    = (timer, callba ck, arg3, arg4, arg5) =&gt;
-
-    { applicationCallback = callback; state = arg3; interval = arg5;
-
-    };
-
-    //Shim del timer para capturar los parámetros.
-
-    const int IterationCount = 10; for (int i = 1; i &lt;=
-    IterationCount; ++i)
-
-    {
-
+``` C#
+TimerCallback applicationCallback = null; 
+object state = null;
+TimeSpan interval = TimeSpan.Zero;
+System.Threading.Fakes.ShimTimer.ConstructorTimerCallbackObjectTimeSpanTimeSpan = (timer, callba ck, arg3, arg4, arg5) =>
+{   applicationCallback = callback; state = arg3; interval = arg5;
+};
+//Shim del timer para capturar los parámetros.
+const int IterationCount = 10; for (int i = 1; i <= IterationCount; ++i)
+{
     applicationCallback(state);
-
     Thread.Sleep(interval);
-
-    }
+}
+```
 
 Invocación el código deseado de manera determinista
 
@@ -297,35 +227,24 @@ deterministas.
 En este ejemplo vamos a asegurarnos que los coches son todos con la
 orientación oeste, en lugar de que sea algo aleatorio en el código:
 
-1.  System.Fakes.ShimRandom.Constructor = (real) =&gt; { };
-
-    System.Fakes.ShimRandom.AllInstances.NextDouble = this.NextDouble;
-
-    System.Fakes.ShimRandom.AllInstances.NextInt32Int32 =
-    this.NextInt32Int32;
-
-    private int NextInt32Int32(Random random, int i, int arg3)
-
-    {
-
+``` C#
+System.Fakes.ShimRandom.Constructor = (real) => { };
+System.Fakes.ShimRandom.AllInstances.NextDouble = this.NextDouble;
+System.Fakes.ShimRandom.AllInstances.NextInt32Int32 = this.NextInt32Int32;
+private int NextInt32Int32(Random random, int i, int arg3)
+{
     return (i + arg3) / 2;
+}
 
-    }
-
-    private double NextDouble(Random random)
-
-    {
-
+private double NextDouble(Random random)
+{
     return 0.5;
-
-    }
-
+}
+```
 La implementación completa está disponible en el Hands-on Lab:
 
 Exercise
 4\\Traffic.AdvancedTechniques\\Examples\\NonDeterministicBehaviorTechniques.cs
-
-1.  
 
 Como estamos tratando con generadores de número aleatorios, hay un
 detalle que se suele pasar por alto: ¡*Varias instancias con la misma
@@ -358,60 +277,35 @@ que alterar el comportamiento del código que se testea, debemos
 asegurarnos de que el generador de números aleatorios continúa
 trabajando.
 
-NOTA
-
-  Nota: El constructor sin parámetros usa Environment.TickCount, con lo que varias instancias creadas en un tiempo pequeño podrían tener la misma semilla.
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------
-
-1.  
-
-<!-- -->
-
-1.  System.Fakes.ShimRandom.Constructor = delegate(Random random)
-
-    {
-
+>Nota: El constructor sin parámetros usa Environment.TickCount, con lo que varias instancias creadas en un tiempo pequeño podrían tener la misma semilla.
+  
+``` C#
+System.Fakes.ShimRandom.Constructor = delegate(Random random)
+{
     ShimsContext.ExecuteWithoutShims(delegate
-
-    { var constructor = typeof(Random).GetConstructor(new Type\[\] { });
-
-    constructor.Invoke(random, new object\[\] { });
-
+        {   var constructor = typeof(Random).GetConstructor(new Type[] { });
+            constructor.Invoke(random, new object[] { });
     });
+};
 
-    };
-
-    System.Fakes.ShimRandom.ConstructorInt32 = delegate(Random random,
-    int i) {
-
+System.Fakes.ShimRandom.ConstructorInt32 = delegate(Random random, int i) {
     ShimsContext.ExecuteWithoutShims(delegate
-
-    { var constructor = typeof(Random).GetConstructor(new\[\]
-    { typeof(int) });
-
-    constructor.Invoke(random, new object\[\] { i });
-
-    }); if (this.values.Contains(i))
-
+    {   var constructor = typeof(Random).GetConstructor(new[] { typeof(int) });
+        constructor.Invoke(random, new object[] { i });
+    }); 
+    if (this.values.Contains(i))
     {
-
-    passed = false;
-
-    Assert.Fail("Multiple Random instances Created with identical seed
-    Value={0}", i);
-
+        passed = false;
+        Assert.Fail("Multiple Random instances Created with identical seed Value={0}", i);
     }
-
     this.values.Add(i);
-
-    };
-
+};
+```
 La implementación completa está en el Hands-on Lab:
 
 Excercise
 4\\Traffic.AdvancedTechnices\\Examples\\DataGatheringTechniques.cs
 
-1.  
 
 Analizando el estado interno 
 -----------------------------
@@ -423,72 +317,44 @@ lógica para esto está contenida en las clases *ShortestTime* y
 *ShortestDistance.* Desafortunadamente, la lista de rutas válidas está
 en una variable local:
 
-1.  
 
-<!-- -->
-
-1.  List&lt;Route&gt; consideredRoutes = new List&lt;Route&gt;();
-
-    MethodInfo mi = typeof(ShortestTime).GetMethod("SelectBestRoute",
-    BindingFlags.Instance | Bindin gFlags.NonPublic);
-
-    System.Collections.Generic.Fakes.ShimList&lt;Route&gt;.AllInstances.AddT0
-    =
-
-    (collection, route) =&gt;
-
+``` C#
+List<Route> consideredRoutes = new List<Route>();
+MethodInfo mi = typeof(ShortestTime).GetMethod("SelectBestRoute", BindingFlags.Instance | Bindin gFlags.NonPublic);
+System.Collections.Generic.Fakes.ShimList&lt;Route&gt;.AllInstances.AddT0 =
+    (collection, route) =>
     ShimsContext.ExecuteWithoutShims(() =&gt;
-
-    { if (this.IsArmed)
-
-    { consideredRoutes.Add(route);
-
-    } collection.Add(route);
-
+    {   if (this.IsArmed)
+        { consideredRoutes.Add(route);
+        } collection.Add(route);
     });
 
-    // TODO: We can Shim the protected method, but without using
-    reflection, there is no way to invo ke it from within the shim
+// TODO: We can Shim the protected method, but without using reflection, there is no way to invo ke it from within the shim
 
-    // FYI: ExecuteWithoutShims disables ALL Shims, thereby breaking the
-    capture of "consideredRoute s", but setting the individual shim to
-    null works. FakesDelegates.Func&lt;ShortestTime, Car, Route&gt; shim
-    = null;
+// FYI: ExecuteWithoutShims disables ALL Shims, thereby breaking the capture of "consideredRoute s", but setting the individual shim to null works. FakesDelegates.Func<ShortestTime, Car, Route> shim = null;
 
-    shim = (time, car) =&gt;
-
-    {
-
+shim = (time, car) =>
+{
     Route route = null;
-
     IsArmed = true;
-
     ShimShortestTime.AllInstances.SelectBestRouteCar = null;
-
-    var result = mi.Invoke(time, new object\[\] { car });
-
+    var result = mi.Invoke(time, new object[] { car });
     ShimShortestTime.AllInstances.SelectBestRouteCar = shim;
-
     route = (Route)result;
-
     IsArmed = false;
-
-    Assert.IsTrue(consideredRoutes.Count &gt; 0, String.Format("Failed
+    Assert.IsTrue(consideredRoutes.Count > 0, String.Format("Failed
     to Find Any Considered Route s from {0} to {1}",
     car.Routing.StartTrip.Name, car.Routing.EndTrip.Name));
-
     return route; };
 
     ShimShortestTime.AllInstances.SelectBestRouteCar = shim;
-
-    }
-
+}
+```
 La implementación completa del código está en el Hands-on Lab:
 
 Excersie
 4\\Traffic.AdvancedTechniques\\Examples\\DataGatheringTechniques.cs
 
-1.  
 
 Evitando la duplicación de estructuras de testing 
 --------------------------------------------------
@@ -525,7 +391,7 @@ implementación completa está disponible en el Hands-on Lab:
 Exercise
 4\\Traffic.AdvancedTechniques\\Examples\\AvoidingDuplicationTechniques.cs
 
-1.  
+----------------------
 
 La información contenida en este documento representa la visión
 Microsoft Corporation sobre los asuntos analizados a la fecha de
@@ -549,6 +415,8 @@ Visual Studio, and Windows son marcas comerciales del grupo de compañías
 de Microsoft.
 
 Todas las demás marcas son propiedad de sus respectivos dueños
+
+------------------
 
 The information contained in this document represents the current view
 of Microsoft Corporation on the issues discussed as of the date of

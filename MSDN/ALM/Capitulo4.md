@@ -1,12 +1,34 @@
+<properties
+	pageTitle="Capítulo 4: FAQ Microsoft Fakes"
+	description="Capítulo 4: FAQ Microsoft Fakes"
+	services="ALM"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="ALM"
+	ms.workload="MS-Fakes"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+#Capítulo 4: FAQ Microsoft Fakes
+
+
+
+
 Traducción por Juan María Laó Ramos
 
-1.  ![](./media/media/image1.png){width="0.8020833333333334in"
-    height="0.71875in"}
+![](./img/Capitulo4/image1.png)
+    
 
 Twitter: @juanlao
 
-Linkedin: <span id="webProfileURL"
-class="anchor"></span>es.linkedin.com/in/juanlao/
+Linkedin: <http://es.linkedin.com/in/juanlao/>
 
 Blog: <http://speakingin.net/>
 
@@ -45,16 +67,12 @@ categoría de test que no se ejecute cuando los desarrolladores o los
 servidores de builds no estén ejecutando una versión adecuada de Visual
 Studio. Por ejemplo:
 
-1.  
-
-<!-- -->
-
-1.  \[TestCategory("FakesRequired"), TestMethod()\] public
-    Void DebitTest()
-
-    {
-
-    }
+``` C#
+[TestCategory("FakesRequired"), TestMethod()] 
+public void DebitTest()
+{
+}
+```
 
 Si optamos por no añadir la dll
 *Microsoft.QualityTools.Testing.Fakes.dll* de manera local, podemos
@@ -89,7 +107,7 @@ System.Security.Principal
 
 System.Threading
 
-1.  
+
 
 No hay una lista definitiva de los tipos que no se soportan ya que
 depende de las diferentes combinaciones posibles de versión del
@@ -98,22 +116,16 @@ tipos no soportados será diferente entre alguien que esté creando un
 proyecto para .NET 3.0 con el framework 3.5 instalado que otro que esté
 creando un proyecto para .NET 3.0 con el framework 3.0 instalado.
 
-AVISO
-
-  Cuidado con hacer un fake de una llamada que use el motor. Puede derivar en comportamientos impredecibles
-  -----------------------------------------------------------------------------------------------------------
+>AVISO - Cuidado con hacer un fake de una llamada que use el motor. Puede derivar en comportamientos impredecibles
 
 Podemos sobrescribir el comportamiento de algunas clases de System como
-cualquier otro assembly configurando la generación de los tipos de stub
+cualquier otro assembly confikgurando la generación de los tipos de stub
 y filtrarlo en un archivo xml con la extensión .fakes:
 
-1.  ![](./media/media/image2.PNG){width="6.927083333333333in"
-    height="2.102777777777778in"}
+![](./img/Capitulo4/image2.PNG)
+    
 
-NOTA
-
-  Para eliminar los tipos que Microsoft Fakes no soporta, como CancellationToken y CancellationTokenSource, tendremos que refactorizar nuestro código para cambiar las interfaces y las dependencias de los componentes que queramos testear. Cuando se haya hecho un fake de un tipo no soportado al compilar el .fakes se verá en el resultado de compilación como un Warning.
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>NOTA - Para eliminar los tipos que Microsoft Fakes no soporta, como CancellationToken y CancellationTokenSource, tendremos que refactorizar nuestro código para cambiar las interfaces y las dependencias de los componentes que queramos testear. Cuando se haya hecho un fake de un tipo no soportado al compilar el .fakes se verá en el resultado de compilación como un Warning.
 
 Pásate por [*Code generation, compilation, and naming conventions in
 Microsoft Fakes*](http://msdn.microsoft.com/en-us/library/hh708916.aspx)
@@ -131,8 +143,8 @@ elemento de un tipo, escribe mensajes de diagnóstico en el log de
 MSBuild. Podemos habilitarlo seteando la propiedad *Verbosity* del
 elemento .fakes e incrementar el nivel de detalle de MSBuild:
 
-1.  ![](./media/media/image3.PNG){width="6.927083333333333in"
-    height="2.220138888888889in"}
+![](./img/Capitulo4/image3.PNG)
+    
 
 Trabajando con assemblies con strong names 
 -------------------------------------------
@@ -146,17 +158,13 @@ para el assembly de Fakes, indicando el path completo al archivo .snk
 que contiene la clave en la propiedad KeyFile en el elemento
 Fakes\\Compilation del archivo .fakes:
 
-1.  
 
-<!-- -->
-
-1.  &lt;Fakes xmlns="http://schemas.microsoft.com/fakes/2011/"&gt;
-
-    &lt;Assembly Name="ClassLibrary1" Version="1.0.0.0"/&gt;
-
-    &lt;Compilation KeyFile="MyKeyFile.snk" /&gt;
-
-    &lt;/Fakes&gt;
+``` XML
+<Fakes xmlns="http://schemas.microsoft.com/fakes/2011/">
+    <Assembly Name="ClassLibrary1" Version="1.0.0.0"/>
+    <Compilation KeyFile="MyKeyFile.snk" />
+</Fakes>
+```
 
 Si tenemos acceso al código del assembly al que estamos haciendo el
 fake, podemos exponer los tipos internos usando la propiedad
@@ -164,56 +172,36 @@ fake, podemos exponer los tipos internos usando la propiedad
 fuerte, tendremos que indicar el nombre y la clave pública tanto para el
 assembly fake como para el assembly de test. Por ejemplo:
 
-1.  \[assembly:
-    System.Runtime.CompilerServices.InternalsVisibleTo("SimpleLibrary.Test,
-    PublicKey=002…8b")\]
-
-    \[assembly:
-    System.Runtime.CompilerServices.InternalsVisibleTo("SimpleLibrary.Fakes,
-    PublicKey=002…8b")\]
+    [assembly: System.Runtime.CompilerServices.InternalsVisibleTo("SimpleLibrary.Test, PublicKey=002…8b")]
+    [assembly: System.Runtime.CompilerServices.InternalsVisibleTo("SimpleLibrary.Fakes, PublicKey=002…8b")]
 
 Fijaos que necesitaremos la clave pública y no el key token público del
 assembly, que es lo que normalmente vemos. Para obtener la clave pública
 de un assembly firmado, necesitaremos la herramienta “sn.exe” que está
 incluida en Visual Studio. Por ejemplo:
 
-1.  
 
-<!-- -->
-
-1.  C:\\sn -Tp ClassLibrary1.Fakes.dll
-
-    Microsoft (R) .NET Framework Strong Name Utility Version
-    4.0.30319.17929
-
+    C:\sn -Tp ClassLibrary1.Fakes.dll
+    Microsoft (R) .NET Framework Strong Name Utility Version 4.0.30319.17929
     Copyright (c) Microsoft Corporation. All rights reserved.
 
     Public key (hash algorithm: sha1):
-
     0024000004800000940000000602000000240000525341310004000001000100172b76875201e1
-
     5855757bb1d6cbbf8e943367d5d94eb7f2b5e229e90677c649758c6a24186f6a0c79ba23f2221a
-
     6ae7139b8ae3a6e09cb1fde7ce90d1a303a325719c2033e4097fd1aa49bb6e25768fa37bee3954
     29883062ab47270f78828d2d2dbe00ae137604808713a28fce85dd7426fded78e1d1675ee3a1e8
-
     0cdcd3be
 
     Public key token is 28030c10971c279e
 
 Para ello, el atributo *InternalsVisibleTo* debería ser:
 
-1.  
 
-<!-- -->
-
-1.  \[assembly: InternalsVisibleTo("ClassLibrary1.Fakes,
-
+    [assembly: InternalsVisibleTo("ClassLibrary1.Fakes,
     PublicKey=0024000004800000940000000602000000240000525341310004000001000100e92decb949446f688ab9f6973436c53
-
     5bf50acd1fd580495aae3f875aa4e4f663ca77908c63b7f0996977cb98fcfdb35e05aa2c842002703cad835473caac5ef14107e3a
     7fae01120a96558785f48319f66daabc862872b2c53f5ac11fa335c0165e202b4c011334c7bc8f4c4e570cf255190f4e3e2cbc913
-    7ca57cb687947bc")\]
+    7ca57cb687947bc")]
 
 Optimizando la generación de Fakes 
 -----------------------------------
@@ -229,40 +217,23 @@ solución, identifícalos con el filtrado de Tipos. (Pasate por [*Code
 generation,* *compilation, and naming conventions in Microsoft
 Fakes*)](http://msdn.microsoft.com/en-us/library/hh708916.aspx).
 
-NOTA
-
-  -------------------------------------------------------------------------------------------------------------------------
-  Antes de que indiques los filtros de tipo, pon siempre un &lt;Clear/&gt;
-
-  Deshabilita la generación con un solo &lt;Clear/&gt; o con el atributo Disable=”true” en el elemento *StubGeneration* o
-
-  *ShimGeneration*
-  -------------------------------------------------------------------------------------------------------------------------
-  -------------------------------------------------------------------------------------------------------------------------
+>NOTA <br/>Antes de que indiques los filtros de tipo, pon siempre un <Clear/> <br/> Deshabilita la generación con un solo <Clear/> o con el atributo Disable=”true” en el elemento *StubGeneration* o <br/> *ShimGeneration*
+ 
 
 En el siguiente código se desactiva el **ShimGeneration**, y genera
 Stubs sólo para los tipos que contengan **Contoso.MainWeb.Repository**
 en el nombre:
 
-1.  
 
-<!-- -->
 
-1.  &lt;Fakes xmlns="http://schemas.microsoft.com/fakes/2011/"&gt;
-
-    &lt;Assembly Name=" Contoso.MainWeb"/&gt;
-
-    &lt;StubGeneration&gt;
-
-    &lt;Clear/&gt;
-
-    &lt;Add Namespace="Contoso.MainWeb.Repository" /&gt;
-
-    &lt;/StubGeneration&gt;
-
-    &lt;ShimGeneration Disable="true"/&gt;
-
-    &lt;/Fakes&gt;
+    <Fakes xmlns="http://schemas.microsoft.com/fakes/2011/">
+        <Assembly Name=" Contoso.MainWeb"/>
+        <StubGeneration>
+            <Clear/>
+            <Add Namespace="Contoso.MainWeb.Repository" />
+        </StubGeneration>
+        <ShimGeneration Disable="true"/>
+    </Fakes>
 
 Tenemos que saber que la generación restringida tiene un efecto en el
 tiempo de compilación y que la mejor optimización que podemos hacer es
@@ -282,8 +253,8 @@ un candidato perfecto para generarlo una vez y añadirlo a nuestros
 cambiar. En este ejemplo, usamos ILSpy para desensamblar el assembly que
 se ha generado y vamos a ver qué tipos se han generado:
 
-1.  ![](./media/media/image4.PNG){width="10.52881014873141in"
-    height="12.458333333333334in"}
+![](./img/Capitulo4/image4.PNG)
+    
 
 Refactorizando código bajo test 
 --------------------------------
@@ -314,37 +285,27 @@ pruebas de concepto antes de introducir Fakes o cualquier otra
 herramienta de este tipo. Para eliminar Fakes de tu proyecto, haz lo
 siguiente:
 
-1.  ![](./media/media/image5.PNG){width="4.938188976377953in"
-    height="4.198502843394576in"}
+![](./img/Capitulo4/image5.PNG)
+    
 
-<!-- -->
-
-1.  Borra el directorio **Fakes** y los archivos asociados de tu
+1. Borra el directorio **Fakes** y los archivos asociados de tu
     proyecto
 
 2.  Borra las referencias a los assemblies **.Fakes** de tu proyecto
+3.  Borra el directorio **FakesAssemblies** del directorio de tu proyecto.
 
-3.  Borra el directorio **FakesAssemblies** del directorio de
-    tu proyecto.
 
-4.  
 
-<!-- -->
+![](./img/Capitulo4/image6.PNG)
+    
 
-1.  ![](./media/media/image6.PNG){width="5.500767716535433in"
-    height="2.1252963692038493in"}
 
-<!-- -->
 
-1.  Edita manualmente el archivo de tu proyecto de test. Busca los
-    warnings para eliminar los using que hacían referencia a los Fakes:
+1. Edita manualmente el archivo de tu proyecto de test. Busca los warnings para eliminar los using que hacían referencia a los Fakes:
 
-2.  
 
-<!-- -->
-
-1.  ![](./media/media/image7.PNG){width="6.625925196850393in"
-    height="4.938188976377953in"}
+![](./img/Capitulo4/image7.PNG)
+    
 
 Uso de Fakes con el control de versiones de Team Foundation 
 ------------------------------------------------------------
@@ -354,13 +315,13 @@ directorios **1 Fakes** y **2 FakesAssemblies**.
 
 Contienen una serie de archivos de configuración y assemblies:
 
-1.  ![](./media/media/image8.PNG){width="6.063346456692913in"
-    height="3.5317432195975504in"}
+![](./img/Capitulo4/image8.PNG)
+    
 
 Team Explorer nos indica estos cambios cuando trabajamos en local:
 
-1.  ![](./media/media/image9.PNG){width="6.927083333333333in"
-    height="4.173611111111111in"}
+![](./img/Capitulo4/image9.PNG)
+    
 
 Los assemblies Fakes son auto-generados y están en el directorio
 ‘FakesAssemblies’ bajo el proyecto que los referencia. Estos archivos se
@@ -371,32 +332,22 @@ embargo, los archivos de configuración de Fakes del tipo
 proyecto **son** elementos configurables y deberían incluirse en el
 control de código.
 
-1.  1\. Selecciona los cambios del directorio Fakes
+1\. Selecciona los cambios del directorio Fakes
 
-2.  
 
-<!-- -->
-
-1.  ![](./media/media/image10.PNG){width="6.927083333333333in"
-    height="2.4027777777777777in"}
+![](./img/Capitulo4/image10.PNG)
+    
 
 Excluir Fakes – usando Team Explorer 
 -------------------------------------
 
 Para excluir Fakes:
 
-1.  Selecciona los cambios del directorio Fakes y haz clic derecho.
+1. Selecciona los cambios del directorio Fakes y haz clic derecho. 
 
-2.  
 
-<!-- -->
-
-1.  Insert Caption
-
-<!-- -->
-
-1.  ![](./media/media/image11.PNG){width="6.927083333333333in"
-    height="2.4631944444444445in"}
+![](./img/Capitulo4/image11.PNG)
+    
 
 Otra forma sería seleccionar cada cambio de manera separada, lo que
 permite más opciones para ignorarlo (como por extensión, nombre de
@@ -409,24 +360,21 @@ Con Team Explorer, estamos actualizando indirectamente el archivo
 .tfignore, que nos asegura que los archivos que cumplan las reglas
 definidas no se incluirán en el control de código:
 
-1.  ![](./media/media/image12.PNG){width="6.927083333333333in"
-    height="2.2215277777777778in"}
+![](./img/Capitulo4/image12.PNG)
+    
 
-    \# para indicar que una línea es un comentario.
+\# para indicar que una línea es un comentario.
 
-    Se soportan los caracteres especiales \* y ?
+Se soportan los caracteres especiales \* y ?
 
-    Una definición es recursiva a menos que se prefije con el carácter
-    \\
+Una definición es recursiva a menos que se prefije con el carácter
+\\
 
-    El símbolo de exclamación, !, niega una definición (los archivos que
-    cumplan el patrón NO son ignorados). El archivo .tfignore puede
-    editarse con cualquier editor e texto y debe añadirse al control
-    de código.
+El símbolo de exclamación, !, niega una definición (los archivos que
+cumplan el patrón NO son ignorados). El archivo .tfignore puede
+editarse con cualquier editor e texto y debe añadirse al control
+de código.
 
-<!-- -->
-
-1.  
 
 Podemos configurar qué tipos de archivos se ignorarán poniendo un
 archivo llamado **.tfignore** en el directorio que queremos que se
@@ -453,94 +401,59 @@ y testear sólo la funcionalidad que es parte del controlador. Para ello,
 tenemos que inyectarle la dependencia al controlador, normalmente por el
 constructor a través de interfaces:
 
-1.  
 
-<!-- -->
 
-1.  public class CustomersController : Controller
+``` C#
 
-    { private readonly ICustomerRepository customerRepository;
+public class CustomersController : Controller
 
+{   private readonly ICustomerRepository customerRepository;
     public CustomersController(ICustomerRepository customerRepository)
-
-    { this.customerRepository = customerRepository;
-
+    {   this.customerRepository = customerRepository;
     }
-
-    \[HttpPost\] public ActionResult Create(Customer customer)
-
-    { if (ModelState.IsValid)
-
-    { this.customerRepository.InsertOrUpdate(customer);
-
-    this.customerRepository.Save();
-
-    return RedirectToAction("Index");
-
-    } return this.View();
-
+    [HttpPost] public ActionResult Create(Customer customer)
+    {   if (ModelState.IsValid)
+        { this.customerRepository.InsertOrUpdate(customer);
+        this.customerRepository.Save();
+        return RedirectToAction("Index");
+        } return this.View();
     }
-
-    }
+}
+```
 
 Es posible crear stubs con Microsoft Fakes para aislar esa dependencia.
 En el siguiente código vemos cómo crear un stub para inyectárselo al
 constructor del controlador:
 
-1.  
-
-<!-- -->
-
-1.  \[TestClass\] public class CustomersControllerTest
-
-    {
-
+``` C#
+[TestClass] public class CustomersControllerTest
+{
     private StubICustomerRepository stubCustomerRepository;
-
     private CustomersController controller;
 
-    \[TestInitialize\]
-
+    [TestInitialize]
     public void SetupController()
-
     {
-
-    stubCustomerRepository = new StubICustomerRepository();
-
-    controller = new CustomersController(stubCustomerRepository);
-
+        stubCustomerRepository = new StubICustomerRepository();
+        controller = new CustomersController(stubCustomerRepository);
     }
 
-    \[TestMethod\]
-
+    [TestMethod]
     public void CreateInsertsCustomerAndSaves()
-
     {
-
-    // arrange
-
-    bool isInsertOrUpdateCalled = false;
-
-    bool isSaveCalled = false;
-
-    stubCustomerRepository.InsertOrUpdateCustomer = customer =&gt;
-    isInsertOrUpdateCalled = true;
-
-    stubCustomerRepository.Save = () =&gt; isSaveCalled = true;
-
-    // act
-
-    controller.Create(new Customer());
-
-    // assert
-
-    Assert.IsTrue(isInsertOrUpdateCalled);
-
-    Assert.IsTrue(isSaveCalled);
-
+        // arrange
+        bool isInsertOrUpdateCalled = false;
+        bool isSaveCalled = false;
+        stubCustomerRepository.InsertOrUpdateCustomer = customer => isInsertOrUpdateCalled = true;
+        stubCustomerRepository.Save = () => isSaveCalled = true;
+        // act
+        controller.Create(new Customer());
+        // assert
+        Assert.IsTrue(isInsertOrUpdateCalled);
+        Assert.IsTrue(isSaveCalled);
     }
-
-    }
+}
+```
 
 Usando Shims con ASP.NET MVC 
 -----------------------------
@@ -551,97 +464,56 @@ Shims. Con Shims, podemos cambiar el comportamiento de un objeto,
 configurando el resultado esperado en un método o propiedad. En este
 código vemos cómo se puede hacer con shims:
 
-1.  
 
-<!-- -->
-
-1.  public class AccountController : Controller
-
-    {
-
-    \[HttpPost\] public ActionResult Login(LogOnModel model,
-    string returnUrl)
-
-    { if (ModelState.IsValid)
-
-    { if (Membership.ValidateUser(model.UserName, model.Password))
-
-    {
-
-    FormsAuthentication.SetAuthCookie(model.UserName, model.RememberMe);
-
-    return Redirect(returnUrl);
-
-    }
-
-    ModelState.AddModelError("", "The user name or password
-    incorrect.");
-
-    } return View(model);
-
-    } }
+``` C#
+public class AccountController : Controller
+{
+    [HttpPost] public ActionResult Login(LogOnModel model, string returnUrl)
+    {   if (ModelState.IsValid)
+        {   if (Membership.ValidateUser(model.UserName, model.Password))
+            {
+                FormsAuthentication.SetAuthCookie(model.UserName, model.RememberMe);
+                return Redirect(returnUrl);
+            }
+            ModelState.AddModelError("", "The user name or password incorrect.");
+        } return View(model);
+    } 
+}
+```
 
 Para testear esta acción, tenemos que usar tipos Shim para aislar las
 clases Membership y FormsAuthentication:
 
-1.  
-
-<!-- -->
-
-1.  \[TestMethod\] public
-    void Login\_with\_valid\_model\_and\_valid\_user\_authenticate\_and\_redirect()
+``` C#
+[TestMethod] public void Login_with_valid_model_and_valid_user_authenticate_and_redirect()
     {
+        // arrange var model=new LogOnModel{Password = "123", UserName = "usrtest", RememberMe = true};
+        var returnUrl = "/home/index";
+        bool isAuthenticationCalled = false;
+        bool isValidateUserCalled = false;
+        RedirectResult redirectResult;
+        using (ShimsContext.Create())
+        {
+            ShimMembership.ValidateUserStringString = (usr, pwd) => isValidateUserCalled = true;
+        ShimFormsAuthentication.SetAuthCookieStringBoolean = (username, rememberme) => 
+            {
+                Assert.AreEqual(model.UserName, username);
+                Assert.AreEqual(model.RememberMe, rememberme);
+                isAuthenticationCalled = true;
+            };
 
-    // arrange var model=new LogOnModel{Password = "123", UserName =
-    "usrtest", RememberMe = true};
+            // act
+            redirectResult = controller.Login(model, returnUrl) as RedirectResult;
+        }
 
-    var returnUrl = "/home/index";
-
-    bool isAuthenticationCalled = false;
-
-    bool isValidateUserCalled = false;
-
-    RedirectResult redirectResult;
-
-    using (ShimsContext.Create())
-
-    {
-
-    ShimMembership.ValidateUserStringString = (usr, pwd) =&gt;
-    isValidateUserCalled = true;
-
-    ShimFormsAuthentication.SetAuthCookieStringBoolean =
-
-    (username, rememberme) =&gt;
-
-    {
-
-    Assert.AreEqual(model.UserName, username);
-
-    Assert.AreEqual(model.RememberMe, rememberme);
-
-    isAuthenticationCalled = true;
-
-    };
-
-    // act
-
-    redirectResult = controller.Login(model, returnUrl) as
-    RedirectResult;
-
+        // assert
+        Assert.IsTrue(isValidateUserCalled, "Membership.ValidateUser not invoked");
+        Assert.IsTrue(isAuthenticationCalled, "FormsAuthentication.SetAuthCookie not invoked");
+        Assert.AreEqual(returnUrl, redirectResult.Url);
     }
+```
 
-    // assert
-
-    Assert.IsTrue(isValidateUserCalled, "Membership.ValidateUser not
-    invoked");
-
-    Assert.IsTrue(isAuthenticationCalled,
-    "FormsAuthentication.SetAuthCookie not invoked");
-
-    Assert.AreEqual(returnUrl, redirectResult.Url);
-
-    }
+-----------------
 
 La información contenida en este documento representa la visión
 Microsoft Corporation sobre los asuntos analizados a la fecha de
@@ -665,6 +537,8 @@ Visual Studio, and Windows son marcas comerciales del grupo de compañías
 de Microsoft.
 
 Todas las demás marcas son propiedad de sus respectivos dueños
+
+---------------------
 
 The information contained in this document represents the current view
 of Microsoft Corporation on the issues discussed as of the date of
