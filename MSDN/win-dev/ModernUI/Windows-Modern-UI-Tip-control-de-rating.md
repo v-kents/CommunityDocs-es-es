@@ -1,6 +1,6 @@
 <properties
-	pageTitle="#Modern UI Tip: Crear un control de rating"
-	description="#Modern UI Tip: Crear un control de rating"
+	pageTitle="Modern UI Tip: Crear un control de rating"
+	description="Modern UI Tip: Crear un control de rating"
 	services="win-dev"
 	documentationCenter=""
 	authors="andygonusa"
@@ -15,6 +15,8 @@
 	ms.topic="how-to-article"
 	ms.date="05/16/2016"
 	ms.author="andygonusa"/>
+
+#Modern UI Tip: Crear un control de rating 
 
 Por **Josue Yeray Julian Ferreiro**
 
