@@ -1,0 +1,7 @@
+#[C++ - Ansi? Unicode? main, wmain, _tmain](Cpp  Ansi Unicode.md)
+#[Qué es Inyección de dependencias](Inyección de Dependencias.md)
+#[Programación asíncrona en .NET Framework 4.5](Programación asíncrona en NET Framework 4.5.md)
+#[Sobre Delegados, Action, Func y Lambda](Sobre Delegados, Action, Func y Lambda.md)
+#[Un vistazo a la función de RegSetValueEx de la API de Windows](Un vistazo a la función de RegSetValueEx de la API de Windows.md)
+#[Utilidad de relaciones 1-1 para optimizar descarga de imágenes desde DBs](Utilidad de relaciones.md)
+#[Maestro detalles con Entity Framework en Windows Forms](Maestro-detalles-con-Entity-Framework.md)
