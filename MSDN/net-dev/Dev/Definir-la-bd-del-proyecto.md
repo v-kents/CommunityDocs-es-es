@@ -16,15 +16,14 @@
 	ms.date="05/16/2016"
 	ms.author="andygonusa"/>
 
+#Definir la base de datos del proyecto
   
-  #Definir la base de datos del proyecto
   
-  
-  Por **Nicolás Herrera**                                                                             Agosto 2012
+Por **Nicolás Herrera**                                                                             Agosto 2012
                                                                                               
-  MVP, miembro Gold del grupo de Microsoft Community Specialist Colombia, blogger y speaker   
+MVP, miembro Gold del grupo de Microsoft Community Specialist Colombia, blogger y speaker   
  
-   [Blog](http://nicolocodev.com/)
+[Blog](http://nicolocodev.com/)
  
 Hola, por defecto cuando trabajamos con CodeFirst este usa .\\
 SQLEXPRESS para hospedar la base de datos, y la creara con el nombre
