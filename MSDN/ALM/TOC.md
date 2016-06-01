@@ -5,5 +5,5 @@
 #[Capítulo 4: FAQ Microsoft Fakes](Capitulo4.md)
 #[Capítulo 5: Técnicas avanzadas](Capitulo5.md)
 #[Capítulo 6: Hands-on Lab 1](HOL1.md)
-
+#[Capítulo 6: Hands-on Lab 2](HOL2.md)
 
