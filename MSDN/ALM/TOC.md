@@ -6,4 +6,5 @@
 #[Capítulo 5: Técnicas avanzadas](Capitulo5.md)
 #[Capítulo 6: Hands-on Lab 1](HOL1.md)
 #[Capítulo 6: Hands-on Lab 2](HOL2.md)
-
+#[Capítulo 6: Hands-on Lab 3](HOL3.md)
+#[Capítulo 6: Hands-on Lab 4](HOL4.md)
