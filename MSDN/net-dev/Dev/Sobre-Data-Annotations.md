@@ -17,13 +17,13 @@
 	ms.author="andygonusa"/>
 
   
-  #[Entity Framework] Sobre Data Annotations
+#[Entity Framework] Sobre Data Annotations
   
-  Por **Nicolás Herrera**                                                                            Julio 2012
+Por **Nicolás Herrera**                                                                            Julio 2012
                                                                                               
-  MVP, miembro Gold del grupo de Microsoft Community Specialist Colombia, blogger y speaker   
+MVP, miembro Gold del grupo de Microsoft Community Specialist Colombia, blogger y speaker   
   
-  [Blog](http://nicolocodev.wordpress.com/)
+[Blog](http://nicolocodev.wordpress.com/)
   
 Hola, ya llevaba tiempo sin escribir en esta serie en la que intento
 cubrir aspectos sobre todas la versiones de este potente *ORM*. En el
