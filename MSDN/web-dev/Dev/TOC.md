@@ -9,3 +9,5 @@
 #[[ASP.NET MVC] Implementando un CustomUserValidator en ASPNET Identity](Implementando un CustomUserValidator en ASPNET Identity.md)
 #[Tutorial WebMatrix. Tema 3 – 7. Web social. Sitio basado en Drupal](Tutorial-WebMatrix-Tema-3–7.md)
 #[Micro-datos. Semántica real en la Web](Microdata.md)
+#[Administración de Web Sites con el Azure Explorer](Administracion-con-Azure-Explorer.md)
+#[Ventanas Modales en WPF](Ventanas-Modales-en-WPF.md)
