@@ -8,7 +8,7 @@
 	editor="andygonusa"/>
 
 <tags
-	ms.service="indows"
+	ms.service="windows"
 	ms.workload="identity"
 	ms.tgt_pltfrm="na"
 	ms.devlang="na"
