@@ -1,12 +1,13 @@
-﻿#[ 10 comandos PowerShell para usar en Skype4B PARTE I](10-comandos-PowerShell-para-Skype4B-PARTE1.md)
-#[ 10 comandos PowerShell para usar en Skype4B PARTE II](10-comandos-PowerShell-para-Skype4B-PARTE2.md)
-
+﻿#[10 comandos PowerShell para usar en Skype4B PARTE I](10-comandos-PowerShell-para-Skype4B-PARTE1.md)
+#[10 comandos PowerShell para usar en Skype4B PARTE II](10-comandos-PowerShell-para-Skype4B-PARTE2.md)
 #[Clonando DCs de Windows Server 2012](Clonando DC.md)
-
 #[Full Server, Core Server y Tres Opciones Diferentes Más](Full Server, Core Server y Tres Opciones Diferentes Mas.md)
-
 #[Migración del Group Policy Object](GPO Migracion.md)
-
-#[Windows Server 2012 Essentials – Crear carpetas compartidas](Crear carpetas compartidas.md)
-
-#[Windows Server 2012 Essentials – Característica de Backup](Caracteristica de Backup.md)
+#[Crear carpetas compartidas](Crear carpetas compartidas.md)
+#[Característica de Backup](Caracteristica de Backup.md)
+#[Demostración Conectando Clientes a la Red por VPN](Conectando-Clientes-por-VPN.md)
+#[Configuración de Windows PowerShell Web Access](Configuracion-de-WPWA.md)
+#[Contraseñas y Bloqueo de Cuentas](Contrasenas-y-Bloqueo-de-Cuentas.md)
+#[Papelera de Reciclaje de Active Directory](Papelera-de-Reciclaje-de-AD.md)
+#[Primeros pasos de administración](Primeros-pasos-de-administracion.md)
+#[Windows PowerShell Web Access](Windows-PowerShell-Web-Access.md)
