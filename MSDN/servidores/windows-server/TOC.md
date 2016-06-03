@@ -11,3 +11,5 @@
 #[Papelera de Reciclaje de Active Directory](Papelera-de-Reciclaje-de-AD.md)
 #[Primeros pasos de administración](Primeros-pasos-de-administracion.md)
 #[Windows PowerShell Web Access](Windows-PowerShell-Web-Access.md)
+#[Activación automática de conexiones VPN y VPN Diagnóstico Mejoras en Windows 8.1](ActivacionAutoVPN.md)
+
