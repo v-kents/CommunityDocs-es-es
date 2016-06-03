@@ -12,4 +12,5 @@
 #[Primeros pasos de administración](Primeros-pasos-de-administracion.md)
 #[Windows PowerShell Web Access](Windows-PowerShell-Web-Access.md)
 #[Activación automática de conexiones VPN y VPN Diagnóstico Mejoras en Windows 8.1](ActivacionAutoVPN.md)
+#[Creando entradas de blog en SharePoint 2010 desde el envío de correo](Creando entradas de blog en SharePoint 2010.md)
 
