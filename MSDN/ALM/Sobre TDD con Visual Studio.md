@@ -1,10 +1,32 @@
-  --------------------------------------------------------------------------------------------------------
-  Nicolás Herrera                                                                             Julio 2012
-                                                                                              
-  MVP, miembro Gold del grupo de Microsoft Community Specialist Colombia, blogger y speaker   
-  ------------------------------------------------------------------------------------------- ------------
-  [Blog](http://nicolocodev.wordpress.com/)
-  --------------------------------------------------------------------------------------------------------
+
+
+
+<properties
+	pageTitle="Sobre TDD con Visual Studio"
+	description="Sobre TDD con Visual Studio"
+	services="ALM"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="ALM"
+	ms.workload="TDD"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+#Sobre TDD con Visual Studio
+
+##**Nicolás Herrera**
+**MVP, miembro Gold del grupo de Microsoft Community Specialist Colombia, blogger y speaker**
+Julio 2012   
+
+[Blog](http://nicolocodev.wordpress.com/)
+
 
 En nuestro diario vivir como desarrolladores siempre debemos cumplir con
 tareas que demandan tiempo como pueden ser realizar cambios en el
@@ -32,29 +54,26 @@ no esperes a comprobarlo. Ahora bien, ¿sobre qué aplicamos nuestras
 pruebas unitarias? Estas se deben aplicar sobre las partes más pequeñas
 y comprobables de una aplicación, esto es, en los métodos de las clases.
 
-### 
-
 ### Características de las pruebas unitarias:
 
-1.  **Automatizable**: no debería requerirse una intervención manual.
+- **Automatizable**: no debería requerirse una intervención manual.
 
-    **Completas**: deben cubrir la mayor cantidad de código.
+-    **Completas**: deben cubrir la mayor cantidad de código.
 
-    **Repetibles o Reutilizables**: no se deben crear pruebas que sólo
+-    **Repetibles o Reutilizables**: no se deben crear pruebas que sólo
     puedan ser ejecutadas una sola vez.
 
-    **Independientes**: la ejecución de una prueba no debe afectar a la
+-    **Independientes**: la ejecución de una prueba no debe afectar a la
     ejecución de otra.
 
-Las pruebas unitarias están conformadas por una estructura triple A,
-estas son:
+Las pruebas unitarias están conformadas por una estructura triple A, estas son:
 
-1.  **Arrange (Inicialización)**: donde se prepara el contexto de la
+- **Arrange (Inicialización)**: donde se prepara el contexto de la
     prueba y se inicializan variables y demás.
 
-    **Act (Ejecución)**: Ejecutas la funcionalidad que se desea probar.
+-    **Act (Ejecución)**: Ejecutas la funcionalidad que se desea probar.
 
-    **Assert (Comprobación)**: se comprueba que lo que se ejecuto hace
+-    **Assert (Comprobación)**: se comprueba que lo que se ejecuto hace
     lo que se desea.
 
 ### ¿Y todo esto para qué?
@@ -80,8 +99,7 @@ código y para realizar las pruebas a este código, agregaremos un nuevo
 proyecto de tipo test, eliminamos las clases que nos genera Visual
 Studio automáticamente:
 
-1.  ![](./media/media/image1.png){width="6.198781714785651in"
-    height="4.313102580927384in"}
+![](./img/Sobre TDD con Visual Studio/image1.png)
 
 Agregamos una clase llamada Operacion al proyecto calculadora, y sobre
 el proyecto de test añadimos un test llamado CalculadoraTest, sobre este
@@ -91,35 +109,29 @@ Lo siguiente será realizar la prueba más simple (en este caso todas son
 igualmente simples) pero empezaremos por poder sumar dos números.
 Nuestra primera prueba unitaria luciría de esta forma:
 
-1.  ![](./media/media/image2.png){width="6.146691819772529in"
-    height="2.427422353455818in"}
+![](./img/Sobre TDD con Visual Studio/image2.png)
 
 Vemos que Visual Studio nos informa que el método Sumar(int, int ) no
 existe en la clase operación, entonces le pedimos a este que nos cree el
 método en esta clase:
 
-1.  ![](./media/media/image3.png){width="6.5in"
-    height="2.1756944444444444in"}
+![](./img/Sobre TDD con Visual Studio/image3.png)
 
 Compilamos, comprobamos que compila, ejecutamos la prueba unitaria
 haciendo click derecho en el método y comprobamos que falle:
 
-1.  ![](./media/media/image4.png){width="6.5in"
-    height="2.738888888888889in"}
+![](./img/Sobre TDD con Visual Studio/image4.png)
 
-    ![](./media/media/image5.png){width="5.667458442694663in"
-    height="3.333799212598425in"}
+![](./img/Sobre TDD con Visual Studio/image5.png)
 
 Lo que sigue es intentar ponerla en verde, para esto realizamos los
 cambios necesarios en el método Sumar:
 
-1.  ![](./media/media/image6.png){width="2.8858191163604547in"
-    height="1.698153980752406in"}
+![](./img/Sobre TDD con Visual Studio/image6.png)
 
 Volvemos a ejecutar la prueba y comprobamos que funcione:
 
-1.  ![](./media/media/image7.png){width="5.365332458442695in"
-    height="2.8233103674540683in"}
+![](./img/Sobre TDD con Visual Studio/image7.png)
 
 El siguiente paso es hacer *refactoring*, pero simplificar o arreglar la
 implementación de este método es innecesario porque es muy simple.
@@ -129,8 +141,7 @@ tenemos, implementamos, comprobamos que fallen, hacemos solo lo
 necesario para que funcionen y hacemos refactoring, el resultado de mis
 pruebas es:
 
-1.  ![](./media/media/image8.png){width="6.5in"
-    height="2.7083333333333335in"}
+![](./img/Sobre TDD con Visual Studio/image8.png)
 
 Sí, me falla una prueba, y es una prueba un poco rara, pero es que este
 es uno de los principios de TDD, no solo podemos probar lo que estamos
@@ -139,14 +150,12 @@ que siempre falla en producción, pues si hay algo para lo que es bueno
 un usuario final, es para reventar programas no se ofendan. El código de
 esta prueba es:
 
-1.  ![](./media/media/image9.png){width="3.9276312335958004in"
-    height="1.250174978127734in"}
+![](./img/Sobre TDD con Visual Studio/image9.png)
 
 Hacemos lo necesario para que esta prueba funcione, y volvemos a correr
 todas las pruebas:
 
-1.  ![](./media/media/image10.png){width="5.136134076990376in"
-    height="2.1148786089238847in"}
+![](./img/Sobre TDD con Visual Studio/image10.png)
 
 Bien con esto llegamos al final de esta introducción a las TDD con
 Visual Studio, en próximos post veremos más a detalle esta herramienta y

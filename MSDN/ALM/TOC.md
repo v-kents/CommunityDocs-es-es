@@ -8,3 +8,7 @@
 #[Capítulo 6: Hands-on Lab 2](HOL2.md)
 #[Capítulo 6: Hands-on Lab 3](HOL3.md)
 #[Capítulo 6: Hands-on Lab 4](HOL4.md)
+#[Métricas en Visual Studio: Cobertura de las pruebas unitarias](VS Metricas.md)
+#[Qué es un unit test](UnitTest.md)
+#[Sobre TDD con Visual Studio](Sobre TDD con Visual Studio.md)
+#[Team Foundation Service, tu herramienta ALM en la nube](Team Foundation Service.md)

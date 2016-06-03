@@ -1,6 +1,31 @@
-  Diego Rojas, MCTS WCF 3.5 - MCTS Biztalk - MCTS Data Access   Mayo 2012
-  ------------------------------------------------------------- -----------
-  [Blog](http://icomparable.blogspot.mx/)
+
+<properties
+	pageTitle="Qué es un unit test"
+	description="Qué es un unit test"
+	services="ALM"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="ALM"
+	ms.workload="Metrics"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+#Qué es un unit test
+
+
+##**Diego Rojas**
+**MCTS WCF 3.5 - MCTS Biztalk - MCTS Data Access**
+Mayo 2012
+
+[Blog](http://icomparable.blogspot.mx/)
+
 
 Existen muchas definiciones acerca de lo que realmente es una prueba
 unitaria – unit test – sin embargo algunas son ambiguas y otras tienen
@@ -17,27 +42,27 @@ desarrolladores tienen su propio concepto de lo que es una prueba
 unitaria; sin embargo, la gran mayoría coincide en que una prueba
 unitaria tiene las siguientes características:
 
-1.  Prueba solamente pequeñas cantidades de código: Solamente prueba el
+- Prueba solamente pequeñas cantidades de código: Solamente prueba el
     código del requerimiento específico.
 
-    Se aísla de otro código y de otros desarrolladores: El unit test
+-  Se aísla de otro código y de otros desarrolladores: El unit test
     prueba exclusivamente el código relacionado con el requerimiento y
     no interfiere con el trabajo hecho por otros desarrolladores.
 
-    Solamente se prueban los endpoints públicos: Esto principalmente
+-    Solamente se prueban los endpoints públicos: Esto principalmente
     porque los disparadores de los métodos privados son métodos públicos
     por lo tanto se abarca el código de los métodos privados dentro de
     las pruebas.
 
-    Los resultados son automatizados: Cuando ejecutamos las pruebas lo
+-    Los resultados son automatizados: Cuando ejecutamos las pruebas lo
     podemos hacer de forma individual o de forma grupal. Estas pruebas
     las hace el motor de prueba y los resultados de los mismos deben de
     ser precisos con respecto a cada prueba unitaria desarrollada
 
-    Repetible y predecible: No importa el orden y las veces que se
+-    Repetible y predecible: No importa el orden y las veces que se
     repita la prueba, el resultado siempre debe de ser el mismo.
 
-    Son rápidos de desarrollar: Contrariamente a lo que piensan los
+-    Son rápidos de desarrollar: Contrariamente a lo que piensan los
     desarrolladores –&gt; que el desarrollo de pruebas unitarias quita
     tiempo – los unit test por lo general deben de ser simples y rápidos
     de desarrollar. Difícilmente una prueba unitaria deba de tomar más
@@ -51,48 +76,32 @@ un ejemplo. Supongamos que tenemos un método que nos indica si en un
 arreglo de strings existe al menos un string que sea igual a la palabra
 que estamos pasando por parámetro. El código del método es el siguiente:
 
-1.  C\#
+``` C#
 
-<!-- -->
-
-1.  public class AdministradorDeArreglos
-
+public class AdministradorDeArreglos
+{
+    public bool ExisteEnArreglo(string[] pArreglo, string pPalabra)
     {
-
-    public bool ExisteEnArreglo(string\[\] pArreglo, string pPalabra)
-
-    {
-
-    return pArreglo.Any(p =&gt; p.ToUpper() == pPalabra.ToUpper());
-
+        return pArreglo.Any(p => p.ToUpper() == pPalabra.ToUpper());
     }
-
-    }
+}
+```
 
 Para probar el Código escribimos lo siguiente
 
-1.  C\#
-
-<!-- -->
-
-1.  static void Main(string\[\] args)
-
-    {
-
-    var \_administradorDeArreglos = new AdministradorDeArreglos();
-
-    string\[\] \_arreglo = {"Manaza", "Papaya", "Melón", "Sandía",
-    "Piña", "Banano"};
-
-    Console.WriteLine(
-    \_administradorDeArreglos.ExisteEnArreglo(\_arreglo, "Banano") );
-
-    }
+``` C#
+static void Main(string[] args)
+{
+    var _administradorDeArreglos = new AdministradorDeArreglos();
+    string[] _arreglo = {"Manaza", "Papaya", "Melón", "Sandía", "Piña", "Banano"};
+    Console.WriteLine(_administradorDeArreglos.ExisteEnArreglo(_arreglo, "Banano") );
+}
+```
 
 Y el resultado final será:
 
-1.  ![](./media/media/image1.png){width="5.2312806211723535in"
-    height="2.657323928258968in"}
+![](./img/UnitTest/image1.png)
+    
 
 Ahora vamos a proceder a probar el código creando una prueba unitaria.
 El primer paso es agregar un proyecto a la solución del tipo Test –&gt;
@@ -101,8 +110,8 @@ vamos a utilizar MSTest para hacer las pruebas unitarias en este ejemplo
 opciones de testing pueden no aparecer en otras versiones menores o
 pueden estar en otro orden\].
 
-1.  ![](./media/media/image2.png){width="5.491803368328959in"
-    height="3.814041994750656in"}
+![](./img/UnitTest/image2.png)
+    
 
 Como vemos en la siguiente figura, se va a crear un proyecto de testing
 que tiene una referencia directa al componente – dll – en donde están
@@ -111,53 +120,41 @@ se crea un archivo inicial de testing y un grupo de tres “Solution
 Items” desde donde vamos a poder configurar y administrar las
 funcionalidades de nuestros tests.
 
-1.  ![](./media/media/image3.png){width="3.9182502187226596in"
-    height="3.2408934820647417in"}
+![](./img/UnitTest/image3.png)
+    
 
 Ahora procedemos a borrar el archivo UnitTest1.cs y vamos a crear uno
 desde cero. Luego de borrar el archivo, procedemos a agregar una
 referencia al proyecto que queremos probar. Luego damos botón derecho
 sobre el proyecto de testing y seleccionamos agregar nuevo test.
 
-1.  ![](./media/media/image4.png){width="5.1374934383202095in"
-    height="2.542694663167104in"}
+![](./img/UnitTest/image4.png)
+    
 
 Ahora procedemos a seleccionar el tipo de prueba de unidad que vamos a
 crear, en nuestro caso una prueba de unidad básica.
 
-1.  ![](./media/media/image5.png){width="5.3563320209973755in"
-    height="4.4809776902887135in"}
+![](./img/UnitTest/image5.png)
+    
 
 Este paso nos va a generar un archivo de pruebas básico con un método de
 pruebas de ejemplo que cual vamos a proceder a eliminar.
 
-1.  C\#
-
-<!-- -->
-
-1.  using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-    namespace Pruebas
-
+``` C#
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+namespace Pruebas
+{
+    [TestClass]
+    public class Pruebas_SeriePruebasUnitarias
     {
+        [TestMethod]
+        public void TestMethod1()
+        {
 
-    \[TestClass\]
-
-    public class Pruebas\_SeriePruebasUnitarias
-
-    {
-
-    \[TestMethod\]
-
-    public void TestMethod1()
-
-    {
-
+        }
     }
-
-    }
-
-    }
+}
+```
 
 En el código anterior vemos que la clase generada esta marcada con el
 atributo TestClass, esto le indica al motor de pruebas de visual studio
@@ -169,42 +166,28 @@ anterior.
 Ahora procedemos a crear nuestra primera prueba unitaria. El código de
 la prueba unitaria es el siguiente:
 
-1.  C\#
+``` C#
 
-<!-- -->
-
-1.  \[TestClass\]
-
-    public class Pruebas\_SeriePruebasUnitarias
-
+[TestClass]
+public class Pruebas_SeriePruebasUnitarias
+{
+    [TestMethod]
+    public void ExisteArreglo_RetornaTrue()
     {
-
-    \[TestMethod\]
-
-    public void ExisteArreglo\_RetornaTrue()
-
-    {
-
-    var \_administradorDeArreglos = new AdministradorDeArreglos();
-
-    var \_resultado =
-
-    \_administradorDeArreglos.ExisteEnArreglo(new\[\] { "Argentina",
-    "Brasil", "Perú" }, "Brasil");
-
-    Assert.IsTrue(\_resultado);
-
+        var _administradorDeArreglos = new AdministradorDeArreglos();
+        var _resultado = _administradorDeArreglos.ExisteEnArreglo(new[] { "Argentina", "Brasil", "Perú" }, "Brasil");
+        Assert.IsTrue(_resultado);
     }
-
-    }
+}
+```
 
 La prueba unitaria anterior prueba específicamente la unidad de código
 “ExisteEnArreglo” de la clase AdministradorDeArreglos.
 
 Al Ejecutar el unit test el resultado será el siguiente:
 
-1.  ![](./media/media/image6.png){width="5.554328521434821in"
-    height="0.9170374015748032in"}
+![](./img/UnitTest/image6.png)
+    
 
 Como podemos ver, el test pasó y el panel de resultados de VS así me lo
 hace saber.

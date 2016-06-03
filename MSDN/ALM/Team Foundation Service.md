@@ -1,9 +1,32 @@
-1.  ![](./media/media/image1.png){width="1.78125in"
-    height="0.6354166666666666in"}
 
-<!-- -->
 
-1.  <http://www.dnmplus.net>
+
+
+<properties
+	pageTitle="Team Foundation Service, tu herramienta ALM en la nube"
+	description="Team Foundation Service, tu herramienta ALM en la nube"
+	services="ALM"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="ALM"
+	ms.workload="TFS"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+#Team Foundation Service, tu herramienta ALM en la nube
+
+
+![](./img/Team Foundation Service/image1.png)
+
+
+<http://www.dnmplus.net>
 
 Fernando Escolar Martínez-Berganza (Pasiona)
 
@@ -26,12 +49,12 @@ Bastará con darnos de alta en una página web, y tendremos a nuestro
 alcance los beneficios de esta gran herramienta de gestión del ciclo de
 vida de las aplicaciones.
 
-1.  Figura 1
+Figura 1
 
 <!-- -->
 
-1.  ![](./media/media/image2.png){width="7.268055555555556in"
-    height="1.7361111111111112in"}
+![](./img/Team Foundation Service/image2.png)
+    
 
 Preview vs. RTM
 ---------------
@@ -109,13 +132,13 @@ Team Foundation Service, al igual que Team Foundation Server 2012, tiene
 como arma fundamental para poder enfrentarse a la competencia un sólido
 tridente, formado por:
 
-Gestión del equipo y su trabajo
+- Gestión del equipo y su trabajo
 
-Control de código fuente
+- Control de código fuente
 
-Automatización de *builds*, pruebas y despliegues
+- Automatización de *builds*, pruebas y despliegues
 
-1.  
+
 
 Gestión del trabajo
 -------------------
@@ -126,12 +149,12 @@ en especial Scrum. Se ha rediseñado todo el portal web (figura 2), que
 ahora es compatible con los navegadores más modernos, sacando el mayor
 partido posible de las últimas tecnologías web, como HTML5.
 
-1.  Figura 2
+Figura 2
 
 <!-- -->
 
-1.  ![](./media/media/image3.png){width="7.268055555555556in"
-    height="3.75625in"}
+![](./img/Team Foundation Service/image3.png)
+    
 
 Una vez hemos creado un proyecto de equipo, en la nueva página de cuadro
 de mandos podremos visualizar una visión general del estado del
@@ -144,7 +167,7 @@ Para gestionar el trabajo, encontraremos tres agrupaciones con una
 multitud de opciones nuevas y diferentes que nos permitirán una gran
 variedad de actividades:
 
-**Gestión del *backlog***. Se trata de un conjunto de vistas que nos
+- **Gestión del *backlog***. Se trata de un conjunto de vistas que nos
 permitirán organizar los requerimientos e ir asignándolos en cada
 iteración. Además, nos servirá también como herramienta para organizar
 el plan de un *sprint*. Como herramientas destacadas, encontraremos las
@@ -152,38 +175,38 @@ diferentes gráficas de velocidad del equipo y la de trabajo acumulado,
 junto con un *backlog board* (figura 3), que dará una visión global al
 *Product Owner* y el *Scrum Master* del estado de los requerimientos.
 
-***Sprint* actual**. Para que el equipo también saque partido de la
+- ***Sprint* actual**. Para que el equipo también saque partido de la
 nueva plataforma, se pone a su disposición un *task board* (figura 4)
 donde se pueden gestionar las tareas de la iteración actual y gestionar
 los *post-it* virtuales, para marcar el trabajo como en progreso o
 terminado. Desde luego, una forma mucho más ecológica, aunque menos
 personalizable y vistosa.
 
-**Gestión de los elementos de trabajo**. Una nueva herramienta para
+- **Gestión de los elementos de trabajo**. Una nueva herramienta para
 crear y gestionar, desde el portal web, consultas sobre todos los
 elementos de trabajo como tareas, requerimientos, bugs, impedimentos…
 Estas consultas pueden anclarse al *dashboard* principal añadiéndolas en
 la lista de favoritos del equipo.
 
-1.  
+
 
 <!-- -->
 
-1.  Figura 3
+Figura 3
 
 <!-- -->
 
-1.  ![](./media/media/image4.png){width="7.268055555555556in"
-    height="3.0993055555555555in"}
+![](./img/Team Foundation Service/image4.png)
+    
 
 <!-- -->
 
-1.  Figura 4
+Figura 4
 
 <!-- -->
 
-1.  ![](./media/media/image5.png){width="7.268055555555556in"
-    height="3.4069444444444446in"}
+![](./img/Team Foundation Service/image5.png)
+    
 
 La mayor ventaja de todo esto es que, aunque las herramientas estén
 basadas en metodologías ágiles, no es necesario aplicarlas en el día a
@@ -205,37 +228,37 @@ usados (concretamente, Visual Studio y Eclipse), podremos tener un
 control total, tanto *online* como en modo local, del código fuente de
 nuestros proyectos.
 
-1.  Figura 5
+Figura 5
 
 <!-- -->
 
-1.  ![](./media/media/image6.png){width="3.760941601049869in"
-    height="2.448257874015748in"}
+![](./img/Team Foundation Service/image6.png)
+    
 
 Desde el portal web también tendremos acceso a una visión de todos los
 archivos almacenados en el control del código fuente, además de poder
 obtener informes suplementarios, como un listado de *changesets* y otro
 de *shelvesets* (figura 6).
 
-1.  FIgura 6
+FIgura 6
 
 <!-- -->
 
-1.  ![](./media/media/image7.png){width="6.865541338582677in"
-    height="2.7608016185476814in"}
+![](./img/Team Foundation Service/image7.png)
+    
 
 A todo lo anterior deberemos añadir dos nuevas funcionalidades para
 versiones de Visual Studio Premium o superiores:
 
-La posibilidad de lanzar un *workflow* de revisión de código, donde el
+- La posibilidad de lanzar un *workflow* de revisión de código, donde el
 resto del equipo nos podrá dar *feedback* en tiempo real.
 
-La nueva vista **My Work** dentro de Team Explorer, que nos permitirá
+- La nueva vista **My Work** dentro de Team Explorer, que nos permitirá
 tener en una sola pantalla la información de nuestro trabajo actual, las
 revisiones de código, los *shelvesets* y *work items* que tenemos
 asignados.
 
-1.  
+
 
 Automatización de builds, pruebas y despliegues
 -----------------------------------------------
@@ -246,12 +269,12 @@ Podremos beneficiarnos de una máquina en la nube para realizar estas
 operaciones de forma automática (al realizar un *check-in* o todas las
 noches, por ejemplo) o bajo demanda.
 
-1.  Figura 7
+Figura 7
 
 <!-- -->
 
-1.  ![](./media/media/image8.png){width="7.268055555555556in"
-    height="2.5347222222222223in"}
+![](./img/Team Foundation Service/image8.png)
+    
 
 Dentro de estos procesos, podremos incluir acciones como que se evalúen
 automáticamente pruebas unitarias, o incluso realizar despliegue
@@ -272,13 +295,13 @@ tiempo que citamos las características que Team Foundation Service
 ofrece, no podemos obviar sus limitaciones con respecto la versión
 *on-premises*:
 
-La que consideremos más importante es el hecho de que no podremos crear
+- La que consideremos más importante es el hecho de que no podremos crear
 plantillas de procesos propias; tendremos que usar alguna de las que
 vienen configuradas por defecto: Scrum, Agile o CMMI. Esta carencia con
 respecto al TFS tradicional hará que algunas empresas, antes de adaptar
 sus procesos, no opten directamente por esta opción.
 
-Otro problema que podemos encontrar a la hora de migrar o decidirnos
+- Otro problema que podemos encontrar a la hora de migrar o decidirnos
 acerca del uso de esta plataforma es que no se puede integrar con otros
 servicios empresariales, como pueden ser SharePoint, Project Server o
 incluso System Center. Dentro de estos servicios, tampoco se puede
@@ -286,13 +309,13 @@ integrar con servicios de federación, razón por la cual, para poder usar
 este producto, es imprescindible disponer de una cuenta de Microsoft
 Account (anteriormente conocida como Windows Live ID).
 
-La última de las carencias que pueden hacer poco atractiva esta versión
+- La última de las carencias que pueden hacer poco atractiva esta versión
 de Team Foundation Service es el sistema de informes. Aunque se han
 añadido muchas plantillas por defecto (que son muy útiles), no se
 soportan las funciones de generar informes que encontramos en el
 producto *on-premises*.
 
-1.  
+
 
 Pero, como hemos dicho anteriormente, la idea es que ambos productos
 converjan en uno solo, por lo que se espera que, con el tiempo, todas
