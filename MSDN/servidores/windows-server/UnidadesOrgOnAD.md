@@ -1,10 +1,32 @@
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Leonardo Ponti                                                                                                                                                                                                                                                                                                                                                 Octubre 2012
-                                                                                                                                                                                                                                                                                                                                                                 
-  Especialista en Directory Services luego de Manejar la infraestructura desde el año 2003, pasando por migración de versiones, diseños, implementaciones, soporte, consultoría, testing, ofreciendo desde un principio la mejora continua del producto en las empresas que vi directamente la implementación o indirectamente desde el área de soporte Online   
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------
-  [Blog](http://blogs.itpro.es/leoponti)
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+<properties
+	pageTitle="Generando Unidades Organizativas en Active Directory"
+	description="Generando Unidades Organizativas en Active Directory"
+	services="servers"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="servers"
+	ms.workload="AD"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+#Generando Unidades Organizativas en Active Directory
+
+
+**Leonardo Ponti**
+                                                                                  
+Especialista en Directory Services luego de Manejar la infraestructura desde el año 2003, pasando por migración de versiones, diseños, implementaciones, soporte, consultoría, testing, ofreciendo desde un principio la mejora continua del producto en las empresas que vi directamente la implementación o indirectamente desde el área de soporte Online   
+
+[Blog](http://blogs.itpro.es/leoponti)
+
+Octubre 2012
 
 Hola a todos!
 
@@ -31,8 +53,8 @@ Windows Server 2008 o Superior, el Feature de Administración instalado.
 Luego hacemos **Start – Administrative Tools – Active Directory Users
 and Computers** como se muestra en la siguiente pantalla:
 
-1.  ![](./media/media/image1.png){width="6.5in"
-    height="6.767361111111111in"}
+![](./img/UnidadesOrgOnAD/image1.png)
+    
 
 También podemos abrir la consola, desde **Start – Run -** Poniendo la
 llamada a la consola **dsa.msc**
@@ -42,14 +64,14 @@ OU ya existente o al raiz del dominio como muestro, donde queremos
 generar la nueva OU, y ahí desplegamos el menu y vamos: **New –
 Organizational Unit**:
 
-1.  ![](./media/media/image2.png){width="4.293402230971129in"
-    height="4.251718066491689in"}
+![](./img/UnidadesOrgOnAD/image2.png)
+    
 
 Al seleccionar la opción según la pantalla, nos aparecerá la siguiente
 ventana para cargar la OU:
 
-1.  ![](./media/media/image3.png){width="4.564344925634296in"
-    height="3.855725065616798in"}
+![](./img/UnidadesOrgOnAD/image3.png)
+    
 
 La opción “Protect container from accidental deletion”, si la dejamos
 tildada, aplicara una seguridad que evitará el borrar la OU en forma
@@ -61,8 +83,8 @@ LeoPonti](http://blogs.itpro.es/leoponti/2012/08/30/video-protection-from-accide
 Ponemos entonces, en el recuadro “Name”, el nombre de la OU que deseamos
 crear:
 
-1.  ![](./media/media/image4.png){width="4.585187007874016in"
-    height="3.845304024496938in"}
+![](./img/UnidadesOrgOnAD/image4.png)
+    
 
 Luego, como comente al principio, dentro de una OU, podemos también
 crear otra OU y bajo la estructura de contenedores que querramos aplicar
@@ -72,13 +94,13 @@ práctica para administrarlos. Entonces, quedando el directorio como
 leoponti.net/OUTest, crearemos otra OU “OUTest” dentro de la detallada,
 como se muesta a continuación:
 
-1.  ![](./media/media/image5.png){width="4.585187007874016in"
-    height="3.845304024496938in"}
+![](./img/UnidadesOrgOnAD/image5.png)
+    
 
 Quedando las OUs creadas, de la siguiente manera:
 
-1.  ![](./media/media/image6.png){width="2.782374234470691in"
-    height="3.13668416447944in"}
+![](./img/UnidadesOrgOnAD/image6.png)
+    
 
 Sobre los nombres de OU, como mostramos anteriormente, podemos crear con
 el mismo nombre siempre y cuando una este dentro de otra, no podemos
@@ -89,13 +111,13 @@ aparecerá el error como les muestro:
 Generaremos dentro de leoponti.net/OUTest, la OU “OUTest” existiendo
 previamente una OU con el mismo nombre y en el mismo directorio:
 
-1.  ![](./media/media/image7.png){width="6.5in"
-    height="3.886111111111111in"}
+![](./img/UnidadesOrgOnAD/image7.png)
+    
 
 Donde nos aparecerá el siguiente error:
 
-1.  ![](./media/media/image8.png){width="4.574765966754156in"
-    height="3.834882983377078in"}
+![](./img/UnidadesOrgOnAD/image8.png)
+    
 
 De esta forma, les muestro también una limitación con la estructura de
 nombres que querramos aplicar, ya que dentro de un mismo directorio de

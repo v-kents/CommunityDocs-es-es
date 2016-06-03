@@ -13,4 +13,6 @@
 #[Windows PowerShell Web Access](Windows-PowerShell-Web-Access.md)
 #[Activación automática de conexiones VPN y VPN Diagnóstico Mejoras en Windows 8.1](ActivacionAutoVPN.md)
 #[Creando entradas de blog en SharePoint 2010 desde el envío de correo](Creando entradas de blog en SharePoint 2010.md)
-
+#[¿Qué hay de nuevo en Windows Server 2012 R2? - Escenarios de extremo a extremo a través de productos](EscenariosDeExtremoAextremo.md)
+#[Generando Unidades Organizativas en Active Directory](UnidadesOrgOnAD.md)
+#[¿Qué hay de nuevo en el 2012 R2? Haciendo a los usuarios de dispositivos más Productivos y Protegiendo de información corporativa](usuarios de dispositivos.md)

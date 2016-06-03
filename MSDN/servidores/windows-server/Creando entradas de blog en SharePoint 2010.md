@@ -1,6 +1,4 @@
 
-
-
 <properties
 	pageTitle="Creando entradas de blog en SharePoint 2010 desde el envío de correo"
 	description="Creando entradas de blog en SharePoint 2010 desde el envío de correo"
