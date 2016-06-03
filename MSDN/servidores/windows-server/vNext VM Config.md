@@ -1,8 +1,32 @@
-Por Juan José Diaz Antuña, @diazantuna 
+
+<properties
+	pageTitle="Hyper-V vNext Virtual Machine Configuration Version"
+	description="Hyper-V vNext Virtual Machine Configuration Version"
+	services="servers"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+<tags
+	ms.service="HyperV"
+	ms.workload="HyperV"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
+
+#Hyper-V vNext Virtual Machine Configuration Version
+
+
+
+
+
+Por [Juan José Diaz Antuña](http://mvp.microsoft.com/en-us/mvp/Juan Jose Diaz Antu%c3%b1a-5000260), [@diazantuna](https://twitter.com/diazantunahttps:/twitter.com/diazantuna)
 
 Microsoft MVP
 
-Windows Expert-IT Pro
+Windows Expert - IT Pro
 
 Ya sabéis que hay una nueva versión de Windows Server, hasta ahora en
 Technical Preview, y que por supuesto entre múltiples novedades trae
@@ -30,17 +54,17 @@ Puedo ver la versión de mi máquina virtual con el comando:
 
 Para actualizar de versión 5 a 6 debo de tener en cuenta estos puntos:
 
-Una vez actualizada la máquina virtual no puedo mover la maquina aun
+- Una vez actualizada la máquina virtual no puedo mover la maquina aun
 servidor de Hyper-V en Windows Server 2012 R2
 
-Una vez pasada a versión 6 no puedo pasar a versión 5
+- Una vez pasada a versión 6 no puedo pasar a versión 5
 
-Para actualizar la máquina, esta debe de estar apagada.
+- Para actualizar la máquina, esta debe de estar apagada.
 
-El cmdlet para actualizar está bloqueado en un clúster de Hyper-V si su
+- El cmdlet para actualizar está bloqueado en un clúster de Hyper-V si su
 nivel funcional es 2012 R2.
 
-Una vez actualizada la máquina virtual, el fichero de configuración de
+- Una vez actualizada la máquina virtual, el fichero de configuración de
 máquina virtual pasa a ser con extensión .VMCX y un fichero .VMRS para
 el runtime de la máquina. Estos nuevos ficheros mejoran la eficiencia de
 acceso de lectura/escritura a la configuración de la misma, así como

@@ -16,3 +16,6 @@
 #[¿Qué hay de nuevo en Windows Server 2012 R2? - Escenarios de extremo a extremo a través de productos](EscenariosDeExtremoAextremo.md)
 #[Generando Unidades Organizativas en Active Directory](UnidadesOrgOnAD.md)
 #[¿Qué hay de nuevo en el 2012 R2? Haciendo a los usuarios de dispositivos más Productivos y Protegiendo de información corporativa](usuarios de dispositivos.md)
+#[Hyper-V vNext Virtual Machine Configuration Version](vNext VM Config.md)
+#[Recuperando un documento de una base de datos de contenido desconectada SharePoint 2010](RecDocDeDB.md)
+#[Renombrar Domain Controller ADDS 2008R2](RenombrarDC2008R2.md)
