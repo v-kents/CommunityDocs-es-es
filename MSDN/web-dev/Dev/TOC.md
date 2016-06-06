@@ -15,3 +15,4 @@
 #[Implementando un CustomPasswordValidator en ASP.NET Identity](Implementando-CustomPasswordValidator.md)
 #[WCF – xsd:import schemalocation que no puede ser interpretado desde PHP](wsdl-schemalocation.md)
 #[Vídeo WebVTT. Una introducción a subtítulos](Video-WebVTT.md)
+#[Validaciones no intrusivas en ASP.NET 4.5](Validaciones-no-intrusivas-en-ASPNET.md)
