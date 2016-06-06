@@ -23,3 +23,5 @@
 #[Optimización de Consultas Parte 1 - Generalidades](Optimizacion n. 1 - Generalidades.md)
 #[Optimización de Consultas Parte 2 - Anti Semi Joins](Optimizacion n. 2 - Anti Semi Joins.md)
 #[Optimización de Consultas Parte 3 - Recopilación de procedimientos Almacenados](Optimizacion n.3 - Recopilacion de procedimientos Almacenados.md)
+#[Combinando Índices Columnares y Particionado de datos en Tablas](Combinando-Indices-Columnares.md)
+#[Cuando la copia de evaluación de SQL Server expira](expired-edition.md)
