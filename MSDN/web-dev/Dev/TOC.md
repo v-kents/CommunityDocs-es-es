@@ -14,3 +14,4 @@
 #[Administración de Web Sites con Azure Explorer](Administracion-con-Azure-Explorer.md)
 #[Implementando un CustomPasswordValidator en ASP.NET Identity](Implementando-CustomPasswordValidator.md)
 #[WCF – xsd:import schemalocation que no puede ser interpretado desde PHP](wsdl-schemalocation.md)
+#[Vídeo WebVTT. Una introducción a subtítulos](Video-WebVTT.md)
