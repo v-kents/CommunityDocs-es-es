@@ -28,7 +28,7 @@
 
 #[Servicios InterGranjas para Gobiernos Corporativos y Administrativos con SharePoint 2010](Servicios InterGranjas.md)
 
-#[Servicios de SharePoint 2013 - III: Programando un Servicio propio](Servicios de SharePoint 2013.md)
+#[Servicios de SharePoint 2013 - III: Programando un Servicio propio](Servicios-de-SharePoint-2013.md)
 
 #[Script para permitir a las bibliotecas abrir los archivos PDFS en SharePoint 2010](Script per PDFs en Sharepoint.md)
 
