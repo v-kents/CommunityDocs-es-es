@@ -11,3 +11,6 @@
 #[Micro-datos. Semántica real en la Web](Microdata.md)
 #[Administración de Web Sites con el Azure Explorer](Administracion-con-Azure-Explorer.md)
 #[Ventanas Modales en WPF](Ventanas-Modales-en-WPF.md)
+#[Administración de Web Sites con Azure Explorer](Administracion-con-Azure-Explorer.md)
+#[Implementando un CustomPasswordValidator en ASP.NET Identity](Implementando-CustomPasswordValidator.md)
+#[WCF – xsd:import schemalocation que no puede ser interpretado desde PHP](wsdl-schemalocation.md)
