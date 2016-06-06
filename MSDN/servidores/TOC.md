@@ -46,3 +46,5 @@
 #[El Centro de Exhibición de Documentos Electrónicos de SharePoint Server 2013](DiscoveryCenterSharePoint2013.md)
 #[Cómo hacer un backup en Azure desde SSMS 2014](Backup en Windows Azure desde SSMS 2014.md)
 #[Cómo hacer Backup y Restaurar un Modelo MDS (Deploy)](Backup y Restaurar un Modelo MDS.md)
+
+#[Notificaciones a usuarios y miembros del Service Desk](SCSM-Notificaciones-I.md)
