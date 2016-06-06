@@ -12,3 +12,4 @@
 #[Iteradores y async. ¿Están sincronizados?](IteradoresAsync.md)
 #[[Entity Framework] Sobre Data Annotations](Sobre-Data-Annotations.md)
 #[Visual Studio 2013: Trabajando con versiones múltiples del .NET Framework](Versiones-múltiple-del-NET-Framework.md)
+#[Cobertura de pruebas unitarias](Metricas-en-Visual-Studio.md)
