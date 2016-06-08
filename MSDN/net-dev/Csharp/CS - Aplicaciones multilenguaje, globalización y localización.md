@@ -4,7 +4,7 @@
 	description="Ejemplo de Aplicaciones multilenguaje, globalización y localización en C#"
 	services="net-dev"
 	documentationCenter=""
-	authors="andygonusa"
+	authors="JUanKRuiz"
 	manager=""
 	editor="andygonusa"/>
 
