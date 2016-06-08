@@ -22,21 +22,7 @@ ms.author="andygonusa"/>
 
 #El Centro de Exhibición de Documentos Electrónicos de SharePoint Server 2013
 
-Sobre el autor
---------------
-
-Gustavo Velez es Microsoft MVP SharePoint y trabaja como Group Manager
-para Avanade (<http://www.avanade.com>), una multinacional especializada
-en integración de sistemas basados en tecnologías de Microsoft. En sus
-muchos años de experiencia desarrollando y diseñando aplicaciones
-Windows y Office, especialmente de SharePoint, Gustavo ha dado
-seminarios y entrenamientos en SharePoint y dando consultorías privadas
-y sus artículos se pueden encontrar en varios magazines en Ingles,
-holandés, alemán y español. Es webmaster de <http://www.gavd.net>, el
-sitio Web de referencia sobre información de SharePoint en Español.
-Gustavo ha creado videos de entrenamientos online para Microsoft MSDN
-sobre SharePoint 2007 y SharePoint 2010 y es autor de seis libros en
-inglés y español sobre SharePoint.
+Por **Gustavo Velez**
 
 Introducción
 ------------
