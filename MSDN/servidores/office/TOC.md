@@ -11,3 +11,4 @@
 #[SharePoint 2010 y Open XML SDK. Creación de informes personalizados](SharePoint_OpenXML.md)
 #[Servicios de SharePoint 2013 - III: Programando un Servicio propio](Servicios-de-SharePoint-2013.md)
 #[Script para permitir a las bibliotecas abrir los archivos PDFS en SharePoint 2010](Script per PDFs en Sharepoint.md)
+#[El Centro de Exhibición de Documentos Electrónicos de SharePoint Server 2013](DiscoveryCenterSharePoint2013.md)
