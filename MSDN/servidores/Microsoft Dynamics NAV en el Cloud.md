@@ -22,9 +22,7 @@ ms.author="andygonusa"/>
 #Microsoft Dynamics NAV en el Cloud
 
 
-Josep Pages
-
-[MicrosoftMVP](http://mvp.microsoft.com/en-US/findanmvp/Pages/profile.aspx?MVPID=54ae069a-ac77-4e6c-8fad-0c525bfe9cbb)
+Por **Josep Pages**
 
 <http://geeks.ms/blogs/jpages/>
 

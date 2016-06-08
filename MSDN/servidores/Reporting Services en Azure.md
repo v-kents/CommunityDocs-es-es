@@ -23,11 +23,7 @@ ms.author="andygonusa"/>
 
 
 
-Por FREDDY LEANDRO ANGARITA C.
-
-SQL Server MVP - [Perfil MVP](https://mvp.support.microsoft.com/es-es/mvp/Freddy%20Leandro%20Angarita%20Castellanos-4028407)
-
-<freddy_angarita@hotmail.com>
+Por **Freddy Angarita**
 
 <http://geeks.ms/blogs/fangarita/default.aspx>
 

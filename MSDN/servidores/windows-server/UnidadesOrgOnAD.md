@@ -20,7 +20,7 @@
 #Generando Unidades Organizativas en Active Directory
 
 
-**Leonardo Ponti**
+Por **Leonardo Ponti**
                                                                                   
 Especialista en Directory Services luego de Manejar la infraestructura desde el año 2003, pasando por migración de versiones, diseños, implementaciones, soporte, consultoría, testing, ofreciendo desde un principio la mejora continua del producto en las empresas que vi directamente la implementación o indirectamente desde el área de soporte Online   
 

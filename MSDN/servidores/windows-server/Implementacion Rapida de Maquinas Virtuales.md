@@ -23,8 +23,8 @@ ms.author="andygonusa"/>
 
 
 
-Guillermo Delprato, MCT-MCITP-MCTS-MCSE(NT 3.51/4.0/2000/2003)-MCSA   Septiembre 2012
---------------------------------------------------------------------- -----------------
+Por **Guillermo Delprato**
+
 [Blog](http://windowserver.wordpress.com/)
 
 

@@ -24,7 +24,8 @@ ms.author="andygonusa"/>
 Julio 2012
 
 
-Juan Andrés Valenzuela , MCTS SharePoint Server 2007                                       
+Por **Juan Andrés Valenzuela**
+                                      
 MVP y Director de MOSSCA.org (Grupo latinoamericano de Usuarios de SharePoint). Periodista y Consultor de Soluciones Colaborativas y ha desarrollado diversos proyectos SharePoint desde su versión en Team Services. Especialista en Usabilidad, y Experiencia del Usuario, es diplomado en Multimedia e Internet aplicado a la Educación, Comunicación y Negocios. Actualmente es Consultor Senior IW y además es Microsoft Certified Technology Specialist de MOSS 2007.
 
 #### Las aplicaciones de servicios intergranjas, nos entregan la gran potencialidad de poder optar por una implementación de Granja de Servicios, que esté disponible para proveer las funcionalidades de muchas granjas de contenidos necesarias en un gran Holding Empresarial o un Gobierno Administrativo Nacional. La eficiencia de la administración de los recursos tecnológicos como humanos; como también la eliminación de la “redundancia funcional” son claves para optar a este tipo de arquitectura, que también apoyan la Gestión del Conocimiento de las Organizaciones.

@@ -24,22 +24,11 @@ ms.author="andygonusa"/>
 #Guía de Migración de Objetos -Job- paso a paso
 
 
-[Marcela Berri](https://plus.google.com/102022832380927697290/posts/p/pub)
+Por [Marcela Berri](https://plus.google.com/102022832380927697290/posts/p/pub)
 
 Instructor / Consultor Senior IT
 
-MCT – MVP Configuration Manager
-
-MCTS Server Administrator - MCTS AD 2008 - MCTS Network Inf
-
-MCTS - Server Virtualization
-
-MCTS W7 & Off2010 - MCTS SCCM 2012/2007 - MCTS SCOM 2007
-
-MCITP Exchange 2010/2007 - MCTS Exch 2010/2007 - MCTS Lync 2010
-
-
-Blog [IT Technology Site: *About me*](http://ittechnologysite.blogspot.com.ar/)
+Blog [IT Technology Site](http://ittechnologysite.blogspot.com.ar/)
 
 Una vez finalizada y establecida la conexión, estamos listos para migrar los objetos que se deseen. Ver tambien: [Paso 1 - conexión](http://msdn.microsoft.com/es-es/library/dn387639.aspx)
 

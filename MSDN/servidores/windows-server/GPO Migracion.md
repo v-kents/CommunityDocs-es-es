@@ -25,7 +25,6 @@ Por [Juan José Diaz
 Antuña](http://mvp.microsoft.com/en-us/mvp/Juan%20Jose%20Diaz%20Antu%c3%b1a-5000260),
 [@diazantuna ](https://twitter.com/diazantunahttps:/twitter.com/diazantuna)
 
-Microsoft MVP
 
 Windows Expert-IT Pro
 

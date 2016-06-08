@@ -7,7 +7,7 @@ Por **Juan Ignacio Oller Aznar**
 
 https://twitter.com/jioller 
 
-http://blogs.itpro.es/jioller/
+[Blog](http://blogs.itpro.es/jioller/)
 
 
 ###Justificación:

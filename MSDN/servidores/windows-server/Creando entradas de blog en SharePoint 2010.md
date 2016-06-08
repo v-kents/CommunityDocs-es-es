@@ -19,16 +19,14 @@
 #Creando entradas de blog en SharePoint 2010 desde el envío de correo
 
 
-**Juan Manuel (Manolo) Herrera**                                                                                                   
+Por **Juan Manuel (Manolo) Herrera**                                                                                                   
 
 Mas de 16 años como desarrollador de software para aplicaciones agrícola comerciales.                                            
-Amante de la tecnología .NET, disfruto mucho enseñando y compartiendo la experiencia y conocimientos adquiridos de la tecnología.\ 
+Amante de la tecnología .NET, disfruto mucho enseñando y compartiendo la experiencia y conocimientos adquiridos de la tecnología.
 En busca siempre por la alta calidad, mi investigación es sobre patrones de diseño, desarrollo ágil y factories. Soy un fiel seguidor y aprendiz de "Refactoring" y "Desing Patterns".   
 
 [Blog](http://jmhogua.blogspot.com/)
   
-
-*Octubre 2012*
 
 
 Esto es posible gracias a la opción “Incoming E-mail” disponible en

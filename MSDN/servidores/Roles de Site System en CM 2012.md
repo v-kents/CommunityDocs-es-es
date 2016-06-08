@@ -21,23 +21,11 @@ ms.author="andygonusa"/>
 #Roles de Site System en CM 2012
 
 
+Por [Marcela Berri](https://plus.google.com/102022832380927697290/posts/p/pub)
 
-
-[Marcela Berri](https://plus.google.com/102022832380927697290/posts/p/pub)
 Instructor / Consultor Senior IT
 
-MCT – MVP Configuration Manager
-
-MCTS Server Administrator - MCTS AD 2008 - MCTS Network Inf
-
-MCTS - Server Virtualization
-
-MCTS W7 & Off2010 - MCTS SCCM 2012/2007 - MCTS SCOM 2007
-
-MCITP Exchange 2010/2007 - MCTS Exch 2010/2007 - MCTS Lync 2010
-
-Blog [IT Technology Site: *About
-me*](http://ittechnologysite.blogspot.com.ar/)
+Blog [IT Technology Site](http://ittechnologysite.blogspot.com.ar/)
 
 
 

@@ -21,13 +21,10 @@
 #Windows Server 2012 Essentials – Característica de Backup
 
 
-Septiembre 2012
+Por **Jair Gomez Arias**
 
-  Jair Gomez Arias, Ingeniero de infraestructura Microsoft Y Microsoft Community Specialist de la ciudad de Barranquilla Colombia, con conocimiento y experiencia en Administración de Centros de datos en Plataforma Microsoft.   
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------
-  [Blog](http://blogs.itpro.es/jairgomez/)
+[Blog](http://blogs.itpro.es/jairgomez/)
 
-<span id="fb_share" class="anchor"></span>
 
 Hola a todos, continuando con la serie enfocada a **Windows Server 2012
 Essentials** en esta ocasión veremos que poseemos de una característica

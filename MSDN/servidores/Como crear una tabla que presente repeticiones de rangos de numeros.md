@@ -21,7 +21,7 @@ ms.author="andygonusa"/>
 #Cómo crear una tabla que presente repeticiones de rangos de números
 
 
-Por FREDDY LEANDRO ANGARITA C.
+Por **Freddy Angarita**
 
 SqlServer MVP - [Perfil
 MVP](https://mvp.support.microsoft.com/es-es/mvp/Freddy%20Leandro%20Angarita%20Castellanos-4028407)

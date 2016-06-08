@@ -20,13 +20,12 @@
 
 #Windows Server 2012 Essentials – Primeros pasos de administración
 
-Septiembre 2012
 
-  Jair Gomez Arias, Ingeniero de infraestructura Microsoft Y Microsoft Community Specialist de la ciudad de Barranquilla Colombia, con conocimiento y experiencia en Administración de Centros de datos en Plataforma Microsoft.   
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------
-  [Blog](http://blogs.itpro.es/jairgomez/)
 
-<span id="fb_share" class="anchor"></span>
+Por **Jair Gomez Arias**
+
+[Blog](http://blogs.itpro.es/jairgomez/)
+
 
 Después del proceso de instalación de Windows Server 2012 Essentials, un proceso algo largo debido a la comprobación de requisitos del sistema, estamos listos para ver que tiene de diferencia en cuanto a las ediciones Standard o Datacenter.
 

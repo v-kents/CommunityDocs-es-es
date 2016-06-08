@@ -23,15 +23,12 @@
 
 #Windows Server 2012 Essentials – Crear carpetas compartidas
 
--------------------------------------
-Jair Gomez Arias , Microsoft Community Specialist                   
-Ingeniero de infraestructura Microsoft Y Microsoft Community Specialist de la ciudad de Barranquilla Colombia, con conocimiento y experiencia en Administración de Centros de datos en Plataforma Microsoft.   
 
----------------
+Por **Jair Gomez Arias**
 
-  [Blog](http://blogs.itpro.es/jairgomez/)
+[Blog](http://blogs.itpro.es/jairgomez/)
   
-Octubre 2012
+
 
 
 

@@ -22,6 +22,7 @@
 #[Instalación y Configuración en Windows Server 2012 de Windows Deployment Services](LAB Virtual WS 2012 y Windows 8 Parte 3.md)
 #[Agregando las imágenes de Windows 8 a WDS y haciendo el despliegue mediante la red](LAB Virtual WS 2012 y Windows 8 Parte 4.md)
 #[Instalación y Configuración de Microsoft Deployment Toolkit 2012 (MDT) Update 1](LAB Virtual WS 2012 y Windows 8 Parte 5.md)
+#[Hyper-V: Implementación Rápida de Máquinas Virtuales](Implementacion Rapida de Maquinas Virtuales.md)
 
 
 

@@ -22,7 +22,7 @@
 #Clonando DCs de Windows Server 2012
 
 
-Por Juan José Diaz Antuña, @diazantuna 
+Por **Juan José Diaz Antuña**, @diazantuna 
 
 Microsoft MVP
 

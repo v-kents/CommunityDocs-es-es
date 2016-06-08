@@ -22,7 +22,7 @@ ms.author="andygonusa"/>
 #Cómo hacer Backup y Restaurar un Modelo MDS (Deploy)
 
 
-Por FREDDY LEANDRO ANGARITA C.
+Por **Freddy Angarita**
 
 SqlServer MVP - [Perfil
 MVP](https://mvp.support.microsoft.com/es-es/mvp/Freddy%20Leandro%20Angarita%20Castellanos-4028407)

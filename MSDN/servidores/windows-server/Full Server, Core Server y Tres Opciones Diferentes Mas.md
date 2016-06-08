@@ -21,14 +21,11 @@
 
 #Full Server, Core Server y Tres Opciones Diferentes Más
 
-  Guillermo Delprato, MCT-MCITP-MCTS-MCSE(NT 3.51/4.0/2000/2003)-MCSA   
+Por **Guillermo Delprato**   
   
-  Soy uno de los primeros certificados en Argentina en tecnologías Microsoft desde el año 1996, dedicándome principalmente a capacitación, siendo MCT, y actualmente a consultoría sobre sistemas operativos, soluciones de conectividad entre redes y seguridad.   
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------
-  [Blog](http://windowserver.wordpress.com/)
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[Blog](http://windowserver.wordpress.com/)
 
-Octubre 2012
+
 
 Sigo investigando Windows Server 2012 (Release Candidate en este
 momento) y cada vez encuentro nuevas sorpresas, o configuraciones hasta
