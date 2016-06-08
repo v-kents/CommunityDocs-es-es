@@ -12,3 +12,8 @@
 #[Servicios de SharePoint 2013 - III: Programando un Servicio propio](Servicios-de-SharePoint-2013.md)
 #[Script para permitir a las bibliotecas abrir los archivos PDFS en SharePoint 2010](Script per PDFs en Sharepoint.md)
 #[El Centro de Exhibición de Documentos Electrónicos de SharePoint Server 2013](DiscoveryCenterSharePoint2013.md)
+#[Backup and Restoring en Microsoft Lync Server 2010-2013](Backup-and-Restoring-Lync-Server.md)
+#[Descargando, instalando y configurando cliente Lync en Android](Cliente-Lync-Android.md)
+#[Cliente Lync: Error de llamada por problemas de red](Error-de-llamada-problemas-de-red.md)
+#[¿Cómo saber la versión de mi Servidor Lync 2010-2013?](La-version-de-mi-Servidor-Lync.md)
+#[Creación de una política en AD para despliegue de certificados para OCS Lync cliente](Politica-para-OCS-Lync.md)
