@@ -1,3 +1,20 @@
+<properties
+	pageTitle="Creación de una política en directorio activo para despliegue de certificados para OCS Lync cliente"
+	description="Creación de una política en directorio activo para despliegue de certificados para OCS Lync cliente"
+	services="server"
+	documentationCenter=""
+	authors="andygonusa"
+	manager=""
+	editor="andygonusa"/>
+
+<tags
+	ms.service="server"
+	ms.workload="identity"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="how-to-article"
+	ms.date="05/16/2016"
+	ms.author="andygonusa"/>
 
 
 #Creación de una política en directorio activo para despliegue de certificados para OCS Lync cliente
