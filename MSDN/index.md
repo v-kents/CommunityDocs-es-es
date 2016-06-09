@@ -1,13 +1,6 @@
 ---
-author: andygonusa
+author: MSCommunityPubService
 ---
-
-<properties
-	author="MSCommunityPubService"
-	editor="MSCommunityPubService"/>
-
-<tags
-	ms.author="MSCommunityPubService"/>
 
 
 
