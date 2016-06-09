@@ -54,7 +54,7 @@ en mi caso no lo he realizado
 
 Añado la cuenta de Azure
 
-![](/img/Azure Logs Eventos/image5.png)
+![](./img/Azure Logs Eventos/image5.png)
 
 Creo el script
 
