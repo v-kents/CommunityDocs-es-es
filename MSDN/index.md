@@ -1,5 +1,5 @@
 <properties
-	authors="MSCommunityPubService"
+	author="MSCommunityPubService"
 	editor="MSCommunityPubService"/>
 
 <tags
