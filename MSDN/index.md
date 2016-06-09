@@ -1,3 +1,13 @@
+<properties
+	authors="MSCommunityPubService"
+	editor="MSCommunityPubService"/>
+
+<tags
+	ms.author="MSCommunityPubService"/>
+
+
+
+
 # Artículos Técnicos - Community Docs
 
 ![](./img/minitel.png)
