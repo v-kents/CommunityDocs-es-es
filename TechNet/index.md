@@ -1,6 +1,6 @@
 # Artículos Técnicos - Community Docs
 
-![] (/img/minitel.png)
+![] (./img/minitel.png)
 
 Se trata de una fuente de información para profesionales TI que utilizan herramientas, tecnologías y productos de Microsoft. Estos artículos están escritos *directamente en español* por [**MVPs**](https://mvp.microsoft.com/) y otros líderes de la comunidad y han sido revisados para confirmar la calidad técnica de cada artículo. 
 
