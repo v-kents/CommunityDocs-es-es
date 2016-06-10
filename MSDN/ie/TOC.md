@@ -1,0 +1,5 @@
+#[Abrir ventana del Browser y compartir en redes sociales](Compartir-el-browser-en-redes-sociales.md)
+#[Desactivar la entrega automática de IE](Desactivar-la-entreg- automatica-de-IE.md)
+#[IE11 update y status.modern.ie](IE11-update-y-status-modern-IE.md)
+#[Mejoras a F12 Developer Tools](Mejoras-a-F12-Developer-Tools.md)
+#[Personalización de IE11 con Internet Explorer Administration Kit IEAK](Personalización-de-IE11-IEAK.md)
