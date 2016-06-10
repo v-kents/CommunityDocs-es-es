@@ -1,10 +1,6 @@
 ---
 title: Windows Intune - Gestión de actualizaciones II
-description: La mayor parte de las tareas de actualización las llevará a cabo Windows
-Intune de una manera muy versátil y automatizada. Sin embargo hay una
-serie de circunstancias en las que se requiere un cierto trabajo
-adicional de definición de qué actualizar y cuando. A ello dedicaremos
-el presente artículo.
+description: La mayor parte de las tareas de actualización las llevará a cabo Windows Intune de una manera muy versátil y automatizada. Sin embargo hay una serie de circunstancias en las que se requiere un cierto trabajo adicional de definición de qué actualizar y cuando. A ello dedicaremos el presente artículo.
 author: MSCommunityPubService
 ms.date: 06/01/2016
 ms.topic: how-to-article
