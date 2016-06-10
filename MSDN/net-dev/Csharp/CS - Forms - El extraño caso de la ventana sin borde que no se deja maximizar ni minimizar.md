@@ -19,15 +19,18 @@
 
 # C\# - Forms - El extraño caso de la ventana sin borde que no se deja maximizar ni minimizar
 
-![](./img/CS - Forms - El extraño caso de la ventana sin borde que no se deja maximizar ni minimizar/image1.PNG)
+![Juan Carlos Ruiz ](http://gravatar.com/avatar/2c36e6ebd9b4d33c3e9a0362607b3e57?s=150)
+<!-- -->
 
-Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
+Por Juan Carlos Ruiz Pacheco, **Microsoft Senior Technology Evangelist**
 
-  Twitter   | <https://twitter.com/JuanKRuiz>
-  ----------| ----------------------------------------
-  Facebook  | <https://www.facebook.com/JuanKDev>
-  LinkedIn  | <http://www.linkedin.com/in/juankruiz>
-  Blog      | <http://juank.io>
+  Network   | Url
+  ----------|----------------------------------------
+  Twitter   | https://twitter.com/JuanKRuiz
+  Facebook  | https://www.facebook.com/JuanKDev
+  LinkdIn   | http://www.linkedin.com/in/juankruiz
+  Blog      | https://juank.io
+
 
 En algunas aplicaciones llega a ser necesario tener una ventana sin
 borde en algún momento, una ventana sin borde se logra estableciendo la

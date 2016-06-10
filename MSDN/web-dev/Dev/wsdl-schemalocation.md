@@ -31,6 +31,7 @@ Por Juan Carlos Ruiz Pacheco, **Microsoft Senior Technology Evangelist**
   Facebook  | https://www.facebook.com/JuanKDev
   LinkdIn   | http://www.linkedin.com/in/juankruiz
   Blog      | https://juank.io
+
   
 El caso del WSDL con referencias externas que no puede ser usado en PHP
 Este caso está relacionado con el caso revisado en el artículo:

@@ -19,16 +19,18 @@
 
 # C\# - Inyección de Dependencias
 
-![](./img/CS - Patrones de Diseño – Estrategia/image1.PNG)
+![Juan Carlos Ruiz ](http://gravatar.com/avatar/2c36e6ebd9b4d33c3e9a0362607b3e57?s=150)
+<!-- -->
 
+Por Juan Carlos Ruiz Pacheco, **Microsoft Senior Technology Evangelist**
 
-Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
+  Network   | Url
+  ----------|----------------------------------------
+  Twitter   | https://twitter.com/JuanKRuiz
+  Facebook  | https://www.facebook.com/JuanKDev
+  LinkdIn   | http://www.linkedin.com/in/juankruiz
+  Blog      | https://juank.io
 
-  Twitter   | <https://twitter.com/JuanKRuiz>
-  ----------| ----------------------------------------
-  Facebook  | <https://www.facebook.com/JuanKDev>
-  LinkdIn   | <http://www.linkedin.com/in/juankruiz>
-  Blog      | <http://juank.io>
 
 La **inyección de dependencias** es una herramienta comúnmente utilizada
 en varios patrones de diseño orientado a objetos y consiste en inyectar

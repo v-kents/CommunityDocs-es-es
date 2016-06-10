@@ -20,14 +20,18 @@
 
 # Un vistazo a la función de RegSetValueEx de la API de Windows
 
-Por Juan Carlos Ruiz Pacheco, **Microsoft Technology Evangelist**
+![Juan Carlos Ruiz ](http://gravatar.com/avatar/2c36e6ebd9b4d33c3e9a0362607b3e57?s=150)
+<!-- -->
 
-![](./img/Un vistazo a la función de RegSetValueEx de la API de Windows/image1.png)
+Por Juan Carlos Ruiz Pacheco, **Microsoft Senior Technology Evangelist**
 
-  Twitter   | <https://twitter.com/JuanKRuiz>
-  ----------| ----------------------------------------
-  Facebook  | <https://www.facebook.com/JuanKDev>
-  LinkdIn   | <http://www.linkedin.com/in/juankruiz>
+  Network   | Url
+  ----------|----------------------------------------
+  Twitter   | https://twitter.com/JuanKRuiz
+  Facebook  | https://www.facebook.com/JuanKDev
+  LinkdIn   | http://www.linkedin.com/in/juankruiz
+  Blog      | https://juank.io
+
 
 
 Hace apenas un par días me encontraba con [*Sergio
