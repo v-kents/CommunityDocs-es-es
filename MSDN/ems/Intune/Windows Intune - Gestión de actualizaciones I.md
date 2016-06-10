@@ -1,11 +1,6 @@
 ---
 title: Windows Intune - Gestión de actualizaciones I
-description: Veremos uno de los aspectos más importantes de Windows Intune, la
-gestión de las actualizaciones de los equipos. Aprenderemos a mantener
-nuestro equipo al día de manera eficiente, bien con una intervención
-atendida siguiendo las alertas dadas por el propio Windows Intune, bien
-dictando normas de automatización para aquellas actualizaciones que
-queramos sean aplicadas de forma inmediata.
+description: Veremos uno de los aspectos más importantes de Windows Intune, la gestión de las actualizaciones de los equipos. Aprenderemos a mantener nuestro equipo al día de manera eficiente, bien con una intervención atendida siguiendo las alertas dadas por el propio Windows Intune, bien dictando normas de automatización para aquellas actualizaciones que queramos sean aplicadas de forma inmediata
 author: MSCommunityPubService
 ms.date: 06/01/2016
 ms.topic: how-to-article
