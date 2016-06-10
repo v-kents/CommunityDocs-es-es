@@ -1,8 +1,6 @@
 ---
 title: Windows Intune - Organización en Grupos
-description: Windows Intune está enfocado al trabajo con usuarios y equipos. Bien es
-cierto que cabe la posibilidad de tratarlos individualmente, pero esa
-labor se vuelve poco factible a nada que crezca nuestra red.
+description: Windows Intune está enfocado al trabajo con usuarios y equipos. Bien es cierto que cabe la posibilidad de tratarlos individualmente, pero esa labor se vuelve poco factible a nada que crezca nuestra red.
 author: MSCommunityPubService
 ms.date: 06/01/2016
 ms.topic: how-to-article
