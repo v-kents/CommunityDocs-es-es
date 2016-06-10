@@ -1,21 +1,17 @@
+---
+title: Métricas en Visual Studio- Cobertura de las pruebas unitarias
+description: Métricas en Visual Studio- Cobertura de las pruebas unitarias
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: ALM
+ms.custom: CommunityDocs
+---
 
-<properties
-	pageTitle="Métricas en Visual Studio: Cobertura de las pruebas unitarias"
-	description="Métricas en Visual Studio: Cobertura de las pruebas unitarias"
-	services="ALM"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="ALM"
-	ms.workload="Metrics"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 #Métricas en Visual Studio: Cobertura de las pruebas unitarias
 
@@ -186,5 +182,7 @@ unitaria tendrá todos sus métodos marcados con fondo rojo.
 
 ![](./img/VS Metricas/image9.png)
     
+
+
 
 

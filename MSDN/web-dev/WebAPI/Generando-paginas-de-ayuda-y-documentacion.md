@@ -1,20 +1,16 @@
-<properties
-	pageTitle="[ASP.NET Web API] Generando páginas de ayuda y documentación"
-	description="Generando páginas de ayuda y documentación"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: [ASP.NET Web API] Generando páginas de ayuda y documentación
+description: Generando páginas de ayuda y documentación
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -342,3 +338,5 @@ proyecto, dicho archivo XML contiene la información que se está
 mostrando en pantalla.
 
 Espero les sea interesante el post, ¡saludos!
+
+

@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Web API II – Creando un CRUD, trabajando con verbos HTTP"
-	description="Implementar fácilmente un CRUD"
-	services="ie"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Web API II – Creando un CRUD, trabajando con verbos HTTP
+description: Implementar fácilmente un CRUD
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: ie
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="ie"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -148,3 +144,5 @@ Computer Configuration/Administrative Templates/Classic Administrative
 Templates/Windows Components/Windows Update/Automatic Updates Blockers
 
 Saludos a todos mis lectores y estamos con nuevos post
+
+

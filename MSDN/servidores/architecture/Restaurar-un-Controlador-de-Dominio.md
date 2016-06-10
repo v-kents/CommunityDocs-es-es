@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Restaurar un Controlador de Dominio Desde una Instantánea"
-	description="Restaurar un Controlador de Dominio Desde una Instantánea"
-	services="windows"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Restaurar un Controlador de Dominio Desde una Instantánea
+description: Restaurar un Controlador de Dominio Desde una Instantánea
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: windows
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="windows"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
   
 #Windows Server: Restaurar un Controlador de Dominio Desde una Instantánea
   
@@ -108,3 +104,5 @@ Como hemos podido comprobar, ya tenemos una nueva posibilidad con
 Windows Server 2012 como es poder recuperar el estado de un Controlador
 de Dominio hecho hace un tiempo, y el sistema se recupera perfectamente
 sin mostrar ningún error, como sucedía hasta Windows Server 2008 R2
+
+

@@ -1,25 +1,21 @@
-<properties
-	pageTitle="Windows Intune - Gestión de actualizaciones I"
-	description="Veremos uno de los aspectos más importantes de Windows Intune, la
+---
+title: Windows Intune - Gestión de actualizaciones I
+description: Veremos uno de los aspectos más importantes de Windows Intune, la
 gestión de las actualizaciones de los equipos. Aprenderemos a mantener
 nuestro equipo al día de manera eficiente, bien con una intervención
 atendida siguiendo las alertas dadas por el propio Windows Intune, bien
 dictando normas de automatización para aquellas actualizaciones que
-queramos sean aplicadas de forma inmediata."
-	services="ems"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+queramos sean aplicadas de forma inmediata.
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: ems
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="ems"
-	ms.workload="na"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/12/2016"
-	ms.author="andygonusa"/>
+
+
+
     
 #Windows Intune - Gestión de actualizaciones I
 
@@ -315,3 +311,5 @@ próxima, tengan unas provechosas sesiones de computación.
 
 **LinkedIn:**
 [*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*](http://es.linkedin.com/pub/jaime-pe%C3%B1a-tresancos/28/677/696)
+
+

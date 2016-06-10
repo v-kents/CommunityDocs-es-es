@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Backup and Restoring en Microsoft Lync Server 2010-2013"
-	description="Backup and Restoring en Microsoft Lync Server 2010-2013"
-	services="server"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Backup and Restoring en Microsoft Lync Server 2010-2013
+description: Backup and Restoring en Microsoft Lync Server 2010-2013
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: server
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="server"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Backup and Restoring en Microsoft Lync Server 2010-2013
@@ -143,3 +139,5 @@ siguiente URL:
 
 
 ![] (./img/Backup-and-Restoring-Lync-Server/image3.png)
+
+

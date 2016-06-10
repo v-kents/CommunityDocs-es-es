@@ -1,20 +1,16 @@
-<properties
-	pageTitle="C# - Diferencia entre usar Convert y usar cast analizada usando un decompiler"
-	description="Diferencia entre usar Convert y usar cast analizada usando un decompiler"
-	services="net-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: C# - Diferencia entre usar Convert y usar cast analizada usando un decompiler
+description: Diferencia entre usar Convert y usar cast analizada usando un decompiler
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: net-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="net-dev"
-	ms.workload="CS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 # C# - Diferencia entre usar Convert y usar cast analizada usando un decompiler
@@ -141,3 +137,5 @@ Si requieres aproximación y que te tengan en cuenta los casos especiales
 usa siempre Convert.
 
     int a = Convert.ToInt32(123.33f);
+
+

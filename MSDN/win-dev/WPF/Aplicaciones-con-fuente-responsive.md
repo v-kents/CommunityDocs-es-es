@@ -1,20 +1,16 @@
-<properties
-	pageTitle="WPF – Hacer tus aplicaciones con tamaño de fuente responsive"
-	description="WPF – Hacer tus aplicaciones con tamaño de fuente responsive"
-	services="win-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: WPF – Hacer tus aplicaciones con tamaño de fuente responsive
+description: WPF – Hacer tus aplicaciones con tamaño de fuente responsive
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="win-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -191,3 +187,5 @@ Si lo deseas puedes hacerlo respecto al ancho del control en lugar de
 respecto al alto, según sea tu necesidad, en ese caso debes ayudarte con
 la clase FormattedText y su propiedad Width para hallar el largo total
 en pixeles de la cadena.
+
+

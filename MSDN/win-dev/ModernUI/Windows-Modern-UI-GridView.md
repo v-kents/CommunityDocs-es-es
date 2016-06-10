@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Modern UI:  GridView"
-	description="Modern UI:  GridView"
-	services="win-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Modern UI-  GridView
+description: Modern UI-  GridView
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="win-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Modern UI:  GridView
@@ -409,3 +405,5 @@ tenéis un ejemplo de todo lo que hemos visto para que podáis jugar con
 él y tenerlo como base y referencia para vuestros desarrollos.
 
 Un saludo y Happy Coding!
+
+

@@ -84,3 +84,5 @@ Observen que de acuerdo al DN que le he puesto lo he podido recuperar con difere
 No digamos que el procedimiento es sencillo, pero si no hay una copia de seguridad disponible y debemos recuperar una cuenta, lo justifica
 Existen también varios métodos y aplicaciones que se podrían aplicar, a quien le interese profundizar el tema le recomiendo ver
 [How to restore deleted user accounts and their group memberships in Active Directory](https://support.microsoft.com/en-us/kb/840001)
+
+

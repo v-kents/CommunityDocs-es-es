@@ -1,22 +1,18 @@
+---
+title: Hyper-V- Implementación Rápida de Máquinas Virtuales
+description: Hyper-V- Implementación Rápida de Máquinas Virtuales
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: servers
+ms.custom: CommunityDocs
+---
 
 
-<properties
-pageTitle="Hyper-V: Implementación Rápida de Máquinas Virtuales"
-description="Hyper-V: Implementación Rápida de Máquinas Virtuales"
-services="servers"
-documentationCenter=""
-authors="andygonusa"
-manager=""
-editor="andygonusa"/>
 
-<tags
-ms.service="servers"
-ms.workload="Hyper-V"
-ms.tgt_pltfrm="na"
-ms.devlang="na"
-ms.topic="how-to-article"
-ms.date="05/12/2016"
-ms.author="andygonusa"/>
+
+
+
 
 
 #Hyper-V: Implementación Rápida de Máquinas Virtuales
@@ -115,3 +111,5 @@ rápido.
 ¿Cuántos Windows Server 2012 necesito? ¿Cinco? en menos de 5 minutos los
 tengo listos y preparados, sólo falta eventualmente renombrarlos y
 ponerle la configuración de red que necesite
+
+

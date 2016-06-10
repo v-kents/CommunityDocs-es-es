@@ -1,20 +1,16 @@
-<properties
-	pageTitle="C# - ¿Cómo hackear un MessageBox y personalizar los textos en los botones? - Forms"
-	description="¿Cómo hackear un MessageBox y personalizar los textos en los botones?  - Forms en C#"
-	services="net-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: C# - ¿Cómo hackear un MessageBox y personalizar los textos en los botones? - Forms
+description: ¿Cómo hackear un MessageBox y personalizar los textos en los botones?  - Forms en C#
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: net-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="net-dev"
-	ms.workload="CS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 # C\# - ¿Cómo hackear un MessageBox y personalizar los textos en los botones? - Forms
@@ -386,3 +382,5 @@ para obtener el **ClassName** de un MessageBox.
 	![](./img/CS - Cómo hackear un MessageBox y personalizar los textos en los botones - Forms/image7.PNG)
 
 ¿Cómo estuvo? ;)
+
+

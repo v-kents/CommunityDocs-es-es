@@ -1,21 +1,17 @@
+---
+title: Capítulo 3- Migrando a Microsoft Fakes
+description: Capítulo 3- Migrando a Microsoft Fakes
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: ALM
+ms.custom: CommunityDocs
+---
 
-<properties
-	pageTitle="Capítulo 3: Migrando a Microsoft Fakes"
-	description="Capítulo 3: Migrando a Microsoft Fakes"
-	services="ALM"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="ALM"
-	ms.workload="MS-Fakes"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 #Capítulo 3: Migrando a Microsoft Fakes
 
@@ -1122,3 +1118,11 @@ Visual Studio, and Windows are trademarks of the Microsoft group of
 companies.
 
 All other trademarks are property of their respective owners.
+
+
+
+
+
+
+
+

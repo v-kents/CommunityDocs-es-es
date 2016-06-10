@@ -1,20 +1,16 @@
-<properties
-	pageTitle="WebApi & oData Queries"
-	description="Introducción OData open Data Protocol"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: WebApi & oData Queries
+description: Introducción OData open Data Protocol
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -275,3 +271,5 @@ amplio abanico de posibilidades que se nos presentan para trabajar con
 servicios REST de una manera mucho más ágil. Si creéis que este tema es
 interesante podría hacer un par de entradas más sobre paginación, 
 validación y seguridad entre otras opciones.
+
+

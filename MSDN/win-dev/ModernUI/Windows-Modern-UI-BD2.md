@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Windows Modern UI -  Bases de datos locales en aplicaciones (II)"
-	description="Windows Modern UI -  Bases de datos locales en aplicaciones (II)"
-	services="win-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Windows Modern UI -  Bases de datos locales en aplicaciones (II)
+description: Windows Modern UI -  Bases de datos locales en aplicaciones (II)
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="win-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Windows Modern UI -  Bases de datos locales en aplicaciones (II)
@@ -233,3 +229,5 @@ comparación de rendimiento para ver cuál de nuestros dos contrincantes
 aguanta mejor el tipo, no te lo pierdas.
 
 Un saludo y Happy Coding!
+
+

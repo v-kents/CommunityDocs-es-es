@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Web API III – Consumiendo el servicio"
-	description="Ejemplo de Web API"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Web API III – Consumiendo el servicio
+description: Ejemplo de Web API
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 	
 # [ASP.NET Web API] Web API III – Consumiendo el servicio
 
@@ -496,3 +492,5 @@ propiedades observables.
 ¡Saludos!
 
 [Descarga el ejemplo!](http://sdrv.ms/18XmkR5)
+
+

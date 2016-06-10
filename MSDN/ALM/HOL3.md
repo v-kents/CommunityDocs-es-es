@@ -1,21 +1,17 @@
+---
+title: Capítulo 6- Hands-on Lab 3
+description: Capítulo 6- Hands-on Lab 3
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: ALM
+ms.custom: CommunityDocs
+---
 
-<properties
-	pageTitle="Capítulo 6: Hands-on Lab 3"
-	description="Capítulo 6: Hands-on Lab 3"
-	services="ALM"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="ALM"
-	ms.workload="HOL"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 #Capítulo 6: Hands-on Lab 3
 
@@ -366,3 +362,5 @@ companies.
 All other trademarks are property of their respective owners.
 
 [^1]: http://blogs.msdn.com/b/visualstudioalm/archive/2012/11/26/introducing-sharepoint-emulators.aspx
+
+

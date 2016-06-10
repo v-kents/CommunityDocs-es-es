@@ -1,21 +1,17 @@
+---
+title: LAB Virtual WS 2012 y Windows 8 [Parte 3] – Instalación y Configuración en Windows Server 2012 de Windows Deployment Services
+description: LAB Virtual WS 2012 y Windows 8 [Parte 3] – Instalación y Configuración en Windows Server 2012 de Windows Deployment Services
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<properties
-	pageTitle="LAB Virtual WS 2012 y Windows 8 [Parte 3] – Instalación y Configuración en Windows Server 2012 de Windows Deployment Services"
-	description="LAB Virtual WS 2012 y Windows 8 [Parte 3] – Instalación y Configuración en Windows Server 2012 de Windows Deployment Services"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="servers"
-	ms.workload="WS2012"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #LAB Virtual WS 2012 y Windows 8 [Parte 3] – Instalación y Configuración en Windows Server 2012 de Windows Deployment Services
@@ -50,3 +46,5 @@ que éste le asigne de forma correcta una dirección IP.
 
 En la próxima entrega realizaremos la configuración para el despliegue
 de las imágenes Windows 8.
+
+

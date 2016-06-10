@@ -1,21 +1,17 @@
+---
+title: Restaurar (Restore) llaves de cifrado de Reporting Services
+description: Restaurar (Restore) llaves de cifrado de Reporting Services
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: servers
+ms.custom: CommunityDocs
+---
 
-<properties
-	pageTitle="Restaurar (Restore) llaves de cifrado de Reporting Services"
-	description="Restaurar (Restore) llaves de cifrado de Reporting Services"
-	services="servers"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="servers"
-	ms.workload="RS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Restaurar (Restore) llaves de cifrado de Reporting Services
@@ -140,3 +136,5 @@ Los comentarios son bienvenidos, espero sea de ayuda,
 **FREDY LEANDRO ANGARITA CASTELLANOS**
 
 **SQL Server MVP**
+
+

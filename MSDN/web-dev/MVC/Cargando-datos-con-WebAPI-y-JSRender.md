@@ -1,20 +1,16 @@
-<properties
-	pageTitle="[ASP.NET MVC] Cargando datos con WebAPI y JSRender"
-	description="Cargando datos con WebAPI y JSRender"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: [ASP.NET MVC] Cargando datos con WebAPI y JSRender
+description: Cargando datos con WebAPI y JSRender
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -315,3 +311,5 @@ Ahora si ejecutamos la aplicación tenemos:
 Espero les sea de utilidad, les dejo el código con el ejemplo.
 
 [*Descarga el ejemplo.*](http://sdrv.ms/SE2yRl)
+
+

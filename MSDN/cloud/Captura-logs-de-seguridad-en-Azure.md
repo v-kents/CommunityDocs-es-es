@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Captura logs de seguridad en Azure"
-	description="Habilitar la captura de logs del visor de eventos de una máquina virtual en Azure"
-	services="cloud"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Captura logs de seguridad en Azure
+description: Habilitar la captura de logs del visor de eventos de una máquina virtual en Azure
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: cloud
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="cloud"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/13/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 # Captura logs de seguridad en Azure
 
@@ -84,3 +80,5 @@ Script
 ![img6] (./img/Captura-logs-de-seguridad-en-Azure/img6.png)
 
 Ya está configurada la captura de logs, para verlos utilizo el Azure Storage Explorer.
+
+

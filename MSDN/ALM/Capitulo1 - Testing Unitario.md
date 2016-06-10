@@ -1,26 +1,14 @@
-
-
-<properties
-	pageTitle="Capítulo 1: Breve teoría sobre Testing Unitario"
-	description="Capítulo 1: Breve teoría sobre Testing Unitario"
-	services="ALM"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
-
-<tags
-	ms.service="ALM"
-	ms.workload="UnitTest"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
-
+---
+title: Capítulo 1 - Breve teoría sobre Testing Unitario
+description: Capítulo 1 - Breve teoría sobre Testing Unitario
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: ALM
+ms.custom: CommunityDocs
+---
 
 #Capítulo 1: Breve teoría sobre Testing Unitario
-
 
 Traducción por Juan María Laó Ramos
 
@@ -254,3 +242,17 @@ Visual Studio, and Windows are trademarks of the Microsoft group of
 companies.
 
 All other trademarks are property of their respective owners.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

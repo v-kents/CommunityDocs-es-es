@@ -1,22 +1,18 @@
+---
+title: Parallel Series- Un poco de historia
+description: Parallel Series- Un poco de historia
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: net-dev
+ms.custom: CommunityDocs
+---
 
 
-<properties
-	pageTitle="Parallel Series: Un poco de historia"
-	description="Parallel Series: Un poco de historia"
-	services="net-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="net-dev"
-	ms.workload="CS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 # Parallel Series: Un poco de historia
 
@@ -151,3 +147,5 @@ humano, que en comparación con un ordenador es infinitamente más lento,
 pero su capacidad de procesamiento en paralelo gracias a sus millones de
 conexiones entre neuronas, no tiene rival con ningún otro elemento
 conocido en la naturaleza ni creado por el hombre.
+
+

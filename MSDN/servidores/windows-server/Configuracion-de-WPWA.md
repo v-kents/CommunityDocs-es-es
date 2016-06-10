@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Windows Server 2012 – Configuración de Windows PowerShell Web Access"
-	description="Windows Server 2012 – Configuración de Windows PowerShell Web Access"
-	services="windows"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Windows Server 2012 – Configuración de Windows PowerShell Web Access
+description: Windows Server 2012 – Configuración de Windows PowerShell Web Access
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: windows
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="windows"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Windows Server 2012 – Configuración de Windows PowerShell Web Access
@@ -243,3 +239,5 @@ autenticación de venta minorista adicional.*
 Con esto es todo espero puedan tener esta posibilidad de administración
 remota si en sus empresas puedan necesitarlo algún día y tener en este
 articulo una forma rápida de ver su instalación, configuración y prueba.
+
+

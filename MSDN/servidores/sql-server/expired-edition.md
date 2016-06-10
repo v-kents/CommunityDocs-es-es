@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Qué hacer cuando la copia de evaluación de SQL Server expira"
-	description="Qué hacer cuando la copia de evaluación de SQL Server expira"
-	services="sqlserver"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Qué hacer cuando la copia de evaluación de SQL Server expira
+description: Qué hacer cuando la copia de evaluación de SQL Server expira
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: sqlserver
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="sqlserver"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #¿Qué hacer cuando la copia de evaluación de SQL Server expira o usted desea cambiar la clave de producto a una instancia?
@@ -113,5 +109,7 @@ de SQL Server. Para proceder con la actualización de edición, puede
 hacer un clic en el botón de Actualizar (Upgrade).
 
 ![] (./img/expired-edition/image8.png)
+
+
 
 

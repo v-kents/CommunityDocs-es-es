@@ -1,20 +1,16 @@
-<properties
-	pageTitle="[ASP.NET MVC] Inyectando dependencias con Microsoft Unity"
-	description="Inyectando dependencias con Microsoft Unity"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: [ASP.NET MVC] Inyectando dependencias con Microsoft Unity
+description: Inyectando dependencias con Microsoft Unity
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -208,3 +204,5 @@ C\#
 
 Y eso es todo, la dependencia es inyectada gracias al uso del DI
 Container.
+
+

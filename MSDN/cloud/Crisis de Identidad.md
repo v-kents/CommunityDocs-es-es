@@ -1,22 +1,18 @@
+---
+title: El Futuro de la Gestión de la Identidad - La identidad en la nube
+description: El Futuro de la Gestión de la Identidad - La identidad en la nube
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: cloud
+ms.custom: CommunityDocs
+---
 
 
-<properties
-	pageTitle="El Futuro de la Gestión de la Identidad - La identidad en la nube"
-	description="El Futuro de la Gestión de la Identidad - La identidad en la nube"
-	services="cloud"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="cloud"
-	ms.workload="EMS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/13/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 # El Futuro de la Gestión de la Identidad - La identidad en la nube
 
@@ -334,3 +330,5 @@ Este artículo es de Deb Shinder, y fue traducido al español previa
 autorización de TechGenix Ltd. La versión original está en Windows
 Security y puede accederlo desde
 [*aquí.*](http://www.windowsecurity.com/articles/Identity-Management-Crisis-Part5.html)
+
+

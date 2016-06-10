@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Windows Server 2012: Demostración Conectando Clientes a la Red por VPN"
-	description="Windows Server 2012: Demostración Conectando Clientes a la Red por VPN"
-	services="windows"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Windows Server 2012- Demostración Conectando Clientes a la Red por VPN
+description: Windows Server 2012- Demostración Conectando Clientes a la Red por VPN
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: windows
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="windows"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -222,3 +218,5 @@ Internet
 Algo que debemos considerar si nuestro servidor VPN estuviera detrás de
 un Router o Firewall es que debemos dejar pasar PPTP, para eso debemos
 desbloquear o renviar el puerto TCP-1723, y el **Protocolo** GRE (47)
+
+

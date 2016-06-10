@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Explorando el DOM: Nodos de texto. Gestión multinodal"
-	description="Labores de tratamiento de contenidos de los nodos de texto, gestión de nodos multinodos"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Explorando el DOM- Nodos de texto. Gestión multinodal
+description: Labores de tratamiento de contenidos de los nodos de texto, gestión de nodos multinodos
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/12/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -439,4 +435,6 @@ En el Listado 7 hemos programado lo que sigue:
 
 En el presente artículo hemos visto cómo realizar diversas labores extracción –obtención, queremos significar- de textos de nodos hermanos, desde la base de un nodo padre determinado. Hemos repasado las formas de realizarlo, tanto si conocemos o no el número de hermanos y si queremos o no las marcas HTML adjuntas.
 Esperamos que lo aquí expuesto les haya servido de ayuda en su trabajo y no dejen de preguntar cualquier duda que les pudiese surgir. Hasta la próxima, tengan unas provechosas sesiones de programación.
+
+
 

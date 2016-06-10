@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Controladores de Dominio: Tolerancia a Fallas"
-	description="Controladores de Dominio: Tolerancia a Fallas"
-	services="windows"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Controladores de Dominio- Tolerancia a Fallas
+description: Controladores de Dominio- Tolerancia a Fallas
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: windows
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="windows"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Controladores de Dominio: Tolerancia a Fallas
@@ -121,3 +117,5 @@ Y nunca nunca nunca, los que compartan o tengan conexión directa a
 Internet. Un Controlador de Dominio contiene la información más valiosa
 de la red (Usuarios y Contraseñas), jamás debe ser la más expuesta a
 problemas de seguridad.
+
+

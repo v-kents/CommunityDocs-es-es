@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Explorando el DOM: Objeto element. Propiedad classList"
-	description="Objeto element con la propiedad classList y el atributo class"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Explorando el DOM- Objeto element. Propiedad classList
+description: Objeto element con la propiedad classList y el atributo class
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -602,3 +598,5 @@ próxima, tengan unas provechosas sesiones de programación.
 
 **LinkedIn:**
 [*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*](http://es.linkedin.com/pub/jaime-pe%C3%B1a-tresancos/28/677/696)
+
+

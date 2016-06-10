@@ -1,20 +1,16 @@
-<properties
-	pageTitle="[ASP.NET MVC] Soporte para enumeraciones en ASP.NET MVC 5.1"
-	description="Enumeraciones en ASP.NET MVC 5.1"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: [ASP.NET MVC] Soporte para enumeraciones en ASP.NET MVC 5.1
+description: Enumeraciones en ASP.NET MVC 5.1
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -218,3 +214,5 @@ propiedad del modelo:
 ![] (./img/Enumeraciones-en-ASP/image3.png)
 
 Espero el post les sea interesante, ¡saludos!
+
+

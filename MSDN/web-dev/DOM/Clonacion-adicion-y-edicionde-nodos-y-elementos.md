@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Explorando el DOM: Clonación, adición y edición de nodos y elementos"
-	description="Clonación, adición y edición de nodos y elementos DOM"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Explorando el DOM- Clonación, adición y edición de nodos y elementos
+description: Clonación, adición y edición de nodos y elementos DOM
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Explorando el DOM: Clonación, adición y edición de nodos y elementos
@@ -667,3 +663,5 @@ próxima, tengan unas provechosas sesiones de programación.
 
 **LinkedIn:**
 [*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*](http://es.linkedin.com/pub/jaime-pe%C3%B1a-tresancos/28/677/696)
+
+

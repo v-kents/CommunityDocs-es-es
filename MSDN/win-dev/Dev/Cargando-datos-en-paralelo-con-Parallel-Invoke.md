@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Cargando datos en paralelo con Parallel.Invoke"
-	description="Cargando datos en paralelo con Parallel.Invoke"
-	services="win-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Cargando datos en paralelo con Parallel.Invoke
+description: Cargando datos en paralelo con Parallel.Invoke
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="win-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Cargando datos en paralelo con Parallel.Invoke
@@ -216,3 +212,5 @@ diferente:
 ![] (./img/Cargando-datos-en-paralelo-con-Parallel-Invoke/image1.png)
 
 Espero les sea de utilidad y de interés este post, saludos.
+
+

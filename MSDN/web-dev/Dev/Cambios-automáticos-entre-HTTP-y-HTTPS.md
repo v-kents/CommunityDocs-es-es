@@ -1,20 +1,16 @@
- <properties
-	pageTitle="Cambios automáticos entre HTTP y HTTPS desde ASP.NET"
-	description="Cambios automáticos entre HTTP y HTTPS desde ASP.NET"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Cambios automáticos entre HTTP y HTTPS desde ASP.NET
+description: Cambios automáticos entre HTTP y HTTPS desde ASP.NET
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+ 
+
+
 
  
 #Cambios automáticos entre HTTP y HTTPS desde ASP.NET
@@ -190,5 +186,7 @@ marque*** la casilla de verificación requiera SSL (Require SSL) en IIS.
 
 
 ![] (./img/Cambios-automáticos-entre-HTTP-y-HTTPS/image4.png)
+
+
 
 

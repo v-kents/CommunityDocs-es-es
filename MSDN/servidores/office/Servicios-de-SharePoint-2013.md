@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Servicios de SharePoint 2013 - III: Programando un Servicio propio"
-	description="Servicios de SharePoint 2013 - III: Programando un Servicio propio"
-	services="windows"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Servicios de SharePoint 2013 - III- Programando un Servicio propio
+description: Servicios de SharePoint 2013 - III- Programando un Servicio propio
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: windows
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="windows"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 #Servicios de SharePoint 2013 - III: Programando un Servicio propio
 
@@ -1246,5 +1242,7 @@ ventas desde la base de datos.
 **Figura 7** - Componente web que lista las órdenes de venta
 
 ![] (./img/Servicios-de-SharePoint-2013/image7.png)
+
+
 
 

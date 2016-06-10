@@ -1,20 +1,16 @@
-<properties
-	pageTitle="C# - ¿Cómo obtener el SID de un usuario local?"
-	description="¿Cómo obtener el SID de un usuario local en C#?"
-	services="net-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: C# - ¿Cómo obtener el SID de un usuario local?
+description: ¿Cómo obtener el SID de un usuario local en C#?
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: net-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="net-dev"
-	ms.workload="CS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 # C# - ¿Cómo obtener el SID de un usuario local?
@@ -96,3 +92,5 @@ un poco más complejo. Una alternativa viable es hacer uso de **WMI**
 ```
 
 Happy Learning!
+
+

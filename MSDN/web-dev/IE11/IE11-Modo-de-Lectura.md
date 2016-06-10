@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Internet Explorer 11 Modo de Lectura (Reading View)"
-	description="Internet Explorer 11 Modo de Lectura (Reading View)"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Internet Explorer 11 Modo de Lectura (Reading View)
+description: Internet Explorer 11 Modo de Lectura (Reading View)
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Internet Explorer 11 Modo de Lectura (Reading View)
@@ -99,3 +95,5 @@ prueba su funcionamiento:
 Saludos Cordiales,
 
 Carlos A. Lone
+
+

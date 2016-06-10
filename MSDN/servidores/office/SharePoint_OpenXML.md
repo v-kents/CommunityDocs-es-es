@@ -1,20 +1,16 @@
-<properties
-pageTitle="SharePoint 2010 y Open XML SDK. Creación de informes personalizados"
-description="SharePoint 2010 y Open XML SDK. Creación de informes personalizados"
-services="servers"
-documentationCenter=""
-authors="andygonusa"
-manager=""
-editor="andygonusa"/>
+---
+title: SharePoint 2010 y Open XML SDK. Creación de informes personalizados
+description: SharePoint 2010 y Open XML SDK. Creación de informes personalizados
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: servers
+ms.custom: CommunityDocs
+---
 
-<tags
-ms.service="servers"
-ms.workload="Sharepoint"
-ms.tgt_pltfrm="na"
-ms.devlang="na"
-ms.topic="how-to-article"
-ms.date="05/12/2016"
-ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -588,3 +584,5 @@ Referencias
 [^1]: Como se anuncia la sección de Actualidad de este mismo ejemplar,
     Microsoft acaba de poner a disposición pública la versión 2.5,
     compatible hacia atrás con la versión 2.0.
+
+

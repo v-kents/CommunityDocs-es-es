@@ -1,22 +1,18 @@
+---
+title: Clonando DCs de Windows Server 2012
+description: Clonando DCs de Windows Server 2012
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: servers
+ms.custom: CommunityDocs
+---
 
 
-<properties
-	pageTitle="Clonando DCs de Windows Server 2012"
-	description="Clonando DCs de Windows Server 2012"
-	services="servers"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="servers"
-	ms.workload="WS2012"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Clonando DCs de Windows Server 2012
@@ -158,5 +154,7 @@ E:\\Windows\\NTDS**
 
 4. Desmontar el disco virtual utilizando diskpart o mendiante o el
     cmdlet Dismount-DiskImage
+
+
 
 

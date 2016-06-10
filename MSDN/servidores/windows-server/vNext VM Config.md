@@ -1,20 +1,16 @@
+---
+title: Hyper-V vNext Virtual Machine Configuration Version
+description: Hyper-V vNext Virtual Machine Configuration Version
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: servers
+ms.custom: CommunityDocs
+---
 
-<properties
-	pageTitle="Hyper-V vNext Virtual Machine Configuration Version"
-	description="Hyper-V vNext Virtual Machine Configuration Version"
-	services="servers"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
-<tags
-	ms.service="HyperV"
-	ms.workload="HyperV"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 #Hyper-V vNext Virtual Machine Configuration Version
 
@@ -76,3 +72,5 @@ El comando cmdlet a utilizar es:
 #### Update-VmConfigurationVersion vmname
 
 En breve más sobre vNext…
+
+

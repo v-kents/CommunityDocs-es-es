@@ -1,21 +1,17 @@
-<properties
-	pageTitle="jQuery UI contextMenu. Apéndice HTML 5. Personalización"
-	description="Este artículo está dedicado al complemento contextMenu y agrega
-información"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: jQuery UI contextMenu. Apéndice HTML 5. Personalización
+description: Este artículo está dedicado al complemento contextMenu y agrega
+información
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #jQuery UI contextMenu. Apéndice HTML 5. Personalización
@@ -673,3 +669,5 @@ próximo artículo, felices horas de programación.
 
 **LinkedIn:**
 [*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*](http://es.linkedin.com/pub/jaime-pe%C3%B1a-tresancos/28/677/696)
+
+

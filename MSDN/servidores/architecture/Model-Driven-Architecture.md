@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Model Driven Architecture (MDA)"
-	description="Model Driven Architecture (MDA)"
-	services="windows"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Model Driven Architecture (MDA)
+description: Model Driven Architecture (MDA)
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: windows
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="windows"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 #Model Driven Architecture (MDA)
 
@@ -249,5 +245,7 @@ realizó este tipo de pruebas con el software de misión del F16.
 **odelo C\#**
 
 ![] (./img/Model-Driven-Architecture/image6.png)
+
+
 
 

@@ -1,20 +1,16 @@
-<properties
-	pageTitle="[ASP.NET Web API] Personalizando la serialización de los objetos en JSON"
-	description="Serialización de los objetos en JSON"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: [ASP.NET Web API] Personalizando la serialización de los objetos en JSON
+description: Serialización de los objetos en JSON
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -157,3 +153,5 @@ Y si volvemos a probar:
 
 
 Y listo, ¡nos vemos en otro post amigos!
+
+

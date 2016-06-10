@@ -1,20 +1,16 @@
-<properties
-pageTitle="Script para permitir a las bibliotecas abrir los archivos PDFS en SharePoint 2010"
-description="Script para permitir a las bibliotecas abrir los archivos PDFS en SharePoint 2010"
-services="servers"
-documentationCenter=""
-authors="andygonusa"
-manager=""
-editor="andygonusa"/>
+---
+title: Script para permitir a las bibliotecas abrir los archivos PDFS en SharePoint 2010
+description: Script para permitir a las bibliotecas abrir los archivos PDFS en SharePoint 2010
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: servers
+ms.custom: CommunityDocs
+---
 
-<tags
-ms.service="servers"
-ms.workload="Sharepoint"
-ms.tgt_pltfrm="na"
-ms.devlang="na"
-ms.topic="how-to-article"
-ms.date="05/12/2016"
-ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -118,3 +114,5 @@ de archivos en el navegador que esta bloqueada de forma predeterminada
 en SharePoint 2010. Esto aunque representa un riesgo, es una
 funcionalidad habitual que los usuarios de SharePoint están
 acostumbrados a utilizar y que desean este disponible en el portal.
+
+

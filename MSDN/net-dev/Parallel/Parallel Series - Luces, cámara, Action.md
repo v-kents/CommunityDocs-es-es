@@ -1,21 +1,17 @@
+---
+title: Parallel Series - Luces, cámara, Action
+description: Parallel Series - Luces, cámara, Action
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: net-dev
+ms.custom: CommunityDocs
+---
 
-<properties
-	pageTitle="Parallel Series - Luces, cámara, Action"
-	description="Parallel Series - Luces, cámara, Action"
-	services="net-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="net-dev"
-	ms.workload="CS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 # Parallel Series - Luces, cámara, Action
 
@@ -273,3 +269,5 @@ Una vez terminado este post, me he percatado de que existe otro post
 sobre Action del conocido BlkRabbitCoder con el mismo título que he
 usado yo (en su caso es el título de una sección). He estado a punto de
 quitarlo, pero… que demonios! Para una idea buena que tengo :-D
+
+

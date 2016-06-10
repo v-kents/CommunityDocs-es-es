@@ -1,23 +1,19 @@
-<properties
-	pageTitle="Windows Intune - Portal de empresa de Windows 8"
-	description="Una de las funciones más avanzadas e interesantes de Windows Intune es
+---
+title: Windows Intune - Portal de empresa de Windows 8
+description: Una de las funciones más avanzadas e interesantes de Windows Intune es
 la capacidad de poner a disposición de los usuarios del software que el
 *Administrador* crea conveniente, algo que puede realizar de diversas
-formas. Entre otras, para ello se dispone del **Portal de empresa**."
-	services="ems"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+formas. Entre otras, para ello se dispone del **Portal de empresa**.
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: ems
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="ems"
-	ms.workload="na"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/12/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Windows Intune - Portal de empresa de Windows 8
@@ -326,3 +322,5 @@ próxima, tengan unas provechosas sesiones de computación.
 
 **LinkedIn:**
 [*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*](http://es.linkedin.com/pub/jaime-pe%C3%B1a-tresancos/28/677/696)
+
+

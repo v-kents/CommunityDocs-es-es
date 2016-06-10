@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Web API II – Creando un CRUD, trabajando con verbos HTTP"
-	description="Implementar fácilmente un CRUD"
-	services="win-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Web API II – Creando un CRUD, trabajando con verbos HTTP
+description: Implementar fácilmente un CRUD
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="win-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -248,3 +244,5 @@ los que jugar y enseñaros cosas chulas. Como sea,
 podéis descargarlo para jugar con él.
 
 Un saludo y Happy Coding!
+
+

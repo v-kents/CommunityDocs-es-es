@@ -1,22 +1,18 @@
+---
+title: Un vistazo a la función de RegSetValueEx de la API de Windows
+description: Un vistazo a la función de RegSetValueEx de la API de Windows
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: net-dev
+ms.custom: CommunityDocs
+---
 
 
-<properties
-	pageTitle="Un vistazo a la función de RegSetValueEx de la API de Windows"
-	description="Un vistazo a la función de RegSetValueEx de la API de Windows"
-	services="net-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="net-dev"
-	ms.workload="CS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 # Un vistazo a la función de RegSetValueEx de la API de Windows
 
@@ -373,3 +369,5 @@ de programas hechos originalmente para Windows de 16 bit, esta función
 solo recibia string como valores posibles .
 
 Bueno ahora si FIN, espero que haya sido de provecho.
+
+

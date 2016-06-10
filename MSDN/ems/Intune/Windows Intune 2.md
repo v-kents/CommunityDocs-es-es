@@ -1,23 +1,19 @@
+---
+title: Windows Intune (Ed. Dic-2012). Administrar implementación con Instalación requerida
+description: Windows Intune (Ed. Dic-2012). Administrar implementación con Instalación requerida
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: ems
+ms.custom: CommunityDocs
+---
 
 
 
-<properties
-pageTitle="Windows Intune (Ed. Dic-2012). Administrar implementación con Instalación requerida"
-description="Windows Intune (Ed. Dic-2012). Administrar implementación con Instalación requerida"
-services="ems"
-documentationCenter=""
-authors="andygonusa"
-manager=""
-editor="andygonusa"/>
 
-<tags
-ms.service="ems"
-ms.workload="intune"
-ms.tgt_pltfrm="na"
-ms.devlang="na"
-ms.topic="how-to-article"
-ms.date="05/12/2016"
-ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -208,3 +204,5 @@ uso y versatilidad de distribución.
 Esperamos que lo aquí expuesto les haya servido de ayuda en su trabajo y
 no dejen de preguntar cualquier duda que les pudiese surgir. Hasta la
 próxima, tengan unas provechosas sesiones de computación.
+
+

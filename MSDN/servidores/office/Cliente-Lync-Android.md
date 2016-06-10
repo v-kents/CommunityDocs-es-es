@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Descargando, instalando y configurando cliente Lync en Android"
-	description="Descargando, instalando y configurando cliente Lync en Android"
-	services="server"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Descargando, instalando y configurando cliente Lync en Android
+description: Descargando, instalando y configurando cliente Lync en Android
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: server
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="server"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 #Descargando, instalando y configurando cliente Lync en Android
 
@@ -80,3 +76,5 @@ Aquí les muestro el listado de contactos que tengo asociado en mi
 cliente Lync.
 
 Espero que les sirva de ayuda este post
+
+

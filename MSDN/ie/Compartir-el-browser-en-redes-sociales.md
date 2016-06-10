@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Abrir ventana del Browser y compartir en redes sociales"
-	description="Abrir ventana del Browser y compartir en redes sociales"
-	services="ie"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Abrir ventana del Browser y compartir en redes sociales
+description: Abrir ventana del Browser y compartir en redes sociales
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: ie
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="ie"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
   
   
@@ -125,3 +121,5 @@ comentas la siguiente línea:
 
 Y listo, ahora si podemos subir los screenshot sin que los rechacen.\
 Saludos
+
+

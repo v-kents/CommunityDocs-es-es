@@ -1,20 +1,16 @@
-  <properties
-	pageTitle="Definir la base de datos del proyecto"
-	description="Definir la base de datos del proyecto"
-	services="win-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Definir la base de datos del proyecto
+description: Definir la base de datos del proyecto
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="win-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+  
+
+
 
 #Definir la base de datos del proyecto
   
@@ -216,3 +212,5 @@ podemos trabajar de manera muy flexible.
 Espero les sea de utilidad.
 
 Hasta el próximo post.
+
+

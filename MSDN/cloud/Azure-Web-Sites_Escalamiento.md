@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Azure Web Sites – Escalamiento"
-	description="Escalar un sitio Web Azure"
-	services="cloud"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Azure Web Sites – Escalamiento
+description: Escalar un sitio Web Azure
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: cloud
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="cloud"
-	ms.workload="debugging"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Azure Web Sites – Escalamiento
@@ -86,3 +82,5 @@ decirle que número de instancias vamos a usar:
 Espero el post les sea interesante, ¡hasta la próxima!
 
 Saludos
+
+

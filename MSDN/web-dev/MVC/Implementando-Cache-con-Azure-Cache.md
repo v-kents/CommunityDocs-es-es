@@ -1,20 +1,16 @@
-<properties
-	pageTitle="[ASP.NET MVC] Implementando Cache con Azure Cache"
-	description="Implementar fácilmente el Azure Cache"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: [ASP.NET MVC] Implementando Cache con Azure Cache
+description: Implementar fácilmente el Azure Cache
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -118,3 +114,5 @@ simplemente debemos ir creando/leyendo objetos de session:
 ```
 
 Espero les sea de utilidad el post, ¡saludos!
+
+

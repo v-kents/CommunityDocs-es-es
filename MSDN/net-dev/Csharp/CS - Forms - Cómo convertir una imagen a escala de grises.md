@@ -1,21 +1,17 @@
+---
+title: C# - Forms - Cómo convertir una imagen a escala de grises
+description: Cómo convertir una imagen a escala de grises en C#
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: net-dev
+ms.custom: CommunityDocs
+---
 
-<properties
-	pageTitle="C# - Forms - Cómo convertir una imagen a escala de grises"
-	description="Cómo convertir una imagen a escala de grises en C#"
-	services="net-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="net-dev"
-	ms.workload="CS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 # C\# - Forms - Cómo convertir una imagen a escala de grises
@@ -351,3 +347,5 @@ destino, y desbloquear ambos bitmaps:
     
 
 !Eso es todo!
+
+

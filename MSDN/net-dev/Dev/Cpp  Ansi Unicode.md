@@ -1,20 +1,16 @@
-<properties
-	pageTitle="C++: Ansi? Unicode? main, wmain, _tmain"
-	description="C++: Ansi? Unicode? main, wmain, _tmain"
-	services="net-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: C++- Ansi? Unicode? main, wmain, _tmain
+description: C++- Ansi? Unicode? main, wmain, _tmain
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: net-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="net-dev"
-	ms.workload="CS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 # C++: Ansi? Unicode? main, wmain, _tmain
@@ -214,5 +210,7 @@ Versión Unicode:
         if (_wcsicmp(argv[1], L"palabraBase") == 0)
             cout << "Palabras Iguales (w)" << endl;
     }
+
+
 
 

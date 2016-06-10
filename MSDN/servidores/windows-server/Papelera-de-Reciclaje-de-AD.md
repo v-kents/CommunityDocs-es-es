@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Windows Server 2012 – Papelera de Reciclaje de Active Directory"
-	description="Windows Server 2012 – Papelera de Reciclaje de Active Directory"
-	services="windows"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Windows Server 2012 – Papelera de Reciclaje de Active Directory
+description: Windows Server 2012 – Papelera de Reciclaje de Active Directory
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: windows
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="windows"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 #Windows Server 2012 – Papelera de Reciclaje de Active Directory
 
@@ -99,3 +95,5 @@ Una observación a tener en cuenta es que una vez que se ha activado
 
 Una operación, que aunque no conocida por muchos en Windows Server
 2008-R2, ahora está mucho más visible y de fácil configuración
+
+

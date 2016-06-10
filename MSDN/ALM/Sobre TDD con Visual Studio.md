@@ -1,23 +1,19 @@
+---
+title: Sobre TDD con Visual Studio
+description: Sobre TDD con Visual Studio
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: ALM
+ms.custom: CommunityDocs
+---
 
 
 
-<properties
-	pageTitle="Sobre TDD con Visual Studio"
-	description="Sobre TDD con Visual Studio"
-	services="ALM"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="ALM"
-	ms.workload="TDD"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 #Sobre TDD con Visual Studio
 
@@ -166,3 +162,5 @@ y cómo podemos afrontarlos desde el punto de vista de las TDD.
 ejemplo.*](https://skydrive.live.com/redir.aspx?cid=73aa1b824471902b&resid=73AA1B824471902B!573&parid=73AA1B824471902B!372)
 
 Hasta el próximo post.
+
+

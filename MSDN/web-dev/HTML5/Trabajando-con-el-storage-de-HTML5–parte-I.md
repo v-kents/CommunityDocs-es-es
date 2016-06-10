@@ -1,20 +1,16 @@
-  <properties
-	pageTitle="Trabajando con el storage de HTML5 parte I"
-	description="Trabajando con el storage de HTML5 parte I"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Trabajando con el storage de HTML5 parte I
+description: Trabajando con el storage de HTML5 parte I
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+  
+
+
 
   
   
@@ -184,3 +180,5 @@ ejemplo para que lo descarguen:
 
 > [Descargar
 ejemplo](https://skydrive.live.com/redir.aspx?cid=3619ca7a3d74929a&resid=3619CA7A3D74929A!660&parid=3619CA7A3D74929A!617)
+
+

@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Windows Server 2012 – Windows PowerShell Web Access"
-	description="Windows Server 2012 – Windows PowerShell Web Access"
-	services="windows"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Windows Server 2012 – Windows PowerShell Web Access
+description: Windows Server 2012 – Windows PowerShell Web Access
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: windows
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="windows"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Windows Server 2012 – Windows PowerShell Web Access
@@ -112,3 +108,5 @@ una herramienta eficaz y cómoda a la hora de administrar servidores
 remotos atreves de un navegador.
 
 Espero les sea de mucha ayuda y nos leemos, Un Saludo
+
+

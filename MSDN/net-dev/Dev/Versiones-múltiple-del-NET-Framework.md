@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Visual Studio 2013: Trabajando con versiones múltiples del .NET FrameworkP"
-	description="Visual Studio 2013: Trabajando con versiones múltiples del .NET Framework"
-	services="win-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Visual Studio 2013- Trabajando con versiones múltiples del .NET FrameworkP
+description: Visual Studio 2013- Trabajando con versiones múltiples del .NET Framework
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="win-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -162,3 +158,5 @@ Framework*](http://msdn.microsoft.com/es-es/library/ee461502.aspx) los
 miembros y tipos obsoletos y aplique las soluciones descritas. (El
 código compilado previamente seguirá ejecutándose con los tipos y
 miembros que se han marcado como obsoletos).
+
+

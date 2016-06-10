@@ -1,20 +1,16 @@
-<properties
-	pageTitle="¿Qué es el bucle de mensajes, message loop o WndProc?"
-	description="¿Qué es el bucle de mensajes, message loop o WndProc?"
-	services="win-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: ¿Qué es el bucle de mensajes, message loop o WndProc?
+description: ¿Qué es el bucle de mensajes, message loop o WndProc?
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="win-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #¿Qué es el bucle de mensajes, message loop o WndProc?
@@ -62,3 +58,5 @@ lo dejaremos hasta allí y quien quiera profundizar puede consultar esta
 fuente en internet:
 
 <http://www.winprog.org/tutorial/message_loop.html>
+
+

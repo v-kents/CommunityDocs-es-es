@@ -1,20 +1,16 @@
-<properties
-	pageTitle="WCF – xsd:import schemalocation que no puede ser interpretado desde clientes PHP"
-	description="WCF – xsd:import schemalocation que no puede ser interpretado desde clientes PHP"
-	services="win-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: WCF – xsd-import schemalocation que no puede ser interpretado desde clientes PHP
+description: WCF – xsd-import schemalocation que no puede ser interpretado desde clientes PHP
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="win-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -137,3 +133,4 @@ Eso es todo, hora de consultar el wsdl de nuevo y... ya no tenemos nada parecido
 ```
 
 TODA la información ha sido consolidada en el mismo WSDL.
+

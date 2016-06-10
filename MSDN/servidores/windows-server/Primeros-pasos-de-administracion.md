@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Windows Server 2012 Essentials – Primeros pasos de administración "
-	description="Windows Server 2012 Essentials – Primeros pasos de administración "
-	services="windows"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Windows Server 2012 Essentials – Primeros pasos de administración 
+description: Windows Server 2012 Essentials – Primeros pasos de administración 
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: windows
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="windows"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
   
   
   
@@ -100,3 +96,5 @@ cargas de trabajo, veremos como es la creación de Usuarios y carpetas
 compartidas.
 
 Hasta la próxima y muchas gracias.
+
+

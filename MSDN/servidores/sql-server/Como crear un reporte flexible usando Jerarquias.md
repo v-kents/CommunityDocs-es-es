@@ -1,22 +1,18 @@
+---
+title: Cómo crear un reporte flexible usando Jerarquías (Recursivo)
+description: Cómo crear un reporte flexible usando Jerarquías (Recursivo)
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: servers
+ms.custom: CommunityDocs
+---
 
 
-<properties
-	pageTitle="Cómo crear un reporte flexible usando Jerarquías (Recursivo)"
-	description="Cómo crear un reporte flexible usando Jerarquías (Recursivo)"
-	services="servers"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="servers"
-	ms.workload="SQL"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Cómo crear un reporte flexible usando Jerarquías (Recursivo)
@@ -138,3 +134,5 @@ Cómo crear un reporte flexible usando Jerarquías
 
 **FREDY LEANDRO ANGARITA CASTELLANOS\
 SQL Server MVP**
+
+

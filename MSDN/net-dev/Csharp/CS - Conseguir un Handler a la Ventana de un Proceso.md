@@ -1,20 +1,16 @@
-<properties
-	pageTitle="C# - Conseguir un Handler a la Ventana de un Proceso"
-	description="Conseguir un Handler a la Ventana de un Proceso en C#"
-	services="net-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: C# - Conseguir un Handler a la Ventana de un Proceso
+description: Conseguir un Handler a la Ventana de un Proceso en C#
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: net-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="net-dev"
-	ms.workload="CS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 # C\# - Conseguir un Handler a la Ventana de un Proceso
@@ -340,3 +336,5 @@ Y este es un ejemplo de uso:
 ```
 
 Hasta Pronto.
+
+

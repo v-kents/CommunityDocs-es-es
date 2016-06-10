@@ -1,24 +1,20 @@
+---
+title: Guía de Migración de Objetos -Job- paso a paso
+description: Guía de Migración de Objetos -Job- paso a paso
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: servers
+ms.custom: CommunityDocs
+---
 
 
 
 
-<properties
-pageTitle="Guía de Migración de Objetos -Job- paso a paso"
-description="Guía de Migración de Objetos -Job- paso a paso"
-services="servers"
-documentationCenter=""
-authors="andygonusa"
-manager=""
-editor="andygonusa"/>
 
-<tags
-ms.service="servers"
-ms.workload="CM"
-ms.tgt_pltfrm="na"
-ms.devlang="na"
-ms.topic="how-to-article"
-ms.date="05/12/2016"
-ms.author="andygonusa"/>
+
+
+
 
 
 #Guía de Migración de Objetos -Job- paso a paso
@@ -183,5 +179,7 @@ que fueron migrados, quien es el site dueño de los objetos, etc.
 
 ![](./img/Guia de Migracion de Objetos Job/image15.png)
     
+
+
 
 

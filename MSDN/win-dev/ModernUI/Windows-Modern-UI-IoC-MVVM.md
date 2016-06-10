@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Modern UI: IoC & MVVM"
-	description="Modern UI: IoC & MVVM"
-	services="win-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Modern UI- IoC & MVVM
+description: Modern UI- IoC & MVVM
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="win-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Modern UI: IoC & MVVM
@@ -219,3 +215,5 @@ los sensores del dispositivo desde nuestra aplicación y para ello
 haremos un uso intensivo de las dependencias en nuestros ViewModels.
 
 Un saludo y Happy Coding!
+
+

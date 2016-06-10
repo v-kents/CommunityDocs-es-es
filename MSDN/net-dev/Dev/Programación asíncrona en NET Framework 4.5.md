@@ -1,23 +1,19 @@
+---
+title: Programación asíncrona en .NET Framework 4.5
+description: Programación asíncrona en .NET Framework 4.5
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: net-dev
+ms.custom: CommunityDocs
+---
 
 
 
-<properties
-	pageTitle="Programación asíncrona en .NET Framework 4.5"
-	description="Programación asíncrona en .NET Framework 4.5"
-	services="net-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="net-dev"
-	ms.workload="CS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 # Programación asíncrona en .NET Framework 4.5
 
@@ -351,3 +347,5 @@ termine el lapso de 5 segundos.
 
 En este segundo ejercicio hemos creado una aplicación que no congela su
 funcionamiento por haber iniciado una llamada a un método.
+
+

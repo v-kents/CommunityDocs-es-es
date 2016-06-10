@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Azure Web Sites – Debugging"
-	description="Depurar Azure Web Sites"
-	services="cloud"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Azure Web Sites – Debugging
+description: Depurar Azure Web Sites
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: cloud
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="cloud"
-	ms.workload="debugging"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #[Azure] Azure Web Sites – Debugging
@@ -74,3 +70,5 @@ opciones que marcamos al inicio):
 Espero les sea de utilidad el post y no te olvides de compartirlo!
 
 Saludos!
+
+

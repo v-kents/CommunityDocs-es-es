@@ -1,21 +1,17 @@
+---
+title: Parallel Series- Tasks, la 8ª maravilla
+description: Parallel Series- Tasks, la 8ª maravilla
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: net-dev
+ms.custom: CommunityDocs
+---
 
-<properties
-	pageTitle="Parallel Series: Tasks, la 8ª maravilla"
-	description="Parallel Series: Tasks, la 8ª maravilla"
-	services="net-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="net-dev"
-	ms.workload="CS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 # Parallel Series: Tasks, la 8ª maravilla
 
@@ -327,3 +323,5 @@ ejecutar sin depuración (Ctrl+F5)
 Bueno, nos hemos dejado algunas cosas en el tintero, pero para no hacer
 muy largo éste post las veremos más adelante, en otros posts avanzados
 de la misma serie.
+
+

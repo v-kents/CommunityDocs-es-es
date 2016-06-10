@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Buenas prácticas de codificación para capas de acceso a datos de aplicaciones (III)"
-	description="Buenas prácticas de codificación para capas de acceso a datos de aplicaciones (III)"
-	services="win-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Buenas prácticas de codificación para capas de acceso a datos de aplicaciones (III)
+description: Buenas prácticas de codificación para capas de acceso a datos de aplicaciones (III)
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="win-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -522,4 +518,6 @@ anteriores.
 
     ',N'@0 varchar(30),@1 int',@0='Dep modificado',@1=5
 ```
+
+
 

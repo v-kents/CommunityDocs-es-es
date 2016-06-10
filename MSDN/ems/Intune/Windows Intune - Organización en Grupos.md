@@ -1,22 +1,18 @@
-<properties
-	pageTitle="Windows Intune - Organización en Grupos"
-	description="Windows Intune está enfocado al trabajo con usuarios y equipos. Bien es
+---
+title: Windows Intune - Organización en Grupos
+description: Windows Intune está enfocado al trabajo con usuarios y equipos. Bien es
 cierto que cabe la posibilidad de tratarlos individualmente, pero esa
-labor se vuelve poco factible a nada que crezca nuestra red."
-	services="ems"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+labor se vuelve poco factible a nada que crezca nuestra red.
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: ems
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="ems"
-	ms.workload="na"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/12/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Windows Intune - Organización en Grupos
@@ -288,3 +284,5 @@ próxima, tengan unas provechosas sesiones de computación.
 
 **LinkedIn:**
 [*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*](http://es.linkedin.com/pub/jaime-pe%C3%B1a-tresancos/28/677/696)
+
+

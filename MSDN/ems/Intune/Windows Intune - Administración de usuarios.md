@@ -1,20 +1,16 @@
-<properties
-pageTitle="Windows Intune - Administración de usuarios"
-description="Para acceder a los servicios de Windows Intune deberemos ser unos usuarios registrados activos. Es una labor del administrador de licencias el crear una cuenta de usuario, vamos a tratar el caso del acceso directo desde el Portal de cuentas de Windows Intune. A ello dedicaremos el presente artículo."
-services="ems"
-documentationCenter=""
-authors="andygonusa"
-manager=""
-editor="andygonusa"/>
+---
+title: Windows Intune - Administración de usuarios
+description: Para acceder a los servicios de Windows Intune deberemos ser unos usuarios registrados activos. Es una labor del administrador de licencias el crear una cuenta de usuario, vamos a tratar el caso del acceso directo desde el Portal de cuentas de Windows Intune. A ello dedicaremos el presente artículo.
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: ems
+ms.custom: CommunityDocs
+---
 
-<tags
-ms.service="ems"
-ms.workload="na"
-ms.tgt_pltfrm="na"
-ms.devlang="na"
-ms.topic="how-to-article"
-ms.date="05/12/2016"
-ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -311,3 +307,5 @@ próxima, tengan unas provechosas sesiones de computación.
 
 **LinkedIn:**
 [*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*](http://es.linkedin.com/pub/jaime-pe%C3%B1a-tresancos/28/677/696)
+
+

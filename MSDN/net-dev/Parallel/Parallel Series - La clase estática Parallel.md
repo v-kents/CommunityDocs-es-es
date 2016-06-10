@@ -1,21 +1,17 @@
+---
+title: Parallel Series- La clase estática Parallel
+description: Parallel Series- La clase estática Parallel
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: net-dev
+ms.custom: CommunityDocs
+---
 
-<properties
-	pageTitle="Parallel Series: La clase estática Parallel"
-	description="Parallel Series: La clase estática Parallel"
-	services="net-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="net-dev"
-	ms.workload="CS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 # Parallel Series: La clase estática Parallel
 
@@ -276,3 +272,5 @@ Más adelante veremos cómo salir o parar (no es lo mismo) un bucle
 parallelizado mediante un objeto ParallelLoopState, lidiar con variables
 compartidas o inicializar variables locales a cada partición. Pero eso
 lo dejamos para los posts avanzados de las Parallel Series.
+
+

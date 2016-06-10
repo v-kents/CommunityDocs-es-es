@@ -1,20 +1,16 @@
-<properties
-	pageTitle="[ASP.NET Web API] Subiendo archivo con jQuery y Web API"
-	description="Subiendo archivo con jQuery y Web API"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: [ASP.NET Web API] Subiendo archivo con jQuery y Web API
+description: Subiendo archivo con jQuery y Web API
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -191,3 +187,5 @@ archivos en el request y en caso de ser mayor a 0 iteramos sobre cada
 uno de ellos y lo guardamos.
 
 Espero el ejemplo les sea de utilidad, ¡saludos!
+
+

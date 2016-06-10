@@ -1,21 +1,17 @@
+---
+title: Qué es Inyección de dependencias
+description: Qué es Inyección de dependencias
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: net-dev
+ms.custom: CommunityDocs
+---
 
-<properties
-	pageTitle="Qué es Inyección de dependencias"
-	description="Qué es Inyección de dependencias"
-	services="net-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="net-dev"
-	ms.workload="CS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 # Qué es Inyección de dependencias
 
@@ -268,3 +264,5 @@ llegar a estar en clases distintas.
 
 Ahora subamos un poco el nivel, con lo aprendido podemos hablar del
 patrón de estrategia, el tema del próximo artículo.
+
+

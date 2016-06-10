@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Micro-datos. Semántica real en la Web"
-	description="Micro-datos. Semántica real en la Web"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Micro-datos. Semántica real en la Web
+description: Micro-datos. Semántica real en la Web
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -351,3 +347,5 @@ SEO a nuestros sitios que algunas de las típicas soluciones al uso
 \[8\] **Goel, K**. y **Gupta, P**. “Introducing schema.org: Search
 engines come together for a richer web”. Search Quality Team, Google
 Inc.
+
+

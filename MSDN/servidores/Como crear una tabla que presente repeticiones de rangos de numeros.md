@@ -1,20 +1,16 @@
-<properties
-pageTitle="Cómo crear una tabla que presente repeticiones de rangos de números"
-description="Cómo crear una tabla que presente repeticiones de rangos de números"
-services="servers"
-documentationCenter=""
-authors="andygonusa"
-manager=""
-editor="andygonusa"/>
+---
+title: Cómo crear una tabla que presente repeticiones de rangos de números
+description: Cómo crear una tabla que presente repeticiones de rangos de números
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: servers
+ms.custom: CommunityDocs
+---
 
-<tags
-ms.service="servers"
-ms.workload="SQL"
-ms.tgt_pltfrm="na"
-ms.devlang="na"
-ms.topic="how-to-article"
-ms.date="05/12/2016"
-ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -133,3 +129,5 @@ Los comentarios son bienvenidos, espero sea de ayuda,
 FREDY LEANDRO ANGARITA CASTELLANOS
 
 Sql Server MVP
+
+

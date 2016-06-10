@@ -1,23 +1,19 @@
+---
+title: Generando imágenes (códigos de Barras) en Reporting Services
+description: Generando imágenes (códigos de Barras) en Reporting Services
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: servers
+ms.custom: CommunityDocs
+---
 
 
 
-<properties
-	pageTitle="Generando imágenes (códigos de Barras) en Reporting Services"
-	description="Generando imágenes (códigos de Barras) en Reporting Services"
-	services="servers"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="servers"
-	ms.workload="RS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Generando imágenes (códigos de Barras) en Reporting Services
@@ -309,3 +305,5 @@ razón por la cual publicaré la [parte 2](http://geeks.ms/blogs/fangarita/arc
 **FREDDY LEANDRO ANGARITA CASTELLANOS**
 
 **SQLSERVER MVP**
+
+

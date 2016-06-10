@@ -1,22 +1,18 @@
+---
+title: Cómo realizar una instalación de SQL Server 2012 en Windows 2012 Core
+description: Cómo realizar una instalación de SQL Server 2012 en Windows 2012 Core
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: servers
+ms.custom: CommunityDocs
+---
 
 
-<properties
-	pageTitle="Cómo realizar una instalación de SQL Server 2012 en Windows 2012 Core"
-	description="Cómo realizar una instalación de SQL Server 2012 en Windows 2012 Core"
-	services="servers"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="servers"
-	ms.workload="SQL2012"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Cómo realizar una instalación de SQL Server 2012 en Windows 2012 Core
@@ -124,3 +120,5 @@ Los comentarios son bienvenidos, espero sea de ayuda,
 **FREDY LEANDRO ANGARITA CASTELLANOS**
 
 **SQL Server MVP**
+
+

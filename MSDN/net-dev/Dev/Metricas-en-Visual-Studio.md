@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Métricas en Visual Studio: Cobertura de las pruebas unitarias"
-	description="Métricas en Visual Studio: Cobertura de las pruebas unitarias"
-	services="win-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Métricas en Visual Studio- Cobertura de las pruebas unitarias
+description: Métricas en Visual Studio- Cobertura de las pruebas unitarias
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="win-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -224,5 +220,7 @@ Igualmente, la clase AdministradorDeColecciones al no tener una prueba
 unitaria tendrá todos sus métodos marcados con fondo rojo.
 
 ![] (./img/Metricas-en-Visual-Studio/image9.png)
+
+
 
 

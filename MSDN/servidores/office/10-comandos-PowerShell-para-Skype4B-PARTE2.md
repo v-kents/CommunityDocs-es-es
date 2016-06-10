@@ -1,22 +1,18 @@
+---
+title: 10 comandos PowerShell para usar en Skype4B PARTE II
+description: Comandos de Powershell para Skype For Business
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: windows
+ms.custom: CommunityDocs
+---
+
 # 10 comandos PowerShell para usar en Skype4B PARTE II
 
-<properties
-	pageTitle="10 comandos PowerShell para usar en Skype4B PARTE II"
-	description="Comandos de Powershell para Skype For Business"
-	services="windows"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="windows"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
 
 Por Peter Diaz, Microsoft MVP
 
@@ -122,3 +118,5 @@ para realizar integraciones SIP con otros fabricantes.
 
 
 Figura 9
+
+

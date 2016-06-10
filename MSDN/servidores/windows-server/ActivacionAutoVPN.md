@@ -1,24 +1,20 @@
+---
+title: Activación automática de conexiones VPN y VPN Diagnóstico Mejoras en Windows 8.1
+description: Activación automática de conexiones VPN y VPN Diagnóstico Mejoras en Windows 8.1
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: servers
+ms.custom: CommunityDocs
+---
 
 
 
 
-<properties
-	pageTitle="Activación automática de conexiones VPN y VPN Diagnóstico Mejoras en Windows 8.1"
-	description="Activación automática de conexiones VPN y VPN Diagnóstico Mejoras en Windows 8.1"
-	services="servers"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="servers"
-	ms.workload="VPN"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 #Activación automática de conexiones VPN y VPN Diagnóstico Mejoras en Windows 8.1
 
 
@@ -470,3 +466,5 @@ Aprovisionamiento de VPN a través Intune
 System Center Configuration Manager 2012 R2 y Windows Intune ahora soporta perfiles de configuración VPN en los dispositivos de Windows 8.1. También apoyan a configurar las propiedades de disparo automático para conexiones VPN. También proporcionan la funcionalidad para cargar perfiles VPN XML de configuración (Windows 8 RT y los dispositivos de Windows 8.1). Más información sobre la configuración de perfiles VPN en Windows 8.1 se puede encontrar en 
 System Center Configuration Manager 2012 R2 y el servicio de Windows Intune también proporcionan la capacidad de asociar un perfil VPN a una aplicación cuando la aplicación se implementa a través de Configuration Manager. Cuando la aplicación está instalada en el dispositivo del usuario final, el Administrador de configuración también se asocia automáticamente en el perfil de la VPN. Cada vez que el usuario inicia la aplicación, se activa automáticamente la conexión VPN. Más detalles se pueden encontrar en el blog
 http://blogs.technet.com/b/configmgrteam/archive/2013/07/10/user-centric-application-management.aspx
+
+

@@ -1,22 +1,18 @@
+---
+title: Parallel Series - Problemas de concurrencia
+description: Parallel Series - Problemas de concurrencia
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: net-dev
+ms.custom: CommunityDocs
+---
 
 
-<properties
-	pageTitle="Parallel Series - Problemas de concurrencia"
-	description="Parallel Series - Problemas de concurrencia"
-	services="net-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="net-dev"
-	ms.workload="CS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 # Parallel Series - Problemas de concurrencia
 
@@ -319,3 +315,5 @@ productor-consumidor.
 Aquí tenéis un pequeño proyecto de ejemplo con el código:
 
 <https://www.dropbox.com/s/ej3u3s1v55ltb30/TPL04_Concurrency.zip>
+
+

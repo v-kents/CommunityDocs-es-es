@@ -1,21 +1,17 @@
+---
+title: Instalando Forefront Security for Office Communications Server
+description: Instalando Forefront Security for Office Communications Server
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: servers
+ms.custom: CommunityDocs
+---
 
-<properties
-	pageTitle="Instalando Forefront Security for Office Communications Server"
-	description="Instalando Forefront Security for Office Communications Server"
-	services="servers"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="servers"
-	ms.workload="OCS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Instalando Forefront Security for Office Communications Server
@@ -116,3 +112,5 @@ instalación debemos de contar con lo siguiente.
 
 Una vez hecho esto, estaría instalado **FSOCS**, espero que les sea de
 utilidad.
+
+

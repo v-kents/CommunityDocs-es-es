@@ -1,20 +1,16 @@
-<properties
-	pageTitle="C# - Inyección de Dependencias"
-	description="C# - Inyección de Dependencias"
-	services="net-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: C# - Inyección de Dependencias
+description: C# - Inyección de Dependencias
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: net-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="net-dev"
-	ms.workload="CS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 # C\# - Inyección de Dependencias
@@ -242,3 +238,5 @@ asignando una instancia diferente a la propiedad Cuerpo. Esta es una
 primera aproximación a la inyección de dependencias, siendo más formales
 incluso muchos comportamientos como Volar y Caminar incluso podrían
 llegar a estar en clases distintas.
+
+

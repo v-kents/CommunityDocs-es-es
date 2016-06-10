@@ -1,23 +1,19 @@
+---
+title: Crear tabla a partir de un texto separado por comas (CSV)
+description: Crear tabla a partir de un texto separado por comas (CSV)
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: servers
+ms.custom: CommunityDocs
+---
 
 
 
-<properties
-	pageTitle="Crear tabla a partir de un texto separado por comas (CSV)"
-	description="Crear tabla a partir de un texto separado por comas (CSV)"
-	services="servers"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
 
-<tags
-	ms.service="servers"
-	ms.workload="SQL"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Crear tabla a partir de un texto separado por comas (CSV)
@@ -115,3 +111,5 @@ Espero sea de ayuda,
 
 **FREDY LEANDRO ANGARITA CASTELLANOS**
 **SQL Server MVP**
+
+

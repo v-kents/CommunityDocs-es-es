@@ -1,20 +1,16 @@
-<properties
-pageTitle="Roles de Site System en CM 2012"
-description="Roles de Site System en CM 2012"
-services="servers"
-documentationCenter=""
-authors="andygonusa"
-manager=""
-editor="andygonusa"/>
+---
+title: Roles de Site System en CM 2012
+description: Roles de Site System en CM 2012
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: servers
+ms.custom: CommunityDocs
+---
 
-<tags
-ms.service="servers"
-ms.workload="CM"
-ms.tgt_pltfrm="na"
-ms.devlang="na"
-ms.topic="how-to-article"
-ms.date="05/12/2016"
-ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -234,5 +230,7 @@ Configuration Manager.
 
 4.  Server Locator point: Su funcionalidad se integró al role de
     Management Point.
+
+
 
 

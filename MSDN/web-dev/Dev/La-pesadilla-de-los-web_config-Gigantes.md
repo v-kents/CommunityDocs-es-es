@@ -1,20 +1,16 @@
-<properties
-	pageTitle="La pesadilla de los web.config Gigantes"
-	description="La-pesadilla-de-los-web_config-Gigantes"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: La pesadilla de los web.config Gigantes
+description: La-pesadilla-de-los-web_config-Gigantes
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -424,3 +420,5 @@ Y desde luego ese mismo atributo lo podemos usar en todas las secciones
 que superen un tamaño pequeño.
 
 Enjoy it!
+
+

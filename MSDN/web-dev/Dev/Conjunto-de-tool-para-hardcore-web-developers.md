@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Modern IE un conjunto de herramientas para hardcore web developers"
-	description="Modern IE un conjunto de herramientas para hardcore web developers"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Modern IE un conjunto de herramientas para hardcore web developers
+description: Modern IE un conjunto de herramientas para hardcore web developers
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -99,3 +95,5 @@ comportamiento de un Website en diferentes browser y dispositivos sin ni
 siquiera tener necesidad de tener emuladores, hardware, sistemas
 operativos o incluso browsers y resoluciones de pantalla, todo una obra
 de arte! super recomendado.
+
+

@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Forms - Recibir notificaciones cuando hay cambios de sesión"
-	description="Forms - Recibir notificaciones cuando hay cambios de sesión"
-	services="win-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Forms - Recibir notificaciones cuando hay cambios de sesión
+description: Forms - Recibir notificaciones cuando hay cambios de sesión
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="win-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Forms - Recibir notificaciones cuando hay cambios de sesión
@@ -172,3 +168,5 @@ ingresar y… ¡notificaciones de cambios en la sesión!
 
 Puedes descargar el ejemplo completo desde mi GitHub: Win32 Session
 Changes Notifier
+
+

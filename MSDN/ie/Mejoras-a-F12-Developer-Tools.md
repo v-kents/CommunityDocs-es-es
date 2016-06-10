@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Mejoras a F12 Developer Tools"
-	description="Mejoras a F12 Developer Tools"
-	services="ie"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Mejoras a F12 Developer Tools
+description: Mejoras a F12 Developer Tools
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: ie
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="ie"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -121,3 +117,5 @@ mover la industria hacia adelante y seguir con las mejoras para el
 navegador.
 
 Gracias
+
+

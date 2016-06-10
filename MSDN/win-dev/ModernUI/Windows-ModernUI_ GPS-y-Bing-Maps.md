@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Windows Modern UI - Acceso al hardware (I) - GPS y Bing Maps SDK"
-	description="Examinar el acceso al hardware en las aplicaciones de Modern UI para Windows 8"
-	services="win-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Windows Modern UI - Acceso al hardware (I) - GPS y Bing Maps SDK
+description: Examinar el acceso al hardware en las aplicaciones de Modern UI para Windows 8
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="win-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/12/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -321,3 +317,5 @@ provocar por acción del usuario o del ambiente. Como siempre,
 podéis obtener este ejemplo en funcionamiento para que juguéis con él.
 
 Un saludo y Happy Coding!
+
+

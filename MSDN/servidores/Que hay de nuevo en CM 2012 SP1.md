@@ -1,23 +1,19 @@
+---
+title: Qué hay de nuevo en CM 2012 SP1
+description: Qué hay de nuevo en CM 2012 SP1
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: servers
+ms.custom: CommunityDocs
+---
 
 
 
-<properties
-pageTitle="Qué hay de nuevo en CM 2012 SP1"
-description="Qué hay de nuevo en CM 2012 SP1"
-services="servers"
-documentationCenter=""
-authors="andygonusa"
-manager=""
-editor="andygonusa"/>
 
-<tags
-ms.service="servers"
-ms.workload="CM"
-ms.tgt_pltfrm="na"
-ms.devlang="na"
-ms.topic="how-to-article"
-ms.date="05/12/2016"
-ms.author="andygonusa"/>
+
+
+
 
 
 #Qué hay de nuevo en CM 2012 SP1
@@ -106,3 +102,5 @@ haga [clic aquí](http://technet.microsoft.com/es-es/library/jj591552.aspx)
 
 Como verán, son bastantes los cambios realizados y muchos mejoran
 operativamente el producto.
+
+

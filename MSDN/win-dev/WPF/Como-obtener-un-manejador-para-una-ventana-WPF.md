@@ -1,20 +1,16 @@
-<properties
-	pageTitle="Web API II – Creando un CRUD, trabajando con verbos HTTP"
-	description="Implementar fácilmente un CRUD"
-	services="win-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: Web API II – Creando un CRUD, trabajando con verbos HTTP
+description: Implementar fácilmente un CRUD
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="win-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 #Cómo obtener un manejador (handle) para una ventana de WPF
@@ -66,3 +62,5 @@ Si requerimos el handler de una ventana WPF basta con hacer:
 Ya teniendo el manejador de la ventana podemos acceder a muchas otras
 funcionalidades fuertemente atadas con el SO como por ejemplo las
 expuestas en **Win32Api** o equivalente en otras plataformas
+
+

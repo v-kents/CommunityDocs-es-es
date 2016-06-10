@@ -1,20 +1,16 @@
-<properties
-	pageTitle="[ASP.NET MVC] Integrando ASPNET MVC con MongoLab"
-	description="Integrando ASPNET MVC con MongoLab"
-	services="web-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: [ASP.NET MVC] Integrando ASPNET MVC con MongoLab
+description: Integrando ASPNET MVC con MongoLab
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: web-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="web-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 
@@ -377,3 +373,5 @@ Espero está introducción les haya gustado y no se olviden de
 compartirla!
 
 Saludos.
+
+

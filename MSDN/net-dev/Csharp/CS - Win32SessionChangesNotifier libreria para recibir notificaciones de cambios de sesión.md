@@ -1,20 +1,16 @@
-<properties
-	pageTitle="C# – Win32SessionChangesNotifier librería para recibir notificaciones de cambios de sesión"
-	description="C# – Win32SessionChangesNotifier librería para recibir notificaciones de cambios de sesión"
-	services="net-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: C# – Win32SessionChangesNotifier librería para recibir notificaciones de cambios de sesión
+description: C# – Win32SessionChangesNotifier librería para recibir notificaciones de cambios de sesión
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: net-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="net-dev"
-	ms.workload="CS"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/17/2016"
-	ms.author="andygonusa"/>
+
+
+
 
 
 # C\# – Win32SessionChangesNotifier librería para recibir notificaciones de cambios de sesión
@@ -206,3 +202,5 @@ Descárgalo
 Puedes descargar esta librería y de paso revisar un par de soluciones de
 ejemplo para Windows Forms y WPF desde mi GitHub: Win32 Session Changes
 Notifier
+
+

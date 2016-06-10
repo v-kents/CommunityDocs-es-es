@@ -1,20 +1,16 @@
-<properties
-	pageTitle="[Entity Framework] Sobre Data Annotations"
-	description="[Entity Framework] Sobre Data Annotations"
-	services="win-dev"
-	documentationCenter=""
-	authors="andygonusa"
-	manager=""
-	editor="andygonusa"/>
+---
+title: [Entity Framework] Sobre Data Annotations
+description: [Entity Framework] Sobre Data Annotations
+author: MSCommunityPubService
+ms.date: 06/01/2016
+ms.topic: how-to-article
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
 
-<tags
-	ms.service="win-dev"
-	ms.workload="identity"
-	ms.tgt_pltfrm="na"
-	ms.devlang="na"
-	ms.topic="how-to-article"
-	ms.date="05/16/2016"
-	ms.author="andygonusa"/>
+
+
+
 
   
 #[Entity Framework] Sobre Data Annotations
@@ -193,3 +189,5 @@ nuestra columna en la base de datos, así:
 Bien, estos son algunos de los atributos de lo que podemos echar mano
 cuando deseemos sobrescribir alguna de las convenciones que maneja por
 defecto Entity Framework
+
+
