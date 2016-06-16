@@ -59,9 +59,7 @@ operacionales se cumplan. El testing es un esfuerzo del equipo para
 conseguir un mínimo de calidad y tener una “definición de hecho”
 entendida y aceptada por todos.
 
-NOTA
-
->Definición de hecho – es una definición del equipo y un compromiso de calidad que se aplicará a la solución en cada iteración (también se puede definir en el nivel de Tareas o de Historias de Usuario). Ten en cuenta el diseño, las revisiones de código, refactorización y testing cuando discutáis y defináis vuestra “definición de hecho”.
+>NOTA<br />Definición de hecho – es una definición del equipo y un compromiso de calidad que se aplicará a la solución en cada iteración (también se puede definir en el nivel de Tareas o de Historias de Usuario). Ten en cuenta el diseño, las revisiones de código, refactorización y testing cuando discutáis y defináis vuestra “definición de hecho”.
   
 Estrategias de testing 
 -----------------------
