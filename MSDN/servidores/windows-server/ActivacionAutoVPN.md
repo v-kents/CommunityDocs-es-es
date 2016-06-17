@@ -9,12 +9,6 @@ ms.custom: CommunityDocs
 ---
 
 
-
-
-
-
-
-
 #Activación automática de conexiones VPN y VPN Diagnóstico Mejoras en Windows 8.1
 
 

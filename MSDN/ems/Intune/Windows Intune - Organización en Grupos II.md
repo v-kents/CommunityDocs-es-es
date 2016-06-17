@@ -9,10 +9,6 @@ ms.custom: CommunityDocs
 ---
 
 
-
-
-
-
 #Windows Intune - Organización en Grupos II
 
 ©Jaime Peña Tresancos, 2013

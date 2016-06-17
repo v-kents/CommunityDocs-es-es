@@ -6,6 +6,7 @@ ms.date: 06/01/2016
 ms.topic: how-to-article
 ms.service: ALM
 ms.custom: CommunityDocs
+ms.assetid: 3E1FCAF6-7386-40C3-9941-B29B397D0C24
 ---
 
 #Capítulo 1: Breve teoría sobre Testing Unitario
