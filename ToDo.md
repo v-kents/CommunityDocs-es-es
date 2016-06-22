@@ -19,15 +19,19 @@
     - OK to use split TOC.md files - one per folder
     - however please note that it is sufficient to break one Sub/TOC.md file to break the whole TOC
 - Finish converting all articles
+    - Spanish Done
 - create final TOC
+    - SPanish Done
 - create redirection mapping between existing articles in library and new articles
 - get final repo (not sandbox) and move the whole contentset & structure
+    - Spanish Done
 
 - **new:** [template here](./template.md)
   - template includes metadata
   - metadata have been included in all articles that are live - need to measure 
 
 ##Next Steps (not done yet, but immediately after the TODO)
+    - Spanish Readme file with instructions Done
 
 ##Next Next (future evolutions / ideas)
 - need to figure out how we can best leverage this platform in conjunction with comments and BI to create a single dashboard to track customer interest and feedback on these
