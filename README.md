@@ -42,6 +42,7 @@ If you are a Microsoft contributor, you need to set up your GitHub account so yo
 Every published technical article has a comment stream provided by the Disqus service.
 
 If you are a Microsoft employee, and if you are the author of or a contributor to an article, you need to sign up for Disqus so you can participate in the comment stream for the article.
+
 1. Sign up for an account at http://www.disqus.com/
 2. Fill out your profile as follows:
 3. Full Name: your full name as displayed in your Microsoft address book listing, plus the bracketed info, which is your alias plus @MSFT. Format: First Last [alias@MSFT]
@@ -69,11 +70,11 @@ The GitHub UI does support creation of new files and dragging and dropping image
 
 
 For the following sorts of work, we strongly recommend you install and learn to use the tools:
-•Making major changes to an article
-•Creating and publishing a new article
-•Adding new images or updating images
-•Updating an article over a period of days without publishing changes each of those days
-•Creating content for a release that has to go out on a certain day at a certain time
+- Making major changes to an article
+- Creating and publishing a new article
+- Adding new images or updating images
+- Updating an article over a period of days without publishing changes each of those days
+- Creating content for a release that has to go out on a certain day at a certain time
 
 ##Permissions in GitHub
 
@@ -84,7 +85,7 @@ https://github.com/Microsoft/CommunityDocs-eses. No special permissions are requ
 
 ##Repository organization
 ###\MSDN
-- Hosts the articles for MSND by topic
+- Hosts the articles for MSDN by topic
 - Each folder contains an "img" folder for storing article media
 
 
