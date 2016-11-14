@@ -2,16 +2,14 @@
 title: Web API II – Creando un CRUD, trabajando con verbos HTTP
 description: Implementar fácilmente un CRUD
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: ie
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #IE11 update y status.modern.ie
 
@@ -159,5 +157,7 @@ estoy a sus órdenes,
 Saludos Cordiales,
 
 Carlos A. Lone
+
+
 
 

@@ -2,16 +2,14 @@
 title: Web API II – Creando un CRUD, trabajando con verbos HTTP
 description: Implementar fácilmente un CRUD
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: ie
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #Personalización de IE11 con Internet Explorer Administration Kit IEAK
 
@@ -335,5 +333,7 @@ configuramos.
 Eso es todo por el momento y sobre este tema tendremos más artículos en
 la parte de deployment, un gran saludo a todos mis lectores y estamos
 con nuevos post.
+
+
 
 

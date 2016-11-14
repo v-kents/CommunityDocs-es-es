@@ -2,15 +2,14 @@
 title: Modern UI Tip- Crear un control de rating
 description: Modern UI Tip- Crear un control de rating
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
 
 #Modern UI Tip: Crear un control de rating 
 
@@ -190,5 +189,7 @@ en una aplicación real, siempre a un diccionario de estilos!
 os dejo el código de ejemplo como siempre para que juguéis con él.
 
 Un saludo y Happy Coding!
+
+
 
 

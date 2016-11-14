@@ -2,19 +2,14 @@
 title: Paso a Paso - Administración de Lync Online con Powershell
 description: Paso a Paso - Administración de Lync Online con Powershell
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
 
 #Paso a Paso - Administración de Lync Online con Powershell
 
@@ -166,5 +161,7 @@ ve al siguiente enlace:
 Peter Diaz
 
 Lync MVP – MCT – MAP
+
+
 
 

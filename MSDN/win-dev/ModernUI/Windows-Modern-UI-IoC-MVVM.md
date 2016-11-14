@@ -2,16 +2,14 @@
 title: Modern UI- IoC & MVVM
 description: Modern UI- IoC & MVVM
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #Modern UI: IoC & MVVM
 
@@ -215,5 +213,7 @@ los sensores del dispositivo desde nuestra aplicación y para ello
 haremos un uso intensivo de las dependencias en nuestros ViewModels.
 
 Un saludo y Happy Coding!
+
+
 
 

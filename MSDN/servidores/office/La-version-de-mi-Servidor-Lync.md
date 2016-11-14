@@ -2,17 +2,14 @@
 title: ¿Cómo saber la versión de mi Servidor Lync 2010-2013?
 description: ¿Cómo saber la versión de mi Servidor Lync 2010-2013?
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: server
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #¿Cómo saber la versión de mi Servidor Lync 2010-2013?
 
@@ -76,6 +73,8 @@ Lync 2010
 Lync2013
 
 ![] (./img/La-versiion-de-mi-Servidor-Lync/image9.png)
+
+
 
 
 

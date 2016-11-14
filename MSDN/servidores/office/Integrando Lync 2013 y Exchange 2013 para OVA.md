@@ -2,17 +2,14 @@
 title: Integrando Lync 2013 y Exchange 2013 para mensajería unificada y Outlook Voice
 description: Integrando Lync 2013 y Exchange 2013 para mensajería unificada y Outlook Voice
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Integrando Lync 2013 y Exchange 2013 para mensajería unificada y Outlook Voice
 
@@ -154,5 +151,7 @@ Accediendo desde el cliente Lync 2013.
 Peter Diaz
 
 MVP-MCT-MAP
+
+
 
 

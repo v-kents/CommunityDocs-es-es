@@ -2,19 +2,15 @@
 title: Trabajando con el storage de HTML5 parte I
 description: Trabajando con el storage de HTML5 parte I
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
 
-  
-
-
-
-  
-  
-  
 #Trabajando con el storage de HTML5 parte I
 
 Por [Julio Cesar
@@ -180,5 +176,7 @@ ejemplo para que lo descarguen:
 
 > [Descargar
 ejemplo](https://skydrive.live.com/redir.aspx?cid=3619ca7a3d74929a&resid=3619CA7A3D74929A!660&parid=3619CA7A3D74929A!617)
+
+
 
 

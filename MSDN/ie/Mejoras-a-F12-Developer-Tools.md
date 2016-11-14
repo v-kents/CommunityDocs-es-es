@@ -2,18 +2,14 @@
 title: Mejoras a F12 Developer Tools
 description: Mejoras a F12 Developer Tools
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: ie
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #Mejoras a F12 Developer Tools
 
@@ -117,5 +113,7 @@ mover la industria hacia adelante y seguir con las mejoras para el
 navegador.
 
 Gracias
+
+
 
 

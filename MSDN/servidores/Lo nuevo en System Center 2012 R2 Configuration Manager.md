@@ -2,19 +2,14 @@
 title: Lo nuevo en System Center 2012 R2 Configuration Manager
 description: Lo nuevo en System Center 2012 R2 Configuration Manager
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
 
 #Lo nuevo en System Center 2012 R2 Configuration Manager
 
@@ -384,5 +379,7 @@ capacidades dándole a los administradores una herramienta espléndida
 para el manejo de todo su parque de clientes y servidores.
 
 Espero puedan implementarlo.
+
+
 
 

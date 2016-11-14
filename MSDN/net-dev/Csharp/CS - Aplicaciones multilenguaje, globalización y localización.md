@@ -2,17 +2,14 @@
 title: C# – Aplicaciones multilenguaje, globalización y localización
 description: Ejemplo de Aplicaciones multilenguaje, globalización y localización en C#
 author: JuanKRuiz
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: net-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 # C\# – Aplicaciones multilenguaje, globalización y localización
 ![Juan Carlos Ruiz ](http://gravatar.com/avatar/2c36e6ebd9b4d33c3e9a0362607b3e57?s=150)
@@ -230,5 +227,7 @@ de aplicaciones en Windows
 Forms](https://github.com/JuanKRuiz/WinFormsLocalizationDemo)
 
 Espero que le puedan sacar mucho provecho.
+
+
 
 

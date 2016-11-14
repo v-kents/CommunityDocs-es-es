@@ -2,16 +2,14 @@
 title: Explorando el DOM- Clonación, adición y edición de nodos y elementos
 description: Clonación, adición y edición de nodos y elementos DOM
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #Explorando el DOM: Clonación, adición y edición de nodos y elementos
 
@@ -663,5 +661,7 @@ próxima, tengan unas provechosas sesiones de programación.
 
 **LinkedIn:**
 [*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*](http://es.linkedin.com/pub/jaime-pe%C3%B1a-tresancos/28/677/696)
+
+
 
 

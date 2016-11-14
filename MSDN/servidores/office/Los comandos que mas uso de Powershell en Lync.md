@@ -2,18 +2,14 @@
 title: Los comandos que más uso de Powershell en Lync
 description: Los comandos que más uso de Powershell en Lync
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #Los comandos que más uso de Powershell en Lync
 
@@ -156,5 +152,7 @@ siguiente enlace:
 Peter Diaz
 
 MVP Lync-MCT-MAP
+
+
 
 

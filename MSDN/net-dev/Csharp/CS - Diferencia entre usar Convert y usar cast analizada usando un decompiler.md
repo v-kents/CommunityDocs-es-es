@@ -2,16 +2,14 @@
 title: C# - Diferencia entre usar Convert y usar cast analizada usando un decompiler
 description: Diferencia entre usar Convert y usar cast analizada usando un decompiler
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: net-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 # C# - Diferencia entre usar Convert y usar cast analizada usando un decompiler
 
@@ -137,5 +135,7 @@ Si requieres aproximación y que te tengan en cuenta los casos especiales
 usa siempre Convert.
 
     int a = Convert.ToInt32(123.33f);
+
+
 
 

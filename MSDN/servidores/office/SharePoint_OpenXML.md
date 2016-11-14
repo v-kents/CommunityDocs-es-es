@@ -2,17 +2,14 @@
 title: SharePoint 2010 y Open XML SDK. Creación de informes personalizados
 description: SharePoint 2010 y Open XML SDK. Creación de informes personalizados
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #SharePoint 2010 y Open XML SDK. Creación de informes personalizados
 
@@ -584,5 +581,7 @@ Referencias
 [^1]: Como se anuncia la sección de Actualidad de este mismo ejemplar,
     Microsoft acaba de poner a disposición pública la versión 2.5,
     compatible hacia atrás con la versión 2.0.
+
+
 
 

@@ -2,17 +2,14 @@
 title: Web API II – Creando un CRUD, trabajando con verbos HTTP
 description: Implementar fácilmente un CRUD
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: ie
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Desactivar la entrega automática de IE
 
@@ -144,5 +141,7 @@ Computer Configuration/Administrative Templates/Classic Administrative
 Templates/Windows Components/Windows Update/Automatic Updates Blockers
 
 Saludos a todos mis lectores y estamos con nuevos post
+
+
 
 

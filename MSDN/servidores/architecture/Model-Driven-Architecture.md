@@ -2,15 +2,14 @@
 title: Model Driven Architecture (MDA)
 description: Model Driven Architecture (MDA)
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: windows
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
 
 #Model Driven Architecture (MDA)
 
@@ -245,6 +244,8 @@ realizó este tipo de pruebas con el software de misión del F16.
 **odelo C\#**
 
 ![] (./img/Model-Driven-Architecture/image6.png)
+
+
 
 
 

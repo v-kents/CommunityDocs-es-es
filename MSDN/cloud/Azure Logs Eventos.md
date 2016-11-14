@@ -2,16 +2,14 @@
 title: Captura logs de seguridad en Azure
 description: Habilitar la captura de los diferentes logs del visor de eventos
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: cloud
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #Captura logs de seguridad en Azure
 
@@ -83,5 +81,7 @@ Ejecuto el script
 
 Ya está configurada la captura de logs, para verlos utilizo el Azure
 Storage Explorer.
+
+
 
 

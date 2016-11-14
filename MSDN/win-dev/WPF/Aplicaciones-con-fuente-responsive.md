@@ -2,17 +2,14 @@
 title: WPF – Hacer tus aplicaciones con tamaño de fuente responsive
 description: WPF – Hacer tus aplicaciones con tamaño de fuente responsive
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #WPF – Hacer tus aplicaciones con tamaño de fuente responsive
 
@@ -187,5 +184,7 @@ Si lo deseas puedes hacerlo respecto al ancho del control en lugar de
 respecto al alto, según sea tu necesidad, en ese caso debes ayudarte con
 la clase FormattedText y su propiedad Width para hallar el largo total
 en pixeles de la cadena.
+
+
 
 

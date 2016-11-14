@@ -2,16 +2,14 @@
 title: C++- Ansi? Unicode? main, wmain, _tmain
 description: C++- Ansi? Unicode? main, wmain, _tmain
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: net-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 # C++: Ansi? Unicode? main, wmain, _tmain
 
@@ -210,6 +208,8 @@ Versión Unicode:
         if (_wcsicmp(argv[1], L"palabraBase") == 0)
             cout << "Palabras Iguales (w)" << endl;
     }
+
+
 
 
 

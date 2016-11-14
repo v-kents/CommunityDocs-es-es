@@ -2,20 +2,14 @@
 title: Contadores de Rendimiento para diagnóstico y afinación de SQL Server
 description: Contadores de Rendimiento para diagnóstico y afinación de SQL Server
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
-
 
 #Contadores de Rendimiento para diagnóstico y afinación de SQL Server
 
@@ -151,5 +145,7 @@ que el buffer pueda ser reusado para una página diferente).
  
 
 Espero sea de ayuda
+
+
 
 

@@ -2,17 +2,14 @@
 title: Métricas en Visual Studio- Cobertura de las pruebas unitarias
 description: Métricas en Visual Studio- Cobertura de las pruebas unitarias
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Métricas en Visual Studio: Cobertura de las pruebas unitarias
 
@@ -220,6 +217,8 @@ Igualmente, la clase AdministradorDeColecciones al no tener una prueba
 unitaria tendrá todos sus métodos marcados con fondo rojo.
 
 ![] (./img/Metricas-en-Visual-Studio/image9.png)
+
+
 
 
 

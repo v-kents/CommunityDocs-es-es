@@ -2,15 +2,14 @@
 title: Cliente Lync- Error de llamada por problemas de redP
 description: Cliente Lync- Error de llamada por problemas de red
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: server
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
 
 #Cliente Lync: Error de llamada por problemas de red
 
@@ -110,5 +109,7 @@ Figura 5. Creación del CNAME en el DNS Interno
 Lync las rutas estáticas que apunten al Front End de Lync así como
 agregar de ser posible en el fichero (archivo) Host las rutas que
 apunten al Front End.
+
+
 
 

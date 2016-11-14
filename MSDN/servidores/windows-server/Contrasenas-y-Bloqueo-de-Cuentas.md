@@ -2,16 +2,14 @@
 title: Windows Server 2012 – Contraseñas y Bloqueo de Cuentas
 description: Windows Server 2012 – Contraseñas y Bloqueo de Cuentas
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: windows
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #Windows Server 2012 – Contraseñas y Bloqueo de Cuentas
 
@@ -63,5 +61,7 @@ por Properties podremos cambiar la configuración
 ![] (./img/Contrasenas-y-Bloqueo-de-Cuentas/image5.png)
 
 Resumiendo: mucho más fácil y con un procedimiento amigable
+
+
 
 

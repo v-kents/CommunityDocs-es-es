@@ -2,16 +2,14 @@
 title: Azure Web Sites – Escalamiento
 description: Escalar un sitio Web Azure
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: cloud
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #Azure Web Sites – Escalamiento
 
@@ -82,5 +80,7 @@ decirle que número de instancias vamos a usar:
 Espero el post les sea interesante, ¡hasta la próxima!
 
 Saludos
+
+
 
 

@@ -2,20 +2,14 @@
 title: Windows Server 2012 Essentials – Crear carpetas compartidas
 description: Windows Server 2012 Essentials – Crear carpetas compartidas
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
-
 
 #Windows Server 2012 Essentials – Crear carpetas compartidas
 
@@ -94,5 +88,7 @@ sencillo es que se facilite todo a la hora de administrar las diferentes
 funciones.
 
 Muchas Gracias y nos vemos en la próxima.
+
+
 
 

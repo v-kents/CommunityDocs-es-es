@@ -2,15 +2,14 @@
 title: ¿Qué hay de nuevo en Windows Server 2012 R2? - Escenarios de extremo a extremo a través de productos
 description: ¿Qué hay de nuevo en Windows Server 2012 R2? - Escenarios de extremo a extremo a través de productos
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
 
 #¿Qué hay de nuevo en Windows Server 2012 R2? - Escenarios de extremo a extremo a través de productos
 
@@ -66,5 +65,7 @@ los productos y probarlos, aquí hay algunos recursos para ayudarle:
   
 
 Como siempre, síganos en Twitter a través de @ WindowsServer.
+
+
 
 

@@ -2,16 +2,14 @@
 title: [ASP.NET Web API] HTTPActionResult, ahora en Web API 2
 description: HttpActionResult, ahora en Web API 2
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #[ASP.NET Web API] HTTPActionResult, ahora en Web API 2
 
@@ -286,5 +284,7 @@ BadRequest()
 NotFound()
 
 ¡Saludos!
+
+
 
 

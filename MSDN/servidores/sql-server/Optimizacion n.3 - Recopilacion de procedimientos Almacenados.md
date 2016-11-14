@@ -2,19 +2,14 @@
 title: Optimización de Consultas Parte 2 - Anti Semi Joins
 description: Optimización de Consultas Parte 2 - Anti Semi Joins
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
 
 #Optimización de Consultas Parte 3 - Recopilación de procedimientos Almacenados
 
@@ -117,5 +112,7 @@ en nuestros sistemas
 **FREDY LEANDRO ANGARITA CASTELLANOS**
 
 **SQL Server MVP**
+
+
 
 

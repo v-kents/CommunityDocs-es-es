@@ -2,15 +2,14 @@
 title: Definir la base de datos del proyecto
 description: Definir la base de datos del proyecto
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-  
-
-
 
 #Definir la base de datos del proyecto
   
@@ -212,5 +211,7 @@ podemos trabajar de manera muy flexible.
 Espero les sea de utilidad.
 
 Hasta el próximo post.
+
+
 
 

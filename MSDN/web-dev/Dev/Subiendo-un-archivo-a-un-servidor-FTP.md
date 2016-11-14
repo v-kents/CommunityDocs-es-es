@@ -2,19 +2,14 @@
 title: Subiendo un archivo a un servidor FTP con un FileUpload
 description: Subiendo un archivo a un servidor FTP con un FileUpload
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
 
 #Subiendo un archivo a un servidor FTP con un FileUpload
 
@@ -168,5 +163,7 @@ utilizamos **fileupload1.FileContent**.
 
 Espero les sea de utilidad, como siempre les dejo el código del ejemplo,
 saludos!
+
+
 
 

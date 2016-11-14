@@ -2,16 +2,14 @@
 title: Qué es un unit test
 description: Qué es un unit test
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: ALM
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #Qué es un unit test
 
@@ -205,5 +203,7 @@ Assert: Es la sección de la prueba unitaria en donde se prueba el
 resultado del mismo. En este caso y por lo general, lo hacemos con la
 clase Assert –&gt; en MSTest –&gt; y es donde verificamos que la
 variable \_resultado == true;
+
+
 
 

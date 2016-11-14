@@ -2,17 +2,14 @@
 title: Como Respaldar (BackUp) Llaves de cifrado de Reporting Services
 description: Como Respaldar (BackUp) Llaves de cifrado de Reporting Services
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Como Respaldar (BackUp) Llaves de cifrado de Reporting Services
 
@@ -137,5 +134,7 @@ Los comentarios son bienvenidos, espero sea de ayuda,
 
 FREDY LEANDRO ANGARITA CASTELLANOS\
 SQL Server MVP
+
+
 
 

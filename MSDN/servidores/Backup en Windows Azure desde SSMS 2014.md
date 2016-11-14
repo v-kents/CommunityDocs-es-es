@@ -2,19 +2,14 @@
 title: Cómo hacer un backup en Azure desde SSMS 2014
 description: Cómo hacer un backup en Azure desde SSMS 2014
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
 
 #Cómo hacer un backup en Azure desde SSMS 2014
 
@@ -106,5 +101,7 @@ del backup no podría accederlo por la falta de la llave de cifrado).
 **FREDDY ANGARITA**
 
 SQL Server MVP
+
+
 
 

@@ -2,17 +2,14 @@
 title: Iteradores y async. ¿Están sincronizados?
 description: Iteradores y async. ¿Están sincronizados?
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Iteradores y async. ¿Están sincronizados?
 
@@ -655,5 +652,7 @@ y C\# 2.0. En **dotNetManía** nº 7, septiembre de 2004.
 
 \[3\] **Paneque L.**, **Katrib M**. Programación paralela en Visual
 Studio 2010. En **dotNetManía** nº 69, abril de 2010.
+
+
 
 

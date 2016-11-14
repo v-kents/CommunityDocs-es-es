@@ -2,16 +2,14 @@
 title: LAB Virtual WS 2012 y Windows 8 [Parte 1] – Creación de la Máquina Virtual y Configuración de Hyper-V en Windows Server 2012
 description: LAB Virtual WS 2012 y Windows 8 [Parte 1] – Creación de la Máquina Virtual y Configuración de Hyper-V en Windows Server 2012
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #LAB Virtual WS 2012 y Windows 8 [Parte 1] – Creación de la Máquina Virtual y Configuración de Hyper-V en Windows Server 2012
 
@@ -61,5 +59,7 @@ En una próxima entrega estaremos instalando y configurando nuestro
 servidor WS 2012 como Active Directory, DNS y DHCP.
 
 Nos vemos!
+
+
 
 

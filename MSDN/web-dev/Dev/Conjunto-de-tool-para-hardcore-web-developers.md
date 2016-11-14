@@ -2,19 +2,14 @@
 title: Modern IE un conjunto de herramientas para hardcore web developers
 description: Modern IE un conjunto de herramientas para hardcore web developers
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
 
 #Modern IE un conjunto de herramientas para hardcore web developers
 
@@ -95,5 +90,7 @@ comportamiento de un Website en diferentes browser y dispositivos sin ni
 siquiera tener necesidad de tener emuladores, hardware, sistemas
 operativos o incluso browsers y resoluciones de pantalla, todo una obra
 de arte! super recomendado.
+
+
 
 

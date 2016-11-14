@@ -2,18 +2,14 @@
 title: Edge Server en Lync 2013 “No Replica” Troubleshooting
 description: Edge Server en Lync 2013 “No Replica” Troubleshooting
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #Edge Server en Lync 2013 “No Replica” Troubleshooting
 
@@ -90,5 +86,7 @@ replicación sin problemas:
 Peter Diaz
 
 MVP-MCT-MAP
+
+
 
 

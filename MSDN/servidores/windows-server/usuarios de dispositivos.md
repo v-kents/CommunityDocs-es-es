@@ -2,16 +2,14 @@
 title: ¿Qué hay de nuevo en el 2012 R2? Haciendo a los usuarios de dispositivos más Productivos y Protegiendo de información corporativa
 description: ¿Qué hay de nuevo en el 2012 R2? Haciendo a los usuarios de dispositivos más Productivos y Protegiendo de información corporativa
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #¿Qué hay de nuevo en el 2012 R2? Haciendo a los usuarios de dispositivos más Productivos y Protegiendo de información corporativa
 
@@ -737,5 +735,7 @@ Centric IT , Corporate Computing System Center Configuration Manager ,
 elija su propio dispositivo , BYOD , CYOD , ¿Qué hay de nuevo en R2,
 PCIT , Capacitar a las personas centrado en TI , ¿Qué hay de nuevo en el
 2012 R2
+
+
 
 

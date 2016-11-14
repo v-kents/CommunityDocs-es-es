@@ -2,15 +2,14 @@
 title: [ASP.NET MVC] Implementando un CustomPasswordValidator en ASPNET Identity
 description: [ASP.NET MVC] Implementando un CustomPasswordValidator en ASPNET Identity
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
 
 #[ASP.NET MVC] Implementando un CustomPasswordValidator en ASPNET Identity
 
@@ -88,4 +87,6 @@ Y eso es todo, ahora solo es probar, y la siguiente imagen muestra que la lógic
 ![] (./img/Implementando-CustomPasswordValidator/image3.png)
 
 Espero les sea interesante y no te olvides de compartir!
+
+
 

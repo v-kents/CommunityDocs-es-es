@@ -2,18 +2,14 @@
 title: WebApi & oData Queries
 description: Introducción OData open Data Protocol
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #WebAPI & oData Queries
 
@@ -271,5 +267,7 @@ amplio abanico de posibilidades que se nos presentan para trabajar con
 servicios REST de una manera mucho más ágil. Si creéis que este tema es
 interesante podría hacer un par de entradas más sobre paginación, 
 validación y seguridad entre otras opciones.
+
+
 
 

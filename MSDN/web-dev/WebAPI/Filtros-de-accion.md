@@ -2,15 +2,14 @@
 title: Web API V – Filtros de acción
 description: Ejemplo de Web API
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
 
 #[ASP.NET Web API] Web API V – Filtros de acción
 
@@ -158,5 +157,7 @@ de [Web API](http://julitogtu.com/category/asp-net-web-api/).
 ¡Saludos!
 
 [Descarga el ejemplo!](http://sdrv.ms/13XqLdW)
+
+
 
 

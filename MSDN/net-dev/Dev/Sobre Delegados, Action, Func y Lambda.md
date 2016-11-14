@@ -2,18 +2,14 @@
 title: Sobre Delegados, Action, Func y Lambda
 description: Sobre Delegados, Action, Func y Lambda
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: net-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 # Sobre Delegados, Action, Func y Lambda
 
@@ -170,6 +166,8 @@ public delegate double Operacion(double num1, double num2);
     {
         return operacion(num1, num2);
     }
+
+
 
 
 

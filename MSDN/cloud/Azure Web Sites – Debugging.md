@@ -2,15 +2,14 @@
 title: Azure Web Sites – Debugging
 description: Vamos a ver cómo es posible depurar nuestros Web Sites
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: cloud
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
 
 # Azure Web Sites – Debugging 
 
@@ -68,5 +67,7 @@ opciones que marcamos al inicio):
 Espero les sea de utilidad el post y no te olvides de compartirlo!
 
 Saludos!
+
+
 
 

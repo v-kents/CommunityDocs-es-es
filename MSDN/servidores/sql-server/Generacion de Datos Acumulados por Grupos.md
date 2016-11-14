@@ -2,18 +2,14 @@
 title: Generación de Datos Acumulados por Grupos
 description: Generación de Datos Acumulados por Grupos
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 # Generación de Datos Acumulados por Grupos 
 
@@ -198,5 +194,7 @@ Espero sea de ayuda,
 **FREDY LEANDRO ANGARITA CASTELLANOS**
 
 **SQL Server MVP**
+
+
 
 

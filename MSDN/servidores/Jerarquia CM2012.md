@@ -2,19 +2,14 @@
 title: Jerarquía Configuration Manager 2012
 description: Jerarquía Configuration Manager 2012
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
 
 #Jerarquía Configuration Manager 2012
 
@@ -133,6 +128,8 @@ El Site Secundario se encarga de:
 - Debe ser hijo de un Site Primario
 
 - Soporta el ruteo de contenido (File transfer) a otros Sites Secundarios.
+
+
 
 
 

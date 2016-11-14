@@ -2,17 +2,14 @@
 title: Azure Web Sites – Integración con repositorios
 description: Características que permiten a Azure Web Sites robusto e interesante
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: cloud
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Azure Web Sites – Integración con repositorios
 
@@ -75,5 +72,7 @@ Espero les sea de utilidad, en próximos post seguiremos hablando de los
 **Azure Web Sites.**
 
 ¡Saludos!
+
+
 
 

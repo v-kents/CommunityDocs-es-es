@@ -2,17 +2,15 @@
 title: [Entity Framework] Sobre Data Annotations
 description: [Entity Framework] Sobre Data Annotations
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
 
-
-
-
-
-  
 #[Entity Framework] Sobre Data Annotations
   
 Por **Nicolás Herrera**                                                                            Julio 2012
@@ -189,5 +187,7 @@ nuestra columna en la base de datos, así:
 Bien, estos son algunos de los atributos de lo que podemos echar mano
 cuando deseemos sobrescribir alguna de las convenciones que maneja por
 defecto Entity Framework
+
+
 
 

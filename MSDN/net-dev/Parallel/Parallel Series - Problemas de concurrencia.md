@@ -2,17 +2,14 @@
 title: Parallel Series - Problemas de concurrencia
 description: Parallel Series - Problemas de concurrencia
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: net-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 # Parallel Series - Problemas de concurrencia
 
@@ -315,5 +312,7 @@ productor-consumidor.
 Aquí tenéis un pequeño proyecto de ejemplo con el código:
 
 <https://www.dropbox.com/s/ej3u3s1v55ltb30/TPL04_Concurrency.zip>
+
+
 
 

@@ -2,17 +2,14 @@
 title: Validaciones no intrusivas en ASP.NET 4.5
 description: Validaciones no intrusivas en ASP.NET 4.5
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Validaciones no intrusivas en ASP.NET 4.5
 
@@ -334,6 +331,8 @@ Y luego con la validación no intrusiva lista:
 
 Como se puede ver, se han generado nuevos atributos del tipo data-val-<…> los cuales determinan como se realizará la validación.
 Espero les sea de utilidad este post, saludos!
+
+
 
 
 

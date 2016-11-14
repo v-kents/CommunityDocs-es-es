@@ -2,15 +2,14 @@
 title: Creando mi nube privada- Self Service portal 2.0 Instalación
 description: Creando mi nube privada- Self Service portal 2.0 Instalación
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: cloud
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
 
 # Creando mi nube privada: Self Service portal 2.0 Instalación
 
@@ -129,6 +128,8 @@ Eso es toda la instalación, la configuración y primeros pasos, los
 veremos en el próximo post.
 
 ![](./img/Creando mi nube privada/image6.png)
+
+
 
 
 

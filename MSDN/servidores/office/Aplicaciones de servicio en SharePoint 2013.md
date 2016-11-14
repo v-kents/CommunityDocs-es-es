@@ -2,20 +2,14 @@
 title: Aplicaciones de servicio en SharePoint 2013- Introducción y funcionalidad
 description: Aplicaciones de servicio en SharePoint 2013- Introducción y funcionalidad
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
-
 
 #Aplicaciones de servicio en SharePoint 2013: Introducción y funcionalidad
 
@@ -747,5 +741,7 @@ Disponible online en:
 
 \[7\] *Publish services applications in SharePoint 2013)*. Disponible
 online en: <http://technet.microsoft.com/en-us/library/ee704545.aspx>.
+
+
 
 

@@ -2,19 +2,14 @@
 title: Capítulo 2- Introducción a Microsoft Fakes
 description: Capítulo 2- Introducción a Microsoft Fakes
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: ALM
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
 
 #Capítulo 2: Introducción a Microsoft Fakes
 
@@ -295,6 +290,8 @@ Visual Studio, and Windows are trademarks of the Microsoft group of
 companies.
 
 All other trademarks are property of their respective owners.
+
+
 
 
 
