@@ -1,5 +1,5 @@
 ---
-title: [ASP.NET Web API] HTTPActionResult, ahora en Web API 2
+title: ASP.NET Web API HTTPActionResult, ahora en Web API 2
 description: HttpActionResult, ahora en Web API 2
 author: MSCommunityPubService
 ms.author: andygon

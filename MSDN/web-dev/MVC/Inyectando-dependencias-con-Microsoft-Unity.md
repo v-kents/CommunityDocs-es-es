@@ -1,5 +1,5 @@
 ---
-title: [ASP.NET MVC] Inyectando dependencias con Microsoft Unity
+title: ASP.NET MVC Inyectando dependencias con Microsoft Unity
 description: Inyectando dependencias con Microsoft Unity
 author: MSCommunityPubService
 ms.author: andygon

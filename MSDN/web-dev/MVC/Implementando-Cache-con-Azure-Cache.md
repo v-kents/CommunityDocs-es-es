@@ -1,5 +1,5 @@
 ---
-title: [ASP.NET MVC] Implementando Cache con Azure Cache
+title: ASP.NET MVC Implementando Cache con Azure Cache
 description: Implementar fácilmente el Azure Cache
 author: MSCommunityPubService
 ms.author: andygon

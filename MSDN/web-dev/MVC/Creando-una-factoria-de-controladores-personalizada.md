@@ -1,5 +1,5 @@
 ---
-title: [ASP.NET MVC] Creando una factoría de controladores personalizada
+title: ASP.NET MVC Creando una factoría de controladores personalizada
 description: Creando una factoría de controladores personalizada
 author: MSCommunityPubService
 ms.author: andygon

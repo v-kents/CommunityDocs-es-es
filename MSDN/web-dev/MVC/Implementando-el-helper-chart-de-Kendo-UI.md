@@ -1,5 +1,5 @@
 ---
-title: [ASP.NET MVC] Implementando el helper chart de Kendo UI
+title: ASP.NET MVC Implementando el helper chart de Kendo UI
 description: Implementando el helper chart de Kendo UI
 author: MSCommunityPubService
 ms.author: andygon

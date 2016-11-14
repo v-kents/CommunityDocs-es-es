@@ -1,6 +1,6 @@
 ---
-title: [Entity Framework] Sobre Data Annotations
-description: [Entity Framework] Sobre Data Annotations
+title: Entity Framework Sobre Data Annotations
+description: Entity Framework Sobre Data Annotations
 author: MSCommunityPubService
 ms.author: andygon
 ms.date: 06/01/2016
