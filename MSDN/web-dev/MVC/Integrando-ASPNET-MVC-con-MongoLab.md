@@ -1,5 +1,5 @@
 ---
-title: [ASP.NET MVC] Integrando ASPNET MVC con MongoLab
+title: ASP.NET MVC Integrando ASPNET MVC con MongoLab
 description: Integrando ASPNET MVC con MongoLab
 author: MSCommunityPubService
 ms.author: andygon

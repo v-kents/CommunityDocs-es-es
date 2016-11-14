@@ -1,5 +1,5 @@
 ---
-title: [ASP.NET MVC] Cargando datos con WebAPI y JSRender
+title: ASP.NET MVC Cargando datos con WebAPI y JSRender
 description: Cargando datos con WebAPI y JSRender
 author: MSCommunityPubService
 ms.author: andygon

@@ -1,5 +1,5 @@
 ---
-title: [ASP.NET Web API] Subiendo archivo con jQuery y Web API
+title: ASP.NET Web API Subiendo archivo con jQuery y Web API
 description: Subiendo archivo con jQuery y Web API
 author: MSCommunityPubService
 ms.author: andygon

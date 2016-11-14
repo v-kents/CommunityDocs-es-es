@@ -1,5 +1,5 @@
 ---
-title: [ASP.NET MVC] Estableciendo reglas de validación
+title: ASP.NET MVC Estableciendo reglas de validación
 description: Estableciendo reglas de validación
 author: MSCommunityPubService
 ms.author: andygon
