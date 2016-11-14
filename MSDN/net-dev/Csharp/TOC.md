@@ -10,3 +10,4 @@
 #[Patrones de Diseño – Estrategia](CS - Patrones de Diseño – Estrategia.md)
 #[Win32SessionChangesNotifier librería para recibir notificaciones de cambios de sesión](CS - Win32SessionChangesNotifier libreria para recibir notificaciones de cambios de sesión.md)
 #[Aplicaciones multilenguaje, globalización y localización](CS - Aplicaciones multilenguaje, globalización y localización.md)
+
