@@ -1,4 +1,3 @@
-
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 
@@ -103,6 +102,3 @@ All the articles in this repository use GitHub flavored markdown. Here's a list 
 
 ##Article metadata
 Article metadata enables certain functionalities on the azure.microsoft.com web site, such as author attribution, contributor attribution, breadcrumbs, article descriptions, and SEO optimizations as well as reporting Microsoft uses to evaluate the performance of the content. So, the metadata is important! Once your article is ready to publishing, we will be adding the metadata to the head of the article.
-
- 
-

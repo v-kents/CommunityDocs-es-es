@@ -11,7 +11,8 @@ ms.technology:
 ms.custom: CommunityDocs
 ---
 
-#Activación automática de conexiones VPN y VPN Diagnóstico Mejoras en Windows 8.1
+
+# Activación automática de conexiones VPN y VPN Diagnóstico Mejoras en Windows 8.1
 
 
 Por [Server & Management Blogs, Networking Blog](http://blogs.technet.com/b/networking/archive/2013/10/03/automatically-triggering-vpn-connections-and-vpn-diagnostics-enhancements-in-windows-8-1.aspx)

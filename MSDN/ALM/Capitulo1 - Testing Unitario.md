@@ -9,6 +9,7 @@ ms.service: ALM
 ms.prod: 
 ms.technology:
 ms.custom: CommunityDocs
+ms.assetid: 3E1FCAF6-7386-40C3-9941-B29B397D0C24
 ---
 
 #Capítulo 1: Breve teoría sobre Testing Unitario
