@@ -2,17 +2,14 @@
 title: Cómo instalar SQL Server 2012 en Windows Server Core
 description: Cómo instalar SQL Server 2012 en Windows Server Core
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Cómo instalar SQL Server 2012 en Windows Server Core
 
@@ -127,6 +124,8 @@ posteriores) y en Windows 2008 (y posteriores). Nosotros elegimos
 deshabilitarlo.
 
 ![](./img/Como instalar SQL Server 2012 en Windows Server Core/image10.png)
+
+
 
 
 

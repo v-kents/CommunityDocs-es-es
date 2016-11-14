@@ -2,17 +2,14 @@
 title: Buenas prácticas de codificación para capas de acceso a datos de aplicaciones (II)
 description: Buenas prácticas de codificación para capas de acceso a datos de aplicaciones (II)
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Buenas prácticas de codificación para capas de acceso a datos de aplicaciones (II)
 
@@ -605,5 +602,7 @@ lotes, y de almacenamiento en caché de planes en SQL Server”:
 
 [^1]: Aquí obviamente debemos poner de nuestra parte y evitar lanzar lo
     que entre por parámetro de entrada.
+
+
 
 

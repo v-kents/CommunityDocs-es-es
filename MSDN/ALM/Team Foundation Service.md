@@ -2,19 +2,14 @@
 title: Team Foundation Service, tu herramienta ALM en la nube
 description: Team Foundation Service, tu herramienta ALM en la nube
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: ALM
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
 
 #Team Foundation Service, tu herramienta ALM en la nube
 
@@ -346,5 +341,7 @@ problema.
 
 Lo que sí recomendamos sin duda alguna a todo el mundo es que, al menos,
 prueben este servicio.
+
+
 
 

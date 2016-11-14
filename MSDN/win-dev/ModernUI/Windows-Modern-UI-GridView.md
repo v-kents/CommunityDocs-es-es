@@ -2,16 +2,14 @@
 title: Modern UI-  GridView
 description: Modern UI-  GridView
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #Modern UI:  GridView
 
@@ -405,5 +403,7 @@ tenéis un ejemplo de todo lo que hemos visto para que podáis jugar con
 él y tenerlo como base y referencia para vuestros desarrollos.
 
 Un saludo y Happy Coding!
+
+
 
 

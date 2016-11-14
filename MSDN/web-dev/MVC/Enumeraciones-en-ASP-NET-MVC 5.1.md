@@ -2,17 +2,14 @@
 title: [ASP.NET MVC] Soporte para enumeraciones en ASP.NET MVC 5.1
 description: Enumeraciones en ASP.NET MVC 5.1
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #[ASP.NET MVC] Soporte para enumeraciones en ASP.NET MVC 5.1
 
@@ -214,5 +211,7 @@ propiedad del modelo:
 ![] (./img/Enumeraciones-en-ASP/image3.png)
 
 Espero el post les sea interesante, ¡saludos!
+
+
 
 

@@ -2,16 +2,14 @@
 title: C# - Forms – El extraño caso de la ventana sin borde que no se deja cambiar de tamaño
 description: C# - Forms – El extraño caso de la ventana sin borde que no se deja cambiar de tamaño
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: net-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 # C# - Forms - El extraño caso de la ventana sin borde que no se deja cambiar de tamaño
 
@@ -255,5 +253,7 @@ etc.](http://juank.io/csharp-c-como-modificar-comportamiento-boton-minimizar-max
 [C# - Forms - El extraño caso de la ventana sin borde que no se deja
 maximizar ni
 minimizar](http://juank.io/extrano-caso-ventana-sin-borde-no-deja-maximizar-minimizar/)
+
+
 
 

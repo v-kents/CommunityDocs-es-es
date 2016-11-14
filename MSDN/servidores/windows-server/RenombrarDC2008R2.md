@@ -2,15 +2,14 @@
 title: Renombrar Domain Controller ADDS 2008R2
 description: Renombrar Domain Controller ADDS 2008R2
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
 
 #Renombrar Domain Controller ADDS 2008R2
 
@@ -261,5 +260,7 @@ nombre definitivo como se muestra a continuación.-
     
 
 Espero les sea de utilidad!
+
+
 
 

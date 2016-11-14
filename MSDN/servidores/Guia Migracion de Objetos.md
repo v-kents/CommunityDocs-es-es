@@ -2,19 +2,14 @@
 title: Guía Migración de Objetos (Conexión) desde Configuration Manager 2007 a CM 2012
 description: Guía Migración de Objetos (Conexión) desde Configuration Manager 2007 a CM 2012
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
 
 #Guía Migración de Objetos (Conexión) desde Configuration Manager 2007 a CM 2012
 
@@ -120,5 +115,7 @@ Aquí se verán aquellos DP de la estructura 2007 que serán compartidos.
 
 Una vez finalizada y establecida la conexión, estamos listos para migrar
 los objetos que se deseen. 
+
+
 
 

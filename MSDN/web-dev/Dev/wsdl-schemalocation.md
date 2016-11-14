@@ -2,17 +2,14 @@
 title: WCF – xsd-import schemalocation que no puede ser interpretado desde clientes PHP
 description: WCF – xsd-import schemalocation que no puede ser interpretado desde clientes PHP
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #WCF – El caso del WSDL con xsd:import schemalocation que no puede ser interpretado desde clientes PHP
 
@@ -133,4 +130,6 @@ Eso es todo, hora de consultar el wsdl de nuevo y... ya no tenemos nada parecido
 ```
 
 TODA la información ha sido consolidada en el mismo WSDL.
+
+
 

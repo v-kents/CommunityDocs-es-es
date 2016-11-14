@@ -2,16 +2,14 @@
 title: Windows Server 2012 – Windows PowerShell Web Access
 description: Windows Server 2012 – Windows PowerShell Web Access
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: windows
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #Windows Server 2012 – Windows PowerShell Web Access
 
@@ -108,5 +106,7 @@ una herramienta eficaz y cómoda a la hora de administrar servidores
 remotos atreves de un navegador.
 
 Espero les sea de mucha ayuda y nos leemos, Un Saludo
+
+
 
 

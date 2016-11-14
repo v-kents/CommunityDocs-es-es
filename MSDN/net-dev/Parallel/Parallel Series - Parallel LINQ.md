@@ -2,16 +2,14 @@
 title: Parallel Series- Parallel LINQ (PLINQ)
 description: Parallel Series- Parallel LINQ (PLINQ)
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: net-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 # Parallel Series: Parallel LINQ (PLINQ)
 
@@ -268,5 +266,7 @@ Además existen otros casos en los que por cuestiones de rendimiento no
 es recomendable usar PLINQ en todos los casos, debido al sobrecoste que
 puede llegar a ocasionar, como el uso de Join, Union o GroupBy. Sin
 embargo, trataremos éstas cuestiones más adelante.
+
+
 
 

@@ -2,19 +2,15 @@
 title: Abrir ventana del Browser y compartir en redes sociales
 description: Abrir ventana del Browser y compartir en redes sociales
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: ie
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
 
-
-
-
-
-  
-  
-  
 #Abrir ventana del Browser y compartir en redes sociales
   
 Por **Gonzalo Pérez**                                                                                                                                                                 Junio 2012
@@ -121,5 +117,7 @@ comentas la siguiente línea:
 
 Y listo, ahora si podemos subir los screenshot sin que los rechacen.\
 Saludos
+
+
 
 

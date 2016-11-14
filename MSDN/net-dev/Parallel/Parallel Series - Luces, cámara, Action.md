@@ -2,16 +2,14 @@
 title: Parallel Series - Luces, cámara, Action
 description: Parallel Series - Luces, cámara, Action
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: net-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 # Parallel Series - Luces, cámara, Action
 
@@ -269,5 +267,7 @@ Una vez terminado este post, me he percatado de que existe otro post
 sobre Action del conocido BlkRabbitCoder con el mismo título que he
 usado yo (en su caso es el título de una sección). He estado a punto de
 quitarlo, pero… que demonios! Para una idea buena que tengo :-D
+
+
 
 

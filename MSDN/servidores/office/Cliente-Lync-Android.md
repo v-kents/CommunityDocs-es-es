@@ -2,15 +2,14 @@
 title: Descargando, instalando y configurando cliente Lync en Android
 description: Descargando, instalando y configurando cliente Lync en Android
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: server
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
 
 #Descargando, instalando y configurando cliente Lync en Android
 
@@ -76,5 +75,7 @@ Aquí les muestro el listado de contactos que tengo asociado en mi
 cliente Lync.
 
 Espero que les sirva de ayuda este post
+
+
 
 

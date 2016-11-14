@@ -2,16 +2,14 @@
 title: Generando Unidades Organizativas en Active Directory
 description: Generando Unidades Organizativas en Active Directory
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #Generando Unidades Organizativas en Active Directory
 
@@ -122,5 +120,7 @@ OU, no podemos generar dos sub-OUs con el mismo nombre.
 Espero que este artículo les sea de interés y puedan generar las OUs que
 deseen, facilitando la administración de los objetos que tengamos en
 nuestro Active Directory.
+
+
 
 

@@ -2,16 +2,14 @@
 title: ¿Qué es el bucle de mensajes, message loop o WndProc?
 description: ¿Qué es el bucle de mensajes, message loop o WndProc?
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #¿Qué es el bucle de mensajes, message loop o WndProc?
 
@@ -58,5 +56,7 @@ lo dejaremos hasta allí y quien quiera profundizar puede consultar esta
 fuente en internet:
 
 <http://www.winprog.org/tutorial/message_loop.html>
+
+
 
 

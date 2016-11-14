@@ -2,17 +2,14 @@
 title: Windows Modern UI - Acceso al hardware (I) - GPS y Bing Maps SDK
 description: Examinar el acceso al hardware en las aplicaciones de Modern UI para Windows 8
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Windows Modern UI - Acceso al hardware (I) - GPS y Bing Maps SDK
 
@@ -317,5 +314,7 @@ provocar por acción del usuario o del ambiente. Como siempre,
 podéis obtener este ejemplo en funcionamiento para que juguéis con él.
 
 Un saludo y Happy Coding!
+
+
 
 

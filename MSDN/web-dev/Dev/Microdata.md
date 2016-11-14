@@ -2,19 +2,14 @@
 title: Micro-datos. Semántica real en la Web
 description: Micro-datos. Semántica real en la Web
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
 
 #Micro-datos. Semántica real en la Web
 
@@ -347,5 +342,7 @@ SEO a nuestros sitios que algunas de las típicas soluciones al uso
 \[8\] **Goel, K**. y **Gupta, P**. “Introducing schema.org: Search
 engines come together for a richer web”. Search Quality Team, Google
 Inc.
+
+
 
 

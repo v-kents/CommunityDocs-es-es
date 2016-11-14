@@ -2,18 +2,15 @@
 title: [ASP.NET MVC] Estableciendo reglas de validación
 description: Estableciendo reglas de validación
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
 
-  
-
-
-
-  
-  
 #[ASP.NET MVC] Estableciendo reglas de validación
   
 
@@ -298,5 +295,7 @@ Posteriormente vamos a revisar como podemos crear atributos de
 validación personalizados.
 
 Espero les sea de utilidad el post… Saludos!
+
+
 
 

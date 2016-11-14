@@ -2,17 +2,14 @@
 title: C# - Cómo encontrar los archivos pst de outlook
 description: Cómo encontrar los archivos pst de outlook en C#
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: net-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 # C\# - ¿Cómo encontrar los archivos pst de Outlook?
 
@@ -89,5 +86,7 @@ Instanciar un objeto de la aplicación (outlook)
 ```
 
 Happy Learning!
+
+
 
 

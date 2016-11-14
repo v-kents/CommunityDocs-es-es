@@ -2,17 +2,14 @@
 title: Capítulo 6- Hands-on Lab 2
 description: Capítulo 6- Hands-on Lab 2
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: ALM
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Capítulo 6: Hands-on Lab 2
 
@@ -441,5 +438,7 @@ Visual Studio, and Windows are trademarks of the Microsoft group of
 companies.
 
 All other trademarks are property of their respective owners.
+
+
 
 

@@ -2,17 +2,14 @@
 title: Buenas prácticas de codificación para capas de acceso a datos de aplicaciones (III)
 description: Buenas prácticas de codificación para capas de acceso a datos de aplicaciones (III)
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Buenas prácticas de codificación para capas de acceso a datos de aplicaciones (III)
 
@@ -518,6 +515,8 @@ anteriores.
 
     ',N'@0 varchar(30),@1 int',@0='Dep modificado',@1=5
 ```
+
+
 
 
 

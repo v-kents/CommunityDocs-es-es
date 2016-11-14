@@ -2,17 +2,15 @@
 title: Active Directory en Azure
 description: Active Directory en Azure
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: cloud
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
 
-
-
-
-    
-    
 #Active Directory en Azure
 
 Por **Por Juan José Diaz Antuña**
@@ -34,6 +32,8 @@ En cambio Windows Server Active Directory en Azure son la extensión de mi direc
 En cambio sí utilizo Windows Server Active Directory tendré una conexión entre mi red local onpremise y la red virtual de Azure, mediante un conexión VPN o mediante ExpressRoute. Azure será un site más de directorio activo. 
 
 ![] (./img/Azure-AD/image3.png)
+
+
 
 
 

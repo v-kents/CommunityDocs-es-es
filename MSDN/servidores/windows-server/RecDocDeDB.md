@@ -2,15 +2,14 @@
 title: Recuperando un documento de una base de datos de contenido desconectada SharePoint 2010
 description: Recuperando un documento de una base de datos de contenido desconectada SharePoint 2010
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
 
 #Recuperando un documento de una base de datos de contenido desconectada SharePoint 2010
 
@@ -186,6 +185,8 @@ usuario el versionamiento en la biblioteca, limitando la cantidad de
 versiones por documento para controlar el crecimiento de la biblioteca.
 Cómo hacerlo en la siguiente dirección:
 <http://technet.microsoft.com/es-es/library/ff718246> 
+
+
 
 
 

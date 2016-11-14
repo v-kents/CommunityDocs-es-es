@@ -2,18 +2,14 @@
 title: [ASP.NET MVC] Implementando Cache con Azure Cache
 description: Implementar fácilmente el Azure Cache
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #[ASP.NET MVC] Implementando Cache con Azure Cache
 
@@ -114,5 +110,7 @@ simplemente debemos ir creando/leyendo objetos de session:
 ```
 
 Espero les sea de utilidad el post, ¡saludos!
+
+
 
 

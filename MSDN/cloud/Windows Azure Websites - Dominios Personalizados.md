@@ -2,16 +2,14 @@
 title: Azure Websites- Dominios Personalizados
 description: Azure Websites- Dominios Personalizados
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: cloud
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 # Azure Websites: Dominios Personalizados
 
@@ -84,5 +82,7 @@ Las instrucciones mostradas en este video, podrían aplicarse fácilmente
 a la configuración en cualquier otro proveedor de dominios:
 
 <http://www.youtube.com/watch?feature=player_embedded&v=bz6c96hBBbA#t=0>
+
+
 
 

@@ -2,16 +2,14 @@
 title: C# - Conseguir un Handler a la Ventana de un Proceso
 description: Conseguir un Handler a la Ventana de un Proceso en C#
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: net-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 # C\# - Conseguir un Handler a la Ventana de un Proceso
 
@@ -336,5 +334,7 @@ Y este es un ejemplo de uso:
 ```
 
 Hasta Pronto.
+
+
 
 

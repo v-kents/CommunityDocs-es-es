@@ -2,16 +2,14 @@
 title: Windows Modern UI -  Bases de datos locales en aplicaciones (II)
 description: Windows Modern UI -  Bases de datos locales en aplicaciones (II)
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #Windows Modern UI -  Bases de datos locales en aplicaciones (II)
 
@@ -229,5 +227,7 @@ comparación de rendimiento para ver cuál de nuestros dos contrincantes
 aguanta mejor el tipo, no te lo pierdas.
 
 Un saludo y Happy Coding!
+
+
 
 

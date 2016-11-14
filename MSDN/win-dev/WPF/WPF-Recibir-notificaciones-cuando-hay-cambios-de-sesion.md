@@ -2,16 +2,14 @@
 title: WPF - Recibir notificaciones cuando hay cambios de sesión
 description: WPF - Recibir notificaciones cuando hay cambios de sesión
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #WPF - Recibir notificaciones cuando hay cambios de sesión
 
@@ -245,5 +243,7 @@ ingresar y… notificaciones de cambios en la sesión.
 Puedes descargar el ejemplo completo desde mi GitHub: [Win32 Session
 Changes
 Notifier](https://github.com/JuanKRuiz/Win32SessionChangesNotifier/)
+
+
 
 

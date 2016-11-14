@@ -2,17 +2,15 @@
 title: Sistemas Operativos – Manejador de procesos – Los Threads
 description: Sistemas Operativos – Manejador de procesos – Los Threads
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
 
-
-
-
-    
-    
 #Sistemas Operativos – Manejador de procesos – Los Threads
 
 
@@ -340,5 +338,7 @@ Procesos](http://juank.io/sistemas-operativos-manejador-procesos-proceso/)
 
 - [Sistemas Operativos - Manejador de procesos - Los
 Threads](http://juank.io/sistemas-operativos-manejador-procesos-threads/)
+
+
 
 

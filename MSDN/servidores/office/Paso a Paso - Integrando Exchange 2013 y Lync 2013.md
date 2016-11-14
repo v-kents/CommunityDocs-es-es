@@ -2,19 +2,14 @@
 title: Paso a Paso - Integrando Microsoft Exchange 2013 y Microsoft Lync 2013
 description: Paso a Paso - Integrando Microsoft Exchange 2013 y Microsoft Lync 2013
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
 
 #Paso a Paso - Integrando Microsoft Exchange 2013 y Microsoft Lync 2013
 
@@ -157,5 +152,7 @@ Referencia:
 ![](./img/Paso a Paso - Integrando Exchange 2013 y Lync 2013/image7.png)
 
 Nombre: UMLanguagePack.es-ES.exe 150.4 MB
+
+
 
 

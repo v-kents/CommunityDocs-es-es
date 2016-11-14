@@ -2,11 +2,13 @@
 title: Capítulo 1 - Breve teoría sobre Testing Unitario
 description: Capítulo 1 - Breve teoría sobre Testing Unitario
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: ALM
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
-ms.assetid: 3E1FCAF6-7386-40C3-9941-B29B397D0C24
 ---
 
 #Capítulo 1: Breve teoría sobre Testing Unitario
@@ -241,6 +243,8 @@ Visual Studio, and Windows are trademarks of the Microsoft group of
 companies.
 
 All other trademarks are property of their respective owners.
+
+
 
 
 

@@ -2,18 +2,14 @@
 title: Hyper-V- Implementación Rápida de Máquinas Virtuales
 description: Hyper-V- Implementación Rápida de Máquinas Virtuales
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #Hyper-V: Implementación Rápida de Máquinas Virtuales
 
@@ -111,5 +107,7 @@ rápido.
 ¿Cuántos Windows Server 2012 necesito? ¿Cinco? en menos de 5 minutos los
 tengo listos y preparados, sólo falta eventualmente renombrarlos y
 ponerle la configuración de red que necesite
+
+
 
 

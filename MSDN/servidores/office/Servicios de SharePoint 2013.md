@@ -2,18 +2,14 @@
 title: Servicios de SharePoint 2013 - III- Programando un Servicio propio
 description: Servicios de SharePoint 2013 - III- Programando un Servicio propio
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #Servicios de SharePoint 2013 - III: Programando un Servicio propio
 
@@ -959,6 +955,8 @@ Figura 7. - Componente web que lista las órdenes de venta
 
 ![](./img/Servicios de SharePoint 2013/image7.png)
     
+
+
 
 
 

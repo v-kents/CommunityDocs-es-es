@@ -2,17 +2,14 @@
 title: Windows Intune - Administración de usuarios
 description: Para acceder a los servicios de Windows Intune deberemos ser unos usuarios registrados activos. Es una labor del administrador de licencias el crear una cuenta de usuario, vamos a tratar el caso del acceso directo desde el Portal de cuentas de Windows Intune. A ello dedicaremos el presente artículo.
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: ems
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Windows Intune - Administración de usuarios
 ©Jaime Peña Tresancos, 2013
@@ -307,5 +304,7 @@ próxima, tengan unas provechosas sesiones de computación.
 
 **LinkedIn:**
 [*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*](http://es.linkedin.com/pub/jaime-pe%C3%B1a-tresancos/28/677/696)
+
+
 
 

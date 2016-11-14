@@ -2,16 +2,14 @@
 title: Como usar el WndProc en una Ventana WPF
 description: Como usar el WndProc en una Ventana WPF
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #Como usar el WndProc en una Ventana WPF
 
@@ -84,5 +82,7 @@ hara las veces de **WndProc** de nuestra ventana
 ```
 
 Y eso es todo ;)
+
+
 
 

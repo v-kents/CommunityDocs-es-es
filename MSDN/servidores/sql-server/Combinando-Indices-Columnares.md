@@ -2,16 +2,14 @@
 title: Combinando Índices Columnares y Particionado de datos en Tablas de SQL Server
 description: Combinando Índices Columnares y Particionado de datos en Tablas de SQL Server
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: sqlserver
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #Combinando Índices Columnares y Particionado de datos en Tablas de Hechos en SQL Server 2012
 
@@ -429,6 +427,8 @@ Nota: sea consciente del uso de HINTs sobre índices en SQL Server y analícelo 
 ###Conclusiones
 
 En este artículo se ha visto cómo utilizar la tecnología de almacenamiento columnar para dar soporte a escrituras y modificaciones sobre la estructura lógica que representan las tablas de hecho de un proyecto de Business Intelligence. De esta forma, se pueden acelerar notablemente el rendimiento de las consultas tipo de Almacenes de Datos en escenarios ROLAP donde típicamente se accede a grandes conjuntos de datos de forma secuencial. Las premisas fundamentales de esta implementación son dos: 1) identificar la columna/condición para particionar los datos, y 2) seleccionar el instante en el tiempo para cambiar estructuras de lectura-escritura a estructuras sólo-lectura.
+
+
 
 
 

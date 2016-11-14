@@ -2,19 +2,14 @@
 title: Qué hay de nuevo en CM 2012 SP1
 description: Qué hay de nuevo en CM 2012 SP1
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
 
 #Qué hay de nuevo en CM 2012 SP1
 
@@ -102,5 +97,7 @@ haga [clic aquí](http://technet.microsoft.com/es-es/library/jj591552.aspx)
 
 Como verán, son bastantes los cambios realizados y muchos mejoran
 operativamente el producto.
+
+
 
 

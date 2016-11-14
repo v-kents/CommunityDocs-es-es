@@ -2,17 +2,14 @@
 title: Funcionalidades de CM 2012
 description: Funcionalidades de CM 2012
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Funcionalidades de CM 2012
 
@@ -216,5 +213,7 @@ disco, etc.
 
 Permite implementar el software de antivirus de cliente y reforzar el
 cumplimiento del mismo desde la consola del Configuration Manager.
+
+
 
 
