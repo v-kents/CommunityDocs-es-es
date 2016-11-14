@@ -1,18 +1,15 @@
 ---
-title: [ASP.NET MVC] Implementando autenticación con Azure Active Directory
+title: ASP.NET MVC Implementando autenticación con Azure Active Directory
 description: Implementando autenticación con Azure Active Directory
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #[ASP.NET MVC] Implementando autenticación con Azure Active Directory
 
@@ -94,5 +91,7 @@ somos redirigidos  a nuestra aplicación ya logueados (súper, ¿no?):
 ![] (./img/Autenticacion-con-Azure-Active-Directory/image9.png)
 
 Espero el post les haya gustado, ¡saludos!
+
+
 
 

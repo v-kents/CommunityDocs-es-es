@@ -2,15 +2,14 @@
 title: Creando entradas de blog en SharePoint 2010 desde el envío de correo
 description: Creando entradas de blog en SharePoint 2010 desde el envío de correo
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
 
 #Creando entradas de blog en SharePoint 2010 desde el envío de correo
 
@@ -379,5 +378,7 @@ YyBhcmd1bWVudHVtIHRlLCBubyBzaXQgcGVyY2lwaXQg<br/>
 
 En este artículo vimos como configurar el correo entrante en SharePoint
 y así poder alimentar un blog desde el envió de un correo.
+
+
 
 

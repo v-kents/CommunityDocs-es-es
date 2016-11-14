@@ -2,18 +2,14 @@
 title: Microsoft Dynamics NAV en el Cloud
 description: Microsoft Dynamics NAV en el Cloud
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #Microsoft Dynamics NAV en el Cloud
 
@@ -251,5 +247,7 @@ cliente final, para centrarse en el desarrollo (IP) o distribución de
 múltiples y sencillas soluciones ad hoc y pensando en la repetitividad
 (repeatability) para lograr volumen y por tanto mejor coste para el
 cliente y mayor rentabilidad para el proveedor.
+
+
 
 

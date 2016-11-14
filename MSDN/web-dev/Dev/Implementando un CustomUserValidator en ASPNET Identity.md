@@ -1,18 +1,15 @@
 ---
-title: [ASP.NET MVC] Implementando un CustomUserValidator en ASPNET Identity
+title: ASP.NET MVC Implementando un CustomUserValidator en ASPNET Identity
 description: Implementando un CustomUserValidator en ASPNET Identity
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #[ASP.NET MVC] Implementando un CustomUserValidator en ASPNET Identity
 
@@ -140,5 +137,7 @@ Ahora si probamos:
 ![] (./img/CustomUserValidator-en-ASPNET-Identity/image1.png)
 
 Espero les sea interesante y no te olvides compartir!
+
+
 
 

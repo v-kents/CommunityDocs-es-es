@@ -2,20 +2,14 @@
 title: Guía de Migración de Objetos -Job- paso a paso
 description: Guía de Migración de Objetos -Job- paso a paso
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
-
 
 #Guía de Migración de Objetos -Job- paso a paso
 
@@ -179,6 +173,8 @@ que fueron migrados, quien es el site dueño de los objetos, etc.
 
 ![](./img/Guia de Migracion de Objetos Job/image15.png)
     
+
+
 
 
 

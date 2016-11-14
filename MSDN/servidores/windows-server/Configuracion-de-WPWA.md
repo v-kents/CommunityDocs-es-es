@@ -2,16 +2,14 @@
 title: Windows Server 2012 – Configuración de Windows PowerShell Web Access
 description: Windows Server 2012 – Configuración de Windows PowerShell Web Access
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: windows
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #Windows Server 2012 – Configuración de Windows PowerShell Web Access
 
@@ -239,5 +237,7 @@ autenticación de venta minorista adicional.*
 Con esto es todo espero puedan tener esta posibilidad de administración
 remota si en sus empresas puedan necesitarlo algún día y tener en este
 articulo una forma rápida de ver su instalación, configuración y prueba.
+
+
 
 

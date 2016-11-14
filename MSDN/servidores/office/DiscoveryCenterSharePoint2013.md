@@ -2,19 +2,14 @@
 title: El Centro de Exhibición de Documentos Electrónicos de SharePoint Server 2013
 description: El Centro de Exhibición de Documentos Electrónicos de SharePoint Server 2013
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
-
 
 #El Centro de Exhibición de Documentos Electrónicos de SharePoint Server 2013
 
@@ -476,5 +471,7 @@ sitio Web de referencia sobre información de SharePoint en Español.
 Gustavo ha creado videos de entrenamientos online para Microsoft MSDN
 sobre SharePoint 2007 y SharePoint 2010 y es autor de seis libros en
 inglés y español sobre SharePoint.
+
+
 
 

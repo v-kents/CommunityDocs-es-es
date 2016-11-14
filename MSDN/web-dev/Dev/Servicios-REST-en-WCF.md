@@ -2,19 +2,15 @@
 title: Servicios REST en WCF – Mucho trabajo mismo resultado
 description: Servicios REST en WCF
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
 
-
-
-
-
-  
-  
-  
 #Servicios REST en WCF – Mucho trabajo mismo resultado
   
 Por Nicolás Herrera Farias
@@ -116,5 +112,7 @@ escribir mas líneas que a mí.
 Espero les sea de utilidad.
 
 Hasta el próximo post.
+
+
 
 

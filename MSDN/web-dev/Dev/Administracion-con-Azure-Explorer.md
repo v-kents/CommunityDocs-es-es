@@ -2,16 +2,14 @@
 title: Azure Web Sites – Administración de Web Sites con el Azure Explorer
 description: Azure Web Sites – Administración de Web Sites con el Azure Explorer
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: cloud
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #Azure Web Sites – Administración de Web Sites con el Azure Explorer
 
@@ -63,5 +61,7 @@ Adicionalmente tenemos la opción de depurar el sitio (**Attach
 Debugger**), pero esa opción la voy a detallar en el siguiente post.
 
 Espero les sea de utilidad y no se olviden de compartir la entrada.
+
+
 
 

@@ -2,18 +2,14 @@
 title: Full Server, Core Server y Tres Opciones Diferentes Más
 description: Full Server, Core Server y Tres Opciones Diferentes Más
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #Full Server, Core Server y Tres Opciones Diferentes Más
 
@@ -240,5 +236,7 @@ Y finalmente ejecutamos
 Esto es todo por ahora, no son sólo 2 las versiones, sino que en
 realidad son 5 opciones diferentes, desde “casi un desktop” hasta la
 versión “más minimalista”
+
+
 
 

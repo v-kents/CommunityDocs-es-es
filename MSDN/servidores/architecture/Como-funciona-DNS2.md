@@ -2,19 +2,15 @@
 title: Cómo funciona DNS – Parte 2
 description: Cómo funciona DNS – Parte 2
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: windows
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
 
-
-
-
-  
-  
-  
-  
 #Cómo funciona DNS – Parte 2
   
 Por **Guillermo Delprato**
@@ -111,5 +107,7 @@ veamos los más importantes:
 
 Hay varios tipos más de registros en DNS, pero por ahora dejemos todo
 acá.
+
+
 
 

@@ -2,17 +2,15 @@
 title: Web API IV – Implementando Knockoutjs
 description: Ejemplo de Web API
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
 
-
-
-
-    
-    
 #[ASP.NET Web API] Web API IX – Consumiendo un servicio externo, CORS
 
 Por [Julio Cesar
@@ -480,5 +478,7 @@ correctamente.
 Espero este post les sirva bastante, ¡saludos!
 
 [Descarga el ejemplo](http://sdrv.ms/1eJ1irX)
+
+
 
 

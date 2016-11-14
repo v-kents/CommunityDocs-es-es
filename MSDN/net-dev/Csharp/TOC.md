@@ -7,6 +7,6 @@
 #[El extraño caso de la ventana sin borde que no se deja maximizar ni minimizar](CS - Forms - El extraño caso de la ventana sin borde que no se deja maximizar ni minimizar.md)
 #[El extraño caso de la ventana sin borde que no se deja cambiar de tamaño](CS - Forms – El extraño caso de la ventana sin borde que no se deja cambiar de tamaño.md)
 #[Inyección de Dependencias](CS - Inyección de Dependencias.md)
-#[Patrones de Diseño – Estrategia"](CS - Patrones de Diseño - Estrategia.md)
+#[Patrones de Diseño – Estrategia](CS - Patrones de Diseño – Estrategia.md)
 #[Win32SessionChangesNotifier librería para recibir notificaciones de cambios de sesión](CS - Win32SessionChangesNotifier libreria para recibir notificaciones de cambios de sesión.md)
 #[Aplicaciones multilenguaje, globalización y localización](CS - Aplicaciones multilenguaje, globalización y localización.md)

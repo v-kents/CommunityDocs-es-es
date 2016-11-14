@@ -2,18 +2,14 @@
 title: Sobre TDD con Visual Studio
 description: Sobre TDD con Visual Studio
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: ALM
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #Sobre TDD con Visual Studio
 
@@ -162,5 +158,7 @@ y cómo podemos afrontarlos desde el punto de vista de las TDD.
 ejemplo.*](https://skydrive.live.com/redir.aspx?cid=73aa1b824471902b&resid=73AA1B824471902B!573&parid=73AA1B824471902B!372)
 
 Hasta el próximo post.
+
+
 
 

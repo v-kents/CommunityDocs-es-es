@@ -2,18 +2,14 @@
 title: Explorando el DOM- Objeto element. Selección de elementos I
 description: Métodos de selección de elementos y grupos de elementos
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #Explorando el DOM: Objeto element. Selección de elementos I
 
@@ -353,5 +349,7 @@ próxima, tengan unas provechosas sesiones de programación.
 
 **LinkedIn:**
 [*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*](http://es.linkedin.com/pub/jaime-pe%C3%B1a-tresancos/28/677/696)
+
+
 
 

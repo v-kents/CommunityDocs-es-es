@@ -2,17 +2,14 @@
 title: Usando WebAPI para generar Azure SAS para tus apps
 description: Usando WebAPI para generar Azure SAS para tus apps
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: cloud
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 # Usando WebAPI para generar Azure SAS para tus apps
 
@@ -235,5 +232,7 @@ En conclusión, hemos visto cómo producir SAS desde Servicios web basados
 en HTTP, como lo proveen la WebAPI y los Generic Handlers. Luego vimos
 cómo usar esas SAS para poder subir archivos desde nuestras apps a
 Azure.
+
+
 
 

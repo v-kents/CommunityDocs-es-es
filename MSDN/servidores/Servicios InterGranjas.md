@@ -2,18 +2,14 @@
 title: Servicios InterGranjas para Gobiernos Corporativos y Administrativos con SharePoint 2010
 description: Servicios InterGranjas para Gobiernos Corporativos y Administrativos con SharePoint 2010
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #Servicios InterGranjas para Gobiernos Corporativos y Administrativos con SharePoint 2010
 
@@ -226,5 +222,7 @@ así la duplicidad de esfuerzos.
 La duplicidad de esfuerzo de administración y la adecuada Gestión del
 Conocimiento Organizacional, dependen de aprovechar estas cualidades que
 SharePoint Server 2010 nos ofrece.
+
+
 
 

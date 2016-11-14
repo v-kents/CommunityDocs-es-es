@@ -2,18 +2,14 @@
 title: La pesadilla de los web.config Gigantes
 description: La-pesadilla-de-los-web_config-Gigantes
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #La pesadilla de los web.config Gigantes
 
@@ -420,5 +416,7 @@ Y desde luego ese mismo atributo lo podemos usar en todas las secciones
 que superen un tamaño pequeño.
 
 Enjoy it!
+
+
 
 

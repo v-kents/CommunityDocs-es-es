@@ -2,18 +2,14 @@
 title: Testing Unitario con Microsoft Fakes
 description: Testing Unitario con Microsoft Fakes
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: ALM
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #Testing Unitario con Microsoft Fakes
 
@@ -229,5 +225,7 @@ All other trademarks are property of their respective owners.
 [^4]: http://blog.nuget.org/20120518/package-restore-and-consent.html
 
 [^5]: http://msdn.microsoft.com/en-us/library/bb397687.aspx
+
+
 
 

@@ -2,16 +2,14 @@
 title: Parallel Series- Aclarando conceptos base
 description: Parallel Series- Aclarando conceptos base
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: net-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 # Parallel Series: Aclarando conceptos base
 
@@ -185,5 +183,7 @@ desarrollar, y olvidarnos que la mayoría no permiten especificar varios
 cores. De modo que es bastante probable que alguna vez nos encontremos
 refunfuñando porque un código bien escrito no obtiene ninguna ganancia
 cuando lo ejecutemos dentro de una máquina virtual.
+
+
 
 

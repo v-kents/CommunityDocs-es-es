@@ -2,17 +2,14 @@
 title: Almacenamiento de datos en HTML 5 - WebStorage
 description: Almacenamiento de datos en HTML 5
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Almacenamiento de datos en HTML 5 - WebStorage
 
@@ -678,5 +675,7 @@ eficiente.
 Esperamos que lo aquí expuesto les haya servido de ayuda en su trabajo y
 no dejen de preguntar cualquier duda que les pudiese surgir. Hasta la
 próxima, tengan unas provechosas sesiones de programación.
+
+
 
 

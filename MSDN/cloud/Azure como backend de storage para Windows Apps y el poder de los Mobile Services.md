@@ -2,16 +2,14 @@
 title: Azure como backend de storage para Windows Apps y el poder de los Mobile Services
 description: Azure como backend de storage para Windows Apps y el poder de los Mobile Services
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: cloud
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 # Azure como backend de storage para Windows Apps y el poder de los Mobile Services
 
@@ -197,5 +195,7 @@ desplegar una solución de este tipo, en este post:
 [Como añadir archivos al Blob Storage de Windows Azure desde Windows
 Apps, a través de Mobile
 Services](http://blogs.msdn.com/b/warnov/archive/2012/11/10/adicionando-archivos-al-storage-de-azure-apps-con-mobile-services.aspx).
+
+
 
 

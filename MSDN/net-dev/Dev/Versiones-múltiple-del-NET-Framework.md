@@ -2,18 +2,14 @@
 title: Visual Studio 2013- Trabajando con versiones múltiples del .NET FrameworkP
 description: Visual Studio 2013- Trabajando con versiones múltiples del .NET Framework
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #Visual Studio 2013: Trabajando con versiones múltiples del .NET Framework
 
@@ -158,5 +154,7 @@ Framework*](http://msdn.microsoft.com/es-es/library/ee461502.aspx) los
 miembros y tipos obsoletos y aplique las soluciones descritas. (El
 código compilado previamente seguirá ejecutándose con los tipos y
 miembros que se han marcado como obsoletos).
+
+
 
 

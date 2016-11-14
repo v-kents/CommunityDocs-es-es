@@ -86,3 +86,5 @@ Existen también varios métodos y aplicaciones que se podrían aplicar, a quien
 [How to restore deleted user accounts and their group memberships in Active Directory](https://support.microsoft.com/en-us/kb/840001)
 
 
+
+

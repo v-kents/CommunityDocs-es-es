@@ -2,16 +2,14 @@
 title: Web API I – Mi primer proyecto
 description: Proyecto ejemplo WebAPI
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #[ASP.NET Web API] Web API I – Mi primer proyecto
 
@@ -143,5 +141,7 @@ porque ya no la veo) en el próximo capítulo realizaremos un CRUD
 completito.
 
 ¡Saludos!
+
+
 
 

@@ -2,18 +2,14 @@
 title: Introducción a Azure Service Bus
 description: Introducción a Azure Service Bus
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: cloud
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 # Introducción a Azure Service Bus
 
@@ -379,5 +375,7 @@ Referencias
 
 \[1\] Portal de Microsoft Azure:
 [**http://www.windowsazure.com**](http://www.windowsazure.com)
+
+
 
 

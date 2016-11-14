@@ -2,17 +2,14 @@
 title: El Futuro de la Gestión de la Identidad - La identidad en la nube
 description: El Futuro de la Gestión de la Identidad - La identidad en la nube
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: cloud
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 # El Futuro de la Gestión de la Identidad - La identidad en la nube
 
@@ -330,5 +327,7 @@ Este artículo es de Deb Shinder, y fue traducido al español previa
 autorización de TechGenix Ltd. La versión original está en Windows
 Security y puede accederlo desde
 [*aquí.*](http://www.windowsecurity.com/articles/Identity-Management-Crisis-Part5.html)
+
+
 
 

@@ -2,14 +2,17 @@
 title: Activación automática de conexiones VPN y VPN Diagnóstico Mejoras en Windows 8.1
 description: Activación automática de conexiones VPN y VPN Diagnóstico Mejoras en Windows 8.1
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
 
 
-#Activación automática de conexiones VPN y VPN Diagnóstico Mejoras en Windows 8.1
+# Activación automática de conexiones VPN y VPN Diagnóstico Mejoras en Windows 8.1
 
 
 Por [Server & Management Blogs, Networking Blog](http://blogs.technet.com/b/networking/archive/2013/10/03/automatically-triggering-vpn-connections-and-vpn-diagnostics-enhancements-in-windows-8-1.aspx)
@@ -460,5 +463,7 @@ Aprovisionamiento de VPN a través Intune
 System Center Configuration Manager 2012 R2 y Windows Intune ahora soporta perfiles de configuración VPN en los dispositivos de Windows 8.1. También apoyan a configurar las propiedades de disparo automático para conexiones VPN. También proporcionan la funcionalidad para cargar perfiles VPN XML de configuración (Windows 8 RT y los dispositivos de Windows 8.1). Más información sobre la configuración de perfiles VPN en Windows 8.1 se puede encontrar en 
 System Center Configuration Manager 2012 R2 y el servicio de Windows Intune también proporcionan la capacidad de asociar un perfil VPN a una aplicación cuando la aplicación se implementa a través de Configuration Manager. Cuando la aplicación está instalada en el dispositivo del usuario final, el Administrador de configuración también se asocia automáticamente en el perfil de la VPN. Cada vez que el usuario inicia la aplicación, se activa automáticamente la conexión VPN. Más detalles se pueden encontrar en el blog
 http://blogs.technet.com/b/configmgrteam/archive/2013/07/10/user-centric-application-management.aspx
+
+
 
 

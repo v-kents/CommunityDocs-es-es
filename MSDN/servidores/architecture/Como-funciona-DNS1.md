@@ -2,15 +2,14 @@
 title: Cómo funciona DNS – Parte 1
 description: Cómo funciona DNS – Parte 1
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: windows
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
 
 #Cómo funciona DNS – Parte 1
 
@@ -238,5 +237,7 @@ Esto ya está demasiado largo, así que quedará para otra nota, un poco
 más de DNS, específicamente los temas de zonas primarias y secundarias,
 tipos de registros SOA, NS, A, etc. y supongo que para una tercera
 parte, la integración de DNS con Active Directory.
+
+
 
 

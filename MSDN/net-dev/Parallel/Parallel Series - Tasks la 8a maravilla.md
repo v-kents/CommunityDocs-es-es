@@ -2,16 +2,14 @@
 title: Parallel Series- Tasks, la 8ª maravilla
 description: Parallel Series- Tasks, la 8ª maravilla
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: net-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 # Parallel Series: Tasks, la 8ª maravilla
 
@@ -323,5 +321,7 @@ ejecutar sin depuración (Ctrl+F5)
 Bueno, nos hemos dejado algunas cosas en el tintero, pero para no hacer
 muy largo éste post las veremos más adelante, en otros posts avanzados
 de la misma serie.
+
+
 
 

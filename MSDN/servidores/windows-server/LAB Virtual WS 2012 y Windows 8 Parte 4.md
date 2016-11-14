@@ -2,17 +2,14 @@
 title: LAB Virtual WS 2012 y Windows 8 [Parte 4] – Agregando las imágenes de Windows 8 a WDS y haciendo el despliegue mediante la red
 description: LAB Virtual WS 2012 y Windows 8 [Parte 4] – Agregando las imágenes de Windows 8 a WDS y haciendo el despliegue mediante la red
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #LAB Virtual WS 2012 y Windows 8 [Parte 4] – Agregando las imágenes de Windows 8 a WDS y haciendo el despliegue mediante la red
 
@@ -108,5 +105,7 @@ configuración para un deploy de Windows 8 con Microsoft Deployment
 Toolkit 2012 Update 1.
 
 Saludos!
+
+
 
 

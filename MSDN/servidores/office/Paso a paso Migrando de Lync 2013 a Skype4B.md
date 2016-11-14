@@ -2,17 +2,14 @@
 title: Paso a paso Migrando de Lync 2013 a Skype4B InPlace
 description: Paso a paso Migrando de Lync 2013 a Skype4B InPlace
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Paso a paso Migrando de Lync 2013 a Skype4B InPlace
 
@@ -234,5 +231,7 @@ Bienvenidos a Skype For Business!!!!!
 Peter Diaz
 
 MVP Skype4B – MCSE Communication – MCT
+
+
 
 

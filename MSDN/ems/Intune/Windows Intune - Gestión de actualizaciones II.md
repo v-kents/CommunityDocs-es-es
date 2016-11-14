@@ -2,16 +2,15 @@
 title: Windows Intune - Gestión de actualizaciones II
 description: La mayor parte de las tareas de actualización las llevará a cabo Windows Intune de una manera muy versátil y automatizada. Sin embargo hay una serie de circunstancias en las que se requiere un cierto trabajo adicional de definición de qué actualizar y cuando. A ello dedicaremos el presente artículo.
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: ems
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
 
-
-
-
-    
 #Windows Intune (Ed. Dic-2012). Gestión de actualizaciones II
 
 ©Jaime Peña Tresancos, 2013
@@ -287,5 +286,7 @@ próxima, tengan unas provechosas sesiones de computación.
 
 **LinkedIn:**
 [*es.linkedin.com/pub/jaime-peña-tresancos/28/677/696*](http://es.linkedin.com/pub/jaime-pe%C3%B1a-tresancos/28/677/696)
+
+
 
 

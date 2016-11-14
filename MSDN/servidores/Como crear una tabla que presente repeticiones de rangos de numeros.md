@@ -2,17 +2,14 @@
 title: Cómo crear una tabla que presente repeticiones de rangos de números
 description: Cómo crear una tabla que presente repeticiones de rangos de números
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Cómo crear una tabla que presente repeticiones de rangos de números
 
@@ -129,5 +126,7 @@ Los comentarios son bienvenidos, espero sea de ayuda,
 FREDY LEANDRO ANGARITA CASTELLANOS
 
 Sql Server MVP
+
+
 
 

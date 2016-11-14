@@ -14,3 +14,4 @@
 #[Explorando el DOM: Nodos de texto. Gestión multinodal ](Nodos-de-texto_Gestión-multinodal.md)
 #[Explorando el DOM: Nodo document. Nodos hijo](Nodo document-Nodos hijo.md)
 #[Explorando el DOM: Nodos de texto. Gestión multinodal](Nodos-de-texto-Gestion-multinodal.md)
+#[Explorando el DOM: Nodos de texto. Obtención y manipulación](Nodos-de-texto_Obtencion-y-manipulacion.md)

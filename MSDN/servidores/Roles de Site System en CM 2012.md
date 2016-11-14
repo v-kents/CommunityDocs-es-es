@@ -2,17 +2,14 @@
 title: Roles de Site System en CM 2012
 description: Roles de Site System en CM 2012
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Roles de Site System en CM 2012
 
@@ -230,6 +227,8 @@ Configuration Manager.
 
 4.  Server Locator point: Su funcionalidad se integró al role de
     Management Point.
+
+
 
 
 

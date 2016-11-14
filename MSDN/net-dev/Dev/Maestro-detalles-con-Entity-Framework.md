@@ -2,17 +2,15 @@
 title: Maestro detalles con Entity Framework en Windows Forms
 description: Maestro detalles con Entity Framework en Windows Forms
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: win-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
 
-
-
-
-  
-  
 #Maestro detalles con Entity Framework en Windows Forms
   
 Por Jorge Pedraza
@@ -159,5 +157,7 @@ Una vez más se puede apreciar una alternativa simple y productiva de
 crear soluciones Windows con base de datos a través de tecnologías
 actuales y de proyección futura dentro de la plataforma .NET, como es
 *Entity Framework*.
+
+
 
 

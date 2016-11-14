@@ -2,17 +2,14 @@
 title: Script para permitir a las bibliotecas abrir los archivos PDFS en SharePoint 2010
 description: Script para permitir a las bibliotecas abrir los archivos PDFS en SharePoint 2010
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Script para permitir a las bibliotecas abrir los archivos PDFS en SharePoint 2010
 
@@ -114,5 +111,7 @@ de archivos en el navegador que esta bloqueada de forma predeterminada
 en SharePoint 2010. Esto aunque representa un riesgo, es una
 funcionalidad habitual que los usuarios de SharePoint están
 acostumbrados a utilizar y que desean este disponible en el portal.
+
+
 
 

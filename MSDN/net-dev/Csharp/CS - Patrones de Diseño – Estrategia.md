@@ -2,16 +2,14 @@
 title: C# - Patrones de Diseño – Estrategia
 description: C# - Patrones de Diseño – Estrategia
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: net-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 # C\# - Inyección de Dependencias
 
@@ -543,6 +541,8 @@ USAR HERENCIA**!
         }
 
     }
+
+
 
 
 

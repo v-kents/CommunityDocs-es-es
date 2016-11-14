@@ -2,16 +2,14 @@
 title: C# - ¿Cómo obtener el SID de un usuario local?
 description: ¿Cómo obtener el SID de un usuario local en C#?
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: net-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 # C# - ¿Cómo obtener el SID de un usuario local?
 
@@ -92,5 +90,7 @@ un poco más complejo. Una alternativa viable es hacer uso de **WMI**
 ```
 
 Happy Learning!
+
+
 
 

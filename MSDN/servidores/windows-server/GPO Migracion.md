@@ -2,17 +2,14 @@
 title: Migración del Group Policy Object
 description: Migración del Group Policy Object
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #Migración del Group Policy Object
 
@@ -131,6 +128,8 @@ Ahora selecciono la tabla de migración que cree antes
 Y finalizo
 
 ![](./img/GPO Migracion/image22.png)
+
+
 
 
 

@@ -2,16 +2,14 @@
 title: Utilidad de relaciones 1-1 para optimizar descarga de imágenes desde DBs
 description: Utilidad de relaciones 1-1 para optimizar descarga de imágenes desde DBs
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: net-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 # Utilidad de relaciones 1:1 para optimizar descarga de imágenes desde DBs
 
@@ -155,5 +153,7 @@ comentar abajo!
 
 En LightSwitch no se soportan las relaciones 1:1, pero sí las *1:0..1*,
 que en términos prácticos cumplen exactamente la misma función.
+
+
 
 

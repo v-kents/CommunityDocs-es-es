@@ -2,17 +2,14 @@
 title: Web API VII – Message Handlers
 description: Ejemplo de Web API
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
 
 #[ASP.NET Web API] Web API VII – Message Handlers
 
@@ -113,5 +110,7 @@ Espero les haya gustado el post, ya nos seguiremos viendo por acá con
 otras entregas sobre [Web API](http://julitogtu.com/asp-net-web-api/).
 
 [Descarga el ejemplo!](http://sdrv.ms/1eLmJEF)
+
+
 
 

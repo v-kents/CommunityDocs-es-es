@@ -2,18 +2,14 @@
 title: Paso a Paso -  Reporting Services en Azure
 description: Paso a Paso -  Reporting Services en Azure
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: servers
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #Paso a Paso -  Reporting Services en Azure
 
@@ -273,5 +269,7 @@ datos, es importante tener en cuenta la latencia
 
 También se recomienda que el desarrollo de los reportes (en la medida de
 lo posible se haga con orígenes de datos remotos)
+
+
 
 

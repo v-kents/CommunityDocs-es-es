@@ -2,18 +2,14 @@
 title: Condicionales y ciclos en JSRende
 description: Condicionales y ciclos en JSRende
 author: MSCommunityPubService
+ms.author: andygon
 ms.date: 06/01/2016
-ms.topic: how-to-article
+ms.topic: article
 ms.service: web-dev
+ms.prod: 
+ms.technology:
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
-
-
 
 #Condicionales y ciclos en JSRender
 
@@ -261,5 +257,7 @@ Espero les sea de utilidad el post, les dejo el código del ejemplo,
 saludos!
 
 [*Descarga el ejemplo!*](http://sdrv.ms/TsKI0m)
+
+
 
 
