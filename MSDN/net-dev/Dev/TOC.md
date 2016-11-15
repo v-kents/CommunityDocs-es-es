@@ -1,5 +1,4 @@
 #[C++ - Ansi? Unicode? main, wmain, _tmain](Ansi-Unicode.md)
-#[Qué es Inyección de dependencias](Inyeccion-de-Dependencias.md)
 #[Programación asíncrona en .NET Framework 4.5](Programacion-asincrona-en-NET.md)
 #[Sobre Delegados, Action, Func y Lambda](Sobre-Delegados.md)
 #[La función de RegSetValueEx de la API de Windows](RegSetValueEx-API-Windows.md)
