@@ -1,4 +1,4 @@
-#[El Depurador](IE11-El-Depurador.md )
+#[El Depurador](IE11-El-Depurador.md)
 #[El Explorador DOM](IE11-El-Explorador-DOM.md)
 #[El Explorador de red](IE11-El-Explorador-de-red.md)
 #[La consola de salida de texto](IE11-La-consola-de-salida-de-texto.md)
