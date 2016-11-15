@@ -1,16 +1,8 @@
-#[Windows Intune - Administración de usuarios](Windows Intune - Administración de usuarios.md)
-
-#[Windows Intune - Gestión de actualizaciones I](Windows Intune - Gestión de actualizaciones I.md)
-
-#[Windows Intune - Gestión de actualizaciones II](Windows Intune - Gestión de actualizaciones II.md)
-
-#[Windows Intune - Organización en Grupos II](Windows Intune - Organización en Grupos II.md)
-
-#[Windows Intune - Organización en Grupos](Windows Intune - Organización en Grupos.md)
-
-#[Windows Intune - Portal de empresa de Windows](Windows Intune - Portal de empresa de Windows 8.md)
-
-
-#[Windows Intune (Ed. Dic-2012). Agregar software](Windows Intune.md)
-
-#[Windows Intune (Ed. Dic-2012). Administrar implementación con Instalación requerida](Windows Intune 2.md)
+#[Administración de usuarios](Administracion-de-usuarios.md)
+#[Gestión de actualizaciones I](Gestion-de-actualizaciones.md)
+#[Gestión de actualizaciones II](Gestion-de-actualizaciones-ii.md)
+#[Organización en Grupos](Organizacion-en-Grupos.md)
+#[Organización en Grupos II](Organizacion-en-Grupos-ii.md)
+#[Portal de empresa de Windows](Portal-de-empresa-Windows.md)
+#[Agregar software](Agregar-software.md)
+#[Administrar implementación con Instalación requerida](Administrar-implementacion.md)
