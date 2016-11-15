@@ -1,5 +1,5 @@
 #[Administración de Lync con Powershell](Administracion-de-Lync.md)
-#[Integrando Exchange 2013 y Lync 2013](Exchange-y-Lync.md)
+#[Integrando Exchange 2013 y Lync 2013](Integrando-Exchange-y-Lync.md)
 #[Migrando de Lync 2013 a Skype4B InPlace](Migrando-Lync-a-Skype4B.md)
 #[Comandos de Powershell que más uso en Lync](Comandos-Powershell-en-Lync.md)
 #[PowerShell para usar en Skype4B PARTE I](10-comandos-PowerShell-para-Skype4B-PARTE1.md)
