@@ -3,7 +3,7 @@
 #[Soporte para enumeraciones en ASP.NET MVC 5.1](Enumeraciones-en-ASP-NET-MVC 5.1.md)
 #[Cargando datos con WebAPI y JSRender](Cargando-datos-con-WebAPI-y-JSRender.md)
 #[Creando una factoría de controladores personalizada](Creando-una-factoria-de-controladores-personalizada.md)
-#[Implementando un CustomUserValidator en ASPNET Identity](Implementando un CustomUserValidator en ASPNET Identity.md)
+#[Implementando un CustomUserValidator en ASPNET Identity](Implementando-CustomUserValidator.md)
 #[Implementando el helper chart de Kendo UI](Implementando-el-helper-chart-de-Kendo-UI.md)
 #[Inyectando dependencias con Microsoft Unity](Inyectando-dependencias-con-Microsoft-Unity.md)
 #[Integrando ASPNET MVC con MongoLab](Integrando-ASPNET-MVC-con-MongoLab.md)
