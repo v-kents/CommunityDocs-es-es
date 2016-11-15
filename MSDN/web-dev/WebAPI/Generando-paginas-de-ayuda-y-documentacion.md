@@ -1,5 +1,5 @@
 ---
-title: [ASP.NET Web API] Generando páginas de ayuda y documentación
+title: Generando páginas de ayuda y documentación
 description: Generando páginas de ayuda y documentación
 author: MSCommunityPubService
 ms.author: andygon

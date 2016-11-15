@@ -12,7 +12,7 @@
 #[Dynamics NAV en el Cloud](Dynamics-NAV-en-el-Cloud.md)
 #[Lo nuevo en System Center 2012 R2 CM](Lo-nuevo-en-System-Center-CM.md)
 #[Jerarquía Configuration Manager 2012](Jerarquia-CM2012.md)
-#[Guía Migración de Objetos desde CM 2007 a CM 2012](Guia-Migracion-de-Objetos.md)
+#[Guía Migración de Objetos desde CM 2007 a CM 2012](Guia-de-Migracion-de-Objetos.md)
 #[Guía de Migración de Objetos -Job- paso a paso](Guia-de-Migracion-de-Objetos-Job.md)
 #[Funcionalidades de CM 2012](Funcionalidades-CM.md)
 #[Cómo hacer un backup en Azure desde SSMS 2014](Backup-en-Azure.md)
