@@ -1,7 +1,42 @@
 #Microsoft Community Projects
+###Your contributions could be in next release!  
 
 
-##Visual Studio Team Explorer Everywhere (TEE)
+
+##Feb 2017 - mssql for Visual Studio Code
+
+We are making the  mssql for Visual Studio Code open to community localization. 
+
+
+mssql preview for Visual Studio Codeia an extension for developing Microsoft SQL Server, Azure SQL Database and SQL Data Warehouse everywhere with a rich set of functionalities, including:
+* Connect to Microsoft SQL Server, Azure SQL Database and SQL Data Warehouses.
+* Create and manage connection profiles and most recently used connections.
+* Write T-SQL script with IntelliSense, Go to Definition, T-SQL snippets, syntax colorizations, T-SQL error validations and GO batch separator.
+* Execute your scripts and view results in a simple to use grid.
+* Save the result to json or csv file format and view in the editor.
+* Customizable extension options including command shortcuts and more.
+* See the mssql extension tutorial for the step by step guide.
+* See the SQL developer tutorial to develop an app with C#, Java, Node.js, PHP, Python and R with SQL Server databases.
+
+###You can now contribute to the translation of this project. TEE Plug-in ia available to everyone to use and contribute in the following languages:
+
+* Brazilian-Portuguese
+* Chinese (Simplified)
+* Chinese (Tradicional)
+* French
+* Italian
+* German
+* Spanish
+* Japanese 
+* Korean
+* Russian 
+
+
+###Get started guide https://github.com/Microsoft/vscode-mssql/wiki/localization
+
+
+
+##Feb 2017 - Visual Studio Team Explorer Everywhere (TEE)
 
 Along with open-sourced TEE source code, Microsoft has announced the availability of enabled community contribution on TEE resources for localization workflow.
 
@@ -10,16 +45,13 @@ Along with open-sourced TEE source code, Microsoft has announced the availabilit
 ###You can now contribute to the translation of this project. TEE Plug-in ia available to everyone to use and contribute in the following languages:
 
 * Brazilian-Portuguese
-* Chinese (China)
-* Chinese (Taiwan)
+* Chinese (Simplified)
+* Chinese (Tradicional)
 * French
 * German
 * Japanese  
 
-###Get started guide
-https://github.com/Microsoft/team-explorer-everywhere/blob/master/Localization.md
-
-The latest TEE version of the software is 14.111.1. **Your contribution could be in next release**.     
+###Get started guide https://github.com/Microsoft/team-explorer-everywhere/blob/master/Localization.md
 
 
 ##Additional Resources
