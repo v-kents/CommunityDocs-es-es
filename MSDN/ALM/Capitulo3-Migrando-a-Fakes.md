@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Capítulo 3- Migrando a Microsoft Fakes
 description: Capítulo 3- Migrando a Microsoft Fakes
 author: MSCommunityPubService

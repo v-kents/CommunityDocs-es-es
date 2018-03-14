@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Capítulo 6- Hands-on Lab 4
 description: Capítulo 6- Hands-on Lab 4
 author: MSCommunityPubService

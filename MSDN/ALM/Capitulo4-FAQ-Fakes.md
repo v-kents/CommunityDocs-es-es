@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Capítulo 4- FAQ Microsoft Fakes
 description: Capítulo 4- FAQ Microsoft Fakes
 author: MSCommunityPubService

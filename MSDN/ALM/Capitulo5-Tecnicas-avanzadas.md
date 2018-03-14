@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Capítulo 5- Técnicas avanzadas
 description: Capítulo 5- Técnicas avanzadas
 author: MSCommunityPubService

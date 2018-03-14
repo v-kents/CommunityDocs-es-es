@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Capítulo 2- Introducción a Microsoft Fakes
 description: Capítulo 2- Introducción a Microsoft Fakes
 author: MSCommunityPubService

@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Team Foundation Service, tu herramienta ALM en la nube
 description: Team Foundation Service, tu herramienta ALM en la nube
 author: MSCommunityPubService

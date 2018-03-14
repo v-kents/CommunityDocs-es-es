@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Testing Unitario con Microsoft Fakes
 description: Testing Unitario con Microsoft Fakes
 author: MSCommunityPubService
