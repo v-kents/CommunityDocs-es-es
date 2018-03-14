@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Generación de Datos Acumulados por Grupos
 description: Generación de Datos Acumulados por Grupos
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Restaurar un Controlador de Dominio Desde una Instantánea
 description: Restaurar un Controlador de Dominio Desde una Instantánea
 author: MSCommunityPubService

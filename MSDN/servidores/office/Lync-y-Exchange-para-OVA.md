@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Integrando Lync 2013 y Exchange 2013 para mensajería unificada y Outlook Voice
 description: Integrando Lync 2013 y Exchange 2013 para mensajería unificada y Outlook Voice
 author: MSCommunityPubService

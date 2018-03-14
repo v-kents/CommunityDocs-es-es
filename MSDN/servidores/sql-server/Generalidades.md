@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Optimización de Consultas Parte 1 - Generalidades
 description: Optimización de Consultas Parte 1 - Generalidades
 author: MSCommunityPubService

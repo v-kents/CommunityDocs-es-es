@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Como Respaldar (BackUp) Llaves de cifrado de Reporting Services
 description: Como Respaldar (BackUp) Llaves de cifrado de Reporting Services
 author: MSCommunityPubService

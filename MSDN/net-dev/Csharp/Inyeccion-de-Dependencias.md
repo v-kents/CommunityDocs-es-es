@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: C# - Inyección de Dependencias
 description: C# - Inyección de Dependencias
 author: MSCommunityPubService

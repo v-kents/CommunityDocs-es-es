@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Parallel Series- Parallel LINQ (PLINQ)
 description: Parallel Series- Parallel LINQ (PLINQ)
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Renombrar Domain Controller ADDS 2008R2
 description: Renombrar Domain Controller ADDS 2008R2
 author: MSCommunityPubService

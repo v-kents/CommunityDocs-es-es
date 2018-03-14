@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: C# - ¿Cómo hackear un MessageBox y personalizar los textos en los botones? - Forms
 description: ¿Cómo hackear un MessageBox y personalizar los textos en los botones?  - Forms en C#
 author: MSCommunityPubService

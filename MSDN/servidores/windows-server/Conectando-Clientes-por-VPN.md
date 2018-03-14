@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Windows Server 2012- Demostración Conectando Clientes a la Red por VPN
 description: Windows Server 2012- Demostración Conectando Clientes a la Red por VPN
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: LAB Virtual WS 2012 y Windows 8 [Parte 2] – Instalación y Configuración en Windows Server 2012 de los roles- Active Directory, DNS, DHCP
 description: LAB Virtual WS 2012 y Windows 8 [Parte 2] – Instalación y Configuración en Windows Server 2012 de los roles- Active Directory, DNS, DHCP
 author: MSCommunityPubService

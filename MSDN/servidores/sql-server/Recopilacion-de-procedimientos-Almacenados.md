@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Optimización de Consultas Parte 2 - Anti Semi Joins
 description: Optimización de Consultas Parte 2 - Anti Semi Joins
 author: MSCommunityPubService

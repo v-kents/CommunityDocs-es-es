@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Sobre Delegados, Action, Func y Lambda
 description: Sobre Delegados, Action, Func y Lambda
 author: MSCommunityPubService

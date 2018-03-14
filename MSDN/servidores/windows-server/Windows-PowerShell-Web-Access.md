@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Windows Server 2012 – Windows PowerShell Web Access
 description: Windows Server 2012 – Windows PowerShell Web Access
 author: MSCommunityPubService

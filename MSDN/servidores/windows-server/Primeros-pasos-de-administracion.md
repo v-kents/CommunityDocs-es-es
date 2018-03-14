@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Windows Server 2012 Essentials – Primeros pasos de administración
 description: Windows Server 2012 Essentials – Primeros pasos de administración
 author: MSCommunityPubService

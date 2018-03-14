@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: LAB Virtual WS 2012 y Windows 8 [Parte 1] – Creación de la Máquina Virtual y Configuración de Hyper-V en Windows Server 2012
 description: LAB Virtual WS 2012 y Windows 8 [Parte 1] – Creación de la Máquina Virtual y Configuración de Hyper-V en Windows Server 2012
 author: MSCommunityPubService

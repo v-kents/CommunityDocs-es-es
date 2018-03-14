@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: C# – Win32SessionChangesNotifier librería para recibir notificaciones de cambios de sesión
 description: C# – Win32SessionChangesNotifier librería para recibir notificaciones de cambios de sesión
 author: MSCommunityPubService

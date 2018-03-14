@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Cómo crear una tabla que presente repeticiones de rangos de números
 description: Cómo crear una tabla que presente repeticiones de rangos de números
 author: MSCommunityPubService

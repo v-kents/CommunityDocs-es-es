@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: LAB Virtual WS 2012 y Windows 8 [Parte 5] – Instalación y Configuración de Microsoft Deployment Toolkit 2012 (MDT) Update 1
 description: LAB Virtual WS 2012 y Windows 8 [Parte 5] – Instalación y Configuración de Microsoft Deployment Toolkit 2012 (MDT) Update 1
 author: MSCommunityPubService

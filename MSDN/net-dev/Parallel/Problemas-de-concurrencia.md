@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Parallel Series - Problemas de concurrencia
 description: Parallel Series - Problemas de concurrencia
 author: MSCommunityPubService

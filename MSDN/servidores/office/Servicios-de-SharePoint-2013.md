@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Servicios de SharePoint 2013 - III- Programando un Servicio propio
 description: Servicios de SharePoint 2013 - III- Programando un Servicio propio
 author: MSCommunityPubService

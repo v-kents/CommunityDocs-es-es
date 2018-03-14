@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Parallel Series- Tasks, la 8ª maravilla
 description: Parallel Series- Tasks, la 8ª maravilla
 author: MSCommunityPubService

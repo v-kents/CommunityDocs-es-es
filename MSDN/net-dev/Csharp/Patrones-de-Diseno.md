@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: C# - Patrones de Diseño – Estrategia
 description: C# - Patrones de Diseño – Estrategia
 author: MSCommunityPubService

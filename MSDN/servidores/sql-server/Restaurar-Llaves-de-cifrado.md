@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Restaurar (Restore) llaves de cifrado de Reporting Services
 description: Restaurar (Restore) llaves de cifrado de Reporting Services
 author: MSCommunityPubService

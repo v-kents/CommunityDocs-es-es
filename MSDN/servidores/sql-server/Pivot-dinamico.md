@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Pivot dinámico con SQL Server
 description: Pivot dinámico con SQL Server
 author: MSCommunityPubService

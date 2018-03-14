@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Funcionalidades de CM 2012
 description: Funcionalidades de CM 2012
 author: MSCommunityPubService

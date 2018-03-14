@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Model Driven Architecture (MDA)
 description: Model Driven Architecture (MDA)
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: ¿Cómo saber la versión de mi Servidor Lync 2010-2013?
 description: ¿Cómo saber la versión de mi Servidor Lync 2010-2013?
 author: MSCommunityPubService

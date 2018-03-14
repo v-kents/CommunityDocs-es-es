@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Parallel Series- Aclarando conceptos base
 description: Parallel Series- Aclarando conceptos base
 author: MSCommunityPubService

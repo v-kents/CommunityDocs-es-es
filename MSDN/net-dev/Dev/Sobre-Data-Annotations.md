@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Entity Framework Sobre Data Annotations
 description: Entity Framework Sobre Data Annotations
 author: MSCommunityPubService

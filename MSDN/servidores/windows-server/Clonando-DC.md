@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Clonando DCs de Windows Server 2012
 description: Clonando DCs de Windows Server 2012
 author: MSCommunityPubService

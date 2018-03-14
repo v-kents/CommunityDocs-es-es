@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: C# - Conseguir un Handler a la Ventana de un Proceso
 description: Conseguir un Handler a la Ventana de un Proceso en C#
 author: MSCommunityPubService

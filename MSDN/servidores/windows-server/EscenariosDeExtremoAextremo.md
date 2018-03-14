@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: ¿Qué hay de nuevo en Windows Server 2012 R2? - Escenarios de extremo a extremo a través de productos
 description: ¿Qué hay de nuevo en Windows Server 2012 R2? - Escenarios de extremo a extremo a través de productos
 author: MSCommunityPubService

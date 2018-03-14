@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Combinando Índices Columnares y Particionado de datos en Tablas de SQL Server
 description: Combinando Índices Columnares y Particionado de datos en Tablas de SQL Server
 author: MSCommunityPubService

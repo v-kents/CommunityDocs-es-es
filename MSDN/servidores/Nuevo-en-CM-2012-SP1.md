@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Qué hay de nuevo en CM 2012 SP1
 description: Qué hay de nuevo en CM 2012 SP1
 author: MSCommunityPubService

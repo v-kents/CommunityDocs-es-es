@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Buenas prácticas de codificación para capas de acceso a datos de aplicaciones (II)
 description: Buenas prácticas de codificación para capas de acceso a datos de aplicaciones (II)
 author: MSCommunityPubService

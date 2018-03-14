@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Creación de una política en directorio activo para despliegue de certificados para OCS Lync cliente
 description: Creación de una política en directorio activo para despliegue de certificados para OCS Lync cliente
 author: MSCommunityPubService

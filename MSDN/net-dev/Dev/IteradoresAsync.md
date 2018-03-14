@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Iteradores y async. ¿Están sincronizados?
 description: Iteradores y async. ¿Están sincronizados?
 author: MSCommunityPubService

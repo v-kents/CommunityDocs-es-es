@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Crear tabla a partir de un texto separado por comas (CSV)
 description: Crear tabla a partir de un texto separado por comas (CSV)
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: C# - Diferencia entre usar Convert y usar cast analizada usando un decompiler
 description: Diferencia entre usar Convert y usar cast analizada usando un decompiler
 author: MSCommunityPubService

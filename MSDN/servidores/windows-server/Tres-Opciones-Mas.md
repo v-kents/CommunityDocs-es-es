@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Full Server, Core Server y Tres Opciones Diferentes Más
 description: Full Server, Core Server y Tres Opciones Diferentes Más
 author: MSCommunityPubService

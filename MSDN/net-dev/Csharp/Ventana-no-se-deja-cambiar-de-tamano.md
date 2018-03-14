@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: C# - Forms – El extraño caso de la ventana sin borde que no se deja cambiar de tamaño
 description: C# - Forms – El extraño caso de la ventana sin borde que no se deja cambiar de tamaño
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Microsoft Dynamics NAV en el Cloud
 description: Microsoft Dynamics NAV en el Cloud
 author: MSCommunityPubService

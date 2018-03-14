@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Cómo instalar SQL Server 2012 en Windows Server Core
 description: Cómo instalar SQL Server 2012 en Windows Server Core
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Guía de Migración de Objetos -Job- paso a paso
 description: Guía de Migración de Objetos -Job- paso a paso
 author: MSCommunityPubService

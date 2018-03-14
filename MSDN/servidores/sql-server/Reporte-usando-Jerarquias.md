@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Cómo crear un reporte flexible usando Jerarquías (Recursivo)
 description: Cómo crear un reporte flexible usando Jerarquías (Recursivo)
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Cliente Lync- Error de llamada por problemas de redP
 description: Cliente Lync- Error de llamada por problemas de red
 author: MSCommunityPubService

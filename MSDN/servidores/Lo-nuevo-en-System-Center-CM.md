@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Lo nuevo en System Center 2012 R2 Configuration Manager
 description: Lo nuevo en System Center 2012 R2 Configuration Manager
 author: MSCommunityPubService

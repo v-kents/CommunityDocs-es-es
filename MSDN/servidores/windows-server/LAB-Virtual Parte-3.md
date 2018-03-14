@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: LAB Virtual WS 2012 y Windows 8 [Parte 3] – Instalación y Configuración en Windows Server 2012 de Windows Deployment Services
 description: LAB Virtual WS 2012 y Windows 8 [Parte 3] – Instalación y Configuración en Windows Server 2012 de Windows Deployment Services
 author: MSCommunityPubService

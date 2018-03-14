@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Migración del Group Policy Object
 description: Migración del Group Policy Object
 author: MSCommunityPubService

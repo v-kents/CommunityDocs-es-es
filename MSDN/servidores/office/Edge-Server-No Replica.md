@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Edge Server en Lync 2013 “No Replica” Troubleshooting
 description: Edge Server en Lync 2013 “No Replica” Troubleshooting
 author: MSCommunityPubService

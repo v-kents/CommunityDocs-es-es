@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Qué hacer cuando la copia de evaluación de SQL Server expira
 description: Qué hacer cuando la copia de evaluación de SQL Server expira
 author: MSCommunityPubService

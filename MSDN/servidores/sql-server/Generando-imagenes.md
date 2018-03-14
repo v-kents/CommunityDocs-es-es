@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Generando imágenes (códigos de Barras) en Reporting Services
 description: Generando imágenes (códigos de Barras) en Reporting Services
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Generando Unidades Organizativas en Active Directory
 description: Generando Unidades Organizativas en Active Directory
 author: MSCommunityPubService

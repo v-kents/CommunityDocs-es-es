@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Contadores de Rendimiento para diagnóstico y afinación de SQL Server
 description: Contadores de Rendimiento para diagnóstico y afinación de SQL Server
 author: MSCommunityPubService

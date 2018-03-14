@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Jerarquía Configuration Manager 2012
 description: Jerarquía Configuration Manager 2012
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Parallel Series - Luces, cámara, Action
 description: Parallel Series - Luces, cámara, Action
 author: MSCommunityPubService

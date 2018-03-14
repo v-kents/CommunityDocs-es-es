@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Windows Server 2012 – Papelera de Reciclaje de Active Directory
 description: Windows Server 2012 – Papelera de Reciclaje de Active Directory
 author: MSCommunityPubService

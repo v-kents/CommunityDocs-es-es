@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Parallel Series- Un poco de historia
 description: Parallel Series- Un poco de historia
 author: MSCommunityPubService

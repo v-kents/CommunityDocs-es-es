@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: C# - Forms - Cómo convertir una imagen a escala de grises
 description: Cómo convertir una imagen a escala de grises en C#
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Paso a Paso - Administración de Lync Online con Powershell
 description: Paso a Paso - Administración de Lync Online con Powershell
 author: MSCommunityPubService

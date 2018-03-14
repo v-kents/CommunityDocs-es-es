@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Paso a Paso - Integrando Microsoft Exchange 2013 y Microsoft Lync 2013
 description: Paso a Paso - Integrando Microsoft Exchange 2013 y Microsoft Lync 2013
 author: MSCommunityPubService

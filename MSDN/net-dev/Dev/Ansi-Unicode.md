@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: C++- Ansi? Unicode? main, wmain, _tmain
 description: C++- Ansi? Unicode? main, wmain, _tmain
 author: MSCommunityPubService

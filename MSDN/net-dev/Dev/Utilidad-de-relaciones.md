@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Utilidad de relaciones 1-1 para optimizar descarga de imágenes desde DBs
 description: Utilidad de relaciones 1-1 para optimizar descarga de imágenes desde DBs
 author: MSCommunityPubService

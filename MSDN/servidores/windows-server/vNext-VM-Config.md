@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Hyper-V vNext Virtual Machine Configuration Version
 description: Hyper-V vNext Virtual Machine Configuration Version
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Visual Studio 2013- Trabajando con versiones múltiples del .NET FrameworkP
 description: Visual Studio 2013- Trabajando con versiones múltiples del .NET Framework
 author: MSCommunityPubService

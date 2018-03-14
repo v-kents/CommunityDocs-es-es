@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Detectar cambios en una base de datos
 description: Detectar cambios en una base de datos
 author: MSCommunityPubService

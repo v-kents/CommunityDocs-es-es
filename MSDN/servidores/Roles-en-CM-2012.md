@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Roles de Site System en CM 2012
 description: Roles de Site System en CM 2012
 author: MSCommunityPubService

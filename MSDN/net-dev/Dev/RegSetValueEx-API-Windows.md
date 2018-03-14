@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Un vistazo a la función de RegSetValueEx de la API de Windows
 description: Un vistazo a la función de RegSetValueEx de la API de Windows
 author: MSCommunityPubService

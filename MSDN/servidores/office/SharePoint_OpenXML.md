@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: SharePoint 2010 y Open XML SDK. Creación de informes personalizados
 description: SharePoint 2010 y Open XML SDK. Creación de informes personalizados
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Métricas en Visual Studio- Cobertura de las pruebas unitarias
 description: Métricas en Visual Studio- Cobertura de las pruebas unitarias
 author: MSCommunityPubService

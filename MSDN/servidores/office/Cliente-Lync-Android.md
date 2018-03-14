@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Descargando, instalando y configurando cliente Lync en Android
 description: Descargando, instalando y configurando cliente Lync en Android
 author: MSCommunityPubService

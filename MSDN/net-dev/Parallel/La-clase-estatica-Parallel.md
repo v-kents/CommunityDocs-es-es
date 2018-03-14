@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Parallel Series- La clase estática Parallel
 description: Parallel Series- La clase estática Parallel
 author: MSCommunityPubService

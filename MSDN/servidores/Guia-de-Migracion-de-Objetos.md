@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Guía Migración de Objetos (Conexión) desde Configuration Manager 2007 a CM 2012
 description: Guía Migración de Objetos (Conexión) desde Configuration Manager 2007 a CM 2012
 author: MSCommunityPubService

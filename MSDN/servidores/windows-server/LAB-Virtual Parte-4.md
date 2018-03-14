@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: LAB Virtual WS 2012 y Windows 8 [Parte 4] – Agregando las imágenes de Windows 8 a WDS y haciendo el despliegue mediante la red
 description: LAB Virtual WS 2012 y Windows 8 [Parte 4] – Agregando las imágenes de Windows 8 a WDS y haciendo el despliegue mediante la red
 author: MSCommunityPubService

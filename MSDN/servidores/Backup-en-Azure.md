@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Cómo hacer un backup en Azure desde SSMS 2014
 description: Cómo hacer un backup en Azure desde SSMS 2014
 author: MSCommunityPubService

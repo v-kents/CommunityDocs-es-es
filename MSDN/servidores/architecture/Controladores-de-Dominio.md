@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Controladores de Dominio- Tolerancia a Fallas
 description: Controladores de Dominio- Tolerancia a Fallas
 author: MSCommunityPubService

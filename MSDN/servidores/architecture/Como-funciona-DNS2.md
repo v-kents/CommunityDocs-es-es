@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Cómo funciona DNS – Parte 2
 description: Cómo funciona DNS – Parte 2
 author: MSCommunityPubService

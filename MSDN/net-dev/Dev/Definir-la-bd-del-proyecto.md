@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Definir la base de datos del proyecto
 description: Definir la base de datos del proyecto
 author: MSCommunityPubService

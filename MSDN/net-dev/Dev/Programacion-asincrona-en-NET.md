@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Programación asíncrona en .NET Framework 4.5
 description: Programación asíncrona en .NET Framework 4.5
 author: MSCommunityPubService

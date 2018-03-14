@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: 10 comandos PowerShell para usar en Skype4B PARTE II
 description: Comandos de Powershell para Skype For Business
 author: MSCommunityPubService

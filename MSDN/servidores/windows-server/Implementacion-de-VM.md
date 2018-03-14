@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Hyper-V- Implementación Rápida de Máquinas Virtuales
 description: Hyper-V- Implementación Rápida de Máquinas Virtuales
 author: MSCommunityPubService

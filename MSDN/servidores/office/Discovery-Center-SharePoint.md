@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: El Centro de Exhibición de Documentos Electrónicos de SharePoint Server 2013
 description: El Centro de Exhibición de Documentos Electrónicos de SharePoint Server 2013
 author: MSCommunityPubService

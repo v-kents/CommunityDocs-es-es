@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Instalando Forefront Security for Office Communications Server
 description: Instalando Forefront Security for Office Communications Server
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Aplicaciones de servicio en SharePoint 2013- Introducción y funcionalidad
 description: Aplicaciones de servicio en SharePoint 2013- Introducción y funcionalidad
 author: MSCommunityPubService

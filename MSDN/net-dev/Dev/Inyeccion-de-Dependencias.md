@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Qué es Inyección de dependencias
 description: Qué es Inyección de dependencias
 author: MSCommunityPubService

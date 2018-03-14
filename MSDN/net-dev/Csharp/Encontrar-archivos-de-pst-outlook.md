@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: C# - Cómo encontrar los archivos pst de outlook
 description: Cómo encontrar los archivos pst de outlook en C#
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Maestro detalles con Entity Framework en Windows Forms
 description: Maestro detalles con Entity Framework en Windows Forms
 author: MSCommunityPubService

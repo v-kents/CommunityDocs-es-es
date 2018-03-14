@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Cómo hacer Backup y Restaurar un Modelo MDS (Deploy)
 description: Cómo hacer Backup y Restaurar un Modelo MDS (Deploy)
 author: MSCommunityPubService

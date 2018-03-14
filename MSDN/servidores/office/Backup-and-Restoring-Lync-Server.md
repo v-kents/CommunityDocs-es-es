@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Backup and Restoring en Microsoft Lync Server 2010-2013
 description: Backup and Restoring en Microsoft Lync Server 2010-2013
 author: MSCommunityPubService

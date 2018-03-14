@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Script para permitir a las bibliotecas abrir los archivos PDFS en SharePoint 2010
 description: Script para permitir a las bibliotecas abrir los archivos PDFS en SharePoint 2010
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Recuperando un documento de una base de datos de contenido desconectada SharePoint 2010
 description: Recuperando un documento de una base de datos de contenido desconectada SharePoint 2010
 author: MSCommunityPubService

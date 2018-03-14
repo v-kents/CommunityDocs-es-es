@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Los comandos que más uso de Powershell en Lync
 description: Los comandos que más uso de Powershell en Lync
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Servicios InterGranjas para Gobiernos Corporativos y Administrativos con SharePoint 2010
 description: Servicios InterGranjas para Gobiernos Corporativos y Administrativos con SharePoint 2010
 author: MSCommunityPubService

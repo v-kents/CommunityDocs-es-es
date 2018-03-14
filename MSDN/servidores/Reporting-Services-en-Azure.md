@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Paso a Paso -  Reporting Services en Azure
 description: Paso a Paso -  Reporting Services en Azure
 author: MSCommunityPubService

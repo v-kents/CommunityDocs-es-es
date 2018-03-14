@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: C# – Aplicaciones multilenguaje, globalización y localización
 description: Ejemplo de Aplicaciones multilenguaje, globalización y localización en C#
 author: JuanKRuiz

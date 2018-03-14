@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Windows Server 2012 – Contraseñas y Bloqueo de Cuentas
 description: Windows Server 2012 – Contraseñas y Bloqueo de Cuentas
 author: MSCommunityPubService

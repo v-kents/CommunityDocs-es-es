@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: C# - ¿Cómo obtener el SID de un usuario local?
 description: ¿Cómo obtener el SID de un usuario local en C#?
 author: MSCommunityPubService
