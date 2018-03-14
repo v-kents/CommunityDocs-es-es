@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Explorando el DOM- Objeto element. Objeto y atributo Style (Inline Styles)
 description: Propiedades de estilos atributo style, inline styles
 author: MSCommunityPubService

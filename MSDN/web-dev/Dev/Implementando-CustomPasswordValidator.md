@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: [ASP.NET MVC] Implementando un CustomPasswordValidator en ASPNET Identity
 description: [ASP.NET MVC] Implementando un CustomPasswordValidator en ASPNET Identity
 author: MSCommunityPubService

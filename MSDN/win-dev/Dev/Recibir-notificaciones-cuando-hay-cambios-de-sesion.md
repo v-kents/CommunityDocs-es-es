@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Forms - Recibir notificaciones cuando hay cambios de sesión
 description: Forms - Recibir notificaciones cuando hay cambios de sesión
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: jQuery UI Tabs. Manual de uso básico
 description: jQuery User Interface plug-ins que nos acercan a la programación de las
 author: MSCommunityPubService

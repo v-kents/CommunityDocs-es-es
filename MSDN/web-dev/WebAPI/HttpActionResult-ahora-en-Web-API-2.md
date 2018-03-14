@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: ASP.NET Web API HTTPActionResult, ahora en Web API 2
 description: HttpActionResult, ahora en Web API 2
 author: MSCommunityPubService

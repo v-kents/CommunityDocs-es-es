@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Explorando el DOM- Objeto element. Atributos Class e ID
 description: DOM- Objeto element. Atributos Class e ID
 author: MSCommunityPubService

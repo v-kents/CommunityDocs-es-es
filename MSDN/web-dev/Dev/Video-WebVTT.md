@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Vídeo WebVTT. Una introducción a los subtítulos
 description: Vídeo WebVTT. Una introducción a los subtítulos
 author: MSCommunityPubService

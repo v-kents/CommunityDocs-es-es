@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: WCF – xsd-import schemalocation que no puede ser interpretado desde clientes PHP
 description: WCF – xsd-import schemalocation que no puede ser interpretado desde clientes PHP
 author: MSCommunityPubService

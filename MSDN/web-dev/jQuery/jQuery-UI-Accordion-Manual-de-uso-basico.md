@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Web API II – Creando un CRUD, trabajando con verbos HTTP
 description: Implementar fácilmente un CRUD
 author: MSCommunityPubService

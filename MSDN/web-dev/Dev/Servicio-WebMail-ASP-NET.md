@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Servicio WebMail ASP.NET
 description: Servicio WebMail ASP.NET
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Tutorial WebMatrix. Tema 3 – 7. Web social. Sitio basado en Drupal
 description: Tutorial WebMatrix. Tema 3 – 7. Web social. Sitio basado en Drupal
 author: MSCommunityPubService

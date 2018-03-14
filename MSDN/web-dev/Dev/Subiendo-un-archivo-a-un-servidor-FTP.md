@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Subiendo un archivo a un servidor FTP con un FileUpload
 description: Subiendo un archivo a un servidor FTP con un FileUpload
 author: MSCommunityPubService

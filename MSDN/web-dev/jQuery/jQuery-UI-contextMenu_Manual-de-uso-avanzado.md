@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: jQuery UI contextMenu. Manual de uso avanzado
 description: Dedicado al complemento contextMenu y agrega información
 author: MSCommunityPubService

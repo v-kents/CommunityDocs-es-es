@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: WebApi & oData Queries
 description: Introducción OData open Data Protocol
 author: MSCommunityPubService

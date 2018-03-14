@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Generando páginas de ayuda y documentación
 description: Generando páginas de ayuda y documentación
 author: MSCommunityPubService

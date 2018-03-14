@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Modern UI- Acceso al hardware (I)- GPS y Bing Maps SDK
 description: Modern UI- Acceso al hardware (I)- GPS y Bing Maps SDK
 author: MSCommunityPubService

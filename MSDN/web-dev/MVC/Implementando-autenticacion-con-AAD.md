@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: ASP.NET MVC Implementando autenticación con Azure Active Directory
 description: Implementando autenticación con Azure Active Directory
 author: MSCommunityPubService

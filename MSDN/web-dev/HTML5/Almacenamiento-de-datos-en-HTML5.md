@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Almacenamiento de datos en HTML 5 - WebStorage
 description: Almacenamiento de datos en HTML 5
 author: MSCommunityPubService

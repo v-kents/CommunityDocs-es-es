@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Cambios automáticos entre HTTP y HTTPS desde ASP.NET
 description: Cambios automáticos entre HTTP y HTTPS desde ASP.NET
 author: MSCommunityPubService

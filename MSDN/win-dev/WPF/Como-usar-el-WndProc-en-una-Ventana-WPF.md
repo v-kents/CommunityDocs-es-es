@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Como usar el WndProc en una Ventana WPF
 description: Como usar el WndProc en una Ventana WPF
 author: MSCommunityPubService

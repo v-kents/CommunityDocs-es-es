@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Windows Modern UI -  Bases de datos locales en aplicaciones (II)
 description: Windows Modern UI -  Bases de datos locales en aplicaciones (II)
 author: MSCommunityPubService

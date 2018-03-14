@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Explorando el DOM- Nodos de texto. Gestión multinodal
 description: Labores de tratamiento de contenidos de los nodos de texto, gestión de nodos multinodos
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: ASP.NET MVC Integrando ASPNET MVC con MongoLab
 description: Integrando ASPNET MVC con MongoLab
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Explorando el DOM- Objeto element. Selección de elementos I
 description: Métodos de selección de elementos y grupos de elementos
 author: MSCommunityPubService

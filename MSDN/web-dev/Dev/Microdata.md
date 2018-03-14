@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Micro-datos. Semántica real en la Web
 description: Micro-datos. Semántica real en la Web
 author: MSCommunityPubService

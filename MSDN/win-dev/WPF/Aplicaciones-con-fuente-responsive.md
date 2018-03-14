@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: WPF – Hacer tus aplicaciones con tamaño de fuente responsive
 description: WPF – Hacer tus aplicaciones con tamaño de fuente responsive
 author: MSCommunityPubService

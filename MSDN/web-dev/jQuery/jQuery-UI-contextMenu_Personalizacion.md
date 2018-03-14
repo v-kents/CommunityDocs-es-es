@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: jQuery UI contextMenu. Apéndice HTML 5. Personalización
 description: Este artículo está dedicado al complemento contextMenu y agrega
 author: MSCommunityPubService

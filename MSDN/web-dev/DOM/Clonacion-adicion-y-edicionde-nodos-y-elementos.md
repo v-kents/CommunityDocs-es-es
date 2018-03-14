@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Explorando el DOM- Clonación, adición y edición de nodos y elementos
 description: Clonación, adición y edición de nodos y elementos DOM
 author: MSCommunityPubService

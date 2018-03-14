@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Explorando el DOM- Nodos de texto. Creación, propiedades y métodos
 description: Creación de nodos de texto en DOM
 author: MSCommunityPubService

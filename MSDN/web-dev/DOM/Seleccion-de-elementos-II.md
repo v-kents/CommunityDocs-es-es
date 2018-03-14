@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Explorando el DOM- Objeto element. Selección de elementos II
 description: Aspectos más generales de la selección de elementos y grupos de elementos
 author: MSCommunityPubService

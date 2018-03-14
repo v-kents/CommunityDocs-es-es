@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Azure Web Sites – Administración de Web Sites con el Azure Explorer
 description: Azure Web Sites – Administración de Web Sites con el Azure Explorer
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Validaciones no intrusivas en ASP.NET 4.5
 description: Validaciones no intrusivas en ASP.NET 4.5
 author: MSCommunityPubService

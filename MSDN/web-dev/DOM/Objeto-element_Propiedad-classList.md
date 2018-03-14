@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Explorando el DOM- Objeto element. Propiedad classList
 description: Objeto element con la propiedad classList y el atributo class
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Modern UI-  GridView
 description: Modern UI-  GridView
 author: MSCommunityPubService

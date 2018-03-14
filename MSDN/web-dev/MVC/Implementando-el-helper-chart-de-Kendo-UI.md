@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: ASP.NET MVC Implementando el helper chart de Kendo UI
 description: Implementando el helper chart de Kendo UI
 author: MSCommunityPubService

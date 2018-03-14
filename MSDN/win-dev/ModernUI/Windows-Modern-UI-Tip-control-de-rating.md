@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Modern UI Tip- Crear un control de rating
 description: Modern UI Tip- Crear un control de rating
 author: MSCommunityPubService

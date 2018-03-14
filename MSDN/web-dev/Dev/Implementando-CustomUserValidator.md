@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: ASP.NET MVC Implementando un CustomUserValidator en ASPNET Identity
 description: Implementando un CustomUserValidator en ASPNET Identity
 author: MSCommunityPubService

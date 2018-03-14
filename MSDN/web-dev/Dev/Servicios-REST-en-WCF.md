@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Servicios REST en WCF – Mucho trabajo mismo resultado
 description: Servicios REST en WCF
 author: MSCommunityPubService

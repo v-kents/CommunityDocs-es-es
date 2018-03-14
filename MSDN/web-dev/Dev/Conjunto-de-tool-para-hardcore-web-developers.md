@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Modern IE un conjunto de herramientas para hardcore web developers
 description: Modern IE un conjunto de herramientas para hardcore web developers
 author: MSCommunityPubService

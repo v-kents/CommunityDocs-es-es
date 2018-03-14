@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: ASP.NET MVC Estableciendo reglas de validación
 description: Estableciendo reglas de validación
 author: MSCommunityPubService

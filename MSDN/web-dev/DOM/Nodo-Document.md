@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Explorando el DOM- Nodo Document
 description: Nodo document en tanto la cabecera como el cuerpo del documento HTML
 author: MSCommunityPubService

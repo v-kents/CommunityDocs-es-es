@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Explorando el DOM- Inserción y extracción de nodos y elementos
 description: DOM Insertar elementos y nodos de texto en tiempo de ejecución
 author: MSCommunityPubService

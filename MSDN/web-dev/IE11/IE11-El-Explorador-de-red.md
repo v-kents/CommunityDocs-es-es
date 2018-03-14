@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Internet Explorer 11- El Explorador de red
 description: Internet Explorer 11- El Explorador de red
 author: MSCommunityPubService

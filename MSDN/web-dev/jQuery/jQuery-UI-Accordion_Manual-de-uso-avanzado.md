@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: jQuery UI Accordion. Manual de uso avanzado
 description: rtículo está dedicado al componente Accordion
 author: MSCommunityPubService

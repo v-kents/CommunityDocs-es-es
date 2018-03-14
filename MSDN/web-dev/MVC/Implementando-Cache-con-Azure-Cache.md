@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: ASP.NET MVC Implementando Cache con Azure Cache
 description: Implementar fácilmente el Azure Cache
 author: MSCommunityPubService

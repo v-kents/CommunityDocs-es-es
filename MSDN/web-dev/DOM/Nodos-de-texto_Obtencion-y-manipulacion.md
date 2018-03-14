@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: #Explorando el DOM- Nodos de texto. Obtención y manipulación
 description: DOM- Nodos de texto. Obtención y manipulación
 author: MSCommunityPubService

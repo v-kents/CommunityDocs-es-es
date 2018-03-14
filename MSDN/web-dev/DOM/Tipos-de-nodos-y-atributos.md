@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Explorando el DOM- Tipos de nodos y sus atributos generales
 description: DOM- Tipos de nodos y sus atributos
 author: MSCommunityPubService

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: La pesadilla de los web.config Gigantes
 description: La-pesadilla-de-los-web_config-Gigantes
 author: MSCommunityPubService

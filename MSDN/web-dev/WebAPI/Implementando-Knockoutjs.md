@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Web API IV – Implementando Knockoutjs
 description: Ejemplo de Web API
 author: MSCommunityPubService

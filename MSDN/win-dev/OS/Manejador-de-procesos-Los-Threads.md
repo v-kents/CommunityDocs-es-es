@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Sistemas Operativos – Manejador de procesos – Los Threads
 description: Sistemas Operativos – Manejador de procesos – Los Threads
 author: MSCommunityPubService

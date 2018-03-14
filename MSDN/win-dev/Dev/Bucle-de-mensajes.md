@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: ¿Qué es el bucle de mensajes, message loop o WndProc?
 description: ¿Qué es el bucle de mensajes, message loop o WndProc?
 author: MSCommunityPubService

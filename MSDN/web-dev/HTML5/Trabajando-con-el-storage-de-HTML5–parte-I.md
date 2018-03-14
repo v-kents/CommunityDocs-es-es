@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Trabajando con el storage de HTML5 parte I
 description: Trabajando con el storage de HTML5 parte I
 author: MSCommunityPubService

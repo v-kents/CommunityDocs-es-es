@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: CSS. Menús flotantes
 description: CSS. Menús flotantes
 author: MSCommunityPubService

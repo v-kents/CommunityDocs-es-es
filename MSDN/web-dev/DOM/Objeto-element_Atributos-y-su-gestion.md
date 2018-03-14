@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Explorando el DOM- Objeto element. Atributos y su gestión
 description: DOM atributos de los elementos
 author: MSCommunityPubService

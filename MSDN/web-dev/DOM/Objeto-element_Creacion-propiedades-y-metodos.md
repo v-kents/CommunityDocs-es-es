@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Explorando el DOM- Objeto element. Creación, propiedades y métodos
 description: Objeto object element con sus propiedades y métodos
 author: MSCommunityPubService

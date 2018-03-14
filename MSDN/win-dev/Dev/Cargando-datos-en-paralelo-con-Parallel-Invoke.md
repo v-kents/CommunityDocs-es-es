@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Cargando datos en paralelo con Parallel.Invoke
 description: Cargando datos en paralelo con Parallel.Invoke
 author: MSCommunityPubService

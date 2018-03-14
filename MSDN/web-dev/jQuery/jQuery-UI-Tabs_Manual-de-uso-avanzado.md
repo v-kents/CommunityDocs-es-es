@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: jQuery UI Tabs. Manual de uso avanzado
 description: Este artículo está dedicado al componente Tabs
 author: MSCommunityPubService

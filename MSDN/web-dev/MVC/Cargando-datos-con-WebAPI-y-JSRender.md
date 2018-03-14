@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: ASP.NET MVC Cargando datos con WebAPI y JSRender
 description: Cargando datos con WebAPI y JSRender
 author: MSCommunityPubService

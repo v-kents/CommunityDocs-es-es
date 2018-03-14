@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: ASP.NET MVC Creando una factoría de controladores personalizada
 description: Creando una factoría de controladores personalizada
 author: MSCommunityPubService

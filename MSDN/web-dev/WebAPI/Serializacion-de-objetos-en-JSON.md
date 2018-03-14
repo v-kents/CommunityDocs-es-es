@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: [ASP.NET Web API] Personalizando la serialización de los objetos en JSON
 description: Serialización de los objetos en JSON
 author: MSCommunityPubService

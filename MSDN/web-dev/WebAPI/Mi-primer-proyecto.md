@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Web API I – Mi primer proyecto
 description: Proyecto ejemplo WebAPI
 author: MSCommunityPubService

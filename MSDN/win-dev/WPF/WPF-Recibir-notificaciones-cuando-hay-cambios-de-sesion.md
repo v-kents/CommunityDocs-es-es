@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: WPF - Recibir notificaciones cuando hay cambios de sesión
 description: WPF - Recibir notificaciones cuando hay cambios de sesión
 author: MSCommunityPubService

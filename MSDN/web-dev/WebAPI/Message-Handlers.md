@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Web API VII – Message Handlers
 description: Ejemplo de Web API
 author: MSCommunityPubService

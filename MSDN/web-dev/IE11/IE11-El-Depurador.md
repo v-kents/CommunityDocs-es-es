@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Internet Explorer 11- El Depurador
 description: Internet Explorer 11- El Depurador
 author: MSCommunityPubService

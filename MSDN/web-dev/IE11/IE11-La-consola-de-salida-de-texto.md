@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Internet Explorer 11- La consola de salida de texto
 description: Internet Explorer 11- La consola de salida de texto
 author: MSCommunityPubService

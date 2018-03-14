@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Explorando el DOM- Nodo document. Nodos hijo
 description: Explorando el DOM- Nodo document. Nodos hijo
 author: MSCommunityPubService

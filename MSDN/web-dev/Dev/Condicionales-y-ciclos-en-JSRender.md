@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Condicionales y ciclos en JSRende
 description: Condicionales y ciclos en JSRende
 author: MSCommunityPubService

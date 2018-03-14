@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: jQuery UI contextMenu. Manual de uso básico
 description: jQuery User Interface contiene una gran cantidad de componentes y
 author: MSCommunityPubService

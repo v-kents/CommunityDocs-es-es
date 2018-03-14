@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Modern UI- IoC & MVVM
 description: Modern UI- IoC & MVVM
 author: MSCommunityPubService

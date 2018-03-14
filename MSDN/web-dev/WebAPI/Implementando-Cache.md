@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Web API VI – Implementando Caché
 description: Ejemplo de Web API
 author: MSCommunityPubService

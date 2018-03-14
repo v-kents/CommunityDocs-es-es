@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Soporte para enumeraciones en ASP.NET MVC 5.1
 description: Enumeraciones en ASP.NET MVC 5.1
 author: MSCommunityPubService

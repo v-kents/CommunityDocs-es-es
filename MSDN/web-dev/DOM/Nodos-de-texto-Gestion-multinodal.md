@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Explorando el DOM- Nodos de texto. Gestión multinodal
 description: Explorando el DOM- Nodos de texto. Gestión multinodal
 author: MSCommunityPubService

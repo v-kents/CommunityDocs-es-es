@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: HTML 5 Storage. Comunicación entre ventanas
 description: HTML 5 Storage. Comunicación entre ventanas
 author: MSCommunityPubService
