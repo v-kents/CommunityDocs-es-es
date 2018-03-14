@@ -1,4 +1,6 @@
-
+---
+redirect_url: https://docs.microsoft.com/
+---
 
 
 #Controladores de Dominio: Copia de Seguridad y Recuperar – Restore

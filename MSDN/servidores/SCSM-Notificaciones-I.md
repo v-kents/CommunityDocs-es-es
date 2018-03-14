@@ -1,4 +1,6 @@
-
+---
+redirect_url: https://docs.microsoft.com/
+---
 
 
 #Notificaciones a usuarios y miembros del Service Desk
