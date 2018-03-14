@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Azure Web Sites – Integración con repositorios
 description: Características que permiten a Azure Web Sites robusto e interesante
 author: MSCommunityPubService

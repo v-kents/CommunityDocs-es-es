@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Windows Intune - Portal de empresa de Windows 8
 description: Una de las funciones más avanzadas e interesantes de Windows Intune es la capacidad de poner a disposición de los usuarios del software que el Administrador crea conveniente, algo que puede realizar de diversas formas. Entre otras, para ello se dispone del Portal de empresa.
 author: MSCommunityPubService

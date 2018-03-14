@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Captura logs de seguridad en Azure
 description: Habilitar la captura de los diferentes logs del visor de eventos
 author: MSCommunityPubService

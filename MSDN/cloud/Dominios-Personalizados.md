@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Azure Websites- Dominios Personalizados
 description: Azure Websites- Dominios Personalizados
 author: MSCommunityPubService

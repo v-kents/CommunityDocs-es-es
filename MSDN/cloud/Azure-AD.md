@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Active Directory en Azure
 description: Active Directory en Azure
 author: MSCommunityPubService

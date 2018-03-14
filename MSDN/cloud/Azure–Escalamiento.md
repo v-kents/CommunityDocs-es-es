@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Azure Web Sites – Escalamiento
 description: Hoy vamos a ver cómo es posible escalar dicho Web Site, bastante útil cuando ya lo que viene por default no es suficiente
 author: MSCommunityPubService

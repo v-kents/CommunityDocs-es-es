@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Windows Intune (Ed. Dic-2012). Agregar software
 description: Windows Intune (Ed. Dic-2012). Agregar software
 author: MSCommunityPubService

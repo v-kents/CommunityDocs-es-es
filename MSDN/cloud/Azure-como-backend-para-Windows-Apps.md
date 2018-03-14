@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Azure como backend de storage para Windows Apps y el poder de los Mobile Services
 description: Azure como backend de storage para Windows Apps y el poder de los Mobile Services
 author: MSCommunityPubService

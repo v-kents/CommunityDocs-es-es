@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Windows Intune (Ed. Dic-2012). Administrar implementación con Instalación requerida
 description: Windows Intune (Ed. Dic-2012). Administrar implementación con Instalación requerida
 author: MSCommunityPubService

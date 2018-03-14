@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: El Futuro de la Gestión de la Identidad - La identidad en la nube
 description: El Futuro de la Gestión de la Identidad - La identidad en la nube
 author: MSCommunityPubService

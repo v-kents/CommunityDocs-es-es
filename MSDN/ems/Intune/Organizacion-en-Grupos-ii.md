@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Windows Intune - Organización en Grupos II
 description: En nuestro anterior artículo Windows Intune (Ed. Dic-2012). Organización en Grupos I habíamos hablado de cómo crear un grupo a partir de una selección de dispositivos –lo mismo se realizaría con una selección de usuarios-, allí partíamos de vista de Todos los dispositivos dentro de la pestaña Grupos.
 author: MSCommunityPubService

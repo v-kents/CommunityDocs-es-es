@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Azure Web Sites – Debugging
 description: Vamos a ver cómo es posible depurar nuestros Web Sites
 author: MSCommunityPubService

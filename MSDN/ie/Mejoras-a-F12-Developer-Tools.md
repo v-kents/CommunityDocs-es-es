@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Mejoras a F12 Developer Tools
 description: Mejoras a F12 Developer Tools
 author: MSCommunityPubService

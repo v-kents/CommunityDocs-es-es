@@ -1,5 +1,5 @@
 ---
-redirect_url: https://github.com/Microsoft/Localization/wiki/Active-Projects
+redirect_url: https://docs.microsoft.com/
 title: Open Source Community Projects
 description: a list of active Microsoft Localization Community Projects
 author: andygonusa

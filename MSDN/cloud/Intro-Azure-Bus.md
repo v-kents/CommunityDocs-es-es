@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Introducción a Azure Service Bus
 description: Introducción a Azure Service Bus
 author: MSCommunityPubService

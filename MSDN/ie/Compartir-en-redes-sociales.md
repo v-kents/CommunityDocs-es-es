@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Abrir ventana del Browser y compartir en redes sociales
 description: Abrir ventana del Browser y compartir en redes sociales
 author: MSCommunityPubService

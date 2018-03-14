@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Usando WebAPI para generar Azure SAS para tus apps
 description: Usando WebAPI para generar Azure SAS para tus apps
 author: MSCommunityPubService

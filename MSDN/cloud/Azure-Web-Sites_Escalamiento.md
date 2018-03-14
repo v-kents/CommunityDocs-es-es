@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Azure Web Sites – Escalamiento
 description: Escalar un sitio Web Azure
 author: MSCommunityPubService

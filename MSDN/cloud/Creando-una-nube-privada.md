@@ -1,4 +1,4 @@
----
+---redirect_url: https://docs.microsoft.com/
 title: Creando mi nube privada- Self Service portal 2.0 Instalación
 description: Creando mi nube privada- Self Service portal 2.0 Instalación
 author: MSCommunityPubService
